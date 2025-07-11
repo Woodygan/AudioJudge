@@ -1,7 +1,0 @@
-.env
-*pycache*
-.eval_cache
-prepare_dataset.py
-prepare_dataset_judge.py
-audio/
-.ipynb_checkpoints/
