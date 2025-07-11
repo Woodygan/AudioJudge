@@ -1,0 +1,411 @@
+audio1_path,audio2_path,ground_truth,prediction,reasoning,correct,prompt_type,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot
+audio_data/pronunciation_audio/1/original_Rutherford_US.wav,audio_data/pronunciation_audio/1/gpt4o_Rutherford_US.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Rutherford'. The phonetic transcription in IPA for both is /ˈrʌðərfərd/. The syllable count is 3, with boundaries as follows: 'Ru-ther-ford'. The primary stress is on the first syllable, marked as 'ˈrʌðərfərd'. The vowel sounds are /ʌ/ and /ər/, and the consonant sounds are /r/, /ð/, /f/, and /d/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern between the two audio clips. Any differences in pronunciation are solely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/2/original_Mac_Southern England.wav,audio_data/pronunciation_audio/2/gpt4o_Mac_Southern England.wav,True,False,"AUDIO 1 and AUDIO 2 have different initial consonant sounds. AUDIO 1 starts with the phoneme /m/ while AUDIO 2 starts with the phoneme /n/. Both words have a single syllable and the same vowel sound /æ/. The stress pattern is the same as both are monosyllabic words. There are no differences in vowel quality or syllable count, but there is a clear difference in the initial consonant articulation.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/3/original_Luxembourg_US.wav,audio_data/pronunciation_audio/3/gpt4o_Luxembourg_US.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Luxembourg'. The phonetic transcription in IPA for both is /ˈlʌksəmbɜːrɡ/. The syllable count is 3, with boundaries as follows: Lux-em-bourg. The primary stress is on the first syllable. The vowel sounds are /ʌ/, /ə/, and /ɜː/, and the consonant sounds are /l/, /k/, /s/, /m/, /b/, and /rɡ/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent only.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/4/original_Yamato_Southern England.wav,audio_data/pronunciation_audio/4/gpt4o_Yamato_Southern England.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Yamato'. The phonetic transcription for both is /jəˈmɑːtoʊ/. The syllable count is three, with boundaries as ya-ma-to. The primary stress is on the second syllable. The vowel sounds are /ə/, /ɑː/, and /oʊ/, and the consonant sounds are /j/, /m/, and /t/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/5/original_ScoMo_General Australian.wav,audio_data/pronunciation_audio/5/gpt4o_ScoMo_General Australian.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'ScoMo'. The phonetic transcription for both is /ˈskoʊ.moʊ/. The syllable count is 2, with boundaries marked as 'Sko-Mo'. The stress pattern is primary stress on the first syllable. The vowel sounds are /oʊ/ and the consonant sounds are /s/, /k/, /m/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/6/original_Hanwell_UK.wav,audio_data/pronunciation_audio/6/gpt4o_Hanwell_UK.wav,False,False,"The two audio clips differ in the presence of the /d/ sound in the first audio, which is absent in the second. This difference is not due to accent but a distinct phoneme, leading to a different pronunciation.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/7/original_Zimbabwe_US.wav,audio_data/pronunciation_audio/7/gpt4o_Zimbabwe_US.wav,True,False,"AUDIO 1: 
+- Words: Zimbabwe
+- Phonetic (IPA): /zɪmˈbɑːbweɪ/
+- Syllable count and boundaries: 3 (Zim-bab-we)
+- Stress pattern: Primary stress on the second syllable
+- Vowel sounds: [ɪ, ɑː, eɪ]
+- Consonant sounds: [z, m, b, w]
+
+AUDIO 2: 
+- Words: Zimbad
+- Phonetic (IPA): /zɪmˈbæd/
+- Syllable count and boundaries: 2 (Zim-bad)
+- Stress pattern: Primary stress on the second syllable
+- Vowel sounds: [ɪ, æ]
+- Consonant sounds: [z, m, b, d]
+
+COMPARISON: 
+- Phoneme differences: The final syllable differs, with 'weɪ' in Audio 1 and 'æd' in Audio 2.
+- Vowel quality differences: Yes, 'ɑː' and 'eɪ' in Audio 1 vs. 'æ' in Audio 2.
+- Consonant articulation differences: Yes, 'w' in Audio 1 vs. 'd' in Audio 2.
+- Syllable differences: Yes, Audio 1 has 3 syllables, while Audio 2 has 2 syllables.
+- Stress differences: No, both have primary stress on the second syllable.
+- Accent-only differences: No, the differences are not solely due to accent.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/8/original_Sucre_Southern England.wav,audio_data/pronunciation_audio/8/gpt4o_Sucre_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'sucre'. The phonetic transcription in IPA for both is /sy.kʁ/. The syllable count is 2, with boundaries marked as 'su-cre'. The stress pattern is on the first syllable, and the vowel sounds include /y/ and /ə/, while the consonant sounds include /s/, /k/, and /ʁ/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. The only potential differences could be attributed to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/9/original_Gwen_Southern England.wav,audio_data/pronunciation_audio/9/gpt4o_Gwen_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'Gwen'. The phonetic transcription for both is /ɡwɛn/. The syllable count is 1 for both, with no boundaries to mark. The stress pattern is not applicable as there is only one syllable. The vowel sound is /ɛ/ and the consonant sounds are /ɡ/, /w/, and /n/ in both cases. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are likely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/10/original_Malaya_Southern England.wav,audio_data/pronunciation_audio/10/gpt4o_Malaya_Southern England.wav,True,False,"AUDIO 1 and AUDIO 2 have different pronunciations. AUDIO 1 seems to be a single syllable word, while AUDIO 2 appears to be a multi-syllable word. The phonetic content, syllable count, and stress patterns are different between the two. Therefore, they do not match in terms of pronunciation.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/11/original_ladino_Southern England.wav,audio_data/pronunciation_audio/11/gpt4o_ladino_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Ladino'. The phonetic transcription for both is /ləˈdiːnoʊ/. The syllable count is three, with boundaries as la-di-no. The stress pattern is on the second syllable, indicated by the primary stress marker before 'di'. The vowel sounds are /ə/, /iː/, and /oʊ/, and the consonant sounds are /l/, /d/, and /n/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/12/original_Austrian_Southern England.wav,audio_data/pronunciation_audio/12/gpt4o_Austrian_Southern England.wav,True,True,"AUDIO 1: 
+- Words: [transcription not provided]
+- Phonetic (IPA): /ˈɔːstriən/
+- Syllable count and boundaries: 3 (ˈɔːs-tri-ən)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ɔː, i, ə]
+- Consonant sounds: [s, t, r, n]
+
+AUDIO 2: 
+- Words: [transcription not provided]
+- Phonetic (IPA): /ˈɔːstriən/
+- Syllable count and boundaries: 3 (ˈɔːs-tri-ən)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ɔː, i, ə]
+- Consonant sounds: [s, t, r, n]
+
+COMPARISON: 
+- Phoneme differences: None
+- Vowel quality differences: No
+- Consonant articulation differences: No
+- Syllable differences: No
+- Stress differences: No
+- Accent-only differences: Yes, but these are ignored as per the instructions.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/13/original_Ypres_Southern England.wav,audio_data/pronunciation_audio/13/gpt4o_Ypres_Southern England.wav,True,True,"Both audio clips have the same phonetic transcription, syllable count, stress pattern, and the same vowel and consonant sounds. There are no differences in pronunciation, and any potential differences in accent are not considered.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/14/original_Worcester_US.wav,audio_data/pronunciation_audio/14/gpt4o_Worcester_US.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Worcester'. The phonetic transcription in IPA for both is /ˈwʊstər/. The syllable count is 2, with boundaries marked as 'Wor-ster'. The primary stress is on the first syllable. The vowel sounds are /ʊ/ and /ər/, and the consonant sounds are /w/, /s/, and /t/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern between the two audio clips. Any differences in pronunciation are solely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/15/original_Howth_Southern England.wav,audio_data/pronunciation_audio/15/gpt4o_Howth_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'house'. The phonetic transcription for both is /haʊs/. The syllable count is 1, with no internal boundaries. The stress pattern is primary stress on the single syllable. The vowel sound is /aʊ/, and the consonant sounds are /h/, /s/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any perceived differences are likely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/16/original_Bolly_General Australian.wav,audio_data/pronunciation_audio/16/gpt4o_Bolly_General Australian.wav,True,False,"The two audio clips differ in the first vowel sound, with 'bully' using /ʊ/ and 'Bali' using /ɑː/. The consonants and stress patterns are the same, but the vowel quality difference is significant.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/17/original_Marne_Southern England.wav,audio_data/pronunciation_audio/17/gpt4o_Marne_Southern England.wav,False,False,"AUDIO 1 and AUDIO 2 both appear to be attempts at pronouncing the word 'marn'. However, the phonetic details differ. AUDIO 1 seems to have a simpler, more straightforward pronunciation, while AUDIO 2 includes an additional sound that makes it distinct. The syllable count remains the same, but the vowel quality and consonant articulation differ. Specifically, AUDIO 2 has a more pronounced 'r' sound, which affects the overall pronunciation. There are no differences in stress patterns, as both seem to have a single syllable with primary stress. The differences are not solely due to accent but are related to the pronunciation of the phonemes themselves.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/18/original_Wandsworth_UK.wav,audio_data/pronunciation_audio/18/gpt4o_Wandsworth_UK.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Wandsworth'. The phonetic transcription in IPA for both is /ˈwɒnzwəθ/. The syllable count is 2, with boundaries marked as 'Wands-worth'. The primary stress is on the first syllable. The vowel sounds are /ɒ/ and /ə/, and the consonant sounds are /w/, /n/, /z/, and /θ/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/19/original_Richard_UK.wav,audio_data/pronunciation_audio/19/gpt4o_Richard_UK.wav,False,True,"Both audio recordings pronounce the name 'Richard' with the same phonemes, syllable count, stress pattern, and vowel and consonant sounds. There are no differences in pronunciation, and any potential accent differences are not relevant to the analysis.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/20/original_Tolworth_UK.wav,audio_data/pronunciation_audio/20/gpt4o_Tolworth_UK.wav,True,True,"Both audio clips pronounce the word 'Tolworth' with the same phonemes, syllable count, stress pattern, and vowel and consonant sounds. There are no differences in pronunciation, and any variations are not due to accent.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/21/original_Saul_Southern England.wav,audio_data/pronunciation_audio/21/gpt4o_Saul_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'soul'. The phonetic transcription for both is /soʊl/. The syllable count is 1 for both, with no boundaries to mark. The stress pattern is not applicable as there is only one syllable. The vowel sound is /oʊ/ and the consonant sounds are /s/ and /l/ for both. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/22/original_Makemake_US.wav,audio_data/pronunciation_audio/22/gpt4o_Makemake_US.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Makemake'. The phonetic transcription in IPA for both is /ˈmɑːkeɪˌmɑːkeɪ/. The syllable count is four, with boundaries as follows: Ma-ke-ma-ke. The stress pattern is primary stress on the first syllable and secondary stress on the third syllable. The vowel sounds are /ɑː/ and /eɪ/, and the consonant sounds are /m/ and /k/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/23/original_Palencia_Southern England.wav,audio_data/pronunciation_audio/23/gpt4o_Palencia_Southern England.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Valencia'. The phonetic transcription for both is /vəˈlɛnsiə/. The syllable count is 4, with boundaries as follows: va-len-ci-a. The primary stress is on the second syllable, 'len'. The vowel sounds are /ə/, /ɛ/, /i/, and /ə/, and the consonant sounds are /v/, /l/, /n/, /s/, and /j/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any perceived differences are likely due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/24/original_Worcester_UK.wav,audio_data/pronunciation_audio/24/gpt4o_Worcester_UK.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Worcester'. The phonetic transcription for both is /ˈwʊstər/. The syllable count is two, with boundaries as 'Wor-ster'. The primary stress is on the first syllable. The vowel sounds are /ʊ/ and /ər/, and the consonant sounds are /w/, /s/, and /t/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/25/original_Burkina Faso_UK.wav,audio_data/pronunciation_audio/25/gpt4o_Burkina Faso_UK.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the name 'Burkina Faso'. The phonetic transcription for both is /bɜːrˈkiːnə ˈfɑːsoʊ/. The syllable count is four, with boundaries as follows: Bur-ki-na Fa-so. The stress pattern is primary stress on the second syllable of 'Burkina' and the first syllable of 'Faso'. The vowel sounds are /ɜː/, /iː/, /ə/, /ɑː/, and /oʊ/. The consonant sounds are /b/, /r/, /k/, /n/, /f/, and /s/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/26/original_Kabul_Southern England.wav,audio_data/pronunciation_audio/26/gpt4o_Kabul_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'cobble'. The phonetic transcription for both is /ˈkɒbəl/ or /ˈkɑːbəl/, depending on the accent. Both have two syllables, marked as 'cob-ble', with primary stress on the first syllable. The vowel sounds are /ɒ/ or /ɑː/ and /ə/, and the consonant sounds are /k/, /b/, and /l/. There are no differences in the sequence of phonemes, syllable count, or stress pattern. Any differences in pronunciation are due to regional accent variations, which are to be ignored as per the instructions.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/27/original_Angolan_Southern England.wav,audio_data/pronunciation_audio/27/gpt4o_Angolan_Southern England.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Angolan'. The phonetic transcription for both is /ænˈɡoʊlən/. The syllable count is three, with boundaries marked as /æn-ˈɡoʊ-lən/. The primary stress is on the second syllable. The vowel sounds are /æ/, /oʊ/, and /ə/, and the consonant sounds are /n/, /ɡ/, and /l/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/28/original_Capricornus_US.wav,audio_data/pronunciation_audio/28/gpt4o_Capricornus_US.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Capricornus'. The phonetic transcription in IPA for both is /ˌkæprɪˈkɔrnəs/. The syllable count is four, with boundaries as follows: /ˌkæ.prɪ.ˈkɔr.nəs/. The stress pattern is the same, with primary stress on the third syllable. The vowel sounds are /æ/, /ɪ/, /ɔ/, and /ə/, and the consonant sounds are /k/, /p/, /r/, /n/, and /s/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/29/original_Ron_Southern England.wav,audio_data/pronunciation_audio/29/gpt4o_Ron_Southern England.wav,True,False,"AUDIO 1: The word 'run' is pronounced with the phonetic transcription /rʌn/. It has one syllable, with the vowel sound /ʌ/ and the consonant sounds /r/ and /n/. The stress is on the single syllable. 
+AUDIO 2: The word 'Ron' is pronounced with the phonetic transcription /rɑn/. It also has one syllable, with the vowel sound /ɑ/ and the consonant sounds /r/ and /n/. The stress is on the single syllable. 
+COMPARISON: The primary difference between the two pronunciations is the vowel sound. 'Run' uses the vowel /ʌ/, while 'Ron' uses the vowel /ɑ/. There are no differences in the consonant sounds, syllable count, or stress pattern. The difference is not due to accent but to the vowel quality.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/30/original_St Pancras_Received Pronunciation.wav,audio_data/pronunciation_audio/30/gpt4o_St Pancras_Received Pronunciation.wav,False,True,"Both audio clips pronounce 'Saint Pancras' with the same sequence of phonemes, syllable count, and stress pattern. The only differences are due to accent, which are to be ignored as per the instructions.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/31/original_Belgium_UK.wav,audio_data/pronunciation_audio/31/gpt4o_Belgium_UK.wav,True,False,"AUDIO 1: 
+- Words: Belgium
+- Phonetic (IPA): /ˈbɛl.dʒəm/
+- Syllable count and boundaries: 2 (Bel-gium)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ɛ, ə]
+- Consonant sounds: [b, l, dʒ, m]
+
+AUDIO 2: 
+- Words: Eljum
+- Phonetic (IPA): /ˈɛl.dʒəm/
+- Syllable count and boundaries: 2 (El-jum)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ɛ, ə]
+- Consonant sounds: [l, dʒ, m]
+
+COMPARISON: 
+- Phoneme differences: The initial consonant sound is different (/b/ in Audio 1 vs. /l/ in Audio 2).
+- Vowel quality differences: No
+- Consonant articulation differences: Yes, the initial consonant is different.
+- Syllable differences: No
+- Stress differences: No
+- Accent-only differences: No",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/32/original_Hornsey_UK.wav,audio_data/pronunciation_audio/32/gpt4o_Hornsey_UK.wav,False,True,"Both audio clips have the same phonetic transcription, syllable count, stress pattern, and the same set of vowel and consonant sounds. There are no differences in pronunciation, and any variations are due to accent, which we are ignoring.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/33/original_Sanskrit_Southern England.wav,audio_data/pronunciation_audio/33/gpt4o_Sanskrit_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Sanskrit'. The phonetic transcription for both is /ˈsæn.skrɪt/. The syllable count is 2, with boundaries marked as 'sæn-skrɪt'. The primary stress is on the first syllable. The vowel sounds are /æ/ and /ɪ/, and the consonant sounds are /s/, /n/, /k/, /r/, and /t/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/34/original_Gujarati_US.wav,audio_data/pronunciation_audio/34/gpt4o_Gujarati_US.wav,True,False,"AUDIO 1: The word 'Gujarati' is pronounced with the following details: Phonetic (IPA): /ɡʊdʒəˈrɑːti/, Syllable count and boundaries: 4 (ɡʊd-ʒə-ˈrɑː-ti), Stress pattern: primary stress on the third syllable, Vowel sounds: /ʊ, ə, ɑː, i/, Consonant sounds: /ɡ, dʒ, r, t/. AUDIO 2: The word 'Gujarat' is pronounced with the following details: Phonetic (IPA): /ˈɡʊdʒərɑːt/, Syllable count and boundaries: 3 (ˈɡʊd-ʒə-rɑːt), Stress pattern: primary stress on the first syllable, Vowel sounds: /ʊ, ə, ɑː/, Consonant sounds: /ɡ, dʒ, r, t/. COMPARISON: Phoneme differences: The first audio has an additional vowel sound /i/ at the end. Vowel quality differences: No. Consonant articulation differences: No. Syllable differences: Yes, the first audio has 4 syllables, and the second has 3. Stress differences: Yes, the first audio has primary stress on the third syllable, while the second has it on the first syllable. Accent-only differences: No.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/35/original_Bechdel_Southern England.wav,audio_data/pronunciation_audio/35/gpt4o_Bechdel_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Bechtel'. The phonetic transcription for both is /ˈbɛk.təl/. The syllable count is 2, with boundaries marked as 'Bech-tel'. The primary stress is on the first syllable. The vowel sounds are /ɛ/ and /ə/, and the consonant sounds are /b/, /k/, and /t/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/36/original_Stanmore_UK.wav,audio_data/pronunciation_audio/36/gpt4o_Stanmore_UK.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Stanmore'. The phonetic transcription in IPA for both is /ˈstæn.mɔːr/. The syllable count is two, with boundaries after 'Stan' and 'more'. The primary stress is on the first syllable 'Stan'. The vowel sounds are /æ/ and /ɔː/, and the consonant sounds are /s/, /t/, /n/, /m/, and /r/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any perceived differences are likely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/37/original_Norse_UK.wav,audio_data/pronunciation_audio/37/gpt4o_Norse_UK.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'nurse'. The phonetic transcription in IPA for both is /nɜrs/. The syllable count is one, with the stress on the single syllable. The vowel sound is /ɜ/, and the consonant sounds are /n/, /r/, and /s/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any perceived differences are likely due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/38/original_Eastwood_General Australian.wav,audio_data/pronunciation_audio/38/gpt4o_Eastwood_General Australian.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Eastwood'. The phonetic transcription for both is /ˈiːstwʊd/. The syllable count is 2, with boundaries marked as 'East-wood'. The primary stress is on the first syllable. The vowel sounds are /iː/ and /ʊ/, and the consonant sounds are /s/, /t/, and /w/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are solely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/39/original_Kunming_US.wav,audio_data/pronunciation_audio/39/gpt4o_Kunming_US.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Kunming'. The phonetic transcription for both is /kʊnˈmɪŋ/. The syllable count is two, with boundaries as 'Kun-ming'. The primary stress is on the second syllable. The vowel sounds are /ʊ/ and /ɪ/, and the consonant sounds are /k/, /n/, /m/, and /ŋ/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. The only potential differences could be attributed to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/40/original_Tory_Southern England.wav,audio_data/pronunciation_audio/40/gpt4o_Tory_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'Tory'. The phonetic transcription for both is /ˈtɔːri/. The syllable count is two, with boundaries marked as 'Tɔː-ri'. The primary stress is on the first syllable. The vowel sounds are /ɔː/ and /i/, and the consonant sounds are /t/ and /r/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/41/original_Walz_US.wav,audio_data/pronunciation_audio/41/gpt4o_Walz_US.wav,False,True,"AUDIO 1 and AUDIO 2 both contain the word 'walls'. The phonetic transcription for both is /wɔːlz/. The syllable count is one, with the stress on the single syllable. The vowel sound is /ɔː/, and the consonant sounds are /w/, /l/, and /z/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any perceived differences are likely due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/42/original_Okinawa_US.wav,audio_data/pronunciation_audio/42/gpt4o_Okinawa_US.wav,False,True,"Both audio recordings have the same phonetic transcription, syllable count, stress pattern, and the same set of vowel and consonant sounds. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. The pronunciation matches exactly.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/43/original_Keighley_UK.wav,audio_data/pronunciation_audio/43/gpt4o_Keighley_UK.wav,False,True,"AUDIO 1 and AUDIO 2 both contain the word 'Keithley'. The analysis is as follows:    AUDIO 1:   - Words: Keithley   - Phonetic (IPA): /ˈkiːθli/   - Syllable count and boundaries: 2 (Keith-ley)   - Stress pattern: Primary stress on the first syllable   - Vowel sounds: /iː/   - Consonant sounds: /k/, /θ/, /l/    AUDIO 2:   - Words: Keithley   - Phonetic (IPA): /ˈkiːθli/   - Syllable count and boundaries: 2 (Keith-ley)   - Stress pattern: Primary stress on the first syllable   - Vowel sounds: /iː/   - Consonant sounds: /k/, /θ/, /l/    COMPARISON:   - Phoneme differences: None   - Vowel quality differences: No   - Consonant articulation differences: No   - Syllable differences: No   - Stress differences: No   - Accent-only differences: No    Both audio clips have the same pronunciation in terms of phonemes, syllable count, stress pattern, and vowel and consonant sounds. There are no differences in pronunciation, only potential differences in accent, which are to be ignored as per the instructions.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/44/original_Baffin_Southern England.wav,audio_data/pronunciation_audio/44/gpt4o_Baffin_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both appear to be pronouncing the word 'Baffin'. The phonetic transcription in IPA for both would likely be /ˈbæfɪn/. Both recordings have two syllables, with the syllable boundaries being 'Baf-fin'. The primary stress is on the first syllable, indicated by the stress marker before 'bæ'. The vowel sounds are /æ/ and /ɪ/, and the consonant sounds are /b/, /f/, and /n/. There are no differences in the sequence of phonemes, syllable count, or stress patterns. Any differences in pronunciation are likely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/45/original_HBO_US.wav,audio_data/pronunciation_audio/45/gpt4o_HBO_US.wav,True,True,"Both audio clips pronounce 'HBO' with the same sequence of phonemes, syllable count, and stress pattern. There are no differences in vowel quality, consonant articulation, or syllable structure. The pronunciation is identical in both cases.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/46/original_Norse_US.wav,audio_data/pronunciation_audio/46/gpt4o_Norse_US.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'nurse'. The phonetic transcription in IPA for both is /nɜrs/. The syllable count is 1 for both, with no clear boundaries as it's a single syllable word. The stress pattern is primary stress on the single syllable. The vowel sound is /ɜ/ and the consonant sounds are /n/, /r/, and /s/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any perceived differences are likely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/47/original_Reading_Southern England.wav,audio_data/pronunciation_audio/47/gpt4o_Reading_Southern England.wav,False,False,"AUDIO 1: The word 'reading' is pronounced with the phonetic transcription /ˈriːdɪŋ/. It has two syllables, marked as 'read-ing', with primary stress on the first syllable. The vowel sounds are /iː/ and /ɪ/, and the consonant sounds are /r/, /d/, and /ŋ/. AUDIO 2: The word 'meeting' is pronounced with the phonetic transcription /ˈmiːtɪŋ/. It also has two syllables, marked as 'meet-ing', with primary stress on the first syllable. The vowel sounds are /iː/ and /ɪ/, and the consonant sounds are /m/, /t/, and /ŋ/. COMPARISON: The phoneme differences are in the initial consonants (/r/ vs. /m/) and the medial consonants (/d/ vs. /t/). There are no vowel quality differences, as both words share the same vowel sounds. The consonant articulation differences are present in the initial and medial consonants. There are no syllable differences, as both words have two syllables with the same stress pattern. There are no accent-only differences.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/48/original_Goucher_US.wav,audio_data/pronunciation_audio/48/gpt4o_Goucher_US.wav,False,False,"AUDIO 1 and AUDIO 2 both appear to be pronunciations of the word 'goutcher' or 'gootcher'. The primary difference lies in the vowel sound of the first syllable. AUDIO 1 uses a vowel sound similar to /aʊ/ as in 'gout', while AUDIO 2 uses a vowel sound similar to /uː/ as in 'goot'. The consonant sounds and the number of syllables seem consistent between the two. The stress pattern also appears to be similar, with the primary stress on the first syllable. Therefore, the main difference is in the vowel quality of the first syllable, which is not solely due to accent but represents a different phoneme.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/49/original_Maecenas_Southern England.wav,audio_data/pronunciation_audio/49/gpt4o_Maecenas_Southern England.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Maecenas'. The phonetic transcription for both is /maɪˈsiːnəs/. They have the same syllable count and boundaries, with three syllables: 'maɪ', 'siː', and 'nəs'. The stress pattern is also the same, with primary stress on the second syllable. The vowel sounds are /aɪ/, /iː/, and /ə/, and the consonant sounds are /m/, /s/, and /n/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/50/original_Muslim_UK.wav,audio_data/pronunciation_audio/50/gpt4o_Muslim_UK.wav,False,False,"AUDIO 1: 
+- Words: Muslim
+- Phonetic (IPA): /ˈmʊzlɪm/
+- Syllable count and boundaries: 2 (Mus-lim)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: /ʊ/, /ɪ/
+- Consonant sounds: /m/, /z/, /l/, /m/
+
+AUDIO 2: 
+- Words: Noslem
+- Phonetic (IPA): /ˈnɒzləm/
+- Syllable count and boundaries: 2 (Nos-lem)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: /ɒ/, /ə/
+- Consonant sounds: /n/, /z/, /l/, /m/
+
+COMPARISON: 
+- Phoneme differences: The initial consonant phoneme differs (/m/ vs. /n/), and the vowel phonemes differ (/ʊ/ vs. /ɒ/ and /ɪ/ vs. /ə/).
+- Vowel quality differences: Yes, the vowel sounds are different in both quality and placement.
+- Consonant articulation differences: Yes, the initial consonant is different.
+- Syllable differences: No, both have two syllables.
+- Stress differences: No, both have primary stress on the first syllable.
+- Accent-only differences: No, the differences are not solely due to accent.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/51/original_Xitler_US.wav,audio_data/pronunciation_audio/51/gpt4o_Xitler_US.wav,False,True,"AUDIO 1 and AUDIO 2 both contain the word 'Hitler'. The phonetic transcription for both is /ˈhɪtlər/. The syllable count is 2, with boundaries as 'Hit-ler'. The stress pattern is primary stress on the first syllable. The vowel sounds are /ɪ/ and /ər/, and the consonant sounds are /h/, /t/, /l/, and /r/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/52/original_Woonsocket_US.wav,audio_data/pronunciation_audio/52/gpt4o_Woonsocket_US.wav,False,True,"AUDIO 1 and AUDIO 2 both contain the phrase 'wound socket'. The phonetic transcription for both is /wuːnd ˈsɒkɪt/. The syllable count is three, with boundaries as 'wound' and 'sock-et'. The primary stress is on the first syllable of 'socket'. The vowel sounds are /uː/ and /ɒ/, and the consonant sounds are /w/, /n/, /d/, /s/, /k/, and /t/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent only.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/53/original_Peter_US.wav,audio_data/pronunciation_audio/53/gpt4o_Peter_US.wav,True,False,"AUDIO 1: 
+- Words: Peter
+- Phonetic (IPA): /ˈpiːtər/
+- Syllable count and boundaries: 2 (Pe-ter)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [iː, ə]
+- Consonant sounds: [p, t, r]
+
+AUDIO 2: 
+- Words: eater
+- Phonetic (IPA): /ˈiːtər/
+- Syllable count and boundaries: 2 (ea-ter)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [iː, ə]
+- Consonant sounds: [t, r]
+
+COMPARISON: 
+- Phoneme differences: The initial consonant sound is different (/p/ in 'Peter' vs. absence of /p/ in 'eater').
+- Vowel quality differences: No
+- Consonant articulation differences: Yes, the presence of /p/ in 'Peter'.
+- Syllable differences: No
+- Stress differences: No
+- Accent-only differences: No",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/54/original_Jehovist_Southern England.wav,audio_data/pronunciation_audio/54/gpt4o_Jehovist_Southern England.wav,True,True,"AUDIO 1: 
+- Words: Jehovahist
+- Phonetic (IPA): /dʒɪˈhoʊvəɪst/
+- Syllable count and boundaries: 4 (dʒɪ-ˈhoʊ-və-ɪst)
+- Stress pattern: Primary stress on the second syllable
+- Vowel sounds: [ɪ, oʊ, ə, ɪ]
+- Consonant sounds: [dʒ, h, v, s, t]
+
+AUDIO 2: 
+- Words: Jehovahist
+- Phonetic (IPA): /dʒɪˈhoʊvəɪst/
+- Syllable count and boundaries: 4 (dʒɪ-ˈhoʊ-və-ɪst)
+- Stress pattern: Primary stress on the second syllable
+- Vowel sounds: [ɪ, oʊ, ə, ɪ]
+- Consonant sounds: [dʒ, h, v, s, t]
+
+COMPARISON: 
+- Phoneme differences: None
+- Vowel quality differences: No
+- Consonant articulation differences: No
+- Syllable differences: No
+- Stress differences: No
+- Accent-only differences: No",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/55/original_Hanworth_UK.wav,audio_data/pronunciation_audio/55/gpt4o_Hanworth_UK.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Hanworth'. The phonetic transcription for both is /ˈhænwɜrθ/. The syllable count is two, with boundaries as 'Han-worth'. The primary stress is on the first syllable. The vowel sounds are /æ/ and /ɜ/, and the consonant sounds are /h/, /n/, /w/, /r/, and /θ/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any perceived differences are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/56/original_Saint_Received Pronunciation.wav,audio_data/pronunciation_audio/56/gpt4o_Saint_Received Pronunciation.wav,False,False,"AUDIO 1: 
+- Words: 'synth'
+- Phonetic (IPA): /sɪnθ/
+- Syllable count and boundaries: 1 (synth)
+- Stress pattern: Primary stress on the single syllable
+- Vowel sounds: [ɪ]
+- Consonant sounds: [s, n, θ]
+
+AUDIO 2: 
+- Words: 'saint'
+- Phonetic (IPA): /seɪnt/
+- Syllable count and boundaries: 1 (saint)
+- Stress pattern: Primary stress on the single syllable
+- Vowel sounds: [eɪ]
+- Consonant sounds: [s, n, t]
+
+COMPARISON: 
+- Phoneme differences: The vowel sounds differ (/ɪ/ vs. /eɪ/), and the final consonant sounds differ (/θ/ vs. /t/).
+- Vowel quality differences: Yes, /ɪ/ in 'synth' vs. /eɪ/ in 'saint'.
+- Consonant articulation differences: Yes, /θ/ in 'synth' vs. /t/ in 'saint'.
+- Syllable differences: No, both have one syllable.
+- Stress differences: No, both have primary stress on the single syllable.
+- Accent-only differences: No, the differences are not solely due to accent.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/57/original_Pauline_Southern England.wav,audio_data/pronunciation_audio/57/gpt4o_Pauline_Southern England.wav,True,False,"AUDIO 1: 
+- Words: Pauline
+- Phonetic (IPA): /pɔːˈliːn/
+- Syllable count and boundaries: 2 (Paul-ine)
+- Stress pattern: Primary stress on the second syllable
+- Vowel sounds: /ɔː/, /iː/
+- Consonant sounds: /p/, /l/, /n/
+
+AUDIO 2: 
+- Words: Aline
+- Phonetic (IPA): /əˈliːn/
+- Syllable count and boundaries: 2 (A-line)
+- Stress pattern: Primary stress on the second syllable
+- Vowel sounds: /ə/, /iː/
+- Consonant sounds: /l/, /n/
+
+COMPARISON: 
+- Phoneme differences: The initial consonant sound /p/ in 'Pauline' is different from the initial vowel sound /ə/ in 'Aline'.
+- Vowel quality differences: Yes, the first vowel sound differs (/ɔː/ vs. /ə/).
+- Consonant articulation differences: Yes, the presence of /p/ in 'Pauline' and its absence in 'Aline'.
+- Syllable differences: No, both have two syllables.
+- Stress differences: No, both have primary stress on the second syllable.
+- Accent-only differences: No, the differences are not solely due to accent.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/58/original_Verity_Southern England.wav,audio_data/pronunciation_audio/58/gpt4o_Verity_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'verity'. The phonetic transcription in IPA for both is /ˈvɛrɪti/. The syllable count is three, with boundaries as 'ver-i-ty'. The primary stress is on the first syllable, marked as 'ˈvɛrɪti'. The vowel sounds are /ɛ/, /ɪ/, and /i/, and the consonant sounds are /v/, /r/, and /t/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/59/original_Alcester_UK.wav,audio_data/pronunciation_audio/59/gpt4o_Alcester_UK.wav,False,False,"AUDIO 1: 
+- Words: 'Ulster' 
+- Phonetic (IPA): /ˈʌlstər/ 
+- Syllable count and boundaries: 2 (ʌl-stər) 
+- Stress pattern: Primary stress on the first syllable 
+- Vowel sounds: [ʌ, ə] 
+- Consonant sounds: [l, s, t, r] 
+
+AUDIO 2: 
+- Words: 'Alcester' 
+- Phonetic (IPA): /ˈælsɪstər/ 
+- Syllable count and boundaries: 3 (æl-sɪ-stər) 
+- Stress pattern: Primary stress on the first syllable 
+- Vowel sounds: [æ, ɪ, ə] 
+- Consonant sounds: [l, s, t, r] 
+
+COMPARISON: 
+- Phoneme differences: Yes, the vowel sounds differ (/ʌ/ vs. /æ/ and /ɪ/) 
+- Vowel quality differences: Yes, different vowel phonemes are used 
+- Consonant articulation differences: No, the consonant sounds are the same 
+- Syllable differences: Yes, 'Ulster' has 2 syllables, while 'Alcester' has 3 
+- Stress differences: No, both have primary stress on the first syllable 
+- Accent-only differences: No, the differences are not solely due to accent.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/60/original_Gad_US.wav,audio_data/pronunciation_audio/60/gpt4o_Gad_US.wav,True,True,"AUDIO 1 and AUDIO 2 both appear to be pronouncing a single-syllable word. The phonetic transcription for AUDIO 1 is likely /gæd/ and for AUDIO 2 is also /gæd/. Both have one syllable, with the primary stress on that syllable. The vowel sound in both is /æ/, and the consonant sounds are /g/ and /d/. There are no differences in the sequence of phonemes, the number of syllables, or the stress patterns. The differences in pronunciation are likely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/61/original_Wiltshire_UK.wav,audio_data/pronunciation_audio/61/gpt4o_Wiltshire_UK.wav,False,False,"AUDIO 1: 
+- Words: Wilshire
+- Phonetic (IPA): /ˈwɪlʃər/
+- Syllable count and boundaries: 2 (Wil-shire)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ɪ, ə]
+- Consonant sounds: [w, l, ʃ, r]
+
+AUDIO 2: 
+- Words: Wilshire
+- Phonetic (IPA): /ˈwɪlʃɪər/
+- Syllable count and boundaries: 2 (Wil-shire)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ɪ, ɪə]
+- Consonant sounds: [w, l, ʃ, r]
+
+COMPARISON: 
+- Phoneme differences: The vowel sound in the second syllable differs (/ə/ in Audio 1 vs. /ɪə/ in Audio 2).
+- Vowel quality differences: Yes, the second syllable has different vowel qualities.
+- Consonant articulation differences: No
+- Syllable differences: No
+- Stress differences: No
+- Accent-only differences: No",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/62/original_Knightsbridge_UK.wav,audio_data/pronunciation_audio/62/gpt4o_Knightsbridge_UK.wav,True,True,"Both audio recordings pronounce the word 'Knightsbridge' with the same phonemes, syllable count, stress pattern, and without any differences in vowel or consonant sounds. There are no differences in pronunciation that are not solely due to accent.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/63/original_Gateacre_UK.wav,audio_data/pronunciation_audio/63/gpt4o_Gateacre_UK.wav,False,False,"AUDIO 1 and AUDIO 2 have different pronunciations. AUDIO 1 says 'Gattaca' and AUDIO 2 says '8 acre'. The phonetic transcriptions, syllable counts, stress patterns, and the specific vowel and consonant sounds are different between the two. 'Gattaca' has a different sequence of phonemes and syllables compared to '8 acre'. The stress patterns also differ, with 'Gattaca' likely having primary stress on the first syllable, while '8 acre' has primary stress on the first syllable of 'acre'. These differences are not due to accent but are fundamental differences in pronunciation.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/64/original_Atlantic_Southern England.wav,audio_data/pronunciation_audio/64/gpt4o_Atlantic_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Atlantic'. The phonetic transcription in IPA for both is /ətˈlæntɪk/. The syllable count is three, with boundaries as at-lan-tic. The primary stress is on the second syllable, as indicated by the stress marker before 'lan'. The vowel sounds include /ə/, /æ/, and /ɪ/, and the consonant sounds include /t/, /l/, /n/, and /k/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern between the two recordings. Any differences in pronunciation are solely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/65/original_Edlyn_Southern England.wav,audio_data/pronunciation_audio/65/gpt4o_Edlyn_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Adeline'. The phonetic transcription in IPA for both is /ˈæd.lɪn/. The syllable count is 2, with boundaries after 'ad' and 'lin'. The primary stress is on the first syllable. The vowel sounds are /æ/ and /ɪ/, and the consonant sounds are /d/, /l/, and /n/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. The only noticeable difference is in the accent, which is not considered in this analysis.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/66/original_Esher_UK.wav,audio_data/pronunciation_audio/66/gpt4o_Esher_UK.wav,False,True,"AUDIO 1 and AUDIO 2 both appear to be pronouncing the word 'Escher'. The phonetic transcription for both would likely be /ˈɛʃər/. The syllable count is two, with boundaries as 'Esh-er'. The primary stress is on the first syllable. The vowel sounds are /ɛ/ and /ər/, and the consonant sounds are /ʃ/ and /r/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are likely due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/67/original_Jharkhand_US.wav,audio_data/pronunciation_audio/67/gpt4o_Jharkhand_US.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Jharkhand'. The phonetic transcription for both is /ˈdʒɑːrkənd/. The syllable count is two, with boundaries as 'Jhar-khand'. The primary stress is on the first syllable. The vowel sounds are /ɑː/ and /ə/, and the consonant sounds are /dʒ/, /r/, /k/, and /n/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are ignoring.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/68/original_Bazza_General Australian.wav,audio_data/pronunciation_audio/68/gpt4o_Bazza_General Australian.wav,False,True,"AUDIO 1:
+- Words: [transcription not provided]
+- Phonetic (IPA): /ˈbæzə/
+- Syllable count and boundaries: 2 (bæ-zə)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [æ, ə]
+- Consonant sounds: [b, z]
+
+AUDIO 2:
+- Words: [transcription not provided]
+- Phonetic (IPA): /ˈbæzə/
+- Syllable count and boundaries: 2 (bæ-zə)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [æ, ə]
+- Consonant sounds: [b, z]
+
+COMPARISON:
+- Phoneme differences: None
+- Vowel quality differences: No
+- Consonant articulation differences: No
+- Syllable differences: No
+- Stress differences: No
+- Accent-only differences: No",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/69/original_Indian_US.wav,audio_data/pronunciation_audio/69/gpt4o_Indian_US.wav,True,True,"Both audio clips pronounce the word 'Indian' with the same sequence of phonemes, syllable count, and stress pattern. The differences are solely due to accent, which is to be ignored as per the instructions.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/70/original_Ammonite_US.wav,audio_data/pronunciation_audio/70/gpt4o_Ammonite_US.wav,True,True,"Both audio recordings pronounce the word 'ammonite' with the same sequence of phonemes, syllable count, and stress pattern. There are no differences in vowel or consonant sounds, and no differences that can be attributed solely to accent.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/71/original_Ulan Bator_Southern England.wav,audio_data/pronunciation_audio/71/gpt4o_Ulan Bator_Southern England.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the name 'Ulaanbaatar'. The phonetic transcription for both is /uːˌlɑːnˈbɑːtər/. The syllable count is four, with boundaries as uː-lɑːn-bɑː-tər. The stress pattern is secondary stress on the first syllable and primary stress on the third syllable. The vowel sounds are /uː/, /ɑː/, and /ə/, and the consonant sounds are /l/, /n/, /b/, /t/, and /r/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent only.",False,structured,pronunciation,0,none,False,True,False,False
+"audio_data/pronunciation_audio/72/original_Hurrian_US , hurry – furry merger.wav","audio_data/pronunciation_audio/72/gpt4o_Hurrian_US , hurry – furry merger.wav",True,False,"AUDIO 1 and AUDIO 2 have different pronunciations. AUDIO 1 seems to be a single-syllable word with the phonetic transcription likely being /ˈhʌri/ or /ˈhɜri/, while AUDIO 2 appears to be a two-syllable word with the phonetic transcription /ˈhʌriən/ or /ˈhɜriən/. The primary stress in both cases is on the first syllable. The vowel sounds in AUDIO 1 are /ʌ/ or /ɜ/, and in AUDIO 2, they are /ʌ/ or /ɜ/ and /iə/. The consonant sounds in both are /h/, /r/, and /n/, but AUDIO 2 has an additional /iə/ sound. There are differences in the number of syllables and the presence of an additional vowel sound in AUDIO 2, which indicates a difference in pronunciation beyond just accent.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/73/original_EFTA_US.wav,audio_data/pronunciation_audio/73/gpt4o_EFTA_US.wav,True,True,"Both audio clips have the same phonetic transcription, syllable count, stress pattern, and the same vowel and consonant sounds. There are no differences in pronunciation, and any potential differences in accent are not considered.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/74/original_Richard_UK.wav,audio_data/pronunciation_audio/74/gpt4o_Richard_UK.wav,False,True,"Both audio recordings pronounce the name 'Richard' with the same phonemes, syllable count, stress pattern, and vowel and consonant sounds. There are no differences in pronunciation, and any potential accent differences are not relevant to the analysis.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/75/original_Gramarye_Southern England.wav,audio_data/pronunciation_audio/75/gpt4o_Gramarye_Southern England.wav,True,False,"The two audio clips differ in the final consonant sound, with Audio 1 ending in /l/ and Audio 2 ending in /r/. The rest of the pronunciation, including vowel sounds, syllable count, and stress pattern, is the same.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/76/original_Pepsi_US.wav,audio_data/pronunciation_audio/76/gpt4o_Pepsi_US.wav,True,True,"AUDIO 1: 
+- Words: Pepsi
+- Phonetic (IPA): /ˈpɛpsi/
+- Syllable count and boundaries: 2 (Pɛp-si)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ɛ, i]
+- Consonant sounds: [p, s]
+
+AUDIO 2: 
+- Words: Pepsi
+- Phonetic (IPA): /ˈpɛpsi/
+- Syllable count and boundaries: 2 (Pɛp-si)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ɛ, i]
+- Consonant sounds: [p, s]
+
+COMPARISON: 
+- Phoneme differences: None
+- Vowel quality differences: No
+- Consonant articulation differences: No
+- Syllable differences: No
+- Stress differences: No
+- Accent-only differences: No",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/77/original_Colney Hatch_Received Pronunciation.wav,audio_data/pronunciation_audio/77/gpt4o_Colney Hatch_Received Pronunciation.wav,False,False,The two audio clips differ in the first vowel sound and the presence of the /l/ consonant in the second audio. These differences are not attributable to accent but to the pronunciation of different phonemes.,True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/78/original_Rennes_Southern England.wav,audio_data/pronunciation_audio/78/gpt4o_Rennes_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'Wren'. The phonetic transcription for both is /rɛn/. The syllable count is 1 for both, with no boundaries to mark. The stress pattern is not applicable as there is only one syllable. The vowel sound is /ɛ/ and the consonant sounds are /r/ and /n/ for both audio clips. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/79/original_Tripura_Mid-Atlantic US.wav,audio_data/pronunciation_audio/79/gpt4o_Tripura_Mid-Atlantic US.wav,False,True,"Both audio recordings have the same phonetic transcription, syllable count, stress pattern, and the same set of vowel and consonant sounds. There are no differences in pronunciation, and any variations are not due to accent.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/80/original_Shetland_Southern England.wav,audio_data/pronunciation_audio/80/gpt4o_Shetland_Southern England.wav,True,True,"Both audio recordings pronounce the word 'Shetland' with the same phonemes, syllable count, stress pattern, and vowel and consonant sounds. There are no differences in pronunciation, and any potential accent differences are not considered in this analysis.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/81/original_Bahamas_US.wav,audio_data/pronunciation_audio/81/gpt4o_Bahamas_US.wav,True,True,"Both audio recordings have the same phonetic transcription, syllable count, stress pattern, and the same set of vowel and consonant sounds. There are no differences in pronunciation, and any potential accent differences are not considered.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/82/original_Julies_Southern England.wav,audio_data/pronunciation_audio/82/gpt4o_Julies_Southern England.wav,False,False,"AUDIO 1: The word 'July's' is pronounced with the phonetic transcription /dʒʊˈlaɪz/. It has two syllables, marked as Ju-ly's, with primary stress on the second syllable. The vowel sounds are /ʊ/ and /aɪ/, and the consonant sounds are /dʒ/, /l/, and /z/. AUDIO 2: The word 'Julie's' is pronounced with the phonetic transcription /ˈdʒuːliz/. It also has two syllables, marked as Ju-lie's, with primary stress on the first syllable. The vowel sounds are /uː/ and /i/, and the consonant sounds are /dʒ/, /l/, and /z/. COMPARISON: The phoneme differences are in the vowel sounds, with /ʊ/ and /aɪ/ in 'July's' versus /uː/ and /i/ in 'Julie's'. There are vowel quality differences, as the first vowel sound differs in quality and the second vowel sound is a diphthong in 'July's' but a monophthong in 'Julie's'. The consonant articulation is the same. The syllable count is the same, but the stress pattern differs, with 'July's' having primary stress on the second syllable and 'Julie's' on the first. There are no differences solely due to accent.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/83/original_Southwark_UK.wav,audio_data/pronunciation_audio/83/gpt4o_Southwark_UK.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Suffolk'. The phonetic transcription for both is /ˈsʌfək/. They each have two syllables, marked as 'Suf-folk', with the primary stress on the first syllable. The vowel sounds are /ʌ/ and /ə/, and the consonant sounds are /s/, /f/, and /k/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/84/original_Jess_Southern England.wav,audio_data/pronunciation_audio/84/gpt4o_Jess_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'chess'. The phonetic transcription for both is /ʧɛs/. The syllable count is 1 for both, with no boundaries to mark. The stress pattern is not applicable as there is only one syllable. The vowel sound is /ɛ/ and the consonant sounds are /ʧ/ and /s/ for both audios. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/85/original_Orkney_Southern England.wav,audio_data/pronunciation_audio/85/gpt4o_Orkney_Southern England.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Orkney'. The phonetic transcription in IPA for both is /ˈɔrkni/. The syllable count is two, with boundaries marked as 'Ork-ney'. The primary stress is on the first syllable. The vowel sounds include /ɔ/ and /i/, and the consonant sounds include /r/, /k/, and /n/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/86/original_R_UK.wav,audio_data/pronunciation_audio/86/gpt4o_R_UK.wav,False,False,"AUDIO 1 and AUDIO 2 both contain a single word, but they are pronounced differently. AUDIO 1 has the word 'are' pronounced as /ɑː/ with a single syllable and a primary stress on the vowel sound /ɑː/. AUDIO 2 also has the word 'are' but pronounced as /ɑr/ with a single syllable and a primary stress on the vowel sound /ɑ/. The difference lies in the presence of the consonant sound /r/ in AUDIO 2, which is absent in AUDIO 1. This difference is not solely due to accent but represents a distinct phonetic variation.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/87/original_Khartoum_Southern England.wav,audio_data/pronunciation_audio/87/gpt4o_Khartoum_Southern England.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'cartoon'. The phonetic transcription for both is /kɑrˈtuːn/. The syllable count is 2, with boundaries marked as car-toon. The stress pattern is on the second syllable, indicated by the primary stress marker before 'toon'. The vowel sounds are /ɑ/ and /uː/, and the consonant sounds are /k/, /r/, /t/, and /n/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/88/original_Nicaragua_UK.wav,audio_data/pronunciation_audio/88/gpt4o_Nicaragua_UK.wav,False,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Nicaragua'. The phonetic transcription for both is /ˌnɪkəˈrɑːɡwə/. They have the same syllable count and boundaries, with four syllables: /ˌnɪ.kə.ˈrɑː.ɡwə/. The stress pattern is also the same, with primary stress on the third syllable. The vowel sounds are /ɪ/, /ə/, /ɑː/, and /ə/, and the consonant sounds are /n/, /k/, /r/, /ɡ/, and /w/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/89/original_Anick_Southern England.wav,audio_data/pronunciation_audio/89/gpt4o_Anick_Southern England.wav,False,True,"AUDIO 1 and AUDIO 2 both appear to be pronouncing the word 'Anic'. The phonetic transcription in IPA for both would likely be /ˈænɪk/. The syllable count is 2, with boundaries after the first syllable: 'An-ic'. The primary stress is on the first syllable. The vowel sounds are /æ/ and /ɪ/, and the consonant sounds are /n/ and /k/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern between the two audio clips. Any differences in pronunciation are likely due to accent, which we are instructed to ignore.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/90/original_Beirut_Southern England.wav,audio_data/pronunciation_audio/90/gpt4o_Beirut_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Beirut'. The phonetic transcription for both is /beɪˈruːt/. The syllable count is two, with boundaries marked as 'Be-irut'. The primary stress is on the second syllable. The vowel sounds are /eɪ/ and /uː/, and the consonant sounds are /b/, /r/, and /t/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are solely due to accent.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/91/original_Alicia_US.wav,audio_data/pronunciation_audio/91/gpt4o_Alicia_US.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the name 'Alicia'. The phonetic transcription in IPA for both is /əˈliːʃə/. The syllable count is 3, with boundaries marked as a-li-cia. The stress pattern is on the second syllable, indicated by the primary stress marker before 'li'. The vowel sounds are /ə/, /iː/, and /ə/, and the consonant sounds are /l/, /ʃ/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern between the two recordings. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/92/original_Nantes_Southern England.wav,audio_data/pronunciation_audio/92/gpt4o_Nantes_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'nonce'. The phonetic transcription for both is /nɒns/ in British English or /nɑns/ in American English. The syllable count is one for both, with no internal boundaries. The stress pattern is not applicable as there is only one syllable. The vowel sound is /ɒ/ or /ɑ/ depending on the accent, and the consonant sounds are /n/, /s/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. The only difference is in the accent, which is to be ignored as per the instructions.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/93/original_Acoma_Southern England.wav,audio_data/pronunciation_audio/93/gpt4o_Acoma_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'acme'. The phonetic transcription for both is /ˈæk.mi/. They both have two syllables, with the syllable boundaries marked as 'æk-mi'. The primary stress is on the first syllable in both cases. The vowel sounds are /æ/ and /i/, and the consonant sounds are /k/ and /m/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in the audio are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/94/original_Bolton_UK.wav,audio_data/pronunciation_audio/94/gpt4o_Bolton_UK.wav,True,True,"AUDIO 1:
+- Words: [transcription not provided]
+- Phonetic (IPA): /ˈboʊltən/
+- Syllable count and boundaries: 2 (ˈboʊl-tən)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [oʊ]
+- Consonant sounds: [b, l, t, n]
+
+AUDIO 2:
+- Words: [transcription not provided]
+- Phonetic (IPA): /ˈboʊltən/
+- Syllable count and boundaries: 2 (ˈboʊl-tən)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [oʊ]
+- Consonant sounds: [b, l, t, n]
+
+COMPARISON:
+- Phoneme differences: None
+- Vowel quality differences: No
+- Consonant articulation differences: No
+- Syllable differences: No
+- Stress differences: No
+- Accent-only differences: No",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/95/original_Fritz_Southern England.wav,audio_data/pronunciation_audio/95/gpt4o_Fritz_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both contain the word 'Fritz'. The phonetic transcription for both is /frɪts/. The syllable count is 1 for both, with no internal boundaries. The stress pattern is not applicable as there is only one syllable. The vowel sound is /ɪ/ and the consonant sounds are /f/, /r/, /t/, and /s/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern. Any differences in pronunciation are due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/96/original_Miguel_Southern England.wav,audio_data/pronunciation_audio/96/gpt4o_Miguel_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the name 'Miguel'. The phonetic transcription in IPA for both is /miˈɡɛl/. The syllable count is two, with boundaries marked as mi-guel. The primary stress is on the second syllable, indicated by the stress marker before 'ɡɛl'. The vowel sounds are /i/ and /ɛ/, and the consonant sounds are /m/, /ɡ/, and /l/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern between the two recordings. Any differences in pronunciation are solely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/97/original_Seppo_General Australian.wav,audio_data/pronunciation_audio/97/gpt4o_Seppo_General Australian.wav,True,True,"AUDIO 1: 
+- Words: [sepo] 
+- Phonetic (IPA): [ˈsɛpoʊ] 
+- Syllable count and boundaries: [2, se-po] 
+- Stress pattern: [primary stress on first syllable] 
+- Vowel sounds: [ɛ, oʊ] 
+- Consonant sounds: [s, p]
+
+AUDIO 2: 
+- Words: [sepo] 
+- Phonetic (IPA): [ˈsɛpoʊ] 
+- Syllable count and boundaries: [2, se-po] 
+- Stress pattern: [primary stress on first syllable] 
+- Vowel sounds: [ɛ, oʊ] 
+- Consonant sounds: [s, p]
+
+COMPARISON: 
+- Phoneme differences: None 
+- Vowel quality differences: No 
+- Consonant articulation differences: No 
+- Syllable differences: No 
+- Stress differences: No 
+- Accent-only differences: No",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/98/original_Sopwith_US.wav,audio_data/pronunciation_audio/98/gpt4o_Sopwith_US.wav,True,True,"AUDIO 1 and AUDIO 2 both appear to be pronouncing the word 'Sopwith'. The phonetic transcription in IPA for both would likely be /ˈsɒpwɪθ/ or /ˈsɑːpwɪθ/, depending on the accent. Both have two syllables, with the primary stress on the first syllable. The vowel sounds are /ɒ/ or /ɑː/ and /ɪ/, and the consonant sounds are /s/, /p/, /w/, and /θ/. There are no differences in the sequence of phonemes, syllable count, or stress pattern. The only potential difference could be in the vowel quality of the first syllable, which is likely due to accent differences (British vs. American). Therefore, the pronunciation matches when ignoring accent differences.",True,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/99/original_Richard_UK.wav,audio_data/pronunciation_audio/99/gpt4o_Richard_UK.wav,False,True,"Both audio recordings pronounce the name 'Richard' with the same phonemes, syllable count, stress pattern, and vowel and consonant sounds. There are no differences in pronunciation, and any potential accent differences are not relevant to the analysis.",False,structured,pronunciation,0,none,False,True,False,False
+audio_data/pronunciation_audio/100/original_Sinn Féin_Southern England.wav,audio_data/pronunciation_audio/100/gpt4o_Sinn Féin_Southern England.wav,True,True,"AUDIO 1 and AUDIO 2 both pronounce the word 'Sinn Féin'. The phonetic transcription in IPA for both is /ʃɪn ˈfeɪn/. The syllable count is two, with boundaries marked as 'ʃɪn-ˈfeɪn'. The stress pattern is on the second syllable, indicated by the primary stress marker before 'feɪn'. The vowel sounds are /ɪ/ and /eɪ/, and the consonant sounds are /ʃ/, /n/, and /f/. There are no differences in phonemes, vowel quality, consonant articulation, syllable count, or stress pattern between the two audio clips. Any perceived differences are likely due to accent, which we are instructed to ignore.",True,structured,pronunciation,0,none,False,True,False,False

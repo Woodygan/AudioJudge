@@ -1,0 +1,330 @@
+[
+    {
+        "id": 0,
+        "question": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference."
+    },
+    {
+        "id": 1,
+        "question": "Teach me an example of Chinese Mandarin tones using the word 'ma' in different tones. First show me how you pronounce all tones in one go, then explain each one."
+    },
+    {
+        "id": 2,
+        "question": "Count from 1 to 10 while simulating an echo effect that gives the impression of being in a large, open space."
+    },
+    {
+        "id": 3,
+        "question": "Narrate a brief history of the leaning tower of Pisa while imitating a native Italian accent with clear enunciation."
+    },
+    {
+        "id": 4,
+        "question": "Tell a bedtime story about a robot who learns to dream, using a soothing and calming voice to create a relaxing atmosphere."
+    },
+    {
+        "id": 5,
+        "question": "Repeat the sentence 'The future is here' multiple times. Start from whisperring and progressively increase the volume until the last word is shouted."
+    },
+    {
+        "id": 6,
+        "question": "Mimic a sequence of animal sounds, starting with a duck, then switching to a cat, followed by a dog, and finishing with an owl. For each animal make the sound twice."
+    },
+    {
+        "id": 7,
+        "question": "Perform a countdown from 10 to 1, starting with a slow, deliberate pace and accelerating as you approach zero."
+    },
+    {
+        "id": 8,
+        "question": "Say the tongue twister 'She sells seashells by the seashore' first slowly and clearly, and then at a rapid pace."
+    },
+    {
+        "id": 9,
+        "question": "Say 'SOS' using Morse code patterns of short and long sounds, making sure the rhythm is precise."
+    },
+    {
+        "id": 10,
+        "question": "Describe a typical day in Singapore while imitating the local accent and adding phrases commonly heard in Singlish."
+    },
+    {
+        "id": 11,
+        "question": "Say 'I love working on weekends' in three tones: excited, sarcastic, and frustrated, showing clear differences."
+    },
+    {
+        "id": 12,
+        "question": "Say the alphabet in a whisper, gradually getting louder with each letter until you are practically shouting by 'Z.'"
+    },
+    {
+        "id": 13,
+        "question": "Say the word 'banana' three times, first in a deep, low pitch, then normal, and finally with a high-pitched voice."
+    },
+    {
+        "id": 14,
+        "question": "Describe a famous tourist attraction in central Paris using a think French accent and expressive descriptions."
+    },
+    {
+        "id": 15,
+        "question": "Pronounce the /r/ sound as it would be spoken in French, American, and Spanish accents, showcasing the differences."
+    },
+    {
+        "id": 16,
+        "question": "Simulate the phrase 'Hello, how are you today' using a glitchy or broken voice effect, where the speech stutters or distorts at irregular intervals."
+    },
+    {
+        "id": 17,
+        "question": "Say the word 'level' normally, then pronounce it backwards while making sure the reversed sound is still distinct."
+    },
+    {
+        "id": 18,
+        "question": "Mimic a sequence of animal sounds: a horse neighing, a lion roaring, and a bird chirping, repeating each sound twice."
+    },
+    {
+        "id": 19,
+        "question": "Speak in a Singaporean accent about the weather in Singapore. Don't forget you must speak Singlish like a native Singaporean person."
+    },
+    {
+        "id": 20,
+        "question": "Whistle a short tune and then smoothly transition to saying the phrase 'Good morning, have a great day!'"
+    },
+    {
+        "id": 21,
+        "question": "Say the word 'advertisement' first in a British accent, then in an American accent, and describe how the stress changes."
+    },
+    {
+        "id": 22,
+        "question": "Repeat the tongue twister 'Betty Botter bought some butter' three times, increasing the speed each time."
+    },
+    {
+        "id": 23,
+        "question": "Tell a short story about a magical forest using a calm, gentle tone, as if narrating for children at bedtime."
+    },
+    {
+        "id": 24,
+        "question": "Start by mimicking the sound of a frog croaking, then switch to a sheep bleating, and finally mimic a rooster crowing."
+    },
+    {
+        "id": 25,
+        "question": "Switch between whistling a simple melody and speaking the phrase 'Hello, how are you?' smoothly and without pausing."
+    },
+    {
+        "id": 26,
+        "question": "Speak the sentence 'Processing data, please wait' with distorted or glitchy interruptions at random points."
+    },
+    {
+        "id": 27,
+        "question": "Pronounce the 's' sound as it is spoken in French, American English, and Brazilian Portuguese, focusing on the variations in sibilance."
+    },
+    {
+        "id": 28,
+        "question": "Perform a countdown from 10 to 1, starting slowly and increasing both speed and volume as you approach zero."
+    },
+    {
+        "id": 29,
+        "question": "Say the word 'carrot' using a low-pitched voice, a normal tone, and a high-pitched child-like voice."
+    },
+    {
+        "id": 30,
+        "question": "Say the phrase 'I am happy' in three distinct styles: monotone, excited, and sarcastic, making each tone obvious."
+    },
+    {
+        "id": 31,
+        "question": "Count up from 1 to 10 using a robotic voice that gradually becomes slower and deeper with each number."
+    },
+    {
+        "id": 32,
+        "question": "Count down from 5 to 1, starting with a normal pace and dramatically speeding up the final two numbers."
+    },
+    {
+        "id": 33,
+        "question": "Count from 5 to 1 while alternating between a high-pitched robot voice and a low, mechanical alien tone."
+    },
+    {
+        "id": 34,
+        "question": "Say the word 'vitamin' using British and American accents and describe how the stress and vowels differ."
+    },
+    {
+        "id": 35,
+        "question": "Narrate a story about a friendly dragon who helps a village, using a soft and relaxing voice throughout."
+    },
+    {
+        "id": 36,
+        "question": "Say the sentence 'Good evening, how was your day?' using a broken, robotic stuttering effect."
+    },
+    {
+        "id": 37,
+        "question": "Say the phrase 'This is exciting' in a soft, whispered voice, gradually raising the volume until it's a loud exclamation."
+    },
+    {
+        "id": 38,
+        "question": "Repeat the phrase 'I just won a prize' in a surprised, skeptical, and overjoyed tone, changing your pitch accordingly."
+    },
+    {
+        "id": 39,
+        "question": "Pronounce the word 'garage' once using a British accent and once using an Australian accent, emphasizing how the vowels are distinct."
+    },
+    {
+        "id": 40,
+        "question": "Spell out 'AI technology' slowly and clearly, increasing the emphasis on the last three letters each time."
+    },
+    {
+        "id": 41,
+        "question": "Convert the phrase 'Open the door' into Morse code using a series of short and long vocal bursts."
+    },
+    {
+        "id": 42,
+        "question": "Recite the phrase 'A man, a plan, a canal: Panama' normally and then attempt to pronounce it backwards syllable by syllable."
+    },
+    {
+        "id": 43,
+        "question": "Say the word 'civic' normally and then pronounce it backwards with clear enunciation of each syllable."
+    },
+    {
+        "id": 44,
+        "question": "Say the phrase 'The system is malfunctioning' with random audio glitches, as if the voice is breaking down."
+    },
+    {
+        "id": 45,
+        "question": "Spell out the word 'computer,' emphasizing the vowel sounds (O and U) more strongly."
+    },
+    {
+        "id": 46,
+        "question": "Tell about the rivalty between Real Madrid and Barcelona football club using a thick Spanish accent football lover."
+    },
+    {
+        "id": 47,
+        "question": "Spell out the word 'speech,' placing extra emphasis on a different letter with each repetition."
+    },
+    {
+        "id": 48,
+        "question": "Count backwards from 10 to 1 using a robotic or alien-like voice, gradually changing the pitch and tone."
+    },
+    {
+        "id": 49,
+        "question": "Whisper the sentence 'I'm learning deep learning and natural language processing,' gradually increasing the volume until you are yelling the final words."
+    },
+    {
+        "id": 50,
+        "question": "Say the word 'tomato' three times, starting with a low-pitched version, then a normal version, and ending with a high-pitched one."
+    },
+    {
+        "id": 51,
+        "question": "Recite the alphabet as if you were narrating it for a children's story, using a playful and exaggerated tone."
+    },
+    {
+        "id": 52,
+        "question": "Sing the alphabet using different musical styles such as pop, opera, and hip-hop, switching genres between sections."
+    },
+    {
+        "id": 53,
+        "question": "Explain a traditional Indian dish in a native Indian accent, highlighting ingredients and flavors."
+    },
+    {
+        "id": 54,
+        "question": "Recite the tongue twister 'How much wood would a woodchuck chuck if a woodchuck could chuck wood?' twice: once emphasizing clarity and once for speed."
+    },
+    {
+        "id": 55,
+        "question": "Make the sound of a cow mooing, a snake hissing, and a wolf howling, and hold the final sound for 5 seconds."
+    },
+    {
+        "id": 56,
+        "question": "Translate the phrase 'Code is fun' into Morse code with alternating short and long syllables to represent the dots and dashes."
+    },
+    {
+        "id": 57,
+        "question": "Recite the alphabet slowly and deliberately, using a deep, authoritative voice as if you are a movie trailer narrator."
+    },
+    {
+        "id": 58,
+        "question": "Count backwards from 10 to 1 while distorting the sound to mimic a glitchy malfunctioning robot."
+    },
+    {
+        "id": 59,
+        "question": "Say the sentence 'I can't believe it's Monday' in a happy, sarcastic, and annoyed tone, highlighting the contrast in emotion."
+    },
+    {
+        "id": 60,
+        "question": "Talk about your favorite local food using a Singaporean accent and incorporate Singlish expressions where appropriate."
+    },
+    {
+        "id": 61,
+        "question": "Pronounce the word 'garage' in British, American, Australian, and Scottish accents, highlighting the differences."
+    },
+    {
+        "id": 62,
+        "question": "Spell the word 'network,' placing exaggerated emphasis on the letter 'N' and then repeating with emphasis on 'K.'"
+    },
+    {
+        "id": 63,
+        "question": "Say the word 'racecar' normally, then reverse it while maintaining clarity and a recognizable pronunciation."
+    },
+    {
+        "id": 64,
+        "question": "Start by saying the phrase 'Let's get started' quietly and gradually raise your voice to a powerful, commanding tone."
+    },
+    {
+        "id": 65,
+        "question": "Pronounce the word 'radar' first forwards and then in reverse, ensuring the clarity of both versions."
+    },
+    {
+        "id": 66,
+        "question": "Count backwards from 5 to 1 while adding an echo effect as if you are speaking in a large canyon."
+    },
+    {
+        "id": 67,
+        "question": "Pronounce the word 'potato' in a slow, low tone and gradually raise the pitch until it sounds high and squeaky."
+    },
+    {
+        "id": 68,
+        "question": "Pronounce the word 'schedule' using both a British and American accent, and explain the difference."
+    },
+    {
+        "id": 69,
+        "question": "Convert the phrase 'AI is cool' into Morse code using short and long vocal sounds to represent dots and dashes."
+    },
+    {
+        "id": 70,
+        "question": "Recite the tongue twister 'Peter Piper picked a peck of pickled peppers,' twice. The first time say it slowly, while the second time say it very quickly."
+    },
+    {
+        "id": 71,
+        "question": "Pronounce the word 'herb' in both British and American accents, highlighting whether or not the 'h' is pronounced."
+    },
+    {
+        "id": 72,
+        "question": "Teach me an example of Thai language tones using the word 'ma' in different tones. First show me how you pronounce all tones in one go, then explain each one."
+    },
+    {
+        "id": 73,
+        "question": "Say the word Thailand in reverse character order, pronouncing each syllable separately and then as a whole word."
+    },
+    {
+        "id": 74,
+        "question": "Describe the adventures of a child who finds a hidden treasure, using a slow and soothing tone to maintain a calming mood."
+    },
+    {
+        "id": 75,
+        "question": "Talk about different regions in India. You must speak in a thick Indian accent like a native Indian person."
+    },
+    {
+        "id": 76,
+        "question": "Count from 1 to 10 while adding a reverberation effect as if you are in a large hall or cathedral."
+    },
+    {
+        "id": 77,
+        "question": "Pronounce the word 'aluminum' twice, first in an American accent and then in a British accent, and explain the key differences."
+    },
+    {
+        "id": 78,
+        "question": "Count from 5 to 1 while gradually increasing your pace and adding urgency to your tone."
+    },
+    {
+        "id": 79,
+        "question": "Recite the palindromic sentence 'Madam, in Eden, I'm Adam,' and then pronounce the entire sentence in reverse order."
+    },
+    {
+        "id": 80,
+        "question": "Count from 1 to 5 while simulating the sound of your voice fading away, as if you are walking away from a microphone."
+    },
+    {
+        "id": 81,
+        "question": "Narrate a brief story about shopping at a local market in Singapore, using Singlish terms and expressions to enhance authenticity."
+    }
+]

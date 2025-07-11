@@ -1,0 +1,4 @@
+prompt_type,model,dataset_name,n_shots,transcript_type,aggregate_fewshot,accuracy,num_samples,mse_overall
+standard_cot,gpt-4o-audio-preview,tmhintq,0,none,False,0.465,200,3.3980283564814817
+standard_cot,gpt-4o-audio-preview,tmhintq,4,none,True,0.5925,200,1.8041394675925928
+standard_cot,gpt-4o-audio-preview,tmhintq,4,none,False,0.5175,200,3.457958912037037

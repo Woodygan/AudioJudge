@@ -1,0 +1,30 @@
+
+Prompt strategy comparison:
+ prompt_type                model dataset_name  n_shots transcript_type  concat_fewshot  concat_test  two_turns  aggregate_fewshot  accuracy  num_samples
+standard_cot gpt-4o-audio-preview      thaimos        0             asr           False        False      False              False     0.650          200
+standard_cot gpt-4o-audio-preview      thaimos        0     groundtruth           False        False      False              False     0.645          200
+
+Best strategy: standard_cot with 0 shots, asr transcript, separate few-shot, separate test, accuracy 0.6500
+
+Visualizations saved to results/thaimos/gpt-4o-audio-preview/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  Asr: 0.6500
+  Groundtruth: 0.6450
+
+Two Turns Impact:
+  Single Turn: 0.6475
+
+Few-shot Configuration Impact:
+  Separate Few-shot: 0.6475
+
+Test Configuration Impact:
+  Separate Test: 0.6475
+
+Number of Shots Impact:
+  0 shots: 0.6475
+
+Prompt Type Impact:
+  standard_cot: 0.6475

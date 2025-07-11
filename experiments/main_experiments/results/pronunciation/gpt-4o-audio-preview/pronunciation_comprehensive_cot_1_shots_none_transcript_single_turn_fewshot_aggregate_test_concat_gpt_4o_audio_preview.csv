@@ -1,0 +1,17 @@
+audio1_path,audio2_path,ground_truth,prediction,reasoning,correct,prompt_type,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot
+audio_data/pronunciation_audio/1/original_Rutherford_US.wav,audio_data/pronunciation_audio/1/gpt4o_Rutherford_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips say 'Rutherford'.
+2. PHONETIC ANALYSIS:
+   a. IPA transcription: /ˈrʌðərfərd/
+   b. Consonants: Both have the same consonants /r/, /ð/, /r/, /f/, /r/, /d/.
+   c. Vowels: Both have the same vowels /ʌ/, /ər/, /ər/.
+3. SYLLABLE ANALYSIS:
+   a. Syllables: 'Ruth-er-ford'
+   b. Both have 3 syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS:
+   a. Primary stress is on the first syllable in both pronunciations.
+   b. Stress patterns match.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent were identified.
+   b. No actual pronunciation differences were found.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,1,none,False,True,False,True

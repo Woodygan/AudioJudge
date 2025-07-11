@@ -1,0 +1,26 @@
+
+Prompt strategy comparison:
+ prompt_type                model  dataset_name  n_shots transcript_type  aggregate_fewshot  accuracy  num_samples  mse_overall
+standard_cot gpt-4o-audio-preview speakbench508        4            none              False  0.591549          497          NaN
+standard_cot gpt-4o-audio-preview speakbench508        4            none               True  0.549495          495          NaN
+standard_cot gpt-4o-audio-preview speakbench508        0            none              False  0.533199          497          NaN
+
+Best strategy: standard_cot with 4 shots, none transcript, separate few-shot, accuracy 0.5915
+
+Visualizations saved to results_pointwise/speakbench508/gpt-4o-audio-preview/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  No Transcript: 0.5581
+
+Few-shot Configuration Impact:
+  Separate Few-shot: 0.5624
+  Aggregate Few-shot: 0.5495
+
+Number of Shots Impact:
+  4 shots: 0.5705
+  0 shots: 0.5332
+
+Prompt Type Impact:
+  standard_cot: 0.5581

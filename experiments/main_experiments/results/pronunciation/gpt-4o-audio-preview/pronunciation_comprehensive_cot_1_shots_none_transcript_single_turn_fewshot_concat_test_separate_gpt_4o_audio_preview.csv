@@ -1,0 +1,10 @@
+audio1_path,audio2_path,ground_truth,prediction,reasoning,correct,prompt_type,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot
+audio_data/pronunciation_audio/1/original_Rutherford_US.wav,audio_data/pronunciation_audio/1/gpt4o_Rutherford_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips say 'Rutherford'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Rutherford' is /ˈrʌðərfɔrd/.
+   a. Consonants: Both recordings use the same consonants /r/, /ð/, /r/, /f/, /d/.
+   b. Vowels: Both recordings use the same vowels /ʌ/ and /ɔ/.
+3. SYLLABLE ANALYSIS: The word 'Rutherford' is divided into three syllables: /ˈrʌ-ðər-fɔrd/.
+   a. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both recordings.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: Both recordings have the same pronunciation in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,1,none,True,False,False,False

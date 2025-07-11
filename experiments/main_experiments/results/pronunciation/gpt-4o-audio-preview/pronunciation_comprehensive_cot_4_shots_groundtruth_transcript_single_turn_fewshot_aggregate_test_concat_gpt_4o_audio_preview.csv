@@ -1,0 +1,955 @@
+audio1_path,audio2_path,ground_truth,prediction,reasoning,correct,prompt_type,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot
+audio_data/pronunciation_audio/1/original_Rutherford_US.wav,audio_data/pronunciation_audio/1/gpt4o_Rutherford_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Rutherford'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Rutherford' is /ˈrʌðərfərd/.
+   a. Consonants: Both have the same consonants /r/, /ð/, /r/, /f/, /r/, /d/.
+   b. Vowels: Both have the same vowels /ʌ/ and /ər/.
+3. SYLLABLE ANALYSIS: The word 'Rutherford' has three syllables: /ˈrʌ-ðər-fərd/.
+   a. Both pronunciations have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no significant differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllable structure, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/2/original_Mac_Southern England.wav,audio_data/pronunciation_audio/2/gpt4o_Mac_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Mac'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Mac' is /mæk/. Both recordings use the same consonants /m/ and /k/ and the same vowel /æ/.
+3. SYLLABLE ANALYSIS: The word 'Mac' has one syllable in both recordings.
+4. STRESS ANALYSIS: As a monosyllabic word, 'Mac' inherently carries primary stress on its single syllable in both recordings.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent in the pronunciation of 'Mac' in these recordings.
+6. FINAL JUDGMENT: Given the identical phonetic, syllabic, and stress patterns, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/3/original_Luxembourg_US.wav,audio_data/pronunciation_audio/3/gpt4o_Luxembourg_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Luxembourg'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Luxembourg' is /ˈlʌksəmbɜːrɡ/.
+   a. Consonants: Both pronunciations use the same consonants /l/, /k/, /s/, /m/, /b/, /r/, /ɡ/.
+   b. Vowels: Both use the same vowels /ʌ/, /ə/, /ɜː/.
+3. SYLLABLE ANALYSIS: The word 'Luxembourg' has three syllables: /ˈlʌk.səm.bɜːrɡ/.
+   a. Both pronunciations have the same syllable boundaries and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/4/original_Yamato_Southern England.wav,audio_data/pronunciation_audio/4/gpt4o_Yamato_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Yamato'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /jəˈmɑːtoʊ/
+   b. Consonants: Both have /j/, /m/, /t/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ə/, /ɑː/, /oʊ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Both are divided into three syllables: Ya-ma-to.
+   b. Both have three syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the second syllable: /jəˈmɑːtoʊ/.
+   b. Stress patterns are identical.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+   b. No pronunciation differences are identified.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/5/original_ScoMo_General Australian.wav,audio_data/pronunciation_audio/5/gpt4o_ScoMo_General Australian.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'ScoMo'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈskoʊmoʊ/.
+   a. Consonants: Both have /s/ (voiceless alveolar fricative), /k/ (voiceless velar plosive), and /m/ (voiced bilabial nasal).
+   b. Vowels: Both have /oʊ/ (close-mid back rounded vowel).
+3. SYLLABLE ANALYSIS: Both have two syllables, divided as 'Sco-Mo'.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable, marked as /ˈskoʊmoʊ/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable count, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/6/original_Hanwell_UK.wav,audio_data/pronunciation_audio/6/gpt4o_Hanwell_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Hanwell'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈhæn.wɛl/. The consonants and vowels are identical in manner/place of articulation, voicing, height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as 'Han-well'. The syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: Both pronunciations have primary stress on the first syllable, marked as /ˈhæn.wɛl/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in all aspects of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/7/original_Zimbabwe_US.wav,audio_data/pronunciation_audio/7/gpt4o_Zimbabwe_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Zimbabwe'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Zimbabwe' is /zɪmˈbɑːbweɪ/. Both recordings use the same consonants and vowels.
+3. SYLLABLE ANALYSIS: The word 'Zimbabwe' has three syllables: /zɪm-ˈbɑːb-weɪ/. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the second syllable in both recordings, consistent with the standard pronunciation.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations in both recordings match in terms of phonemes, syllable structure, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/8/original_Sucre_Southern England.wav,audio_data/pronunciation_audio/8/gpt4o_Sucre_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Sucre'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈsu.kɾe/
+   b. Consonants: Both have /s/ and /kɾ/ (a voiced alveolar tap).
+   c. Vowels: Both have /u/ and /e/.
+3. SYLLABLE ANALYSIS: 
+   a. Both words divide into two syllables: /ˈsu.kɾe/.
+   b. Both have two syllables.
+   c. Syllable boundaries and structure match.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the first syllable: /ˈsu.kɾe/.
+   b. Stress patterns match.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+   b. No pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/9/original_Gwen_Southern England.wav,audio_data/pronunciation_audio/9/gpt4o_Gwen_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Gwen'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Gwen' is /ɡwɛn/ for both clips. The consonants /ɡ/ and /w/ and the vowel /ɛ/ are consistent in manner/place of articulation, voicing, height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: The word 'Gwen' has one syllable in both pronunciations.
+4. STRESS ANALYSIS: As a single-syllable word, 'Gwen' inherently carries primary stress on its only syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in all aspects of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/10/original_Malaya_Southern England.wav,audio_data/pronunciation_audio/10/gpt4o_Malaya_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Malaya'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Malaya' is /məˈleɪə/.
+   a. Consonants: Both have /m/ and /l/.
+   b. Vowels: Both have /ə/ and /eɪ/.
+3. SYLLABLE ANALYSIS: The word 'Malaya' has three syllables: /mə-ˈleɪ-ə/.
+   a. Both pronunciations have the same syllable count and boundaries.
+4. STRESS ANALYSIS: The primary stress is on the second syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/11/original_ladino_Southern England.wav,audio_data/pronunciation_audio/11/gpt4o_ladino_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'ladino'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'ladino' is /ləˈdiːnoʊ/.
+   a. Consonants: Both have /l/, /d/, and /n/.
+   b. Vowels: Both have /ə/, /iː/, and /oʊ/.
+3. SYLLABLE ANALYSIS: The word 'ladino' is divided into three syllables: la-di-no. Both pronunciations have three syllables.
+4. STRESS ANALYSIS: The primary stress is on the second syllable in both pronunciations, as indicated by the IPA notation /ləˈdiːnoʊ/.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/12/original_Austrian_Southern England.wav,audio_data/pronunciation_audio/12/gpt4o_Austrian_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Austrian'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Austrian' is /ˈɔːstriən/. Both recordings use the same consonants and vowels, with no differences in manner/place of articulation, voicing, height, backness, roundedness, or tenseness.
+3. SYLLABLE ANALYSIS: The word 'Austrian' is divided into three syllables: /ˈɔːs-tri-ən/. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both recordings, as indicated by the IPA notation /ˈɔːstriən/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences in pronunciation that can be attributed to regional accent.
+6. FINAL JUDGMENT: Since the phonemes, syllable structure, and stress patterns are identical, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/13/original_Ypres_Southern England.wav,audio_data/pronunciation_audio/13/gpt4o_Ypres_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Ypres'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /iːpʁə/ or /iːprə/ (depending on the regional accent).
+   b. Consonants: Both have the same consonants /p/ and /ʁ/ or /r/ (voiced uvular fricative or alveolar trill).
+   c. Vowels: Both have the same vowel /iː/ (close front unrounded vowel).
+3. SYLLABLE ANALYSIS: 
+   a. Both pronunciations have two syllables.
+   b. Syllable structure is the same: /iː/ and /pʁə/ or /prə/.
+4. STRESS ANALYSIS: 
+   a. Both pronunciations have primary stress on the first syllable.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. The difference in the pronunciation of the /ʁ/ or /r/ sound is due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match as the differences are due to regional accent.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/14/original_Worcester_US.wav,audio_data/pronunciation_audio/14/gpt4o_Worcester_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Worcester'.
+2. PHONETIC ANALYSIS:
+   a. IPA: Both transcriptions convert to /ˈwʊstər/.
+   b. Consonants: Both have /w/, /s/, and /t/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ʊ/ and /ər/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS:
+   a. Syllables: Both pronunciations divide into two syllables: /ˈwʊs/ and /tər/.
+   b. Syllable count: Both have two syllables.
+   c. Syllable structure: Both have the same syllable boundaries and structure.
+4. STRESS ANALYSIS:
+   a. Stress: Both have primary stress on the first syllable.
+   b. Stress pattern: Both have the same stress pattern.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent are noted.
+   b. No pronunciation differences are identified.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/15/original_Howth_Southern England.wav,audio_data/pronunciation_audio/15/gpt4o_Howth_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Howth'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /haʊθ/
+   b. Consonants: Both have /h/ (voiceless glottal fricative) and /θ/ (voiceless dental fricative).
+   c. Vowels: Both have /aʊ/ (diphthong).
+3. SYLLABLE ANALYSIS: 
+   a. Both words have one syllable.
+   b. Syllable structure is identical.
+4. STRESS ANALYSIS: 
+   a. Both words have primary stress on the single syllable.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+   b. Pronunciation is identical in both recordings.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/16/original_Bolly_General Australian.wav,audio_data/pronunciation_audio/16/gpt4o_Bolly_General Australian.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Bolly'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈbɒli/.
+   a. Consonants: Both have the same consonants /b/ and /l/.
+   b. Vowels: Both have the same vowels /ɒ/ and /i/.
+3. SYLLABLE ANALYSIS: Both have two syllables, divided as /ˈbɒ/ and /li/.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/17/original_Marne_Southern England.wav,audio_data/pronunciation_audio/17/gpt4o_Marne_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Marne'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /mɑrn/
+   b. Consonants: Both have /m/ and /rn/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ɑ/ which is a low back unrounded vowel.
+3. SYLLABLE ANALYSIS: 
+   a. Both words have one syllable.
+   b. Syllable structure is identical in both cases.
+4. STRESS ANALYSIS: 
+   a. Both words have primary stress on the single syllable.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/18/original_Wandsworth_UK.wav,audio_data/pronunciation_audio/18/gpt4o_Wandsworth_UK.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Wandsworth'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Wandsworth' is /ˈwɒndzwəθ/ or /ˈwɑndzwɜrθ/ depending on the accent. Both pronunciations have the same consonants and vowels, with potential variation in the vowel sound due to accent.
+3. SYLLABLE ANALYSIS: The word 'Wandsworth' has two syllables: 'Wands' and 'worth'. Both pronunciations maintain this syllable structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable 'Wands' in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: Any differences in vowel quality or consonant articulation are attributable to regional accent variations and do not constitute a difference in pronunciation.
+6. FINAL JUDGMENT: The pronunciations match as they have the same phonemes, syllable structure, and stress pattern, with differences only due to accent.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/19/original_Richard_UK.wav,audio_data/pronunciation_audio/19/gpt4o_Richard_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Richard'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Richard' is /ˈrɪtʃərd/.
+   a. Consonants: Both have /r/, /tʃ/, and /d/.
+   b. Vowels: Both have /ɪ/ and /ər/.
+3. SYLLABLE ANALYSIS: The word 'Richard' has two syllables: /ˈrɪtʃ/ and /ərd/.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/20/original_Tolworth_UK.wav,audio_data/pronunciation_audio/20/gpt4o_Tolworth_UK.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Tolworth'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Tolworth' is /ˈtɒlwəθ/ or /ˈtoʊlwɜːθ/ depending on the accent. The consonants and vowels in both transcriptions are the same, with the only potential difference being the vowel sound in the first syllable, which can vary due to accent.
+3. SYLLABLE ANALYSIS: The word 'Tolworth' has two syllables: 'Tol' and 'worth'. Both pronunciations have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable 'Tol' in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: Any differences in the vowel sound of the first syllable are likely due to regional accent variations and do not constitute a difference in pronunciation.
+6. FINAL JUDGMENT: Considering the phonetic, syllable, and stress analysis, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/21/original_Saul_Southern England.wav,audio_data/pronunciation_audio/21/gpt4o_Saul_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Saul'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /sɔːl/
+   b. Consonants: Both have the same consonant /s/ and /l/.
+   c. Vowels: Both have the same vowel /ɔː/.
+3. SYLLABLE ANALYSIS: 
+   a. Both words have one syllable.
+   b. Syllable structure is identical.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the single syllable.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No significant differences due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable count, and stress pattern.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/22/original_Makemake_US.wav,audio_data/pronunciation_audio/22/gpt4o_Makemake_US.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Makemake'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈmɑːkiˌmɑːki/
+   b. Consonants: Both have /m/ and /k/ sounds, which match in manner/place of articulation and voicing.
+   c. Vowels: Both have /ɑː/ and /i/ sounds, which match in height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Both pronunciations divide into four syllables: /ˈmɑː.ki.ˌmɑː.ki/
+   b. Both have the same syllable count and structure.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the first syllable and secondary stress on the third syllable.
+   b. Stress patterns match.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+   b. No actual pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/23/original_Palencia_Southern England.wav,audio_data/pronunciation_audio/23/gpt4o_Palencia_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Palencia'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /pəˈlɛnsiə/
+   b. Consonants: Both have /p/, /l/, /n/, /s/ which match in manner/place of articulation and voicing.
+   c. Vowels: Both have /ə/, /ɛ/, /iə/ which match in height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Both words divide into three syllables: /pə-ˈlɛn-siə/
+   b. Both have the same syllable count and structure.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the second syllable: /pə-ˈlɛn-siə/
+   b. Stress patterns match.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent were identified.
+   b. No pronunciation differences were found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/24/original_Worcester_UK.wav,audio_data/pronunciation_audio/24/gpt4o_Worcester_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Worcester'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈwʊstər/.
+   a. Consonants: Both have /w/, /s/, and /t/ with the same manner/place of articulation and voicing.
+   b. Vowels: Both have /ʊ/ and /ər/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as /ˈwʊs.tər/.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/25/original_Burkina Faso_UK.wav,audio_data/pronunciation_audio/25/gpt4o_Burkina Faso_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Burkina Faso'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /bɜːrˈkiːnə ˈfæsoʊ/.
+   a. Consonants: Both have the same consonants /b, r, k, n, f, s/ with the same manner/place of articulation and voicing.
+   b. Vowels: Both have the same vowels /ɜː, iː, ə, æ, oʊ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both have four syllables: /bɜːr-ˈkiː-nə ˈfæ-soʊ/.
+4. STRESS ANALYSIS: Both have primary stress on the second syllable of 'Burkina' and on the first syllable of 'Faso'.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/26/original_Kabul_Southern England.wav,audio_data/pronunciation_audio/26/gpt4o_Kabul_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Kabul'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Kabul' is /ˈkɑːbʊl/ or /ˈkæbəl/ depending on the accent. Both recordings use the same consonants /k/ and /b/ and similar vowels, though the exact vowel quality may vary slightly due to accent.
+3. SYLLABLE ANALYSIS: The word 'Kabul' has two syllables in both recordings, divided as 'Ka-bul'.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: Any minor differences in vowel quality are attributable to accent variation and do not constitute a difference in pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable count, and stress pattern.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/27/original_Angolan_Southern England.wav,audio_data/pronunciation_audio/27/gpt4o_Angolan_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Angolan'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Angolan' is /ænˈɡoʊlən/.
+   a. Consonants: Both recordings use the same consonants /æ/, /ŋ/, /ɡ/, /oʊ/, /l/, /ən/.
+   b. Vowels: Both recordings use the same vowels /æ/ and /oʊ/.
+3. SYLLABLE ANALYSIS: The word 'Angolan' has three syllables: /æn-ˈɡoʊ-lən/.
+   a. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the second syllable /ˈɡoʊ/ in both recordings.
+5. ACCENT VARIATION ASSESSMENT: There are no significant differences in pronunciation that are due to regional accent.
+6. FINAL JUDGMENT: Both recordings match in pronunciation, including phonemes, syllable count, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/28/original_Capricornus_US.wav,audio_data/pronunciation_audio/28/gpt4o_Capricornus_US.wav,True,True,"Both audio clips have the same transcription: 'Capricornus'. In IPA, this would be transcribed as /ˌkæprɪˈkɔrnəs/. The phonetic analysis shows that both recordings use the same consonants and vowels. The word is divided into four syllables: /ˌkæ.prɪ.ˈkɔr.nəs/. The stress pattern is also the same, with primary stress on the third syllable. There are no differences in pronunciation that are not attributable to regional accent variations.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/29/original_Ron_Southern England.wav,audio_data/pronunciation_audio/29/gpt4o_Ron_Southern England.wav,True,True,"Both audio clips have the same transcription: 'Ron'. In IPA, this is transcribed as /rɒn/ or /rɑn/ depending on the accent. The consonants are the same in both cases, with the initial /r/ sound. The vowel sound may vary slightly due to accent, but this is not considered a pronunciation difference in this context. Both words have one syllable and the stress is on the single syllable. There are no differences in the sequence of phonemes, syllable count, or stress patterns that are not attributable to accent variation.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/30/original_St Pancras_Received Pronunciation.wav,audio_data/pronunciation_audio/30/gpt4o_St Pancras_Received Pronunciation.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'St Pancras'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /sənt ˈpæŋkrəs/.
+   a. Consonants: Both have the same consonants /s/, /n/, /t/, /p/, /ŋ/, /k/, /r/, /s/.
+   b. Vowels: Both have the same vowels /ə/ and /æ/.
+3. SYLLABLE ANALYSIS: Both pronunciations have three syllables: /sənt/, /ˈpæŋ/, /krəs/.
+4. STRESS ANALYSIS: Both have primary stress on the second syllable /ˈpæŋ/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/31/original_Belgium_UK.wav,audio_data/pronunciation_audio/31/gpt4o_Belgium_UK.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Belgium'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Belgium' is /ˈbɛl.dʒəm/. Both recordings use the same consonants /b/, /l/, /dʒ/, and /m/ and the same vowels /ɛ/ and /ə/.
+3. SYLLABLE ANALYSIS: The word 'Belgium' has two syllables, divided as 'Bel-gium'. Both recordings maintain this syllable structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable 'Bel'. Both recordings follow this stress pattern.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences in pronunciation that can be attributed to regional accent.
+6. FINAL JUDGMENT: Given the identical phonetic, syllable, and stress patterns, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/32/original_Hornsey_UK.wav,audio_data/pronunciation_audio/32/gpt4o_Hornsey_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Hornsey'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈhɔːrnzi/. The consonants and vowels match in manner/place of articulation, voicing, height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as 'Horn-sey'.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable, marked as /ˈhɔːrnzi/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/33/original_Sanskrit_Southern England.wav,audio_data/pronunciation_audio/33/gpt4o_Sanskrit_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Sanskrit'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈsæn.skrɪt/.
+   a. Consonants: Both have the same consonants /s/, /n/, /s/, /k/, /r/, /t/.
+   b. Vowels: Both have the same vowels /æ/ and /ɪ/.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as /ˈsæn/ and /skrɪt/.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable, /ˈsæn/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable structure, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/34/original_Gujarati_US.wav,audio_data/pronunciation_audio/34/gpt4o_Gujarati_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Gujarati'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Gujarati' is /ɡʊdʒəˈrɑːti/.
+   a. Consonants: Both pronunciations use the same consonants /ɡ/, /dʒ/, /r/, and /t/.
+   b. Vowels: Both use the vowels /ʊ/, /ə/, and /ɑː/.
+3. SYLLABLE ANALYSIS: The word 'Gujarati' is divided into four syllables: /ɡʊ/ /dʒə/ /ˈrɑː/ /ti/.
+   a. Both pronunciations have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the third syllable /ˈrɑː/ in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/35/original_Bechdel_Southern England.wav,audio_data/pronunciation_audio/35/gpt4o_Bechdel_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Bechdel'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈbɛk.dəl/
+   b. Consonants: Both have /b/, /k/, and /d/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ɛ/ and /ə/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Both are divided into two syllables: 'Bech-del'.
+   b. Both have two syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: 
+   a. Primary stress is on the first syllable in both pronunciations.
+   b. Stress patterns are the same.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+   b. No actual pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/36/original_Stanmore_UK.wav,audio_data/pronunciation_audio/36/gpt4o_Stanmore_UK.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Stanmore'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Stanmore' is /ˈstæn.mɔːr/. Both recordings use the same consonants and vowels.
+3. SYLLABLE ANALYSIS: The word 'Stanmore' is divided into two syllables: 'Stan' and 'more'. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable 'Stan' in both recordings.
+5. ACCENT VARIATION ASSESSMENT: There are no differences in pronunciation that are solely due to regional accent.
+6. FINAL JUDGMENT: Both recordings have the same pronunciation in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/37/original_Norse_UK.wav,audio_data/pronunciation_audio/37/gpt4o_Norse_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Norse'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Norse' is /nɔrs/ or /nɔːrs/ depending on the accent. Both recordings use the same consonants and vowels, with the same manner/place of articulation and voicing.
+3. SYLLABLE ANALYSIS: The word 'Norse' has one syllable in both recordings.
+4. STRESS ANALYSIS: As a single-syllable word, 'Norse' inherently carries primary stress on the only syllable.
+5. ACCENT VARIATION ASSESSMENT: Any minor differences in vowel length or quality are attributable to regional accent variations and do not constitute a difference in pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable count, and stress pattern.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/38/original_Eastwood_General Australian.wav,audio_data/pronunciation_audio/38/gpt4o_Eastwood_General Australian.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Eastwood'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈiːstwʊd/. The consonants and vowels match in manner/place of articulation, voicing, height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as 'East-wood'. The syllable boundaries and structure are identical.
+4. STRESS ANALYSIS: Both pronunciations have primary stress on the first syllable, marked as /ˈiːstwʊd/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/39/original_Kunming_US.wav,audio_data/pronunciation_audio/39/gpt4o_Kunming_US.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Kunming'.
+2. PHONETIC ANALYSIS:
+   a. IPA for first audio: /kʊnˈmɪŋ/
+   b. IPA for second audio: /kʊnˈmɪŋ/
+   c. Consonants: Both have /k/, /n/, /m/, /ŋ/ with the same manner/place of articulation and voicing.
+   d. Vowels: Both have /ʊ/ and /ɪ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS:
+   a. Both pronunciations divide into two syllables: 'Kun-ming'.
+   b. Both have the same syllable count and structure.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the second syllable: 'Kun-MING'.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent are present.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/40/original_Tory_Southern England.wav,audio_data/pronunciation_audio/40/gpt4o_Tory_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Tory'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Tory' is /ˈtɔːri/.
+   a. Consonants: Both have /t/ and /r/.
+   b. Vowels: Both have /ɔː/.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as /ˈtɔː/ and /ri/.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable, /ˈtɔː/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable count, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/41/original_Walz_US.wav,audio_data/pronunciation_audio/41/gpt4o_Walz_US.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Walz'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Walz' is /wɔːlz/.
+   a. Consonants: Both have the same consonants /w/ and /lz/.
+   b. Vowels: Both have the same vowel /ɔː/.
+3. SYLLABLE ANALYSIS: Both pronunciations have one syllable.
+4. STRESS ANALYSIS: With only one syllable, the primary stress is on the entire word in both cases.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/42/original_Okinawa_US.wav,audio_data/pronunciation_audio/42/gpt4o_Okinawa_US.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Okinawa'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Okinawa' is /ˌoʊkɪˈnɑːwə/.
+   a. Consonants: Both pronunciations use the same consonants /k/, /n/, and /w/ with the same manner and place of articulation and voicing.
+   b. Vowels: Both pronunciations use the same vowels /oʊ/, /ɪ/, /ɑː/, and /ə/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: The word 'Okinawa' is divided into four syllables: O-ki-na-wa. Both pronunciations have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the third syllable 'na' in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/43/original_Keighley_UK.wav,audio_data/pronunciation_audio/43/gpt4o_Keighley_UK.wav,False,False,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Keighley'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for the first audio: /ˈkiːθli/
+   b. IPA for the second audio: /ˈkiːli/
+   c. The first audio includes the 'θ' sound, while the second audio does not.
+3. SYLLABLE ANALYSIS: 
+   a. Both pronunciations have two syllables.
+   b. The syllable boundaries are the same, but the presence of the 'θ' sound in the first audio creates a difference in the syllable structure.
+4. STRESS ANALYSIS: 
+   a. Both pronunciations have primary stress on the first syllable.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. The difference in the 'θ' sound is not a typical accent variation but a pronunciation difference.
+6. FINAL JUDGMENT: The pronunciations do not match due to the presence of the 'θ' sound in the first audio and its absence in the second.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/44/original_Baffin_Southern England.wav,audio_data/pronunciation_audio/44/gpt4o_Baffin_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Baffin'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈbæfɪn/. The consonants /b/, /f/, and /n/ are identical in manner/place of articulation and voicing. The vowels /æ/ and /ɪ/ are also identical in height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as 'Baf-fin'. The syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: Both pronunciations have primary stress on the first syllable, marked as /ˈbæfɪn/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent; the pronunciations are identical.
+6. FINAL JUDGMENT: Based on the analysis, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/45/original_HBO_US.wav,audio_data/pronunciation_audio/45/gpt4o_HBO_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'HBO'.
+2. PHONETIC ANALYSIS: In IPA, 'HBO' is /ˌeɪtʃ.biːˈoʊ/. Both recordings use the same consonants and vowels.
+3. SYLLABLE ANALYSIS: The word 'HBO' is divided into three syllables: /ˌeɪtʃ/, /biː/, /ˈoʊ/. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the last syllable /ˈoʊ/ in both recordings.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/46/original_Norse_US.wav,audio_data/pronunciation_audio/46/gpt4o_Norse_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Norse'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Norse' is /nɔrs/. Both recordings use the same consonants and vowels.
+3. SYLLABLE ANALYSIS: The word 'Norse' has one syllable in both recordings.
+4. STRESS ANALYSIS: The primary stress is on the single syllable in both cases.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable count, and stress pattern.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/47/original_Reading_Southern England.wav,audio_data/pronunciation_audio/47/gpt4o_Reading_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Reading'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Reading' is /ˈrɛdɪŋ/.
+   a. Consonants: Both have /r/ and /d/ with the same manner/place of articulation and voicing.
+   b. Vowels: Both have /ɛ/ and /ɪ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as 'Read-ing'.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable, marked as /ˈrɛdɪŋ/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/48/original_Goucher_US.wav,audio_data/pronunciation_audio/48/gpt4o_Goucher_US.wav,False,False,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Goucher'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for first audio: /ˈɡaʊtʃər/
+   b. IPA for second audio: /ˈɡuːtʃər/
+   c. Consonants: Both have /ɡ/, /tʃ/, and /r/ in the same positions.
+   d. Vowels: The first audio has /aʊ/ (a diphthong), while the second has /uː/ (a long vowel).
+3. SYLLABLE ANALYSIS:
+   a. Both have two syllables: 'Gou-cher'.
+   b. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the first syllable.
+5. ACCENT VARIATION ASSESSMENT:
+   a. The difference in vowel sound (/aʊ/ vs. /uː/) is not a typical regional accent variation and constitutes a pronunciation difference.
+6. FINAL JUDGMENT: The pronunciations do not match due to the difference in the vowel sound.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/49/original_Maecenas_Southern England.wav,audio_data/pronunciation_audio/49/gpt4o_Maecenas_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Maecenas'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for first audio: /maɪˈsiːnəs/
+   b. IPA for second audio: /maɪˈsiːnəs/
+   c. Consonants: Both have /m/, /s/, /n/ with the same manner/place of articulation and voicing.
+   d. Vowels: Both have /aɪ/ and /iː/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS:
+   a. Both pronunciations have three syllables: /maɪ-ˈsiː-nəs/.
+   b. Syllable boundaries and structure are identical.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the second syllable: /maɪ-ˈsiː-nəs/.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent are present.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/50/original_Muslim_UK.wav,audio_data/pronunciation_audio/50/gpt4o_Muslim_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Muslim'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈmʊzlɪm/ or /ˈmʌzlɪm/.
+   b. Consonants: Both have /m/, /z/, /l/, /m/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ʊ/ or /ʌ/ and /ɪ/ with similar height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Both words are divided into two syllables: 'Mus-lim'.
+   b. Both have two syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: 
+   a. Primary stress is on the first syllable in both pronunciations.
+   b. Stress patterns are the same.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. Any differences in vowel quality (/ʊ/ vs. /ʌ/) are likely due to regional accent variations.
+   b. No significant pronunciation differences are noted.
+6. FINAL JUDGMENT: The pronunciations match as they have the same phonemes, syllable structure, and stress patterns, with any minor differences attributable to accent.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/51/original_Xitler_US.wav,audio_data/pronunciation_audio/51/gpt4o_Xitler_US.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Xitler'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈzɪtlər/
+   b. Consonants: Both have the same consonants /z/, /t/, /l/, /r/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have the same vowel /ɪ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Both words are divided into two syllables: /ˈzɪt.lər/
+   b. Both have two syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the first syllable: /ˈzɪt.lər/
+   b. Stress patterns are the same.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are identified.
+   b. No actual pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/52/original_Woonsocket_US.wav,audio_data/pronunciation_audio/52/gpt4o_Woonsocket_US.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Woonsocket'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Woonsocket' is /ˈwʊnˌsɑkɪt/.
+   a. Consonants: Both recordings use the same consonants /w/, /n/, /s/, /k/, /t/.
+   b. Vowels: Both recordings use the same vowels /ʊ/, /ɑ/, /ɪ/.
+3. SYLLABLE ANALYSIS: The word 'Woonsocket' is divided into three syllables: /ˈwʊn/, /ˌsɑ/, /kɪt/.
+   a. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable, and the secondary stress is on the second syllable in both recordings.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: Both recordings have the same pronunciation in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/53/original_Peter_US.wav,audio_data/pronunciation_audio/53/gpt4o_Peter_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Peter'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Peter' is /ˈpiːtər/. Both recordings use the same consonants /p/ and /t/ and the same vowels /iː/ and /ər/.
+3. SYLLABLE ANALYSIS: The word 'Peter' has two syllables, divided as 'Pe-ter'. Both recordings maintain this syllable structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable 'Pe-', which is consistent in both recordings.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences in pronunciation that can be attributed to regional accent.
+6. FINAL JUDGMENT: Given the identical phonetic, syllabic, and stress patterns, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/54/original_Jehovist_Southern England.wav,audio_data/pronunciation_audio/54/gpt4o_Jehovist_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Jehovist'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Jehovist' is /dʒɪˈhoʊvɪst/.
+   a. Consonants: Both pronunciations use the same consonants /dʒ/, /h/, /v/, /s/, and /t/.
+   b. Vowels: Both use the vowels /ɪ/ and /oʊ/.
+3. SYLLABLE ANALYSIS: The word 'Jehovist' is divided into three syllables: /dʒɪ/, /hoʊ/, /vɪst/.
+   a. Both pronunciations have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the second syllable /hoʊ/ in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllable count, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/55/original_Hanworth_UK.wav,audio_data/pronunciation_audio/55/gpt4o_Hanworth_UK.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Hanworth'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈhænwɜːrθ/
+   b. Consonants: Both have /h/, /n/, /w/, /r/, and /θ/ in the same order.
+   c. Vowels: Both have /æ/ and /ɜː/ in the same positions.
+3. SYLLABLE ANALYSIS:
+   a. Both words divide into two syllables: 'Han' and 'worth'.
+   b. Both have two syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the first syllable: 'Han'.
+   b. Stress patterns are identical.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent are noted.
+   b. No actual pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/56/original_Saint_Received Pronunciation.wav,audio_data/pronunciation_audio/56/gpt4o_Saint_Received Pronunciation.wav,False,True,"The transcriptions for both audio clips are 'Saint'. In phonetic analysis, the IPA notation for 'Saint' is /seɪnt/. Both recordings have the same consonants and vowels, with no differences in manner/place of articulation, voicing, height, backness, roundedness, or tenseness. The word 'Saint' has one syllable in both pronunciations. Stress analysis is not applicable here as there is only one syllable, so primary stress is naturally on the single syllable. There are no differences due to regional accent that would affect the pronunciation. Therefore, the pronunciations match.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/57/original_Pauline_Southern England.wav,audio_data/pronunciation_audio/57/gpt4o_Pauline_Southern England.wav,True,True,"The transcriptions for both audio clips are 'Pauline'. In IPA, this would be /pɔːˈliːn/. Both pronunciations have the same consonants /p/ and /l/, and the same vowels /ɔː/ and /iː/. The syllable structure is identical, with two syllables: 'Pau-' and '-line'. The primary stress is on the second syllable in both cases. There are no differences in pronunciation, and any minor variations are likely due to accent, which we are instructed to ignore.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/58/original_Verity_Southern England.wav,audio_data/pronunciation_audio/58/gpt4o_Verity_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Verity'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Verity' is /ˈvɛrɪti/. Both recordings use the same consonants (/v/, /r/, /t/) and vowels (/ɛ/, /ɪ/, /i/).
+3. SYLLABLE ANALYSIS: The word 'Verity' has three syllables: 'Ve-ri-ty'. Both recordings maintain this syllable structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable, 'Ve-', in both recordings.
+5. ACCENT VARIATION ASSESSMENT: Any minor differences in pronunciation are attributable to regional accent and do not constitute actual pronunciation differences.
+6. FINAL JUDGMENT: Given the identical phonetic, syllabic, and stress patterns, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/59/original_Alcester_UK.wav,audio_data/pronunciation_audio/59/gpt4o_Alcester_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Alcester'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈælsɪstər/
+   b. Consonants: Both have /l/, /s/, /t/, and /r/ in the same order.
+   c. Vowels: Both have /æ/ and /ɪ/ in the same order.
+3. SYLLABLE ANALYSIS: 
+   a. Syllables: Both have three syllables: /ˈæl-sɪ-stər/.
+   b. Syllable count: Both have three syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: 
+   a. Primary stress: Both have primary stress on the first syllable.
+   b. Stress patterns are the same.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+   b. No pronunciation differences are identified.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/60/original_Gad_US.wav,audio_data/pronunciation_audio/60/gpt4o_Gad_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Gad'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Gad' is /ɡæd/.
+   a. Consonants: Both have the voiced velar plosive /ɡ/ and the voiced alveolar plosive /d/.
+   b. Vowels: Both have the open front unrounded vowel /æ/.
+3. SYLLABLE ANALYSIS: Both pronunciations have one syllable.
+4. STRESS ANALYSIS: With only one syllable, the primary stress is on the entire word in both cases.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/61/original_Wiltshire_UK.wav,audio_data/pronunciation_audio/61/gpt4o_Wiltshire_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Wiltshire'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈwɪltʃər/
+   b. Consonants: Both have /w/, /l/, /tʃ/, and /r/.
+   c. Vowels: Both have /ɪ/ and /ər/.
+3. SYLLABLE ANALYSIS: 
+   a. Both have two syllables: 'Wilt-shire'.
+   b. Syllable count is the same.
+4. STRESS ANALYSIS: 
+   a. Primary stress is on the first syllable in both cases.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. Any minor differences in vowel quality or consonant articulation are attributable to regional accent variations.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable count, and stress patterns, with differences only due to accent.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/62/original_Knightsbridge_UK.wav,audio_data/pronunciation_audio/62/gpt4o_Knightsbridge_UK.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Knightsbridge'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Knightsbridge' is /naɪtsbrɪdʒ/. Both recordings have the same consonants and vowels.
+3. SYLLABLE ANALYSIS: The word 'Knightsbridge' has two syllables, divided as /naɪts/ and /brɪdʒ/. Both recordings maintain this syllable structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable /naɪts/. Both recordings exhibit this stress pattern.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations in both recordings match in terms of phonemes, syllable structure, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/63/original_Gateacre_UK.wav,audio_data/pronunciation_audio/63/gpt4o_Gateacre_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Gateacre'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Gateacre' is /ˈɡeɪtəkər/. Both recordings have the same consonants and vowels.
+3. SYLLABLE ANALYSIS: The word 'Gateacre' is divided into three syllables: /ˈɡeɪ.tə.kər/. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both recordings, as indicated by the IPA notation.
+5. ACCENT VARIATION ASSESSMENT: There are no differences in pronunciation that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations in both recordings match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/64/original_Atlantic_Southern England.wav,audio_data/pronunciation_audio/64/gpt4o_Atlantic_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Atlantic'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ətˈlæntɪk/.
+   a. Consonants: Both have the same consonants /t/, /l/, /n/, /t/, /k/.
+   b. Vowels: Both have the same vowels /ə/, /æ/, /ɪ/.
+3. SYLLABLE ANALYSIS: Both have three syllables: /ət-ˈlæn-tɪk/.
+4. STRESS ANALYSIS: Both have primary stress on the second syllable.
+5. ACCENT VARIATION ASSESSMENT: No differences due to regional accent are present.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable count, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/65/original_Edlyn_Southern England.wav,audio_data/pronunciation_audio/65/gpt4o_Edlyn_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Edlyn'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Edlyn' is /ˈɛd.lɪn/.
+   a. Consonants: Both have /d/ and /l/ with the same manner and place of articulation and voicing.
+   b. Vowels: Both have /ɛ/ and /ɪ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as /ˈɛd.lɪn/.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/66/original_Esher_UK.wav,audio_data/pronunciation_audio/66/gpt4o_Esher_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Esher'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Esher' is /ˈiːʃər/. Both recordings have the same consonants (/ʃ/ and /r/) and vowels (/iː/ and /ər/).
+3. SYLLABLE ANALYSIS: The word 'Esher' has two syllables, divided as /ˈiː/ and /ʃər/. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both recordings, as indicated by the IPA notation /ˈiːʃər/.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: Given the identical phonetic, syllable, and stress patterns, the pronunciations match.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/67/original_Jharkhand_US.wav,audio_data/pronunciation_audio/67/gpt4o_Jharkhand_US.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Jharkhand'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /dʒɑːrkənd/
+   b. Consonants: Both have /dʒ/, /r/, /k/, /n/, /d/ with similar manner/place of articulation and voicing.
+   c. Vowels: Both have /ɑː/ and /ə/ with similar height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Syllables: Both have two syllables: 'Jhar-khand'.
+   b. Syllable count: Both have two syllables.
+   c. Syllable structure: Both have the same syllable boundaries and structure.
+4. STRESS ANALYSIS: 
+   a. Stress: Both have primary stress on the first syllable.
+   b. Stress pattern: Both have the same stress pattern.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. Any minor differences in pronunciation are likely due to accent and do not constitute actual pronunciation differences.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/68/original_Bazza_General Australian.wav,audio_data/pronunciation_audio/68/gpt4o_Bazza_General Australian.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Bazza'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Bazza' is /ˈbæzə/. Both recordings use the same consonants /b/ and /z/ and the same vowels /æ/ and /ə/.
+3. SYLLABLE ANALYSIS: The word 'Bazza' is divided into two syllables: 'Baz-za'. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both recordings, as indicated by the IPA notation /ˈbæzə/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences in pronunciation that can be attributed to regional accent; both recordings pronounce the word identically.
+6. FINAL JUDGMENT: Given the identical phonetic, syllabic, and stress patterns, the pronunciations match.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/69/original_Indian_US.wav,audio_data/pronunciation_audio/69/gpt4o_Indian_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Indian'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈɪndiən/.
+   a. Consonants: Both have the same consonants /ɪ/, /n/, /d/, /i/, /ə/, /n/.
+   b. Vowels: Both have the same vowels /ɪ/, /i/, /ə/.
+3. SYLLABLE ANALYSIS: Both have three syllables: /ˈɪn.di.ən/.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/70/original_Ammonite_US.wav,audio_data/pronunciation_audio/70/gpt4o_Ammonite_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Ammonite'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Ammonite' is /ˈæməˌnaɪt/. Both recordings use the same consonants and vowels.
+3. SYLLABLE ANALYSIS: The word 'Ammonite' is divided into three syllables: Am-mo-nite. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable, and the secondary stress is on the last syllable in both recordings.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/71/original_Ulan Bator_Southern England.wav,audio_data/pronunciation_audio/71/gpt4o_Ulan Bator_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Ulan Bator'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈuːlɑːn ˈbɑːtɔːr/
+   b. Consonants: Both have the same consonants /l/, /n/, /b/, /t/, /r/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have the same vowels /uː/, /ɑː/, /ɔː/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Syllables: Both have the same syllable division: 'U-lan Ba-tor'.
+   b. Syllable count: Both have four syllables.
+   c. Syllable structure: Both have the same structure.
+4. STRESS ANALYSIS: 
+   a. Stress: Both have primary stress on the first syllable of each word.
+   b. Stress pattern: Both have the same stress pattern.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent were identified.
+   b. No pronunciation differences were found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+"audio_data/pronunciation_audio/72/original_Hurrian_US , hurry – furry merger.wav","audio_data/pronunciation_audio/72/gpt4o_Hurrian_US , hurry – furry merger.wav",True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Hurrian'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Hurrian' is /ˈhʌriən/.
+   a. Consonants: Both have /h/, /r/, and /n/.
+   b. Vowels: Both have /ʌ/ and /iə/.
+3. SYLLABLE ANALYSIS: The word 'Hurrian' is divided into three syllables: /ˈhʌr-i-ən/.
+   a. Both pronunciations have three syllables.
+   b. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/73/original_EFTA_US.wav,audio_data/pronunciation_audio/73/gpt4o_EFTA_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'EFTA'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'EFTA' is /ˈɛf.tə/.
+   a. Consonants: Both have /f/ and /t/ with the same manner/place of articulation and voicing.
+   b. Vowels: Both have /ɛ/ and /ə/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as 'EF-TA'.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable, marked as /ˈɛf.tə/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/74/original_Richard_UK.wav,audio_data/pronunciation_audio/74/gpt4o_Richard_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Richard'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Richard' is /ˈrɪtʃərd/.
+   a. Consonants: Both have /r/, /tʃ/, and /d/.
+   b. Vowels: Both have /ɪ/ and /ər/.
+3. SYLLABLE ANALYSIS: The word 'Richard' has two syllables: /ˈrɪtʃ/ and /ərd/.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/75/original_Gramarye_Southern England.wav,audio_data/pronunciation_audio/75/gpt4o_Gramarye_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Gramarye'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈɡræməri/
+   b. Consonants: Both have /ɡ/, /m/, /r/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /æ/ and /ə/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS:
+   a. Both pronunciations divide into three syllables: /ˈɡræ-mə-ri/
+   b. Both have the same syllable count and structure.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the first syllable: /ˈɡræ-mə-ri/
+   b. Stress patterns are identical.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent are noted.
+   b. No actual pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/76/original_Pepsi_US.wav,audio_data/pronunciation_audio/76/gpt4o_Pepsi_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Pepsi'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈpɛpsi/. The consonants /p/, /p/, and /s/ are identical in manner/place of articulation and voicing. The vowels /ɛ/ and /i/ are also identical in height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as 'Pep-si'. The syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: Both pronunciations have primary stress on the first syllable, marked as /ˈpɛpsi/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in all aspects of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/77/original_Colney Hatch_Received Pronunciation.wav,audio_data/pronunciation_audio/77/gpt4o_Colney Hatch_Received Pronunciation.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Colney Hatch'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈkɒlni hætʃ/
+   b. Consonants: Both have /k/, /l/, /n/, /h/, /tʃ/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ɒ/ and /i/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS:
+   a. Both are divided into three syllables: /ˈkɒl.ni hætʃ/.
+   b. Both have three syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the first syllable: /ˈkɒl.ni hætʃ/.
+   b. Stress patterns are identical.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent are noted.
+   b. No pronunciation differences are identified.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/78/original_Rennes_Southern England.wav,audio_data/pronunciation_audio/78/gpt4o_Rennes_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Rennes'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ʁɛn/ or /rɛn/ (depending on the realization of the 'r')
+   b. Consonants: Both have the same consonants /ʁ/ or /r/ and /n/.
+   c. Vowels: Both have the same vowel /ɛ/.
+3. SYLLABLE ANALYSIS: 
+   a. Both words have one syllable.
+   b. Syllable structure is identical.
+4. STRESS ANALYSIS: 
+   a. Both pronunciations have primary stress on the single syllable.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. Any differences in the realization of the 'r' sound are due to accent and do not constitute a pronunciation difference.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable structure, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/79/original_Tripura_Mid-Atlantic US.wav,audio_data/pronunciation_audio/79/gpt4o_Tripura_Mid-Atlantic US.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Tripura'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈtrɪpʊrə/
+   b. Consonants: Both have /t/, /r/, /p/, /r/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ɪ/, /ʊ/, /ə/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Syllables: Both divide as /ˈtrɪ-pʊ-rə/.
+   b. Syllable count: Both have three syllables.
+   c. Syllable boundaries and structure are identical.
+4. STRESS ANALYSIS: 
+   a. Primary stress: Both have primary stress on the first syllable.
+   b. Stress patterns are identical.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+   b. No pronunciation differences are identified.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/80/original_Shetland_Southern England.wav,audio_data/pronunciation_audio/80/gpt4o_Shetland_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Shetland'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Shetland' is /ˈʃɛtlənd/. Both recordings use the same consonants (/ʃ/, /t/, /l/, /n/, /d/) and vowels (/ɛ/, /ə/).
+3. SYLLABLE ANALYSIS: The word 'Shetland' has two syllables, divided as 'Shet-land'. Both recordings maintain this syllable structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable ('Shet'). Both recordings follow this stress pattern.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences in pronunciation that can be attributed to regional accent.
+6. FINAL JUDGMENT: Given the identical phonetic, syllabic, and stress patterns, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/81/original_Bahamas_US.wav,audio_data/pronunciation_audio/81/gpt4o_Bahamas_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Bahamas'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /bəˈhɑːməz/.
+   a. Consonants: Both have /b/, /h/, and /m/ in the same positions.
+   b. Vowels: Both have /ə/ and /ɑː/ in the same positions.
+3. SYLLABLE ANALYSIS: Both have three syllables: ba-ha-mas.
+4. STRESS ANALYSIS: Both have primary stress on the second syllable: ba-HA-mas.
+5. ACCENT VARIATION ASSESSMENT: No differences due to regional accent are present.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/82/original_Julies_Southern England.wav,audio_data/pronunciation_audio/82/gpt4o_Julies_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Julies'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Julies' is /ˈdʒuːliz/. Both recordings have the same consonants (/dʒ/, /l/, /z/) and vowels (/uː/, /i/).
+3. SYLLABLE ANALYSIS: The word 'Julies' has two syllables, divided as /ˈdʒuː-liz/. Both recordings have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both recordings, as indicated by the IPA notation /ˈdʒuː-liz/.
+5. ACCENT VARIATION ASSESSMENT: There are no notable differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: Both recordings have identical pronunciation in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/83/original_Southwark_UK.wav,audio_data/pronunciation_audio/83/gpt4o_Southwark_UK.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Southwark'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for first audio: /ˈsʌðək/
+   b. IPA for second audio: /ˈsʌðək/
+   c. Consonants: Both have /s/, /ð/, and /k/.
+   d. Vowels: Both have /ʌ/ and /ə/.
+3. SYLLABLE ANALYSIS: 
+   a. Both pronunciations have two syllables: /ˈsʌð/ and /ək/.
+   b. Syllable count is the same in both.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the first syllable: /ˈsʌðək/.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable structure, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/84/original_Jess_Southern England.wav,audio_data/pronunciation_audio/84/gpt4o_Jess_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Jess'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Jess' is /dʒɛs/.
+   a. Consonants: Both have the same consonants /dʒ/ and /s/.
+   b. Vowels: Both have the same vowel /ɛ/.
+3. SYLLABLE ANALYSIS: Both pronunciations have one syllable.
+4. STRESS ANALYSIS: Both pronunciations have primary stress on the single syllable.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/85/original_Orkney_Southern England.wav,audio_data/pronunciation_audio/85/gpt4o_Orkney_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Orkney'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Orkney' is /ˈɔrkni/. Both clips use the same consonants and vowels.
+3. SYLLABLE ANALYSIS: The word 'Orkney' has two syllables, divided as /ˈɔrk/ and /ni/. Both pronunciations have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations, as indicated by the IPA notation.
+5. ACCENT VARIATION ASSESSMENT: There are no significant differences in pronunciation that are not attributable to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllable structure, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/86/original_R_UK.wav,audio_data/pronunciation_audio/86/gpt4o_R_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'R'.
+2. PHONETIC ANALYSIS: The IPA notation for 'R' is /ɑr/ or /ɑːr/ depending on the accent. Both recordings use the same phonemes.
+3. SYLLABLE ANALYSIS: The word 'R' consists of one syllable in both recordings.
+4. STRESS ANALYSIS: As a single-syllable word, there is no variation in stress.
+5. ACCENT VARIATION ASSESSMENT: Any differences in the recordings are due to accent, not pronunciation.
+6. FINAL JUDGMENT: The pronunciations match.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/87/original_Khartoum_Southern England.wav,audio_data/pronunciation_audio/87/gpt4o_Khartoum_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Khartoum'.
+2. PHONETIC ANALYSIS:
+   a. IPA for both: /kɑːrˈtuːm/
+   b. Consonants: Both have /k/, /r/, /t/, /m/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ɑː/ and /uː/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS:
+   a. Both pronunciations have two syllables: /kɑːr/ and /tuːm/.
+   b. Syllable boundaries and structure are identical.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the second syllable: /kɑːrˈtuːm/.
+   b. Stress patterns are the same.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent are noted.
+   b. No actual pronunciation differences are identified.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/88/original_Nicaragua_UK.wav,audio_data/pronunciation_audio/88/gpt4o_Nicaragua_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Nicaragua'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Nicaragua' is /ˌnɪkəˈrɑːɡwə/ or /ˌnɪkəˈræɡwə/. Both pronunciations have the same consonants and vowels, with potential variation in the vowel sound of the third syllable, which is a common regional accent difference.
+3. SYLLABLE ANALYSIS: The word 'Nicaragua' is divided into four syllables: Ni-ca-ra-gua. Both pronunciations have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the third syllable in both pronunciations, as indicated by the IPA notation.
+5. ACCENT VARIATION ASSESSMENT: Any differences in the vowel sound of the third syllable are likely due to regional accent variations and do not constitute a pronunciation difference.
+6. FINAL JUDGMENT: Considering the phonetic, syllable, and stress analysis, the pronunciations match.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/89/original_Anick_Southern England.wav,audio_data/pronunciation_audio/89/gpt4o_Anick_Southern England.wav,False,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Anick'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈænɪk/
+   b. Consonants: Both have /n/ and /k/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /æ/ and /ɪ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Both words are divided into two syllables: 'An-ick'.
+   b. Both have two syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the first syllable.
+   b. Stress patterns are the same.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+   b. No actual pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/90/original_Beirut_Southern England.wav,audio_data/pronunciation_audio/90/gpt4o_Beirut_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Beirut'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Beirut' is /beɪˈruːt/.
+   a. Consonants: Both have /b/ and /t/.
+   b. Vowels: Both have /eɪ/ and /uː/.
+3. SYLLABLE ANALYSIS: Both pronunciations have two syllables, divided as 'Bei-rut'.
+4. STRESS ANALYSIS: Both have primary stress on the second syllable, 'rut'.
+5. ACCENT VARIATION ASSESSMENT: No differences are noted that are solely due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/91/original_Alicia_US.wav,audio_data/pronunciation_audio/91/gpt4o_Alicia_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Alicia'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for first audio: /əˈliːʃə/
+   b. IPA for second audio: /əˈliːʃə/
+   c. Consonants: Both have /ʃ/ (voiceless postalveolar fricative).
+   d. Vowels: Both have /ə/ (schwa) and /iː/ (close front unrounded vowel).
+3. SYLLABLE ANALYSIS:
+   a. Both have three syllables: A-li-cia.
+   b. Syllable count and boundaries match.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the second syllable: /əˈliːʃə/.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/92/original_Nantes_Southern England.wav,audio_data/pronunciation_audio/92/gpt4o_Nantes_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Nantes'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /nɑːnt/
+   b. Consonants: Both have the same consonants /n/ and /t/.
+   c. Vowels: Both have the same vowel /ɑː/.
+3. SYLLABLE ANALYSIS: 
+   a. Both words have one syllable.
+   b. Syllable structure is identical.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the single syllable.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are noted.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/93/original_Acoma_Southern England.wav,audio_data/pronunciation_audio/93/gpt4o_Acoma_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Acoma'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ˈækəmə/
+   b. Consonants: Both have /k/ and /m/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /æ/ and /ə/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: 
+   a. Both pronunciations divide into three syllables: /ˈæk-ə-mə/.
+   b. Both have the same syllable count and structure.
+4. STRESS ANALYSIS: 
+   a. Both have primary stress on the first syllable: /ˈæk-ə-mə/.
+   b. Stress patterns are identical.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No differences due to regional accent are present.
+   b. No actual pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/94/original_Bolton_UK.wav,audio_data/pronunciation_audio/94/gpt4o_Bolton_UK.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Bolton'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Bolton' is /ˈboʊltən/ or /ˈbɒltən/ depending on the accent. Both pronunciations share the same consonants /b/, /l/, /t/, /n/ and vowels /oʊ/ or /ɒ/.
+3. SYLLABLE ANALYSIS: The word 'Bolton' has two syllables, divided as 'Bol-ton'. Both pronunciations have the same syllable count and structure.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations, marked as 'BOL-ton'.
+5. ACCENT VARIATION ASSESSMENT: Any differences in vowel quality (/oʊ/ vs. /ɒ/) are due to regional accent variations and do not constitute a difference in pronunciation.
+6. FINAL JUDGMENT: The pronunciations match as they have the same phonemes, syllable structure, and stress pattern, with differences only due to accent.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/95/original_Fritz_Southern England.wav,audio_data/pronunciation_audio/95/gpt4o_Fritz_Southern England.wav,True,True,"Both audio clips have the same transcription: 'Fritz'.
+
+PHONETIC ANALYSIS:
+- IPA notation for both: /frɪts/
+- Consonants: Both have the same consonants /f/, /r/, /t/, and /s/ with identical manner/place of articulation and voicing.
+- Vowels: Both have the same vowel /ɪ/ with identical height, backness, roundedness, and tenseness.
+
+SYLLABLE ANALYSIS:
+- Both words have one syllable: 'Fritz'.
+
+STRESS ANALYSIS:
+- As a single-syllable word, the primary stress is on the only syllable in both cases.
+
+ACCENT VARIATION ASSESSMENT:
+- There are no differences due to regional accent that affect the pronunciation.
+
+FINAL JUDGMENT:
+- The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/96/original_Miguel_Southern England.wav,audio_data/pronunciation_audio/96/gpt4o_Miguel_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Miguel'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Miguel' is /miˈɡɛl/ or /miˈɡel/. Both recordings use the same consonants and vowels, with the 'm' and 'g' consonants and the 'i' and 'e' vowels.
+3. SYLLABLE ANALYSIS: The word 'Miguel' has two syllables, divided as Mi-guel. Both recordings maintain this syllable structure.
+4. STRESS ANALYSIS: The primary stress is on the second syllable 'guel' in both recordings.
+5. ACCENT VARIATION ASSESSMENT: Any minor differences in pronunciation are likely due to regional accent variations and do not constitute actual pronunciation differences.
+6. FINAL JUDGMENT: Given the identical phonemes, syllable structure, and stress patterns, the pronunciations match.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/97/original_Seppo_General Australian.wav,audio_data/pronunciation_audio/97/gpt4o_Seppo_General Australian.wav,True,True,"1. TRANSCRIPTION: Both audio clips are transcribed as 'Seppo'.
+2. PHONETIC ANALYSIS: The IPA transcription for both is /ˈsɛpoʊ/.
+   a. Consonants: Both have /s/ and /p/ with the same manner/place of articulation and voicing.
+   b. Vowels: Both have /ɛ/ and /oʊ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS: Both have two syllables, divided as 'Sep-po'.
+4. STRESS ANALYSIS: Both have primary stress on the first syllable, marked as /ˈsɛpoʊ/.
+5. ACCENT VARIATION ASSESSMENT: There are no differences due to regional accent that affect the pronunciation.
+6. FINAL JUDGMENT: The pronunciations match in terms of phonemes, syllables, and stress patterns.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/98/original_Sopwith_US.wav,audio_data/pronunciation_audio/98/gpt4o_Sopwith_US.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Sopwith'.
+2. PHONETIC ANALYSIS:
+   a. IPA for both: /ˈsɒpwɪθ/
+   b. Consonants: Both have /s/, /p/, /w/, and /θ/ with the same manner/place of articulation and voicing.
+   c. Vowels: Both have /ɒ/ and /ɪ/ with the same height, backness, roundedness, and tenseness.
+3. SYLLABLE ANALYSIS:
+   a. Both words divide into two syllables: 'Sop' and 'with'.
+   b. Both have two syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS:
+   a. Both have primary stress on the first syllable: /ˈsɒpwɪθ/.
+   b. Stress patterns are identical.
+5. ACCENT VARIATION ASSESSMENT:
+   a. No differences due to regional accent are noted.
+   b. No actual pronunciation differences are found.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/99/original_Richard_UK.wav,audio_data/pronunciation_audio/99/gpt4o_Richard_UK.wav,False,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Richard'.
+2. PHONETIC ANALYSIS: The IPA transcription for 'Richard' is /ˈrɪtʃərd/.
+   a. Consonants: Both have /r/, /tʃ/, and /d/.
+   b. Vowels: Both have /ɪ/ and /ər/.
+3. SYLLABLE ANALYSIS: The word 'Richard' has two syllables: /ˈrɪtʃ/ and /ərd/.
+4. STRESS ANALYSIS: The primary stress is on the first syllable in both pronunciations.
+5. ACCENT VARIATION ASSESSMENT: There are no differences that are solely due to regional accent.
+6. FINAL JUDGMENT: Both pronunciations match in terms of phonemes, syllables, and stress patterns.",False,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True
+audio_data/pronunciation_audio/100/original_Sinn Féin_Southern England.wav,audio_data/pronunciation_audio/100/gpt4o_Sinn Féin_Southern England.wav,True,True,"1. TRANSCRIPTION: Both audio clips transcribe to 'Sinn Féin'.
+2. PHONETIC ANALYSIS: 
+   a. IPA for both: /ʃɪn feɪn/
+   b. Consonants: Both have /ʃ/ and /n/ in 'Sinn' and /f/ and /n/ in 'Féin'.
+   c. Vowels: Both have /ɪ/ in 'Sinn' and /eɪ/ in 'Féin'.
+3. SYLLABLE ANALYSIS: 
+   a. Both words are divided into two syllables: 'Sinn' and 'Féin'.
+   b. Both have two syllables.
+   c. Syllable boundaries and structure are the same.
+4. STRESS ANALYSIS: 
+   a. Primary stress is on the second syllable 'Féin' in both.
+   b. Stress patterns match.
+5. ACCENT VARIATION ASSESSMENT: 
+   a. No significant differences due to regional accent.
+   b. No actual pronunciation differences.
+6. FINAL JUDGMENT: The pronunciations match in all aspects.",True,comprehensive_cot,pronunciation,4,groundtruth,False,True,False,True

@@ -1,0 +1,37 @@
+
+Prompt strategy comparison:
+ prompt_type                model dataset_name  n_shots transcript_type  aggregate_fewshot  accuracy  num_samples  mse_overall
+standard_cot gpt-4o-audio-preview      tmhintq        4            none               True    0.5925          200     1.804139
+standard_cot gpt-4o-audio-preview      tmhintq        4            none              False    0.5175          200     3.457959
+standard_cot gpt-4o-audio-preview      tmhintq        0            none              False    0.4650          200     3.398028
+
+Best strategy: standard_cot with 4 shots, none transcript, aggregate few-shot, accuracy 0.5925
+
+Best strategy MSE metrics:
+  Overall MSE: 1.8041
+
+Visualizations saved to results_pointwise/tmhintq/gpt-4o-audio-preview/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  No Transcript: 0.5250
+
+Few-shot Configuration Impact:
+  Aggregate Few-shot: 0.5925
+  Separate Few-shot: 0.4912
+
+Number of Shots Impact:
+  4 shots: 0.5550
+  0 shots: 0.4650
+
+Prompt Type Impact:
+  standard_cot: 0.5250
+
+MSE Analysis (Lower is Better):
+
+Best MSE strategy: standard_cot with 4 shots, none transcript, aggregate few-shot
+  Overall MSE: 1.8041
+
+Transcript Type Impact on MSE:
+  No Transcript: 2.8867

@@ -1,0 +1,7 @@
+prompt_type,model,dataset_name,n_shots,transcript_type,aggregate_fewshot,accuracy,num_samples,mse_overall
+standard_cot,gemini-2.5-flash-preview-04-17,somos,0,none,True,1.0,1,7.047902494331066
+standard_cot,gemini-2.5-flash-preview-04-17,somos,0,none,False,1.0,1,7.047902494331066
+standard_cot,gemini-2.5-flash-preview-04-17,somos,0,groundtruth,True,0.5,1,4.905045351473923
+standard_cot,gemini-2.5-flash-preview-04-17,somos,0,groundtruth,False,0.5,1,4.905045351473923
+standard_cot,gemini-2.5-flash-preview-04-17,somos,0,asr,True,0.0,1,8.071712018140591
+standard_cot,gemini-2.5-flash-preview-04-17,somos,0,asr,False,0.0,1,8.071712018140591

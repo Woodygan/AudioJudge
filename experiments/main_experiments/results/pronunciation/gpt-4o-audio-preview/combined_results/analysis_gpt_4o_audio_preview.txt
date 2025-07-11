@@ -1,0 +1,30 @@
+
+Prompt strategy comparison:
+ prompt_type                model  dataset_name  n_shots transcript_type  concat_fewshot  concat_test  two_turns  aggregate_fewshot  accuracy  false_positive_rate  false_negative_rate  num_samples  unbalanced_accuracy
+standard_cot gpt-4o-audio-preview pronunciation        0     groundtruth           False        False      False              False  0.513158             0.973684             0.000000          200                0.630
+standard_cot gpt-4o-audio-preview pronunciation        0             asr           False        False      False              False  0.499788             0.355263             0.645161          200                0.465
+
+Best strategy: standard_cot with 0 shots, groundtruth transcript, separate few-shot, separate test, accuracy 0.5132
+
+Visualizations saved to results/pronunciation/gpt-4o-audio-preview/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  Groundtruth: 0.5132
+  Asr: 0.4998
+
+Two Turns Impact:
+  Single Turn: 0.5065
+
+Few-shot Configuration Impact:
+  Separate Few-shot: 0.5065
+
+Test Configuration Impact:
+  Separate Test: 0.5065
+
+Number of Shots Impact:
+  0 shots: 0.5065
+
+Prompt Type Impact:
+  standard_cot: 0.5065
