@@ -16,7 +16,7 @@ from typing import List, Dict, Optional, Tuple, Any, Union
 from dataclasses import dataclass
 from openai import OpenAI
 import google.generativeai as genai
-from utils import AudioExample
+from .utils import AudioExample
 
 
 class AudioJudge:
@@ -68,7 +68,7 @@ class AudioJudge:
                    user_prompt: Optional[str] = None,
                    instruction_path: Optional[str] = None,
                    examples: Optional[List[AudioExample]] = None,
-                   model: str = "gpt-4o-mini",
+                   model: str = "gpt-4o-audio-preview",
                    concatenation_method: str = "no_concatenation",
                    temperature: float = 0.0,
                    max_tokens: int = 800) -> Dict[str, Any]:
@@ -82,7 +82,7 @@ class AudioJudge:
             user_prompt: Optional user prompt (if None, will use default)
             instruction_path: Optional path to instruction audio file
             examples: List of AudioExample objects for in-context learning
-            model: Model name to use ("gpt-4o-mini", "gpt-4o", "gemini-1.5-flash", etc.)
+            model: Model name to use ("gpt-4o-mini-audio=preview", "gpt-4o-audio-preview", "gemini-1.5-flash", etc.)
             concatenation_method: Method for concatenating audio files:
                 - "no_concatenation": Keep all audio files separate
                 - "pair_example_concatenation": Concatenate each example pair into one audio file
@@ -159,7 +159,7 @@ class AudioJudge:
         # Determine which message builder to use based on model
         if "gpt" in model.lower():
             if instruction_path:
-                from openai_prompts import get_openai_messages_with_instruction
+                from .openai_prompts import get_openai_messages_with_instruction
                 return get_openai_messages_with_instruction(
                     instruction_path=instruction_path,
                     audio1_path=audio1_path,
@@ -172,7 +172,7 @@ class AudioJudge:
                     signal_folder=self.signal_folder
                 )
             else:
-                from openai_prompts import get_openai_messages
+                from .openai_prompts import get_openai_messages
                 return get_openai_messages(
                     audio1_path=audio1_path,
                     audio2_path=audio2_path,
@@ -185,7 +185,7 @@ class AudioJudge:
                 )
         elif "gemini" in model.lower():
             if instruction_path:
-                from gemini_prompts import get_gemini_messages_with_instruction
+                from .gemini_prompts import get_gemini_messages_with_instruction
                 return get_gemini_messages_with_instruction(
                     instruction_path=instruction_path,
                     audio1_path=audio1_path,
@@ -198,7 +198,7 @@ class AudioJudge:
                     signal_folder=self.signal_folder
                 )
             else:
-                from gemini_prompts import get_gemini_messages
+                from .gemini_prompts import get_gemini_messages
                 return get_gemini_messages(
                     audio1_path=audio1_path,
                     audio2_path=audio2_path,

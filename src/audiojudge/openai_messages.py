@@ -7,7 +7,7 @@ import json
 import os
 import time
 from typing import List, Dict, Any, Optional
-from utils import AudioExample, encode_audio_file, concatenate_audio_files, concatenate_audio_files_with_instruction
+from .utils import AudioExample, encode_audio_file, concatenate_audio_files, concatenate_audio_files_with_instruction
 
 
 def get_openai_messages(audio1_path: str,

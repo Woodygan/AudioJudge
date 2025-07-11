@@ -9,7 +9,7 @@ import time
 import io
 from typing import List, Any, Optional
 from pydub import AudioSegment
-from utils import AudioExample, concatenate_audio_files, concatenate_audio_files_with_instruction
+from .utils import AudioExample, concatenate_audio_files, concatenate_audio_files_with_instruction
 
 
 def convert_audio_to_gemini_format(audio_path: str) -> bytes:

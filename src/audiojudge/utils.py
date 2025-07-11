@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import List, Dict, Optional, Tuple, Any, Union
 from dataclasses import dataclass
 from pydub import AudioSegment
-
+import pkg_resources
 @dataclass
 class AudioExample:
     """
@@ -131,7 +131,7 @@ def concatenate_audio_files(audio_paths: List[str],
     
     # Create all signal files
     for signal_text, signal_filename in required_signals:
-        signal_path = os.path.join(signal_folder, signal_filename)
+        signal_path = get_signal_audio_path(signal_filename, signal_folder)
         
         # Create the signal if it doesn't exist
         if not os.path.exists(signal_path) and openai_client:
@@ -319,7 +319,7 @@ def concatenate_audio_files_with_instruction(audio_paths: List[str],
     
     # Create all signal files
     for signal_text, signal_filename in required_signals:
-        signal_path = os.path.join(signal_folder, signal_filename)
+        signal_path = get_signal_audio_path(signal_filename, signal_folder)
         
         # Create the signal if it doesn't exist
         if not os.path.exists(signal_path) and openai_client:
@@ -440,3 +440,35 @@ def concatenate_audio_files_with_instruction(audio_paths: List[str],
                 output_file.writeframes(silence_frames)
     
     return output_path
+
+def get_signal_audio_path(signal_filename: str, user_signal_folder: str = "signal_audios") -> str:
+    """
+    Get signal audio file path with fallback strategy:
+    1. Check user's local signal folder
+    2. Check package's default signal folder
+    3. Return path for generation if neither exists
+    
+    Args:
+        signal_filename: Name of the signal file (e.g., "audio_1.wav")
+        user_signal_folder: User's local signal folder path
+        
+    Returns:
+        Path to the signal audio file
+    """
+    # 1. Check user's local folder first
+    user_signal_path = os.path.join(user_signal_folder, signal_filename)
+    if os.path.exists(user_signal_path):
+        return user_signal_path
+    
+    # 2. Check package's default signal folder
+    try:
+        package_signal_path = pkg_resources.resource_filename(
+            'audiojudge', f'signal_audios/{signal_filename}'
+        )
+        if os.path.exists(package_signal_path):
+            return package_signal_path
+    except:
+        pass
+    
+    # 3. Return user path for generation (will be created if needed)
+    return user_signal_path

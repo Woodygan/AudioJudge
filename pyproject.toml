@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "audiojudge"
-version = "0.1.0"
+version = "0.0.0"
 authors = [
     {name = "Woody Gan", email = "woodygan@usc.edu"},
 ]
@@ -28,6 +28,7 @@ keywords = ["audio", "llm", "comparison", "ai", "speech", "pronunciation", "open
 dependencies = [
     "openai>=1.0.0",
     "google-generativeai>=0.3.0",
+    "pydub>=0.25.0",
 ]
 
 [project.optional-dependencies]
@@ -58,6 +59,10 @@ only-include = ["src"]
 
 [tool.hatch.build.targets.wheel]
 only-include = ["src/audiojudge"]
+
+# Include signal audio files in the package
+[tool.hatch.build.targets.wheel.shared-data]
+"src/audiojudge/signal_audios" = "audiojudge/signal_audios"
 
 [tool.hatch.metadata]
 allow-direct-references = true
