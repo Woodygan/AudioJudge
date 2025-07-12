@@ -1,0 +1,28 @@
+
+Prompt strategy comparison:
+ prompt_type                model    dataset_name  n_shots transcript_type  concat_fewshot  concat_test  two_turns  aggregate_fewshot  accuracy  num_samples
+standard_cot gpt-4o-audio-preview chatbotarena_BA        4            none           False         True      False               True     0.637         1000
+
+Best strategy: standard_cot with 4 shots, none transcript, aggregate few-shot, concatenated test, accuracy 0.6370
+
+Visualizations saved to results/chatbotarena_BA/gpt-4o-audio-preview/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  No Transcript: 0.6370
+
+Two Turns Impact:
+  Single Turn: 0.6370
+
+Few-shot Configuration Impact:
+  Aggregate Few-shot: 0.6370
+
+Test Configuration Impact:
+  Concatenated Test: 0.6370
+
+Number of Shots Impact:
+  4 shots: 0.6370
+
+Prompt Type Impact:
+  standard_cot: 0.6370

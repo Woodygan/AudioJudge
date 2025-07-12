@@ -1,0 +1,24 @@
+audio1_path,audio2_path,ground_truth,prediction,reasoning,correct,prompt_type,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot
+audio_data/pronunciation_audio/1/original_Rutherford_US.wav,audio_data/pronunciation_audio/1/gpt4o_Rutherford_US.wav,True,False,"AUDIO 1:
+- Words: Rutherford
+- Phonetic (IPA): /ˈrʌðərfərd/
+- Syllable count and boundaries: 3 (Ruth-er-ford)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ʌ, ə, ɜː]
+- Consonant sounds: [r, ð, f, d]
+
+AUDIO 2:
+- Words: Rutherford
+- Phonetic (IPA): /ˈrʌðərfɔrd/
+- Syllable count and boundaries: 3 (Ruth-er-ford)
+- Stress pattern: Primary stress on the first syllable
+- Vowel sounds: [ʌ, ə, ɔː]
+- Consonant sounds: [r, ð, f, d]
+
+COMPARISON:
+- Phoneme differences: The final vowel sound differs (/ɜː/ vs. /ɔː/).
+- Vowel quality differences: Yes, the final vowel sound differs in quality.
+- Consonant articulation differences: No.
+- Syllable differences: No.
+- Stress differences: No.
+- Accent-only differences: No.",False,structured,pronunciation,1,none,False,False,False,False

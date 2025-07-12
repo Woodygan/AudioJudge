@@ -1,0 +1,2177 @@
+{
+  "pronunciation": [
+    {
+      "audio1_path": "few_shots_example/pronunciation/1_Caribbean_different/original_Caribbean_US , Mary – marry – merry merger.wav",
+      "audio2_path": "few_shots_example/pronunciation/1_Caribbean_different/gpt4o_Caribbean_US , Mary – marry – merry merger.wav",
+      "transcript1": "caribbean",
+      "transcript2": "caribbean",
+      "assistant_message": {
+        "match": false
+      },
+      "word": "Caribbean",
+      "region": "US , Mary \u2013 marry \u2013 merry merger",
+      "IPAs": [
+        "[\u02cck\u025b\u0279\u026a\u02c8bi\u02d0\u0259n]",
+        "[\u02cck\u025b\u0279\u026a\u02c8bi\u02d0\u0259n]"
+      ],
+      "OED": "keri\u00b7-BEEUHN"
+    },
+    {
+      "audio1_path": "few_shots_example/pronunciation/2_Milf_same/original_MILF_General Australian.wav",
+      "audio2_path": "few_shots_example/pronunciation/2_Milf_same/gpt4o_MILF_General Australian.wav",
+      "transcript1": "milf",
+      "transcript2": "milf",
+      "assistant_message": {
+        "match": true
+      },
+      "word": "MILF",
+      "region": "General Australian",
+      "IPAs": [
+        "/m\u026alf/"
+      ],
+      "OED": "milf"
+    },
+    {
+      "audio1_path": "few_shots_example/pronunciation/3_Kathmandu_different/original_Kathmandu_Southern England.wav",
+      "audio2_path": "few_shots_example/pronunciation/3_Kathmandu_different/original_Kathmandu_Southern England.wav",
+      "transcript1": "kathmandu",
+      "transcript2": "kathmandu",
+      "assistant_message": {
+        "match": false
+      },
+      "word": "Kathmandu",
+      "region": "Southern England",
+      "IPAs": [
+        "/\u02cck\u00e6tm\u00e6n\u02c8du\u02d0/"
+      ],
+      "OED": "katman\u00b7-DOO"
+    },
+    {
+      "audio1_path": "few_shots_example/pronunciation/4_Beloit_same/original_Beloit_US.wav",
+      "audio2_path": "few_shots_example/pronunciation/4_Beloit_same/gpt4o_Beloit_US.wav",
+      "transcript1": "beloit",
+      "transcript2": "beloit",
+      "assistant_message": {
+        "match": true
+      },
+      "word": "Beloit",
+      "region": "US",
+      "IPAs": [
+        "/b\u0259\u02c8l\u0254\u026at/"
+      ],
+      "OED": "buh-LOYT"
+    },
+    {
+      "audio1_path": "few_shots_example/pronunciation/5_Hegewisch_different/original_Hegewisch_Chicago.wav",
+      "audio2_path": "few_shots_example/pronunciation/5_Hegewisch_different/gpt4o_Hegewisch_Chicago.wav",
+      "transcript1": "hegewisch",
+      "transcript2": "hegewisch",
+      "assistant_message": {
+        "match": false
+      },
+      "word": "Hegewisch",
+      "region": "Chicago",
+      "IPAs": [
+        "/\u02c8h\u025b\u0261\u02ccw\u026a\u0283/"
+      ],
+      "OED": "HEG-wish\u00b7"
+    },
+    {
+      "audio1_path": "few_shots_example/pronunciation/6_Inupiak_same/original_Inupiak_US.wav",
+      "audio2_path": "few_shots_example/pronunciation/6_Inupiak_same/gpt4o_Inupiak_US.wav",
+      "transcript1": "inupiak",
+      "transcript2": "inupiak",
+      "assistant_message": {
+        "match": true
+      },
+      "word": "Inupiak",
+      "region": "US",
+      "IPAs": [
+        "/\u026a\u02c8nu\u02d0.pi.\u00e6k/"
+      ],
+      "OED": "i-NOO-pee-ak"
+    },
+    {
+      "audio1_path": "few_shots_example/pronunciation/7_Turin_different/original_Turin_Southern England.wav",
+      "audio2_path": "few_shots_example/pronunciation/7_Turin_different/gpt4o_Turin_Southern England.wav",
+      "transcript1": "turin",
+      "transcript2": "turin",
+      "assistant_message": {
+        "match": false
+      },
+      "word": "Turin",
+      "region": "Southern England",
+      "IPAs": [
+        "/t\u0259\u02c8\u0279\u026an/"
+      ],
+      "OED": "tuh-RIN"
+    },
+    {
+      "audio1_path": "few_shots_example/pronunciation/8_Chorasmian_same/original_Chorasmian_US.wav",
+      "audio2_path": "few_shots_example/pronunciation/8_Chorasmian_same/gpt4o_Chorasmian_US.wav",
+      "transcript1": "chorasmian",
+      "transcript2": "chorasmian",
+      "assistant_message": {
+        "match": true
+      },
+      "word": "Chorasmian",
+      "region": "US",
+      "IPAs": [
+        "/k\u0259\u02c8\u0279\u00e6z.mi.\u0259n/"
+      ],
+      "OED": "kuh-RAZ-mee-uhn"
+    }
+  ],
+  "speaker":[
+    {
+      "audio1_path": "few_shots_example/speaker/1_different/audio_a.wav",
+      "audio2_path": "few_shots_example/speaker/1_different/audio_b.wav",
+      "match": "false",
+      "transcript1": "Jem felt a strange leap of joy in his heart, and knew the power she had of comforting him.",
+      "transcript2": "Button Bright told this, and then Trot related their adventures among the Blueskins and how the Boolooroo had stolen the umbrella and prevented them from going home again.",
+      "meta_a": {
+        "accent": "Unindentified",
+        "c50": 59.88712692260742,
+        "chapter_id": "147149",
+        "gender": "female",
+        "id": "1993_147149_000043_000000",
+        "noise": "balanced in clarity",
+        "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/1993/147149/1993_147149_000043_000000.wav",
+        "pesq": 3.899423599243164,
+        "pesq_speech_quality": "great speech quality",
+        "phonemes": "d\u0292\u025bm f\u025blt \u028c st\u0279e\u026and\u0292 lip \u028cv d\u0292\u0254\u026a \u026an h\u026az h\u0251\u0279t, \u028cnd nu \u00f0\u028c pa\u028a\u025c\u02de \u0283i h\u00e6d \u028cv k\u028cmf\u025c\u02det\u026a\u014b h\u026am.",
+        "pitch": "slightly high-pitch",
+        "reverberation": "very close-sounding",
+        "sdr_noise": "very clear",
+        "si-sdr": 30.288753509521484,
+        "snr": 44.7919807434082,
+        "speaker_id": "1993",
+        "speaking_rate": "slightly fast",
+        "speech_duration": 4.826249999999999,
+        "speech_monotony": "very monotone",
+        "stoi": 0.9947528839111328,
+        "text": "Jem felt a strange leap of joy in his heart, and knew the power she had of comforting him.",
+        "text_description": " A female speaker delivers her words with a very monotone and slightly hurried tone. Her voice has a very close-sounding and clear quality, making for an excellent recording.",
+        "text_original": "Jem felt a strange leap of joy in his heart, and knew the power she had of comforting him.",
+        "utterance_pitch_mean": 210.6393280029297,
+        "utterance_pitch_std": 20.336759567260742
+      },
+      "meta_b": {
+        "accent": "American",
+        "c50": 59.80778121948242,
+        "chapter_id": "284437",
+        "gender": "female",
+        "id": "5338_284437_000037_000001",
+        "noise": "slightly clean",
+        "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/5338/284437/5338_284437_000037_000001.wav",
+        "pesq": 4.148990631103516,
+        "pesq_speech_quality": "wonderful speech quality",
+        "phonemes": "b\u028ct\u028cn b\u0279a\u026at to\u028ald \u00f0\u026as, \u028cnd \u00f0\u025bn t\u0279\u0251t \u0279\u026ale\u026at\u026ad \u00f0\u025b\u0279 \u00e6dv\u025bnt\u0283\u025c\u02dez \u028cm\u028c\u014b \u00f0\u028c  \u028cnd ha\u028a \u00f0\u028c  h\u00e6d sto\u028al\u028cn \u00f0\u028c \u028cmb\u0279\u025bl\u028c \u028cnd p\u0279\u026av\u025bnt\u026ad \u00f0\u025bm f\u0279\u028cm \u0261o\u028a\u026a\u014b ho\u028am \u028c\u0261\u025bn.",
+        "pitch": "moderate pitch",
+        "reverberation": "very close-sounding",
+        "sdr_noise": "very clear",
+        "si-sdr": 28.117992401123047,
+        "snr": 55.61527633666992,
+        "speaker_id": "5338",
+        "speaking_rate": "slightly fast",
+        "speech_duration": 8.758125,
+        "speech_monotony": "slightly expressive and animated",
+        "stoi": 0.9984388947486877,
+        "text": "Button Bright told this, and then Trot related their adventures among the Blueskins and how the Boolooroo had stolen the umbrella and prevented them from going home again.",
+        "text_description": " A female speaker delivers her slightly expressive and animated speech with a moderate pitch, speaking slightly faster than normal. The quality of the recording is excellent, with very clear sound.",
+        "text_original": "Button-Bright told this, and then Trot related their adventures among the Blueskins and how the Boolooroo had stolen the umbrella and prevented them from going home again.",
+        "utterance_pitch_mean": 184.36245727539062,
+        "utterance_pitch_std": 57.928199768066406
+      },
+      "speaker_a": "1993",
+      "speaker_b": "5338",
+      "id_a": "1993_147149_000043_000000",
+      "id_b": "5338_284437_000037_000001",
+      "assistant_message": {
+        "match": false
+      }
+    },
+    {"audio1_path": "few_shots_example/speaker/2_same/audio_a.wav",
+    "audio2_path": "few_shots_example/speaker/2_same/audio_b.wav",
+    "match": "true",
+    "transcript1": "At last the sun appeared and sent his first rays on their path.",
+    "transcript2": "Had they been seen?",
+    "meta_a": {
+      "accent": "Unindentified",
+      "c50": 59.88438415527344,
+      "chapter_id": "154328",
+      "gender": "male",
+      "id": "2803_154328_000084_000000",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/2803/154328/2803_154328_000084_000000.wav",
+      "pesq": 4.001503944396973,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u00e6t l\u00e6st \u00f0\u028c s\u028cn \u028cp\u026a\u0279d \u028cnd s\u025bnt h\u026az f\u025c\u02dest \u0279e\u026az \u0251n \u00f0\u025b\u0279 p\u00e6\u03b8.",
+      "pitch": "slightly low-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 27.803485870361328,
+      "snr": 50.41859817504883,
+      "speaker_id": "2803",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 5.02875,
+      "speech_monotony": "very monotone",
+      "stoi": 0.9947742819786072,
+      "text": "At last the sun appeared and sent his first rays on their path.",
+      "text_description": " A male voice speaks with a very monotone and slightly slowed-down delivery. The recording is of very high quality, with almost no Ambient noise present, and the speaker's voice sounds very close and clear.",
+      "text_original": "At last the sun appeared and sent his first rays on their path.",
+      "utterance_pitch_mean": 98.6812744140625,
+      "utterance_pitch_std": 13.978943824768066
+    },
+    "meta_b": {
+      "accent": "Unindentified",
+      "c50": 54.8326416015625,
+      "chapter_id": "154328",
+      "gender": "male",
+      "id": "2803_154328_000086_000001",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/2803/154328/2803_154328_000086_000001.wav",
+      "pesq": 3.8410861492156982,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "h\u00e6d \u00f0e\u026a b\u026an sin?",
+      "pitch": "slightly low-pitch",
+      "reverberation": "slightly distant-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 30.167362213134766,
+      "snr": 43.542755126953125,
+      "speaker_id": "2803",
+      "speaking_rate": "moderate speed",
+      "speech_duration": 1.231875,
+      "speech_monotony": "monotone",
+      "stoi": 0.9976303577423096,
+      "text": "Had they been seen?",
+      "text_description": " A male speaker delivers a monotone and slightly low-pitched speech at a moderate speed. The recording is very clear with a slight room echo.",
+      "text_original": "Had they been seen?",
+      "utterance_pitch_mean": 122.34495544433594,
+      "utterance_pitch_std": 33.49658203125
+    },
+    "speaker_a": "2803",
+    "speaker_b": "2803",
+    "id_a": "2803_154328_000084_000000",
+    "id_b": "2803_154328_000086_000001",
+    "assistant_message": {
+      "match": true
+    }
+  },
+  {
+    "audio1_path": "few_shots_example/speaker/3_different/audio_a.wav",
+    "audio2_path": "few_shots_example/speaker/3_different/audio_b.wav",
+    "match": "false",
+    "transcript1": "One must appeal to immense opposing forces, in order to thwart this natural, all too natural PROGRESSUS IN SIMILE, the evolution of man to the similar, the ordinary, the average, the gregarious-to the IGNOBLE-!",
+    "transcript2": "It isn't his fault.",
+    "meta_a": {
+      "accent": "Unindentified",
+      "c50": 59.84412384033203,
+      "chapter_id": "122949",
+      "gender": "male",
+      "id": "422_122949_000013_000010",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/422/122949/422_122949_000013_000010.wav",
+      "pesq": 4.276618957519531,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "w\u028cn m\u028cst \u028cpil tu \u026am\u025bns \u028cpo\u028az\u026a\u014b f\u0254\u0279s\u026az, \u026an \u0254\u0279d\u025c\u02de tu \u03b8w\u0254\u0279t \u00f0\u026as n\u00e6t\u0283\u025c\u02de\u028cl, \u0254l tu n\u00e6t\u0283\u025c\u02de\u028cl  \u026an , \u00f0\u028c \u025bv\u028clu\u0283\u028cn \u028cv m\u00e6n tu \u00f0\u028c s\u026am\u028cl\u025c\u02de, \u00f0\u028c \u0254\u0279d\u028cn\u025b\u0279i, \u00f0\u028c \u00e6v\u025c\u02de\u026ad\u0292, \u00f0\u028c \u0261\u0279\u028c\u0261\u025b\u0279i\u028cs-tu \u00f0\u028c \u026a\u0261no\u028ab\u028cl-!",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "slightly noisy",
+      "si-sdr": 24.686603546142578,
+      "snr": 50.136104583740234,
+      "speaker_id": "422",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 15.744375000000002,
+      "speech_monotony": "monotone",
+      "stoi": 0.9967668056488037,
+      "text": "One must appeal to immense opposing forces, in order to thwart this natural, all too natural PROGRESSUS IN SIMILE, the evolution of man to the similar, the ordinary, the average, the gregarious-to the IGNOBLE-!",
+      "text_description": " A male speaker delivers his monotone lines with slight slowness and moderate pitch. The recording is slightly noisy but quite clear and up-close.",
+      "text_original": "One must appeal to immense opposing forces, in order to thwart this natural, all-too-natural PROGRESSUS IN SIMILE, the evolution of man to the similar, the ordinary, the average, the gregarious--to the IGNOBLE--!",
+      "utterance_pitch_mean": 115.16191864013672,
+      "utterance_pitch_std": 28.07246208190918
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.861976623535156,
+      "chapter_id": "126732",
+      "gender": "male",
+      "id": "777_126732_000074_000003",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/777/126732/777_126732_000074_000003.wav",
+      "pesq": 3.868469715118408,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "\u026at 'ti h\u026az f\u0254lt.",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 25.825666427612305,
+      "snr": 47.87620544433594,
+      "speaker_id": "777",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 0.9956250000000002,
+      "speech_monotony": "monotone",
+      "stoi": 0.9985912442207336,
+      "text": "It isn't his fault.",
+      "text_description": " A male speaker delivers his monotone words slightly faster than usual, with almost no background noise and a very clear, close-sounding recording.",
+      "text_original": "It isn't his fault.",
+      "utterance_pitch_mean": 129.98370361328125,
+      "utterance_pitch_std": 27.566530227661133
+    },
+    "speaker_a": "422",
+    "speaker_b": "777",
+    "id_a": "422_122949_000013_000010",
+    "id_b": "777_126732_000074_000003",
+    "assistant_message": {
+      "match": false
+    }
+  },
+  {"audio1_path": "few_shots_example/speaker/4_same/audio_a.wav",
+    "audio2_path": "few_shots_example/speaker/4_same/audio_b.wav",
+    "match": "true",
+    "transcript1": "This the good little bird did, and when both were happily arrived on the other side, and had gone a little way, they came to a well-known wood, which they knew the better every step they went, and at last they perceived their father's house.",
+    "transcript2": "That order was one of the mistakes of Grant's earlier days as a commander.",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.870853424072266,
+      "chapter_id": "110523",
+      "gender": "male",
+      "id": "7976_110523_000036_000002",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/7976/110523/7976_110523_000036_000002.wav",
+      "pesq": 4.281731605529785,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u00f0\u026as \u00f0\u028c \u0261\u028ad l\u026at\u028cl b\u025c\u02ded d\u026ad, \u028cnd w\u025bn bo\u028a\u03b8 w\u025c\u02de h\u00e6p\u028cli \u025c\u02dea\u026avd \u0251n \u00f0\u028c \u028c\u00f0\u025c\u02de sa\u026ad, \u028cnd h\u00e6d \u0261\u0254n \u028c l\u026at\u028cl we\u026a, \u00f0e\u026a ke\u026am tu \u028c w\u025bl-no\u028an w\u028ad, w\u026at\u0283 \u00f0e\u026a nu \u00f0\u028c b\u025bt\u025c\u02de \u025bv\u025c\u02dei st\u025bp \u00f0e\u026a w\u025bnt, \u028cnd \u00e6t l\u00e6st \u00f0e\u026a p\u025c\u02desivd \u00f0\u025b\u0279 f\u0251\u00f0\u025c\u02de'\u025bs ha\u028as.",
+      "pitch": "very high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 30.456581115722656,
+      "snr": 57.100589752197266,
+      "speaker_id": "7976",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 12.875625000000003,
+      "speech_monotony": "monotone",
+      "stoi": 0.999431312084198,
+      "text": "This the good little bird did, and when both were happily arrived on the other side, and had gone a little way, they came to a well-known wood, which they knew the better every step they went, and at last they perceived their father's house.",
+      "text_description": " A male speaker delivers his lines with a monotone tone, yet the recording is very clear and the speaker's voice is very high-pitched. He speaks slightly faster than usual pace.",
+      "text_original": "This the good little bird did, and when both were happily arrived on the other side, and had gone a little way, they came to a well-known wood, which they knew the better every step they went, and at last they perceived their father's house.",
+      "utterance_pitch_mean": 203.48345947265625,
+      "utterance_pitch_std": 36.347023010253906
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.846309661865234,
+      "chapter_id": "105575",
+      "gender": "male",
+      "id": "7976_105575_000018_000002",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/7976/105575/7976_105575_000018_000002.wav",
+      "pesq": 4.279626846313477,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u00f0\u00e6t \u0254\u0279d\u025c\u02de w\u0251z w\u028cn \u028cv \u00f0\u028c m\u026aste\u026aks \u028cv \u0261\u0279\u00e6nt'\u025bs \u025c\u02deli\u025c\u02de de\u026az \u00e6z \u028c k\u028cm\u00e6nd\u025c\u02de.",
+      "pitch": "very high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 29.56768035888672,
+      "snr": 50.54245376586914,
+      "speaker_id": "7976",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 3.915,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.9989546537399292,
+      "text": "That order was one of the mistakes of Grant's earlier days as a commander.",
+      "text_description": " A male speaker delivers his slightly expressive and animated speech with a very high-pitch and slightly faster than normal pace. The recording quality is excellent, with very clear sound.",
+      "text_original": "That order was one of the mistakes of Grant's earlier days as a commander.",
+      "utterance_pitch_mean": 194.58993530273438,
+      "utterance_pitch_std": 69.11077880859375
+    },
+    "speaker_a": "7976",
+    "speaker_b": "7976",
+    "id_a": "7976_110523_000036_000002",
+    "id_b": "7976_105575_000018_000002",
+    "assistant_message": {
+      "match": true
+    }
+  },{
+    "audio1_path": "few_shots_example/speaker/5_different/audio_a.wav",
+    "audio2_path": "few_shots_example/speaker/5_different/audio_b.wav",
+    "match": "false",
+    "transcript1": "He went, and Christie vanished to make ready for her wedding, conscious, in spite of her exalted state of mind, that every thing was very hurried, sad, and strange, and very different from the happy day she had so often planned.",
+    "transcript2": "In the house of his uncle, the archbishop Theophilus, he imbibed the orthodox lessons of zeal and dominion, and five years of his youth were profitably spent in the adjacent monasteries of Nitria.",
+    "meta_a": {
+      "accent": "Unindentified",
+      "c50": 59.74504470825195,
+      "chapter_id": "163249",
+      "gender": "female",
+      "id": "3853_163249_000128_000000",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/3853/163249/3853_163249_000128_000000.wav",
+      "pesq": 4.047998428344727,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "hi w\u025bnt, \u028cnd k\u0279\u026asti v\u00e6n\u026a\u0283t tu me\u026ak \u0279\u025bdi f\u0254\u0279 h\u025c\u02de w\u025bd\u026a\u014b, k\u0251n\u0283\u028cs, \u026an spa\u026at \u028cv h\u025c\u02de \u026a\u0261z\u0254lt\u026ad ste\u026at \u028cv ma\u026and, \u00f0\u00e6t \u025bv\u025c\u02dei \u03b8\u026a\u014b w\u0251z v\u025b\u0279i h\u025c\u02deid, s\u00e6d, \u028cnd st\u0279e\u026and\u0292, \u028cnd v\u025b\u0279i d\u026af\u025c\u02de\u028cnt f\u0279\u028cm \u00f0\u028c h\u00e6pi de\u026a \u0283i h\u00e6d so\u028a \u0254f\u028cn pl\u00e6nd.",
+      "pitch": "slightly high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 27.929691314697266,
+      "snr": 47.14356231689453,
+      "speaker_id": "3853",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 12.588750000000001,
+      "speech_monotony": "monotone",
+      "stoi": 0.997047483921051,
+      "text": "He went, and Christie vanished to make ready for her wedding, conscious, in spite of her exalted state of mind, that every thing was very hurried, sad, and strange, and very different from the happy day she had so often planned.",
+      "text_description": " A female speaker delivers her monotone speech with slight haste and a slightly elevated pitch. The recording boasts almost no noise, and her voice sounds clear and close-up.",
+      "text_original": "He went, and Christie vanished to make ready for her wedding, conscious, in spite of her exalted state of mind, that every thing was very hurried, sad, and strange, and very different from the happy day she had so often planned.",
+      "utterance_pitch_mean": 209.19154357910156,
+      "utterance_pitch_std": 26.646717071533203
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.809112548828125,
+      "chapter_id": "143396",
+      "gender": "female",
+      "id": "1673_143396_000019_000001",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/1673/143396/1673_143396_000019_000001.wav",
+      "pesq": 4.141016960144043,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u026an \u00f0\u028c ha\u028as \u028cv h\u026az \u028c\u014bk\u028cl, \u00f0\u028c \u0251\u0279t\u0283b\u026a\u0283\u028cp , hi \u026amba\u026abd \u00f0\u028c \u0254\u0279\u03b8\u028cd\u0251ks l\u025bs\u028cnz \u028cv zil \u028cnd d\u028cm\u026anj\u028cn, \u028cnd fa\u026av j\u026a\u0279z \u028cv h\u026az ju\u03b8 w\u025c\u02de p\u0279\u0251f\u028ct\u028cbli sp\u025bnt \u026an \u00f0\u028c \u028cd\u0292e\u026as\u028cnt m\u0251n\u028cst\u025b\u0279iz \u028cv .",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "slightly noisy",
+      "si-sdr": 24.497636795043945,
+      "snr": 49.47481155395508,
+      "speaker_id": "1673",
+      "speaking_rate": "moderate speed",
+      "speech_duration": 11.829375000000002,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.997584342956543,
+      "text": "In the house of his uncle, the archbishop Theophilus, he imbibed the orthodox lessons of zeal and dominion, and five years of his youth were profitably spent in the adjacent monasteries of Nitria.",
+      "text_description": " A female speaker delivers a slightly expressive and animated speech with a moderate pitch and speed. The recording is slightly noisy, but the sound is very clear and close-up.",
+      "text_original": "In the house of his uncle, the archbishop Theophilus, he imbibed the orthodox lessons of zeal and dominion, and five years of his youth were profitably spent in the adjacent monasteries of Nitria.",
+      "utterance_pitch_mean": 202.7056884765625,
+      "utterance_pitch_std": 46.0360221862793
+    },
+    "speaker_a": "3853",
+    "speaker_b": "1673",
+    "id_a": "3853_163249_000128_000000",
+    "id_b": "1673_143396_000019_000001",
+    "assistant_message": {
+      "match": false
+    }
+  },
+  {
+    "audio1_path": "few_shots_example/speaker/6_same/audio_a.wav",
+    "audio2_path": "few_shots_example/speaker/6_same/audio_b.wav",
+    "match": "true",
+    "transcript1": "There was a travelling menagerie, where was to be seen a performing tiger, who, lashed by the keeper, snapped at the whip and tried to swallow the lash.",
+    "transcript2": "What a weight for the shoulders of a man-an everlasting laugh!",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.8660888671875,
+      "chapter_id": "34629",
+      "gender": "female",
+      "id": "5895_34629_000019_000001",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/5895/34629/5895_34629_000019_000001.wav",
+      "pesq": 4.233746528625488,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u00f0\u025b\u0279 w\u0251z \u028c t\u0279\u00e6v\u028cl\u026a\u014b m\u028cn\u00e6d\u0292\u025c\u02dei, w\u025b\u0279 w\u0251z tu bi sin \u028c p\u025c\u02def\u0254\u0279m\u026a\u014b ta\u026a\u0261\u025c\u02de, hu, l\u00e6\u0283t ba\u026a \u00f0\u028c kip\u025c\u02de, sn\u00e6pt \u00e6t \u00f0\u028c w\u026ap \u028cnd t\u0279a\u026ad tu sw\u0251lo\u028a \u00f0\u028c l\u00e6\u0283.",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 28.535263061523438,
+      "snr": 52.095794677734375,
+      "speaker_id": "5895",
+      "speaking_rate": "moderate speed",
+      "speech_duration": 9.348750000000003,
+      "speech_monotony": "monotone",
+      "stoi": 0.9984869956970215,
+      "text": "There was a travelling menagerie, where was to be seen a performing tiger, who, lashed by the keeper, snapped at the whip and tried to swallow the lash.",
+      "text_description": " A female speaker delivers her words with a monotone tone, maintaining a moderate pace and pitch. The recording is of very high quality, capturing her voice clearly and intimate without any discernible background noise or reverberation.",
+      "text_original": "There was a travelling menagerie, where was to be seen a performing tiger, who, lashed by the keeper, snapped at the whip and tried to swallow the lash.",
+      "utterance_pitch_mean": 205.28970336914062,
+      "utterance_pitch_std": 36.75374984741211
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.850189208984375,
+      "chapter_id": "34615",
+      "gender": "female",
+      "id": "5895_34615_000021_000002",
+      "noise": "clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/5895/34615/5895_34615_000021_000002.wav",
+      "pesq": 4.327620506286621,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "w\u028ct \u028c we\u026at f\u0254\u0279 \u00f0\u028c \u0283o\u028ald\u025c\u02dez \u028cv \u028c m\u00e6n-\u00e6n \u025bv\u025c\u02del\u00e6st\u026a\u014b l\u00e6f!",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 31.026538848876953,
+      "snr": 60.149818420410156,
+      "speaker_id": "5895",
+      "speaking_rate": "moderate speed",
+      "speech_duration": 4.5562499999999995,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.9989897608757019,
+      "text": "What a weight for the shoulders of a man-an everlasting laugh!",
+      "text_description": " A female speaker delivers slightly expressive and animated spechelless than a minute ago, with a clear and close-sounding voice. The recording quality is excellent.",
+      "text_original": "What a weight for the shoulders of a man--an everlasting laugh!",
+      "utterance_pitch_mean": 196.69711303710938,
+      "utterance_pitch_std": 44.39479446411133
+    },
+    "speaker_a": "5895",
+    "speaker_b": "5895",
+    "id_a": "5895_34629_000019_000001",
+    "id_b": "5895_34615_000021_000002",
+    "assistant_message": {
+      "match": true
+    }
+  },
+  {"audio1_path": "few_shots_example/speaker/7_different/audio_a.wav",
+    "audio2_path": "few_shots_example/speaker/7_different/audio_b.wav",
+    "match": "false",
+    "transcript1": "And that every vicious thought may be discarded herefrom, let the reader remember that it is above written that the greeting of this lady, which was an act of her mouth, was the goal of my desires, while I could receive it.",
+    "transcript2": "I walked away and turned my back.",
+    "meta_a": {
+      "accent": "Unindentified",
+      "c50": 59.68794250488281,
+      "chapter_id": "302201",
+      "gender": "female",
+      "id": "8842_302201_000014_000013",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/8842/302201/8842_302201_000014_000013.wav",
+      "pesq": 4.159620761871338,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u028cnd \u00f0\u00e6t \u025bv\u025c\u02dei v\u026a\u0283\u028cs \u03b8\u0254t me\u026a bi d\u026ask\u0251\u0279d\u026ad , l\u025bt \u00f0\u028c \u0279id\u025c\u02de \u0279\u026am\u025bmb\u025c\u02de \u00f0\u00e6t \u026at \u026az \u028cb\u028cv \u0279\u026at\u028cn \u00f0\u00e6t \u00f0\u028c \u0261\u0279it\u026a\u014b \u028cv \u00f0\u026as le\u026adi, w\u026at\u0283 w\u0251z \u00e6n \u00e6kt \u028cv h\u025c\u02de ma\u028a\u03b8, w\u0251z \u00f0\u028c \u0261o\u028al \u028cv ma\u026a d\u026aza\u026a\u025c\u02dez, wa\u026al a\u026a k\u028ad \u0279\u028csiv \u026at.",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "slightly noisy",
+      "si-sdr": 24.84668731689453,
+      "snr": 47.79326629638672,
+      "speaker_id": "8842",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 10.546875,
+      "speech_monotony": "very monotone",
+      "stoi": 0.9984329342842102,
+      "text": "And that every vicious thought may be discarded herefrom, let the reader remember that it is above written that the greeting of this lady, which was an act of her mouth, was the goal of my desires, while I could receive it.",
+      "text_description": " A female speaker with a monotone tone delivers her slightly fast-paced speech with moderate pitch. The recording quality is slightly noisy but the speaker's voice is very clear and close at hand.",
+      "text_original": "And that every vicious thought may be discarded herefrom, let the reader remember that it is above written that the greeting of this lady, which was an act of her mouth, was the goal of my desires, while I could receive it.",
+      "utterance_pitch_mean": 190.01663208007812,
+      "utterance_pitch_std": 15.378615379333496
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.339229583740234,
+      "chapter_id": "147960",
+      "gender": "female",
+      "id": "2035_147960_000005_000017",
+      "noise": "slightly noisy",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/2035/147960/2035_147960_000005_000017.wav",
+      "pesq": 3.922656297683716,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "a\u026a w\u0254kt \u028cwe\u026a \u028cnd t\u025c\u02dend ma\u026a b\u00e6k.",
+      "pitch": "high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 30.411663055419922,
+      "snr": 41.9217643737793,
+      "speaker_id": "2035",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 1.8731250000000002,
+      "speech_monotony": "monotone",
+      "stoi": 0.9981939196586609,
+      "text": "I walked away and turned my back.",
+      "text_description": " A female speaker delivers her monotone speech with a slightly faster pace than usual. Her voice has a very high-pitch and sounds very clear due to a very close recording.",
+      "text_original": "I walked away and turned my back.",
+      "utterance_pitch_mean": 231.5923309326172,
+      "utterance_pitch_std": 24.234451293945312
+    },
+    "speaker_a": "8842",
+    "speaker_b": "2035",
+    "id_a": "8842_302201_000014_000013",
+    "id_b": "2035_147960_000005_000017",
+    "assistant_message": {
+      "match": false
+    }
+  },{
+    "audio1_path": "few_shots_example/speaker/8_same/audio_a.wav",
+    "audio2_path": "few_shots_example/speaker/8_same/audio_b.wav",
+    "match": "true",
+    "transcript1": "\"Yes.\"",
+    "transcript2": "Perhaps you can.",
+    "meta_a": {
+      "accent": "American",
+      "c50": 45.07707214355469,
+      "chapter_id": "166546",
+      "gender": "female",
+      "id": "3081_166546_000096_000000",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/3081/166546/3081_166546_000096_000000.wav",
+      "pesq": 3.8972365856170654,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "\"j\u025bs.\"",
+      "pitch": "very high-pitch",
+      "reverberation": "slightly distant-sounding",
+      "sdr_noise": "slightly noisy",
+      "si-sdr": 22.600936889648438,
+      "snr": 45.32722473144531,
+      "speaker_id": "3081",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 0.624375,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.9789546132087708,
+      "text": "\"Yes.\"",
+      "text_description": " A female speaker delivers her thoughts with a slightly expressive and animated tone, despite the recording being slightly noisy and the sound slightly distant. Her voice has a very high-pitch.",
+      "text_original": "\"Yes.\"",
+      "utterance_pitch_mean": 216.05410766601562,
+      "utterance_pitch_std": 59.02397155761719
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.61727523803711,
+      "chapter_id": "166546",
+      "gender": "female",
+      "id": "3081_166546_000049_000005",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/3081/166546/3081_166546_000049_000005.wav",
+      "pesq": 3.8571062088012695,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "p\u025c\u02deh\u00e6ps ju k\u00e6n.",
+      "pitch": "very high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "slightly noisy",
+      "si-sdr": 24.365009307861328,
+      "snr": 46.41704177856445,
+      "speaker_id": "3081",
+      "speaking_rate": "moderate speed",
+      "speech_duration": 1.1475,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.9732966423034668,
+      "text": "Perhaps you can.",
+      "text_description": " A female speaker delivers a slightly expressive and animated speech with a very high-pitch, in a recording that is slightly noisy but sounds very close-sounding.",
+      "text_original": "Perhaps you can.",
+      "utterance_pitch_mean": 252.24127197265625,
+      "utterance_pitch_std": 41.562347412109375
+    },
+    "speaker_a": "3081",
+    "speaker_b": "3081",
+    "id_a": "3081_166546_000096_000000",
+    "id_b": "3081_166546_000049_000005",
+    "assistant_message": {
+      "match": true
+    }
+  }
+  ],
+  "speed":[
+    {
+    "audio1_path": "few_shots_example/speed/1_a/audio_a.wav",
+    "audio2_path": "few_shots_example/speed/1_a/audio_b.wav",
+    "label": "1",
+    "transcript1": "Did you not get away together?\"",
+    "transcript2": "It came from the pah, whose direction Glenarvan did not know.",
+    "meta_a": {
+      "accent": "Unindentified",
+      "c50": 59.588111877441406,
+      "chapter_id": "154328",
+      "gender": "male",
+      "id": "2803_154328_000053_000002",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/2803/154328/2803_154328_000053_000002.wav",
+      "pesq": 3.756063461303711,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "d\u026ad ju n\u0251t \u0261\u025bt \u028cwe\u026a t\u028c\u0261\u025b\u00f0\u025c\u02de?\"",
+      "pitch": "slightly low-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "slightly noisy",
+      "si-sdr": 24.624176025390625,
+      "snr": 44.754302978515625,
+      "speaker_id": "2803",
+      "speaking_rate": "fast",
+      "speech_duration": 1.38375,
+      "speech_monotony": "monotone",
+      "stoi": 0.9962345957756042,
+      "text": "Did you not get away together?\"",
+      "text_description": " A male speaker delivers his lines quickly with a monotone tone. The speech is slightly noisy but clear enough, and his voice has a slightly low-pitch. The recording has a very close-sounding quality.",
+      "text_original": "Did you not get away together?\"",
+      "utterance_pitch_mean": 125.60755920410156,
+      "utterance_pitch_std": 36.3036003112793
+    },
+    "meta_b": {
+      "accent": "Unindentified",
+      "c50": 59.81196594238281,
+      "chapter_id": "154328",
+      "gender": "male",
+      "id": "2803_154328_000085_000001",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/2803/154328/2803_154328_000085_000001.wav",
+      "pesq": 4.302000999450684,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u026at ke\u026am f\u0279\u028cm \u00f0\u028c p\u00e6, huz d\u025c\u02de\u025bk\u0283\u028cn  d\u026ad n\u0251t no\u028a.",
+      "pitch": "slightly low-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 29.407546997070312,
+      "snr": 55.05167770385742,
+      "speaker_id": "2803",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 4.62375,
+      "speech_monotony": "very monotone",
+      "stoi": 0.9974592328071594,
+      "text": "It came from the pah, whose direction Glenarvan did not know.",
+      "text_description": " A male speaker delivers very monotone remarks with a slightly slow pace and a slightly low-pitched voice. The recording is of very high quality, as the sound is very close and extremely clear.",
+      "text_original": "It came from the pah, whose direction Glenarvan did not know.",
+      "utterance_pitch_mean": 102.56079864501953,
+      "utterance_pitch_std": 12.011077880859375
+    },
+    "speaker_a": "2803",
+    "speaker_b": "2803",
+    "id_a": "2803_154328_000053_000002",
+    "id_b": "2803_154328_000085_000001",
+    "assistant_message": {
+      "label": "1"
+    }
+  },
+  {"audio1_path": "few_shots_example/speed/2_b/audio_a.wav",
+    "audio2_path": "few_shots_example/speed/2_b/audio_b.wav",
+    "label": "2",
+    "transcript1": "Why not allow the healthy Rose Tree its free and glorious growth?",
+    "transcript2": "\"Let us go on down the mountain, and as we go, let us pick up the stones in our path and throw them over our shoulders behind us.\"",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.8746337890625,
+      "chapter_id": "275224",
+      "gender": "female",
+      "id": "6319_275224_000014_000002",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/6319/275224/6319_275224_000014_000002.wav",
+      "pesq": 3.924534320831299,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "wa\u026a n\u0251t \u028cla\u028a \u00f0\u028c h\u025bl\u03b8i \u0279o\u028az t\u0279i \u026ats f\u0279i \u028cnd \u0261l\u0254\u0279i\u028cs \u0261\u0279o\u028a\u03b8?",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 28.466815948486328,
+      "snr": 47.97944641113281,
+      "speaker_id": "6319",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 5.518125,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.9944922924041748,
+      "text": "Why not allow the healthy Rose Tree its free and glorious growth?",
+      "text_description": " A female speaker delivers her slightly expressive and animated speech with a moderate pitch and a slightly slow pace. The recording features very clear audio, capturing her every word in precise detail as she speaks directly into the microphone.",
+      "text_original": "Why not allow the healthy Rose Tree its free and glorious growth?",
+      "utterance_pitch_mean": 196.6846160888672,
+      "utterance_pitch_std": 60.13602828979492
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.82473373413086,
+      "chapter_id": "57405",
+      "gender": "female",
+      "id": "6319_57405_000018_000001",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/6319/57405/6319_57405_000018_000001.wav",
+      "pesq": 4.261284828186035,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\"l\u025bt \u028cs \u0261o\u028a \u0251n da\u028an \u00f0\u028c ma\u028ant\u028cn, \u028cnd \u00e6z wi \u0261o\u028a, l\u025bt \u028cs p\u026ak \u028cp \u00f0\u028c sto\u028anz \u026an a\u028a\u025c\u02de p\u00e6\u03b8 \u028cnd \u03b8\u0279o\u028a \u00f0\u025bm o\u028av\u025c\u02de a\u028a\u025c\u02de \u0283o\u028ald\u025c\u02dez b\u026aha\u026and \u028cs.\"",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 27.21078872680664,
+      "snr": 53.65700149536133,
+      "speaker_id": "6319",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 7.543125000000001,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.9981595873832703,
+      "text": "\"Let us go on down the mountain, and as we go, let us pick up the stones in our path and throw them over our shoulders behind us.\"",
+      "text_description": " A female speaker delivers a slightly expressive and animated speech at a slightly faster pace. The recording is of excellent quality, with almost no background noise and a moderate pitch. The close-sounding echo adds a sense of intimacy to the conversation.",
+      "text_original": "\"Let us go on down the mountain, and as we go, let us pick up the stones in our path and throw them over our shoulders behind us.\"",
+      "utterance_pitch_mean": 213.2052001953125,
+      "utterance_pitch_std": 57.71660614013672
+    },
+    "speaker_a": "6319",
+    "speaker_b": "6319",
+    "id_a": "6319_275224_000014_000002",
+    "id_b": "6319_57405_000018_000001",
+    "assistant_message": {
+      "label": "2"
+    }},
+  {
+    "audio1_path": "few_shots_example/speed/3_a/audio_a.wav",
+    "audio2_path": "few_shots_example/speed/3_a/audio_b.wav",
+    "label": "1",
+    "transcript1": "A handsome price it was.",
+    "transcript2": "Nothing could be more delightful.",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.77753829956055,
+      "chapter_id": "83705",
+      "gender": "male",
+      "id": "2428_83705_000015_000001",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/2428/83705/2428_83705_000015_000001.wav",
+      "pesq": 3.9285531044006348,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "\u028c h\u00e6ns\u028cm p\u0279a\u026as \u026at w\u0251z.",
+      "pitch": "slightly high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 25.662460327148438,
+      "snr": 49.091407775878906,
+      "speaker_id": "2428",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 1.4343750000000002,
+      "speech_monotony": "monotone",
+      "stoi": 0.9991216063499451,
+      "text": "A handsome price it was.",
+      "text_description": " A male speaker delivers monotone remarks with a slightly elevated pitch and a slightly faster-than-normal pace in a recording that is almost devoid of noise and has a very close and clear sound.",
+      "text_original": "A handsome price it was.",
+      "utterance_pitch_mean": 125.80984497070312,
+      "utterance_pitch_std": 27.881946563720703
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.67386245727539,
+      "chapter_id": "83705",
+      "gender": "male",
+      "id": "2428_83705_000040_000000",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/2428/83705/2428_83705_000040_000000.wav",
+      "pesq": 4.114527702331543,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "n\u028c\u03b8\u026a\u014b k\u028ad bi m\u0254\u0279 d\u026ala\u026atf\u028cl.",
+      "pitch": "slightly high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 31.204063415527344,
+      "snr": 49.52482223510742,
+      "speaker_id": "2428",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 2.46375,
+      "speech_monotony": "monotone",
+      "stoi": 0.999384880065918,
+      "text": "Nothing could be more delightful.",
+      "text_description": " A male speaker delivers a monotone, slightly slowly-paced speech with a slightly high-pitch tone. The sound is very clear and relatively close, suggesting a high-quality recording.\n\nOr:\n\nIn this clear recording, a male speaker shares information with a monotone, slightly high-pitched voice and a slightly slow delivery pace. The sound is very close, indicating a good microphone placement or a quiet environment.",
+      "text_original": "Nothing could be more delightful.",
+      "utterance_pitch_mean": 151.3057098388672,
+      "utterance_pitch_std": 34.84486389160156
+    },
+    "speaker_a": "2428",
+    "speaker_b": "2428",
+    "id_a": "2428_83705_000015_000001",
+    "id_b": "2428_83705_000040_000000",
+    "assistant_message": {
+      "label": "1"
+    }
+  },
+  {
+    "audio1_path": "few_shots_example/speed/4_b/audio_a.wav",
+    "audio2_path": "few_shots_example/speed/4_b/audio_b.wav",
+    "label": "2",
+    "transcript1": "\"Now, be very careful.",
+    "transcript2": "The lad caught the pony that stood moping in the corral, not appearing to be aware that his rider was preparing him for the range, Chunky all the time muttering to himself.",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.61017990112305,
+      "chapter_id": "66125",
+      "gender": "female",
+      "id": "6313_66125_000051_000000",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/6313/66125/6313_66125_000051_000000.wav",
+      "pesq": 4.036134719848633,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\"na\u028a, bi v\u025b\u0279i k\u025b\u0279f\u028cl.",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 26.571828842163086,
+      "snr": 55.33346176147461,
+      "speaker_id": "6313",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 1.8393750000000002,
+      "speech_monotony": "monotone",
+      "stoi": 0.9976577758789062,
+      "text": "\"Now, be very careful.",
+      "text_description": " A female speaks in a monotone voice, her words clearly heard without unnecessary noise, and her pacing is slightly slower than normal.\n(or)\nA female speaks moderately with a monotone voice and a pronunciation that is very clear due to the almost complete absence of environmental noise.\n(or)\nIn a quiet environment, a female delivers her words without excitement, maintaining a monotone speech with a moderate pitch that is slightly slower than usual.",
+      "text_original": "\"Now, be very careful.",
+      "utterance_pitch_mean": 154.19747924804688,
+      "utterance_pitch_std": 40.557926177978516
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.824039459228516,
+      "chapter_id": "76958",
+      "gender": "female",
+      "id": "6313_76958_000043_000000",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/6313/76958/6313_76958_000043_000000.wav",
+      "pesq": 4.283477783203125,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u00f0\u028c l\u00e6d k\u0251t \u00f0\u028c po\u028ani \u00f0\u00e6t st\u028ad mo\u028ap\u026a\u014b \u026an \u00f0\u028c k\u025c\u02de\u00e6l, n\u0251t \u028cp\u026a\u0279\u026a\u014b tu bi \u028cw\u025b\u0279 \u00f0\u00e6t h\u026az \u0279a\u026ad\u025c\u02de w\u0251z p\u0279ip\u025b\u0279\u026a\u014b h\u026am f\u0254\u0279 \u00f0\u028c \u0279e\u026and\u0292, t\u0283\u028c\u014bki \u0254l \u00f0\u028c ta\u026am m\u028ct\u025c\u02de\u026a\u014b tu h\u026ams\u025blf.",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 30.337018966674805,
+      "snr": 42.81840133666992,
+      "speaker_id": "6313",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 8.791875000000001,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.9971396923065186,
+      "text": "The lad caught the pony that stood moping in the corral, not appearing to be aware that his rider was preparing him for the range, Chunky all the time muttering to himself.",
+      "text_description": " A female speaker delivers slightly expressive and animated remarks with a moderate pitch. The recording is of very high quality, capturing her words clearly and with minimal reverberation, allowing her slightly fast speech to be easily understood.",
+      "text_original": "The lad caught the pony that stood moping in the corral, not appearing to be aware that his rider was preparing him for the range, Chunky all the time muttering to himself.",
+      "utterance_pitch_mean": 182.02365112304688,
+      "utterance_pitch_std": 44.1605224609375
+    },
+    "speaker_a": "6313",
+    "speaker_b": "6313",
+    "id_a": "6313_66125_000051_000000",
+    "id_b": "6313_76958_000043_000000",
+    "assistant_message": {
+      "label": "2"
+    }
+  },
+  {
+    "audio1_path": "few_shots_example/speed/5_a/audio_a.wav",
+    "audio2_path": "few_shots_example/speed/5_a/audio_b.wav",
+    "label": "1",
+    "transcript1": "Notice what's in the corners?\"",
+    "transcript2": "\"Yes; charcoal.",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.79323196411133,
+      "chapter_id": "136532",
+      "gender": "male",
+      "id": "251_136532_000017_000002",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/251/136532/251_136532_000017_000002.wav",
+      "pesq": 3.872574806213379,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "no\u028at\u028cs w\u028ct'\u025bs \u026an \u00f0\u028c k\u0254\u0279n\u025c\u02dez?\"",
+      "pitch": "slightly high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 26.425283432006836,
+      "snr": 48.24850082397461,
+      "speaker_id": "251",
+      "speaking_rate": "fast",
+      "speech_duration": 1.38375,
+      "speech_monotony": "monotone",
+      "stoi": 0.9943467974662781,
+      "text": "Notice what's in the corners?\"",
+      "text_description": " A male speaker delivers his words in a monotone manner, maintaining a constant pitch. The recording is almost noiseless, and the speaker's voice is slightly high-pitched. He speaks at a fast pace.",
+      "text_original": "Notice what's in the corners?\"",
+      "utterance_pitch_mean": 160.28549194335938,
+      "utterance_pitch_std": 27.394330978393555
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.830875396728516,
+      "chapter_id": "136532",
+      "gender": "male",
+      "id": "251_136532_000019_000000",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/251/136532/251_136532_000019_000000.wav",
+      "pesq": 3.773282766342163,
+      "pesq_speech_quality": "great speech quality",
+      "phonemes": "\"j\u025bs; t\u0283\u0251\u0279ko\u028al.",
+      "pitch": "slightly high-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "slightly noisy",
+      "si-sdr": 24.944210052490234,
+      "snr": 44.33284378051758,
+      "speaker_id": "251",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 1.51875,
+      "speech_monotony": "monotone",
+      "stoi": 0.9867369532585144,
+      "text": "\"Yes; charcoal.",
+      "text_description": " A male speaker delivers his monotone words slightly slowly, with a slightly noisy and slightly high-pitched voice, in a very close proximity.",
+      "text_original": "\"Yes; charcoal.",
+      "utterance_pitch_mean": 118.47698974609375,
+      "utterance_pitch_std": 30.004600524902344
+    },
+    "speaker_a": "251",
+    "speaker_b": "251",
+    "id_a": "251_136532_000017_000002",
+    "id_b": "251_136532_000019_000000",
+    "assistant_message": {
+      "label": "1"
+    }
+  },
+  {
+    "audio1_path": "few_shots_example/speed/6_b/audio_a.wav",
+    "audio2_path": "few_shots_example/speed/6_b/audio_b.wav",
+    "label": "2",
+    "transcript1": "Letty, too, was overcome-more than ever she had been by music.",
+    "transcript2": "This was not the fashion of a year ago, when they exchanged a friendly word or two, but Harry knew its cause.",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.89419937133789,
+      "chapter_id": "64301",
+      "gender": "male",
+      "id": "6295_64301_000012_000002",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/6295/64301/6295_64301_000012_000002.wav",
+      "pesq": 4.161776542663574,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "l\u025bti, tu, w\u0251z o\u028av\u025c\u02dek\u028cm-m\u0254\u0279 \u00f0\u00e6n \u025bv\u025c\u02de \u0283i h\u00e6d b\u026an ba\u026a mjuz\u026ak.",
+      "pitch": "slightly low-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 26.864044189453125,
+      "snr": 51.620121002197266,
+      "speaker_id": "6295",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 5.079375,
+      "speech_monotony": "very monotone",
+      "stoi": 0.9975895881652832,
+      "text": "Letty, too, was overcome-more than ever she had been by music.",
+      "text_description": " A man speaks with a very monotone and slightly slow-paced tone. His voice is slightly low-pitched and his speech is almost devoid of any background noise, yielding a very clear and close-sounding audio recording.",
+      "text_original": "Letty, too, was overcome--more than ever she had been by music.",
+      "utterance_pitch_mean": 114.2880630493164,
+      "utterance_pitch_std": 14.899925231933594
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.523807525634766,
+      "chapter_id": "244435",
+      "gender": "male",
+      "id": "6295_244435_000038_000003",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/6295/244435/6295_244435_000038_000003.wav",
+      "pesq": 4.125758171081543,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u00f0\u026as w\u0251z n\u0251t \u00f0\u028c f\u00e6\u0283\u028cn \u028cv \u028c j\u026a\u0279 \u028c\u0261o\u028a, w\u025bn \u00f0e\u026a \u026akst\u0283e\u026and\u0292d \u028c f\u0279\u025bndli w\u025c\u02ded \u0254\u0279 tu, b\u028ct h\u025b\u0279i nu \u026ats k\u0251z.",
+      "pitch": "slightly low-pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 25.2471981048584,
+      "snr": 52.81911087036133,
+      "speaker_id": "6295",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 6.226875000000001,
+      "speech_monotony": "very monotone",
+      "stoi": 0.9973076581954956,
+      "text": "This was not the fashion of a year ago, when they exchanged a friendly word or two, but Harry knew its cause.",
+      "text_description": " A male speaker delivers very monotone and slightly faster-paced remarks in a very close-sounding environment, with almost no background noise present.",
+      "text_original": "This was not the fashion of a year ago, when they exchanged a friendly word or two, but Harry knew its cause.",
+      "utterance_pitch_mean": 89.70587158203125,
+      "utterance_pitch_std": 12.574776649475098
+    },
+    "speaker_a": "6295",
+    "speaker_b": "6295",
+    "id_a": "6295_64301_000012_000002",
+    "id_b": "6295_244435_000038_000003",
+    "assistant_message": {
+      "label": "2"
+    }
+  },
+  {
+    "audio1_path": "few_shots_example/speed/7_a/audio_a.wav",
+    "audio2_path": "few_shots_example/speed/7_a/audio_b.wav",
+    "label": "1",
+    "transcript1": "While they were talking and trying to think what they should do, they heard a voice behind them.",
+    "transcript2": "In short, in one half hour he desolated the pretty garden; and when his work was accomplished, he flew off.",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.43707275390625,
+      "chapter_id": "57405",
+      "gender": "female",
+      "id": "6319_57405_000011_000002",
+      "noise": "clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/6319/57405/6319_57405_000011_000002.wav",
+      "pesq": 4.215173244476318,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "wa\u026al \u00f0e\u026a w\u025c\u02de t\u0254k\u026a\u014b \u028cnd t\u0279a\u026a\u026a\u014b tu \u03b8\u026a\u014bk w\u028ct \u00f0e\u026a \u0283\u028ad du, \u00f0e\u026a h\u025c\u02ded \u028c v\u0254\u026as b\u026aha\u026and \u00f0\u025bm.",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 29.039085388183594,
+      "snr": 62.180763244628906,
+      "speaker_id": "6319",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 5.1468750000000005,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.9992547631263733,
+      "text": "While they were talking and trying to think what they should do, they heard a voice behind them.",
+      "text_description": " A female speaker delivers her slightly expressive and animated words with a slightly faster pace. The recording is of very good quality, with clear and distinct sound.",
+      "text_original": "While they were talking and trying to think what they should do, they heard a voice behind them.",
+      "utterance_pitch_mean": 182.2607421875,
+      "utterance_pitch_std": 60.97115707397461
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.8562126159668,
+      "chapter_id": "275224",
+      "gender": "female",
+      "id": "6319_275224_000021_000002",
+      "noise": "slightly clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/6319/275224/6319_275224_000021_000002.wav",
+      "pesq": 4.248396873474121,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u026an \u0283\u0254\u0279t, \u026an w\u028cn h\u00e6f a\u028a\u025c\u02de hi  \u00f0\u028c p\u0279\u026ati \u0261\u0251\u0279d\u028cn; \u028cnd w\u025bn h\u026az w\u025c\u02dek w\u0251z \u028ck\u0251mpl\u026a\u0283t, hi flu \u0254f.",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "slightly noisy",
+      "si-sdr": 23.47773551940918,
+      "snr": 57.76382827758789,
+      "speaker_id": "6319",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 9.146250000000002,
+      "speech_monotony": "very expressive and animated",
+      "stoi": 0.998681366443634,
+      "text": "In short, in one half hour he desolated the pretty garden; and when his work was accomplished, he flew off.",
+      "text_description": " A female speaker emits a very expressive and animated tone, speaking slightly slowly in a room with a very close-sounding ambiance and a barely noticeable background noise.",
+      "text_original": "In short, in one half-hour he desolated the pretty garden; and when his work was accomplished, he flew off.",
+      "utterance_pitch_mean": 185.82762145996094,
+      "utterance_pitch_std": 90.22405242919922
+    },
+    "speaker_a": "6319",
+    "speaker_b": "6319",
+    "id_a": "6319_57405_000011_000002",
+    "id_b": "6319_275224_000021_000002",
+    "assistant_message": {
+      "label": "1"
+    }
+
+  },
+  {
+    "audio1_path": "few_shots_example/speed/8_b/audio_a.wav",
+    "audio2_path": "few_shots_example/speed/8_b/audio_b.wav",
+    "label": "2",
+    "transcript1": "An everlasting laugh!",
+    "transcript2": "Such perfect completeness is not in nature.",
+    "meta_a": {
+      "accent": "American",
+      "c50": 59.72443389892578,
+      "chapter_id": "34615",
+      "gender": "female",
+      "id": "5895_34615_000022_000000",
+      "noise": "clean",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/5895/34615/5895_34615_000022_000000.wav",
+      "pesq": 4.136615753173828,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "\u00e6n \u025bv\u025c\u02del\u00e6st\u026a\u014b l\u00e6f!",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "very clear",
+      "si-sdr": 31.023862838745117,
+      "snr": 63.832820892333984,
+      "speaker_id": "5895",
+      "speaking_rate": "slightly slowly",
+      "speech_duration": 2.0250000000000004,
+      "speech_monotony": "slightly expressive and animated",
+      "stoi": 0.997965931892395,
+      "text": "An everlasting laugh!",
+      "text_description": " A female speaker delivers a slightly expressive and animated speech with a moderate pitch, at a slightly slow pace. The recording quality is excellent and the speaker's voice is very clear. The sound is very close-sounding and intimate.",
+      "text_original": "An everlasting laugh!",
+      "utterance_pitch_mean": 206.73947143554688,
+      "utterance_pitch_std": 47.249420166015625
+    },
+    "meta_b": {
+      "accent": "American",
+      "c50": 59.802452087402344,
+      "chapter_id": "34615",
+      "gender": "female",
+      "id": "5895_34615_000013_000002",
+      "noise": "balanced in clarity",
+      "path": "/root/.cache/huggingface/datasets/downloads/extracted/5551a515e85b9e463062524539c2e1cb52ba32affe128dffd866db0205248bdd/LibriTTS_R/dev-clean/5895/34615/5895_34615_000013_000002.wav",
+      "pesq": 4.02530574798584,
+      "pesq_speech_quality": "wonderful speech quality",
+      "phonemes": "s\u028ct\u0283 p\u025c\u02def\u025bkt k\u028cmplitn\u028cs \u026az n\u0251t \u026an ne\u026at\u0283\u025c\u02de.",
+      "pitch": "moderate pitch",
+      "reverberation": "very close-sounding",
+      "sdr_noise": "almost no noise",
+      "si-sdr": 27.018489837646484,
+      "snr": 48.25651550292969,
+      "speaker_id": "5895",
+      "speaking_rate": "slightly fast",
+      "speech_duration": 2.5143750000000002,
+      "speech_monotony": "monotone",
+      "stoi": 0.9957559704780579,
+      "text": "Such perfect completeness is not in nature.",
+      "text_description": " A female speaker delivers her lines with a monotone voice, yet maintains a slightly faster pace than usual. The recording quality is excellent, with almost no background noise audible. Her moderately pitched voice sounds clear and very close to the microphone.",
+      "text_original": "Such perfect completeness is not in nature.",
+      "utterance_pitch_mean": 199.0604248046875,
+      "utterance_pitch_std": 28.999752044677734
+    },
+    "speaker_a": "5895",
+    "speaker_b": "5895",
+    "id_a": "5895_34615_000022_000000",
+    "id_b": "5895_34615_000013_000002",
+    "assistant_message": {
+      "label": "2"
+    }
+  }
+
+
+  ],
+  "tmhintq":[
+    {
+      "index": 2,
+      "audio1_path": "few_shots_example/tmhintq/1_a/audio_a.wav",
+      "audio2_path": "few_shots_example/tmhintq/1_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "\u90bb\u5c45\u5bb6\u6700\u8fd1\u5728\u88c5\u4fee\u623f\u5b50",
+      "transcript2": "\u90bb\u5c45\u5bb6\u6700\u8fd1\u5728\u88c5\u4fee\u623f\u5b50",
+      "human_quality_a": 2.6666666666666665,
+      "human_quality_b": 2.5,
+      "system_a": "Trans_snr2_white",
+      "system_b": "KLT_snr-2_babble",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 21,
+      "audio1_path": "few_shots_example/tmhintq/2_b/audio_a.wav",
+      "audio2_path": "few_shots_example/tmhintq/2_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "\u5979\u4eec\u59d0\u59b9\u4e24\u4e2a\u662f\u53cc\u80de\u80ce",
+      "transcript2": "\u5979\u4eec\u59d0\u59b9\u4e24\u4e2a\u662f\u53cc\u80de\u80ce",
+      "human_quality_a": 3.333333333333333,
+      "human_quality_b": 4.333333333333333,
+      "system_a": "Noisy_snr5_street",
+      "system_b": "DDAE_snr5_street",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 4,
+      "audio1_path": "few_shots_example/tmhintq/3_a/audio_a.wav",
+      "audio2_path": "few_shots_example/tmhintq/3_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "\u6e05\u660e\u8282\u4e0b\u4e86\u4e00\u5929\u6bdb\u6bdb\u96e8",
+      "transcript2": "\u6e05\u660e\u8282\u4e0b\u4e86\u4e00\u5929\u6bdb\u6bdb\u96e8",
+      "human_quality_a": 4.7,
+      "human_quality_b": 1.6666666666666667,
+      "system_a": "clean",
+      "system_b": "DDAE_snr-2_babble",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 1,
+      "audio1_path": "few_shots_example/tmhintq/4_b/audio_a.wav",
+      "audio2_path": "few_shots_example/tmhintq/4_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "\u5979\u7b54\u5e94\u8981\u8bf7\u6211\u4eec\u559d\u559c\u9152",
+      "transcript2": "\u5979\u7b54\u5e94\u8981\u8bf7\u6211\u4eec\u559d\u559c\u9152",
+      "human_quality_a": 3.25,
+      "human_quality_b": 4.666666666666667,
+      "system_a": "Noisy_snr0_white",
+      "system_b": "KLT_snr-2_white",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 5,
+      "audio1_path": "few_shots_example/tmhintq/5_a/audio_a.wav",
+      "audio2_path": "few_shots_example/tmhintq/5_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "\u6628\u5929\u4ed6\u5411\u6211\u501f\u4e86\u4e09\u767e\u5757",
+      "transcript2": "\u6628\u5929\u4ed6\u5411\u6211\u501f\u4e86\u4e09\u767e\u5757",
+      "human_quality_a": 3.333333333333333,
+      "human_quality_b": 2.333333333333333,
+      "system_a": "KLT_snr5_pink",
+      "system_b": "Noisy_snr5_pink",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 23,
+      "audio1_path": "few_shots_example/tmhintq/6_b/audio_a.wav",
+      "audio2_path": "few_shots_example/tmhintq/6_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "\u90a3\u91cc\u6bcf\u5e74\u6625\u5929\u8981\u522e\u5927\u98ce",
+      "transcript2": "\u90a3\u91cc\u6bcf\u5e74\u6625\u5929\u8981\u522e\u5927\u98ce",
+      "human_quality_a": 2.0,
+      "human_quality_b": 3.333333333333333,
+      "system_a": "DDAE_snr0_pink",
+      "system_b": "MMSE_snr2_pink",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 9,
+      "audio1_path": "few_shots_example/tmhintq/7_a/audio_a.wav",
+      "audio2_path": "few_shots_example/tmhintq/7_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "\u4ed6\u6700\u8fd1\u597d\u50cf\u6709\u4ec0\u4e48\u5fc3\u4e8b",
+      "transcript2": "\u4ed6\u6700\u8fd1\u597d\u50cf\u6709\u4ec0\u4e48\u5fc3\u4e8b",
+      "human_quality_a": 4.0,
+      "human_quality_b": 3.0,
+      "system_a": "Trans_snr2_street",
+      "system_b": "FCN_snr2_white",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 15,
+      "audio1_path": "few_shots_example/tmhintq/8_b/audio_a.wav",
+      "audio2_path": "few_shots_example/tmhintq/8_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "\u54e5\u54e5\u7684\u811a\u957f\u4e86\u4e2a\u5927\u6c34\u6ce1",
+      "transcript2": "\u54e5\u54e5\u7684\u811a\u957f\u4e86\u4e2a\u5927\u6c34\u6ce1",
+      "human_quality_a": 3.0,
+      "human_quality_b": 4.333333333333333,
+      "system_a": "DDAE_snr-2_street",
+      "system_b": "KLT_snr5_pink",
+      "assistant_message": {
+        "label": "2"
+      }
+    }
+  ],
+  "somos":[
+    {
+      "index": 0,
+      "audio1_path": "few_shots_example/somos/1_a/audio_a.wav",
+      "audio2_path": "few_shots_example/somos/1_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "with the penalty of forfeiting the day's allowance of food, an increase of which the committee had recommended.",
+      "transcript2": "with the penalty of forfeiting the day's allowance of food, an increase of which the committee had recommended.",
+      "mos_a": 3.888888888888889,
+      "mos_b": 2.5,
+      "uttId_a": "LJ003-0304_011",
+      "uttId_b": "LJ003-0304_124",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 3,
+      "audio1_path": "few_shots_example/somos/2_b/audio_a.wav",
+      "audio2_path": "few_shots_example/somos/2_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "a deformed lad among the crowd was seen to present a pistol, at Her Majesty's carriage.",
+      "transcript2": "a deformed lad among the crowd was seen to present a pistol, at Her Majesty's carriage.",
+      "mos_a": 2.1666666666666665,
+      "mos_b": 3.6,
+      "uttId_a": "LJ010-0259_124",
+      "uttId_b": "LJ010-0259_186",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 1,
+      "audio1_path": "few_shots_example/somos/3_a/audio_a.wav",
+      "audio2_path": "few_shots_example/somos/3_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "the prisoners, without firing, bedding, or sufficient food, spent their days in, surveying their grotesque prison.",
+      "transcript2": "the prisoners, without firing, bedding, or sufficient food, spent their days in, surveying their grotesque prison.",
+      "mos_a": 3.8181818181818175,
+      "mos_b": 2.6666666666666665,
+      "uttId_a": "LJ005-0108_002",
+      "uttId_b": "LJ005-0108_060",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 8,
+      "audio1_path": "few_shots_example/somos/4_b/audio_a.wav",
+      "audio2_path": "few_shots_example/somos/4_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "Most of the other Secret Service agents in the motorcade had drawn their sidearms.",
+      "transcript2": "Most of the other Secret Service agents in the motorcade had drawn their sidearms.",
+      "mos_a": 2.3076923076923075,
+      "mos_b": 3.555555555555556,
+      "uttId_a": "LJ030-0231_059",
+      "uttId_b": "LJ030-0231_110",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 2,
+      "audio1_path": "few_shots_example/somos/5_a/audio_a.wav",
+      "audio2_path": "few_shots_example/somos/5_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "the prisoners, without firing, bedding, or sufficient food, spent their days in, surveying their grotesque prison.",
+      "transcript2": "the prisoners, without firing, bedding, or sufficient food, spent their days in, surveying their grotesque prison.",
+      "mos_a": 3.8181818181818175,
+      "mos_b": 2.75,
+      "uttId_a": "LJ005-0108_002",
+      "uttId_b": "LJ005-0108_134",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 19,
+      "audio1_path": "few_shots_example/somos/6_b/audio_a.wav",
+      "audio2_path": "few_shots_example/somos/6_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "Various possible motives will be treated in the appropriate context of the discussion, outlined above.",
+      "transcript2": "Various possible motives will be treated in the appropriate context of the discussion, outlined above.",
+      "mos_a": 2.0,
+      "mos_b": 3.1818181818181817,
+      "uttId_a": "LJ040-0061_053",
+      "uttId_b": "LJ040-0061_181",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 4,
+      "audio1_path": "few_shots_example/somos/7_a/audio_a.wav",
+      "audio2_path": "few_shots_example/somos/7_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "came out of the cabin, was caught near the companion, by the rest of the mutineers, and promptly dispatched with daggers.",
+      "transcript2": "came out of the cabin, was caught near the companion, by the rest of the mutineers, and promptly dispatched with daggers.",
+      "mos_a": 4.666666666666667,
+      "mos_b": 2.4545454545454546,
+      "uttId_a": "LJ017-0230_009",
+      "uttId_b": "LJ017-0230_126",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 18,
+      "audio1_path": "few_shots_example/somos/8_b/audio_a.wav",
+      "audio2_path": "few_shots_example/somos/8_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "Various possible motives will be treated in the appropriate context of the discussion, outlined above.",
+      "transcript2": "Various possible motives will be treated in the appropriate context of the discussion, outlined above.",
+      "mos_a": 2.0,
+      "mos_b": 3.583333333333333,
+      "uttId_a": "LJ040-0061_053",
+      "uttId_b": "LJ040-0061_145",
+      "assistant_message": {
+        "label": "2"
+      }
+    }
+  ],
+  "speakbench_old":[
+    {
+      "index": "0_0",
+      "instruction_path": "few_shots_example/speakbench/1_b/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gpt4o",
+      "model_b": "gemini2-flash-exp",
+      "audio1_path": "few_shots_example/speakbench/1_b/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench/1_b/audio_b.wav",
+      "label": "2",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": "2_0",
+      "instruction_path": "few_shots_example/speakbench/2_tie/instruction.wav",
+      "instruction_text": "Count from 1 to 10 while simulating an echo effect that gives the impression of being in a large, open space.",
+      "model_a": "gemini2-flash-exp",
+      "model_b": "gpt4o",
+      "audio1_path": "few_shots_example/speakbench/2_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench/2_tie/audio_b.wav",
+      "label": "tie",
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": "1_1",
+      "instruction_path": "few_shots_example/speakbench/3_a/instruction.wav",
+      "instruction_text": "Teach me an example of Chinese Mandarin tones using the word 'ma' in different tones. First show me how you pronounce all tones in one go, then explain each one.",
+      "model_a": "gpt4o",
+      "model_b": "moshi",
+      "audio1_path": "few_shots_example/speakbench/3_a/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench/3_a/audio_b.wav",
+      "label": "1",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": "0_1",
+      "instruction_path": "few_shots_example/speakbench/4_b/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "typhoon2-audio",
+      "model_b": "gpt4o",
+      "audio1_path": "few_shots_example/speakbench/4_b/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench/4_b/audio_b.wav",
+      "label": "2",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": "21_1",
+      "instruction_path": "few_shots_example/speakbench/5_tie/instruction.wav",
+      "instruction_text": "Say the word 'advertisement' first in a British accent, then in an American accent, and describe how the stress changes.",
+      "model_a": "gemini2-flash-exp",
+      "model_b": "diva+tts",
+      "audio1_path": "few_shots_example/speakbench/5_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench/5_tie/audio_b.wav",
+      "label": "tie",
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": "2_1",
+      "instruction_path": "few_shots_example/speakbench/6_a/instruction.wav",
+      "instruction_text": "Count from 1 to 10 while simulating an echo effect that gives the impression of being in a large, open space.",
+      "model_a": "gpt4o",
+      "model_b": "gemini1.5-flash+tts",
+      "audio1_path": "few_shots_example/speakbench/6_a/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench/6_a/audio_b.wav",
+      "label": "1",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": "1_0",
+      "instruction_path": "few_shots_example/speakbench/7_b/instruction.wav",
+      "instruction_text": "Teach me an example of Chinese Mandarin tones using the word 'ma' in different tones. First show me how you pronounce all tones in one go, then explain each one.",
+      "model_a": "gemini2-flash-exp",
+      "model_b": "gpt4o",
+      "audio1_path": "few_shots_example/speakbench/7_b/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench/7_b/audio_b.wav",
+      "label": "2",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": "3_0",
+      "instruction_path": "few_shots_example/speakbench/8_a/instruction.wav",
+      "instruction_text": "Narrate a brief history of the leaning tower of Pisa while imitating a native Italian accent with clear enunciation.",
+      "model_a": "gpt4o",
+      "model_b": "gemini2-flash-exp",
+      "audio1_path": "few_shots_example/speakbench/8_a/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench/8_a/audio_b.wav",
+      "label": "1",
+      "assistant_message": {
+        "label": "1"
+      }
+    }
+  ],
+  "thaimos":[
+    {
+      "index": 0,
+      "audio1_path": "few_shots_example/thaimos/1_a/audio_a.wav",
+      "audio2_path": "few_shots_example/thaimos/1_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e19\u0e35\u0e49\u0e44\u0e14\u0e49\u0e01\u0e25\u0e32\u0e22\u0e21\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e17\u0e35\u0e48\u0e1b\u0e23\u0e30\u0e2a\u0e1a\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e21\u0e32\u0e01 \u0e41\u0e21\u0e49\u0e08\u0e30\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e2a\u0e07\u0e2a\u0e31\u0e22\u0e43\u0e19\u0e0a\u0e48\u0e27\u0e07\u0e15\u0e49\u0e19\u0e1b\u0e35",
+      "transcript2": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e19\u0e35\u0e49\u0e44\u0e14\u0e49\u0e01\u0e25\u0e32\u0e22\u0e21\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e17\u0e35\u0e48\u0e1b\u0e23\u0e30\u0e2a\u0e1a\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e21\u0e32\u0e01 \u0e41\u0e21\u0e49\u0e08\u0e30\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e2a\u0e07\u0e2a\u0e31\u0e22\u0e43\u0e19\u0e0a\u0e48\u0e27\u0e07\u0e15\u0e49\u0e19\u0e1b\u0e35",
+      "pronunciation_a": 4.466666666666667,
+      "pronunciation_b": 3.4375,
+      "sound_a": 4.533333333333333,
+      "sound_b": 4.125,
+      "rhythm_a": 2.933333333333333,
+      "rhythm_b": 3.6875,
+      "system_a": "azure_Premwadee",
+      "system_b": "seamless",
+      "datawow_id_a": 1148,
+      "datawow_id_b": 1598,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 1,
+      "audio1_path": "few_shots_example/thaimos/2_b/audio_a.wav",
+      "audio2_path": "few_shots_example/thaimos/2_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "\u0e40\u0e2d\u0e32\u0e2b\u0e25\u0e48\u0e30 \u0e08\u0e34\u0e19\u0e15\u0e19\u0e32\u0e01\u0e32\u0e23\u0e16\u0e36\u0e07\u0e1c\u0e39\u0e49\u0e0a\u0e32\u0e22\u0e04\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e40\u0e14\u0e34\u0e19\u0e1c\u0e48\u0e32\u0e19\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e40\u0e02\u0e49\u0e32\u0e21\u0e32 \u0e41\u0e25\u0e30\u0e40\u0e23\u0e34\u0e48\u0e21\u0e2d\u0e2d\u0e01\u0e04\u0e33\u0e2a\u0e31\u0e48\u0e07\u0e14\u0e49\u0e27\u0e22\u0e2a\u0e33\u0e40\u0e19\u0e35\u0e22\u0e07\u0e41\u0e02\u0e47\u0e07\u0e01\u0e23\u0e30\u0e14\u0e49\u0e32\u0e07",
+      "transcript2": "\u0e40\u0e2d\u0e32\u0e2b\u0e25\u0e48\u0e30 \u0e08\u0e34\u0e19\u0e15\u0e19\u0e32\u0e01\u0e32\u0e23\u0e16\u0e36\u0e07\u0e1c\u0e39\u0e49\u0e0a\u0e32\u0e22\u0e04\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e40\u0e14\u0e34\u0e19\u0e1c\u0e48\u0e32\u0e19\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e40\u0e02\u0e49\u0e32\u0e21\u0e32 \u0e41\u0e25\u0e30\u0e40\u0e23\u0e34\u0e48\u0e21\u0e2d\u0e2d\u0e01\u0e04\u0e33\u0e2a\u0e31\u0e48\u0e07\u0e14\u0e49\u0e27\u0e22\u0e2a\u0e33\u0e40\u0e19\u0e35\u0e22\u0e07\u0e41\u0e02\u0e47\u0e07\u0e01\u0e23\u0e30\u0e14\u0e49\u0e32\u0e07",
+      "pronunciation_a": 2.8125,
+      "pronunciation_b": 3.75,
+      "sound_a": 3.6875,
+      "sound_b": 4.1875,
+      "rhythm_a": 3.25,
+      "rhythm_b": 2.8125,
+      "system_a": "seamless",
+      "system_b": "azure_Achara",
+      "datawow_id_a": 1580,
+      "datawow_id_b": 1030,
+      "assistant_message": {
+        "label": "2"
+      }
+    },{
+      "index": 3,
+      "audio1_path": "few_shots_example/thaimos/3_a/audio_a.wav",
+      "audio2_path": "few_shots_example/thaimos/3_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "\u0e15\u0e34\u0e14\u0e14\u0e2d\u0e22",
+      "transcript2": "\u0e15\u0e34\u0e14\u0e14\u0e2d\u0e22",
+      "pronunciation_a": 4.3125,
+      "pronunciation_b": 3.4375,
+      "sound_a": 4.3125,
+      "sound_b": 4.1875,
+      "rhythm_a": 4.125,
+      "rhythm_b": 3.4375,
+      "system_a": "macOS",
+      "system_b": "seamless",
+      "datawow_id_a": 1468,
+      "datawow_id_b": 1568,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 2,
+      "audio1_path": "few_shots_example/thaimos/4_b/audio_a.wav",
+      "audio2_path": "few_shots_example/thaimos/4_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "\u0e15\u0e34\u0e14\u0e14\u0e2d\u0e22",
+      "transcript2": "\u0e15\u0e34\u0e14\u0e14\u0e2d\u0e22",
+      "pronunciation_a": 1.0625,
+      "pronunciation_b": 2.5625,
+      "sound_a": 2.625,
+      "sound_b": 3.8125,
+      "rhythm_a": 1.375,
+      "rhythm_b": 3.4375,
+      "system_a": "PyThaiTTS",
+      "system_b": "botnoi_spk7",
+      "datawow_id_a": 1518,
+      "datawow_id_b": 1168,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 6,
+      "audio1_path": "few_shots_example/thaimos/5_a/audio_a.wav",
+      "audio2_path": "few_shots_example/thaimos/5_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "\u0e43\u0e19\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e41\u0e2b\u0e48\u0e07\u0e19\u0e35\u0e49\u0e1e\u0e27\u0e01\u0e40\u0e23\u0e32\u0e43\u0e2b\u0e49\u0e19\u0e31\u0e01\u0e40\u0e23\u0e35\u0e22\u0e19\u0e02\u0e2d\u0e07\u0e40\u0e23\u0e32\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e17\u0e31\u0e01\u0e29\u0e30\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e02\u0e2d\u0e07\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32\u0e41\u0e25\u0e30\u0e17\u0e33\u0e43\u0e2b\u0e49\u0e14\u0e35\u0e22\u0e34\u0e48\u0e07\u0e02\u0e36\u0e49\u0e19",
+      "transcript2": "\u0e43\u0e19\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e41\u0e2b\u0e48\u0e07\u0e19\u0e35\u0e49\u0e1e\u0e27\u0e01\u0e40\u0e23\u0e32\u0e43\u0e2b\u0e49\u0e19\u0e31\u0e01\u0e40\u0e23\u0e35\u0e22\u0e19\u0e02\u0e2d\u0e07\u0e40\u0e23\u0e32\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e17\u0e31\u0e01\u0e29\u0e30\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e02\u0e2d\u0e07\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32\u0e41\u0e25\u0e30\u0e17\u0e33\u0e43\u0e2b\u0e49\u0e14\u0e35\u0e22\u0e34\u0e48\u0e07\u0e02\u0e36\u0e49\u0e19",
+      "pronunciation_a": 4.375,
+      "pronunciation_b": 3.875,
+      "sound_a": 4.25,
+      "sound_b": 4.375,
+      "rhythm_a": 3.3125,
+      "rhythm_b": 3.75,
+      "system_a": "azure_Premwadee",
+      "system_b": "gTTS",
+      "datawow_id_a": 1132,
+      "datawow_id_b": 1432,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 4,
+      "audio1_path": "few_shots_example/thaimos/6_b/audio_a.wav",
+      "audio2_path": "few_shots_example/thaimos/6_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "\u0e04\u0e27\u0e23\u0e21\u0e35\u0e1c\u0e31\u0e1a\u0e43\u0e01\u0e25\u0e49\u0e1a\u0e49\u0e32\u0e19 \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e40\u0e14\u0e34\u0e19\u0e17\u0e32\u0e07\u0e2a\u0e30\u0e14\u0e27\u0e01 \u0e40\u0e21\u0e32\u0e44\u0e21\u0e48\u0e02\u0e31\u0e1a \u0e40\u0e21\u0e32\u0e44\u0e21\u0e48\u0e19\u0e31\u0e48\u0e07\u0e23\u0e16 \u0e40\u0e21\u0e32\u0e41\u0e25\u0e49\u0e27\u0e40\u0e14\u0e34\u0e19\u0e01\u0e25\u0e31\u0e1a\u0e1a\u0e49\u0e32\u0e19\u0e40\u0e25\u0e22",
+      "transcript2": "\u0e04\u0e27\u0e23\u0e21\u0e35\u0e1c\u0e31\u0e1a\u0e43\u0e01\u0e25\u0e49\u0e1a\u0e49\u0e32\u0e19 \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e40\u0e14\u0e34\u0e19\u0e17\u0e32\u0e07\u0e2a\u0e30\u0e14\u0e27\u0e01 \u0e40\u0e21\u0e32\u0e44\u0e21\u0e48\u0e02\u0e31\u0e1a \u0e40\u0e21\u0e32\u0e44\u0e21\u0e48\u0e19\u0e31\u0e48\u0e07\u0e23\u0e16 \u0e40\u0e21\u0e32\u0e41\u0e25\u0e49\u0e27\u0e40\u0e14\u0e34\u0e19\u0e01\u0e25\u0e31\u0e1a\u0e1a\u0e49\u0e32\u0e19\u0e40\u0e25\u0e22",
+      "pronunciation_a": 1.3125,
+      "pronunciation_b": 4.0,
+      "sound_a": 2.5625,
+      "sound_b": 4.125,
+      "rhythm_a": 1.4375,
+      "rhythm_b": 2.875,
+      "system_a": "PyThaiTTS",
+      "system_b": "azure_Premwadee",
+      "datawow_id_a": 1536,
+      "datawow_id_b": 1136,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 11,
+      "audio1_path": "few_shots_example/thaimos/7_a/audio_a.wav",
+      "audio2_path": "few_shots_example/thaimos/7_a/audio_b.wav",
+      "label": "1",
+      "transcript1": "\u0e43\u0e19\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e41\u0e1b\u0e25\u0e07\u0e41\u0e1a\u0e1a\u0e2b\u0e27\u0e32\u0e19\u0e2d\u0e21\u0e02\u0e21\u0e01\u0e25\u0e37\u0e19 \u0e40\u0e2b\u0e25\u0e48\u0e32\u0e1e\u0e35\u0e48\u0e19\u0e49\u0e2d\u0e07\u0e01\u0e25\u0e31\u0e1a\u0e21\u0e32\u0e23\u0e27\u0e21\u0e15\u0e31\u0e27\u0e01\u0e31\u0e19\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07\u0e2b\u0e25\u0e31\u0e07\u0e08\u0e32\u0e01\u0e17\u0e35\u0e48\u0e41\u0e21\u0e48\u0e02\u0e2d\u0e07\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32\u0e40\u0e2a\u0e35\u0e22\u0e0a\u0e35\u0e27\u0e34\u0e15",
+      "transcript2": "\u0e43\u0e19\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e41\u0e1b\u0e25\u0e07\u0e41\u0e1a\u0e1a\u0e2b\u0e27\u0e32\u0e19\u0e2d\u0e21\u0e02\u0e21\u0e01\u0e25\u0e37\u0e19 \u0e40\u0e2b\u0e25\u0e48\u0e32\u0e1e\u0e35\u0e48\u0e19\u0e49\u0e2d\u0e07\u0e01\u0e25\u0e31\u0e1a\u0e21\u0e32\u0e23\u0e27\u0e21\u0e15\u0e31\u0e27\u0e01\u0e31\u0e19\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07\u0e2b\u0e25\u0e31\u0e07\u0e08\u0e32\u0e01\u0e17\u0e35\u0e48\u0e41\u0e21\u0e48\u0e02\u0e2d\u0e07\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32\u0e40\u0e2a\u0e35\u0e22\u0e0a\u0e35\u0e27\u0e34\u0e15",
+      "pronunciation_a": 3.875,
+      "pronunciation_b": 2.125,
+      "sound_a": 4.1875,
+      "sound_b": 3.5625,
+      "rhythm_a": 2.5625,
+      "rhythm_b": 2.6875,
+      "system_a": "azure_Achara",
+      "system_b": "seamless",
+      "datawow_id_a": 1042,
+      "datawow_id_b": 1592,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 5,
+      "audio1_path": "few_shots_example/thaimos/8_b/audio_a.wav",
+      "audio2_path": "few_shots_example/thaimos/8_b/audio_b.wav",
+      "label": "2",
+      "transcript1": "\u0e2b\u0e34\u0e21\u0e30\u0e17\u0e35\u0e48\u0e15\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e2b\u0e19\u0e31\u0e01\u0e0a\u0e48\u0e27\u0e07\u0e1b\u0e25\u0e32\u0e22\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e01\u0e38\u0e21\u0e20\u0e32\u0e1e\u0e31\u0e19\u0e18\u0e4c\u0e43\u0e19\u0e24\u0e14\u0e39\u0e2b\u0e19\u0e32\u0e27 \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e2b\u0e15\u0e38\u0e43\u0e2b\u0e49\u0e16\u0e19\u0e19\u0e2b\u0e25\u0e32\u0e22\u0e2a\u0e32\u0e22\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49",
+      "transcript2": "\u0e2b\u0e34\u0e21\u0e30\u0e17\u0e35\u0e48\u0e15\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e2b\u0e19\u0e31\u0e01\u0e0a\u0e48\u0e27\u0e07\u0e1b\u0e25\u0e32\u0e22\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e01\u0e38\u0e21\u0e20\u0e32\u0e1e\u0e31\u0e19\u0e18\u0e4c\u0e43\u0e19\u0e24\u0e14\u0e39\u0e2b\u0e19\u0e32\u0e27 \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e2b\u0e15\u0e38\u0e43\u0e2b\u0e49\u0e16\u0e19\u0e19\u0e2b\u0e25\u0e32\u0e22\u0e2a\u0e32\u0e22\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49",
+      "pronunciation_a": 3.6875,
+      "pronunciation_b": 4.25,
+      "sound_a": 3.6875,
+      "sound_b": 4.125,
+      "rhythm_a": 2.5,
+      "rhythm_b": 3.4375,
+      "system_a": "macOS",
+      "system_b": "azure_Niwat",
+      "datawow_id_a": 1499,
+      "datawow_id_b": 1099,
+      "assistant_message": {
+        "label": "2"
+      }
+    }
+  ],
+  "speakbench508":[
+    {
+      "index": 310,
+      "instruction_path": "few_shots_example/speakbench508/310_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gemini2-flash-exp+asr+tts",
+      "model_b": "gemini2-flash-exp",
+      "audio1_path": "few_shots_example/speakbench508/310_2/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/310_2/audio_b.wav",
+      "label": "2",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+
+    {
+      "index": 139,
+      "instruction_path": "few_shots_example/speakbench508/139_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gpt4o-text+tts",
+      "model_b": "diva+tts",
+      "audio1_path": "few_shots_example/speakbench508/139_1/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/139_1/audio_b.wav",
+      "label": "1",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 28,
+      "instruction_path": "few_shots_example/speakbench508/28_tie/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "asr+llama3+tts",
+      "model_b": "qwen2-audio+tts",
+      "audio1_path": "few_shots_example/speakbench508/28_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/28_tie/audio_b.wav",
+      "label": "tie",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": 101,
+      "instruction_path": "few_shots_example/speakbench508/101_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "typhoon2-audio+tts",
+      "model_b": "asr+llama3+tts",
+      "audio1_path": "few_shots_example/speakbench508/101_2/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/101_2/audio_b.wav",
+      "label": "2",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 314,
+      "instruction_path": "few_shots_example/speakbench508/314_tie/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gpt4o-audio+asr+tts",
+      "model_b": "typhoon2-audio",
+      "audio1_path": "few_shots_example/speakbench508/314_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/314_tie/audio_b.wav",
+      "label": "tie",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": 69,
+      "instruction_path": "few_shots_example/speakbench508/69_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gpt4o-text+tts",
+      "model_b": "moshi",
+      "audio1_path": "few_shots_example/speakbench508/69_1/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/69_1/audio_b.wav",
+      "label": "1",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 89,
+      "instruction_path": "few_shots_example/speakbench508/89_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gemini2-flash-exp+asr+tts",
+      "model_b": "gpt4o-text+tts",
+      "audio1_path": "few_shots_example/speakbench508/89_2/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/89_2/audio_b.wav",
+      "label": "2",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 341,
+      "instruction_path": "few_shots_example/speakbench508/341_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gemini2-flash-exp",
+      "model_b": "moshi",
+      "audio1_path": "few_shots_example/speakbench508/341_1/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/341_1/audio_b.wav",
+      "label": "1",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 330,
+      "instruction_path": "few_shots_example/speakbench508/330_tie/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "qwen2-audio+tts",
+      "model_b": "diva+tts",
+      "audio1_path": "few_shots_example/speakbench508/330_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/330_tie/audio_b.wav",
+      "label": "tie",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": 16,
+      "instruction_path": "few_shots_example/speakbench508/16_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "moshi",
+      "model_b": "gpt4o-text+tts",
+      "audio1_path": "few_shots_example/speakbench508/16_2/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/16_2/audio_b.wav",
+      "label": "2",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 469,
+      "instruction_path": "few_shots_example/speakbench508/469_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gemini2-flash-exp",
+      "model_b": "moshi",
+      "audio1_path": "few_shots_example/speakbench508/469_1/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/469_1/audio_b.wav",
+      "label": "1",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "1"
+      }
+    }
+
+  ],
+  "speakbench":[
+    {
+      "index": 310,
+      "instruction_path": "few_shots_example/speakbench508/310_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gemini2-flash-exp+asr+tts",
+      "model_b": "gemini2-flash-exp",
+      "audio1_path": "few_shots_example/speakbench508/310_2/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/310_2/audio_b.wav",
+      "label": "2",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+
+    {
+      "index": 139,
+      "instruction_path": "few_shots_example/speakbench508/139_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gpt4o-text+tts",
+      "model_b": "diva+tts",
+      "audio1_path": "few_shots_example/speakbench508/139_1/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/139_1/audio_b.wav",
+      "label": "1",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 28,
+      "instruction_path": "few_shots_example/speakbench508/28_tie/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "asr+llama3+tts",
+      "model_b": "qwen2-audio+tts",
+      "audio1_path": "few_shots_example/speakbench508/28_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/28_tie/audio_b.wav",
+      "label": "tie",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": 101,
+      "instruction_path": "few_shots_example/speakbench508/101_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "typhoon2-audio+tts",
+      "model_b": "asr+llama3+tts",
+      "audio1_path": "few_shots_example/speakbench508/101_2/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/101_2/audio_b.wav",
+      "label": "2",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 314,
+      "instruction_path": "few_shots_example/speakbench508/314_tie/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gpt4o-audio+asr+tts",
+      "model_b": "typhoon2-audio",
+      "audio1_path": "few_shots_example/speakbench508/314_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/314_tie/audio_b.wav",
+      "label": "tie",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": 69,
+      "instruction_path": "few_shots_example/speakbench508/69_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gpt4o-text+tts",
+      "model_b": "moshi",
+      "audio1_path": "few_shots_example/speakbench508/69_1/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/69_1/audio_b.wav",
+      "label": "1",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 89,
+      "instruction_path": "few_shots_example/speakbench508/89_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gemini2-flash-exp+asr+tts",
+      "model_b": "gpt4o-text+tts",
+      "audio1_path": "few_shots_example/speakbench508/89_2/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/89_2/audio_b.wav",
+      "label": "2",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 341,
+      "instruction_path": "few_shots_example/speakbench508/341_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gemini2-flash-exp",
+      "model_b": "moshi",
+      "audio1_path": "few_shots_example/speakbench508/341_1/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/341_1/audio_b.wav",
+      "label": "1",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 330,
+      "instruction_path": "few_shots_example/speakbench508/330_tie/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "qwen2-audio+tts",
+      "model_b": "diva+tts",
+      "audio1_path": "few_shots_example/speakbench508/330_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/330_tie/audio_b.wav",
+      "label": "tie",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": 16,
+      "instruction_path": "few_shots_example/speakbench508/16_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "moshi",
+      "model_b": "gpt4o-text+tts",
+      "audio1_path": "few_shots_example/speakbench508/16_2/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/16_2/audio_b.wav",
+      "label": "2",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 469,
+      "instruction_path": "few_shots_example/speakbench508/469_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "model_a": "gemini2-flash-exp",
+      "model_b": "moshi",
+      "audio1_path": "few_shots_example/speakbench508/469_1/audio_a.wav",
+      "audio2_path": "few_shots_example/speakbench508/469_1/audio_b.wav",
+      "label": "1",
+      "instruction_id": 0,
+      "assistant_message": {
+        "label": "1"
+      }
+    }
+
+  ],
+  "chatbotarena":[
+    {
+      "index": 3,
+      "instruction_path": "few_shots_example/chatbotarena/3_b/instruction.wav",
+      "instruction_text": "who was the last shah king of nepal",
+      "model_a": "oasst-pythia-12b",
+      "model_b": "dolly-v2-12b",
+      "audio1_path": "few_shots_example/chatbotarena/3_b/audio_a.wav",
+      "audio2_path": "few_shots_example/chatbotarena/3_b/audio_b.wav",
+      "label": "2",
+      "transcript_a": "The last shah king of Nepal was Tribhuvan Narayan Singh, who was in power from 1975 to 1980.",
+      "transcript_b": "Gyanendra Bir Bikram Shah Dev",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 4,
+      "instruction_path": "few_shots_example/chatbotarena/4_a/instruction.wav",
+      "instruction_text": "who was the last monarch of uk",
+      "model_a": "koala-13b",
+      "model_b": "vicuna-13b",
+      "audio1_path": "few_shots_example/chatbotarena/4_a/audio_a.wav",
+      "audio2_path": "few_shots_example/chatbotarena/4_a/audio_b.wav",
+      "label": "1",
+      "transcript_a": "The last monarch of the United Kingdom was Queen Elizabeth II, who reigned from 1952 to 2020.",
+      "transcript_b": "The current monarch of the United Kingdom is Queen Elizabeth II. She has been the monarch since 1952, and is the longest-reigning monarch in British history.",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 7,
+      "instruction_path": "few_shots_example/chatbotarena/7_tie/instruction.wav",
+      "instruction_text": "what is the height of mount everest",
+      "model_a": "vicuna-13b",
+      "model_b": "alpaca-13b",
+      "audio1_path": "few_shots_example/chatbotarena/7_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/chatbotarena/7_tie/audio_b.wav",
+      "label": "tie",
+      "transcript_a": "Mount Everest is the highest mountain in the world, with a height of 8,848 meters (29,029 feet) above sea level. It is located in the Himalayan mountain range, on the border between Nepal and Tibet. The mountain was named after Sir George Everest, a British geographer and surveyor, who led a team that mapped the Himalayas in the mid-19th century. It is a popular destination for mountain climbing and is considered one of the greatest challenges in the sport.",
+      "transcript_b": "The height of Mount Everest is 8,848 meters (29,029 feet).",
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": 39,
+      "instruction_path": "few_shots_example/chatbotarena/39_b/instruction.wav",
+      "instruction_text": "What color are most ducks?",
+      "model_a": "dolly-v2-12b",
+      "model_b": "vicuna-13b",
+      "audio1_path": "few_shots_example/chatbotarena/39_b/audio_a.wav",
+      "audio2_path": "few_shots_example/chatbotarena/39_b/audio_b.wav",
+      "label": "2",
+      "transcript_a": "Most ducks are white or grey. Some ducks, like geese and swans, are darker colors, but are usually off by themselves and not mixed into the majority of ducks.",
+      "transcript_b": "Most ducks are brown or gray, with feathers that provide good camouflage for hunting and foraging in their natural habitats. However, some species of ducks can have a variety of colors, including green, blue, black, and white. The color of a duck can depend on the species, as well as the time of year and the environment in which they are found.",
+      "assistant_message": {
+        "label": "2"
+      }
+    }
+    
+
+  ],
+  "chatbotarena_BA":[
+    {
+      "index": 3,
+      "instruction_path": "few_shots_example/chatbotarena/3_b/instruction.wav",
+      "instruction_text": "who was the last shah king of nepal",
+      "model_a": "oasst-pythia-12b",
+      "model_b": "dolly-v2-12b",
+      "audio1_path": "few_shots_example/chatbotarena/3_b/audio_a.wav",
+      "audio2_path": "few_shots_example/chatbotarena/3_b/audio_b.wav",
+      "label": "2",
+      "transcript_a": "The last shah king of Nepal was Tribhuvan Narayan Singh, who was in power from 1975 to 1980.",
+      "transcript_b": "Gyanendra Bir Bikram Shah Dev",
+      "assistant_message": {
+        "label": "2"
+      }
+    },
+    {
+      "index": 4,
+      "instruction_path": "few_shots_example/chatbotarena/4_a/instruction.wav",
+      "instruction_text": "who was the last monarch of uk",
+      "model_a": "koala-13b",
+      "model_b": "vicuna-13b",
+      "audio1_path": "few_shots_example/chatbotarena/4_a/audio_a.wav",
+      "audio2_path": "few_shots_example/chatbotarena/4_a/audio_b.wav",
+      "label": "1",
+      "transcript_a": "The last monarch of the United Kingdom was Queen Elizabeth II, who reigned from 1952 to 2020.",
+      "transcript_b": "The current monarch of the United Kingdom is Queen Elizabeth II. She has been the monarch since 1952, and is the longest-reigning monarch in British history.",
+      "assistant_message": {
+        "label": "1"
+      }
+    },
+    {
+      "index": 7,
+      "instruction_path": "few_shots_example/chatbotarena/7_tie/instruction.wav",
+      "instruction_text": "what is the height of mount everest",
+      "model_a": "vicuna-13b",
+      "model_b": "alpaca-13b",
+      "audio1_path": "few_shots_example/chatbotarena/7_tie/audio_a.wav",
+      "audio2_path": "few_shots_example/chatbotarena/7_tie/audio_b.wav",
+      "label": "tie",
+      "transcript_a": "Mount Everest is the highest mountain in the world, with a height of 8,848 meters (29,029 feet) above sea level. It is located in the Himalayan mountain range, on the border between Nepal and Tibet. The mountain was named after Sir George Everest, a British geographer and surveyor, who led a team that mapped the Himalayas in the mid-19th century. It is a popular destination for mountain climbing and is considered one of the greatest challenges in the sport.",
+      "transcript_b": "The height of Mount Everest is 8,848 meters (29,029 feet).",
+      "assistant_message": {
+        "label": "tie"
+      }
+    },
+    {
+      "index": 39,
+      "instruction_path": "few_shots_example/chatbotarena/39_b/instruction.wav",
+      "instruction_text": "What color are most ducks?",
+      "model_a": "dolly-v2-12b",
+      "model_b": "vicuna-13b",
+      "audio1_path": "few_shots_example/chatbotarena/39_b/audio_a.wav",
+      "audio2_path": "few_shots_example/chatbotarena/39_b/audio_b.wav",
+      "label": "2",
+      "transcript_a": "Most ducks are white or grey. Some ducks, like geese and swans, are darker colors, but are usually off by themselves and not mixed into the majority of ducks.",
+      "transcript_b": "Most ducks are brown or gray, with feathers that provide good camouflage for hunting and foraging in their natural habitats. However, some species of ducks can have a variety of colors, including green, blue, black, and white. The color of a duck can depend on the species, as well as the time of year and the environment in which they are found.",
+      "assistant_message": {
+        "label": "2"
+      }
+    }
+    
+
+  ]
+
+}

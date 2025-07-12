@@ -1,0 +1,179 @@
+{
+  "lexical_cot": {"speakbench508": [],
+                 "speakbench": [
+                  {
+                    "index": 310,
+                    "instruction_path": "few_shots_example/speakbench508/310_2/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gemini2-flash-exp+asr+tts",
+                    "model_b": "gemini2-flash-exp",
+                    "audio1_path": "few_shots_example/speakbench508/310_2/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/310_2/audio_b.wav",
+                    "label": "2",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "2"
+                    }
+                  },
+              
+                  {
+                    "index": 139,
+                    "instruction_path": "few_shots_example/speakbench508/139_1/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gpt4o-text+tts",
+                    "model_b": "diva+tts",
+                    "audio1_path": "few_shots_example/speakbench508/139_1/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/139_1/audio_b.wav",
+                    "label": "1",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "1"
+                    }
+                  },
+                  {
+                    "index": 69,
+                    "instruction_path": "few_shots_example/speakbench508/69_1/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gpt4o-text+tts",
+                    "model_b": "moshi",
+                    "audio1_path": "few_shots_example/speakbench508/69_1/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/69_1/audio_b.wav",
+                    "label": "1",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "1"
+                    }
+                  },
+                  {
+                    "index": 101,
+                    "instruction_path": "few_shots_example/speakbench508/101_2/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "typhoon2-audio+tts",
+                    "model_b": "asr+llama3+tts",
+                    "audio1_path": "few_shots_example/speakbench508/101_2/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/101_2/audio_b.wav",
+                    "label": "tie",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "tie"
+                    }
+                  }]},
+  "paralinguistic_cot": {"speakbench508": [],
+                 "speakbench": [
+                  {
+                    "index": 310,
+                    "instruction_path": "few_shots_example/speakbench508/310_2/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gemini2-flash-exp+asr+tts",
+                    "model_b": "gemini2-flash-exp",
+                    "audio1_path": "few_shots_example/speakbench508/310_2/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/310_2/audio_b.wav",
+                    "label": "2",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "2"
+                    }
+                  },
+              
+                  {
+                    "index": 139,
+                    "instruction_path": "few_shots_example/speakbench508/139_1/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gpt4o-text+tts",
+                    "model_b": "diva+tts",
+                    "audio1_path": "few_shots_example/speakbench508/139_1/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/139_1/audio_b.wav",
+                    "label": "tie",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "tie"
+                    }
+                  },
+                  {
+                    "index": 69,
+                    "instruction_path": "few_shots_example/speakbench508/69_1/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gpt4o-text+tts",
+                    "model_b": "moshi",
+                    "audio1_path": "few_shots_example/speakbench508/69_1/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/69_1/audio_b.wav",
+                    "label": "1",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "1"
+                    }
+                  },
+                  {
+                    "index": 101,
+                    "instruction_path": "few_shots_example/speakbench508/101_2/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "typhoon2-audio+tts",
+                    "model_b": "asr+llama3+tts",
+                    "audio1_path": "few_shots_example/speakbench508/101_2/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/101_2/audio_b.wav",
+                    "label": "2",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "2"
+                    }
+                  }]},
+  "speech_quality_cot": {"speakbench508": [],
+                 "speakbench": [
+                  {
+                    "index": 310,
+                    "instruction_path": "few_shots_example/speakbench508/310_2/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gemini2-flash-exp+asr+tts",
+                    "model_b": "gemini2-flash-exp",
+                    "audio1_path": "few_shots_example/speakbench508/310_2/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/310_2/audio_b.wav",
+                    "label": "tie",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "tie"
+                    }
+                  },
+              
+                  {
+                    "index": 139,
+                    "instruction_path": "few_shots_example/speakbench508/139_1/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gpt4o-text+tts",
+                    "model_b": "diva+tts",
+                    "audio1_path": "few_shots_example/speakbench508/139_1/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/139_1/audio_b.wav",
+                    "label": "tie",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "tie"
+                    }
+                  },
+                  {
+                    "index": 69,
+                    "instruction_path": "few_shots_example/speakbench508/69_1/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "gpt4o-text+tts",
+                    "model_b": "moshi",
+                    "audio1_path": "few_shots_example/speakbench508/69_1/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/69_1/audio_b.wav",
+                    "label": "1",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "1"
+                    }
+                  },
+                  {
+                    "index": 101,
+                    "instruction_path": "few_shots_example/speakbench508/101_2/instruction.wav",
+                    "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+                    "model_a": "typhoon2-audio+tts",
+                    "model_b": "asr+llama3+tts",
+                    "audio1_path": "few_shots_example/speakbench508/101_2/audio_a.wav",
+                    "audio2_path": "few_shots_example/speakbench508/101_2/audio_b.wav",
+                    "label": "tie",
+                    "instruction_id": 0,
+                    "assistant_message": {
+                      "label": "tie"
+                    }
+                  }]}
+}

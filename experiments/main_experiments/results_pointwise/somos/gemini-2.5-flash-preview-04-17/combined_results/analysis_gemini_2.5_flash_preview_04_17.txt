@@ -1,0 +1,43 @@
+
+Prompt strategy comparison:
+ prompt_type                          model dataset_name  n_shots transcript_type  aggregate_fewshot  accuracy  num_samples  mse_overall
+standard_cot gemini-2.5-flash-preview-04-17        somos        0            none               True       1.0            1     7.047902
+standard_cot gemini-2.5-flash-preview-04-17        somos        0            none              False       1.0            1     7.047902
+standard_cot gemini-2.5-flash-preview-04-17        somos        0     groundtruth               True       0.5            1     4.905045
+standard_cot gemini-2.5-flash-preview-04-17        somos        0     groundtruth              False       0.5            1     4.905045
+standard_cot gemini-2.5-flash-preview-04-17        somos        0             asr               True       0.0            1     8.071712
+standard_cot gemini-2.5-flash-preview-04-17        somos        0             asr              False       0.0            1     8.071712
+
+Best strategy: standard_cot with 0 shots, none transcript, aggregate few-shot, accuracy 1.0000
+
+Best strategy MSE metrics:
+  Overall MSE: 7.0479
+
+Visualizations saved to results_pointwise/somos/gemini-2.5-flash-preview-04-17/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  No Transcript: 1.0000
+  Groundtruth: 0.5000
+  Asr: 0.0000
+
+Few-shot Configuration Impact:
+  Separate Few-shot: 0.5000
+  Aggregate Few-shot: 0.5000
+
+Number of Shots Impact:
+  0 shots: 0.5000
+
+Prompt Type Impact:
+  standard_cot: 0.5000
+
+MSE Analysis (Lower is Better):
+
+Best MSE strategy: standard_cot with 0 shots, groundtruth transcript, aggregate few-shot
+  Overall MSE: 4.9050
+
+Transcript Type Impact on MSE:
+  Groundtruth: 4.9050
+  No Transcript: 7.0479
+  Asr: 8.0717

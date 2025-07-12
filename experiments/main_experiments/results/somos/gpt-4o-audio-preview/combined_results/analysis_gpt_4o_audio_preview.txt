@@ -1,0 +1,28 @@
+
+Prompt strategy comparison:
+ prompt_type                model dataset_name  n_shots transcript_type  concat_fewshot  concat_test  two_turns  aggregate_fewshot  accuracy  num_samples
+standard_cot gpt-4o-audio-preview        somos        7            none           False         True      False              False       1.0            1
+
+Best strategy: standard_cot with 7 shots, none transcript, separate few-shot, concatenated test, accuracy 1.0000
+
+Visualizations saved to results/somos/gpt-4o-audio-preview/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  No Transcript: 1.0000
+
+Two Turns Impact:
+  Single Turn: 1.0000
+
+Few-shot Configuration Impact:
+  Separate Few-shot: 1.0000
+
+Test Configuration Impact:
+  Concatenated Test: 1.0000
+
+Number of Shots Impact:
+  7 shots: 1.0000
+
+Prompt Type Impact:
+  standard_cot: 1.0000

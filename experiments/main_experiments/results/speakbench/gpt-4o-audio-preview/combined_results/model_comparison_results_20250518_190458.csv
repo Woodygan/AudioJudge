@@ -1,0 +1,14 @@
+prompt_type,judge_model,dataset_name,n_shots,transcript_type,concat_fewshot,aggregate_fewshot,concat_test,two_turns,model_name,win_rate_pos1,win_rate_pos2,average_win_rate,effective_win_rate,tie_rate,samples_evaluated
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,gpt4o-audio,0.15,0.2,0.175,0.5,0.65,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,gpt4o-audio+asr+tts,0.0,0.05,0.025,0.1875,0.325,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,gemini2-flash-exp,0.25,0.3,0.275,0.28750000000000003,0.025,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,gemini2-flash-exp+asr+tts,0.15,0.25,0.2,0.21250000000000002,0.025,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,typhoon2-audio,0.05,0.1,0.07500000000000001,0.07500000000000001,0.0,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,llama-omni,0.05,0.15,0.1,0.1125,0.025,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,moshi,0.0,0.0,0.0,0.0,0.0,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,gpt4o-text+tts,0.35,0.35,0.35,0.375,0.05,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,gemini2-flash-text+tts,0.2,0.45,0.325,0.3375,0.025,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,diva+tts,0.35,0.2,0.275,0.275,0.0,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,typhoon2-audio+tts,0.05,0.0,0.025,0.025,0.0,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,qwen2-audio+tts,0.1,0.0,0.05,0.05,0.0,20
+standard_cot,gpt-4o-audio-preview,speakbench,4,none,False,True,True,False,asr+llama3+tts,0.4,0.25,0.325,0.325,0.0,20

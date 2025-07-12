@@ -10,7 +10,7 @@ authors = [
 ]
 description = "A simple package for audio comparison using large language models"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 license = {text = "MIT"}
 classifiers = [
     "Development Status :: 3 - Alpha",
@@ -19,6 +19,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Multimedia :: Sound/Audio :: Analysis",
@@ -26,6 +28,9 @@ classifiers = [
 ]
 keywords = ["audio", "llm", "comparison", "ai", "speech", "pronunciation", "openai", "gemini"]
 dependencies = [
+    "pandas",
+    "datasets",
+    "torch",
     "openai>=1.0.0",
     "google-generativeai>=0.3.0",
     "pydub>=0.25.0",
@@ -51,14 +56,11 @@ Documentation = "https://github.com/woodygan/audiojudge#readme"
 "Bug Tracker" = "https://github.com/woodygan/audiojudge/issues"
 Changelog = "https://github.com/woodygan/audiojudge/releases"
 
-[tool.hatch.build]
-include = ["src/"]
+[tool.hatch.build.targets.wheel]
+packages = ["src/audiojudge"]
 
 [tool.hatch.build.targets.sdist]
-only-include = ["src"]
-
-[tool.hatch.build.targets.wheel]
-only-include = ["src/audiojudge"]
+include = ["src/"]
 
 # Include signal audio files in the package
 [tool.hatch.build.targets.wheel.shared-data]
@@ -70,7 +72,7 @@ allow-direct-references = true
 # Tool configurations for development
 [tool.black]
 line-length = 88
-target-version = ["py312"]
+target-version = ["py310"]
 preview = true
 
 [tool.isort]
@@ -85,7 +87,7 @@ line_length = 88
 src_paths = ["src"]
 
 [tool.mypy]
-python_version = "3.12"
+python_version = "3.10"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true

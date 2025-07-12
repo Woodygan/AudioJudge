@@ -1,0 +1,28 @@
+
+Prompt strategy comparison:
+ prompt_type                          model    dataset_name  n_shots transcript_type  concat_fewshot  concat_test  two_turns  aggregate_fewshot  accuracy  num_samples
+standard_cot gemini-2.5-flash-preview-04-17 chatbotarena_BA        4            none           False         True      False               True  0.653307          998
+
+Best strategy: standard_cot with 4 shots, none transcript, aggregate few-shot, concatenated test, accuracy 0.6533
+
+Visualizations saved to results/chatbotarena_BA/gemini-2.5-flash-preview-04-17/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  No Transcript: 0.6533
+
+Two Turns Impact:
+  Single Turn: 0.6533
+
+Few-shot Configuration Impact:
+  Aggregate Few-shot: 0.6533
+
+Test Configuration Impact:
+  Concatenated Test: 0.6533
+
+Number of Shots Impact:
+  4 shots: 0.6533
+
+Prompt Type Impact:
+  standard_cot: 0.6533

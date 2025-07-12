@@ -1,0 +1,15 @@
+,model_name,average_win_rate,average_win_rate,average_win_rate,effective_win_rate,effective_win_rate,tie_rate
+,,mean,std,count,mean,std,mean
+0,asr+llama3+tts,0.0,,1,0.0,,0.0
+1,diva+tts,0.0,,1,0.0,,0.0
+2,gemini2-flash-exp,0.0,,1,0.0,,0.0
+3,gemini2-flash-exp+asr+tts,0.0,,1,0.0,,0.0
+4,gemini2-flash-text+tts,0.0,,1,0.0,,0.0
+5,gpt4o-audio,0.0,,1,0.5,,1.0
+6,gpt4o-audio+asr+tts,0.0,,1,0.5,,1.0
+7,gpt4o-text+tts,1.0,,1,1.0,,0.0
+8,llama-omni,0.0,,1,0.0,,0.0
+9,moshi,0.0,,1,0.0,,0.0
+10,qwen2-audio+tts,0.0,,1,0.0,,0.0
+11,typhoon2-audio,0.0,,1,0.0,,0.0
+12,typhoon2-audio+tts,0.0,,1,0.0,,0.0

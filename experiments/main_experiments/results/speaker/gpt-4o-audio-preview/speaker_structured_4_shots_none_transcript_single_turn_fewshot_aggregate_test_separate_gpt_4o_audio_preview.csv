@@ -1,0 +1,774 @@
+audio1_path,audio2_path,ground_truth,prediction,reasoning,correct,prompt_type,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot
+audio_data/speaker_audio/3/audio_a.wav,audio_data/speaker_audio/3/audio_b.wav,True,True,"AUDIO 1: The speaker's pitch is moderate with a slight variation, and the voice quality is clear with a balanced resonance. The articulation is precise, and the speech rhythm is steady with no notable distinctive habits. AUDIO 2: The pitch is also moderate with a similar variation, and the voice quality is clear with a balanced resonance. The articulation is precise, and the speech rhythm is steady, similar to the first audio. There are no distinctive habits that stand out in either clip. The pitch profile, voice quality, articulation patterns, and speech rhythm are consistent across both recordings, suggesting they could be from the same speaker. There are no contextual factors that significantly alter the vocal characteristics.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/7/audio_a.wav,audio_data/speaker_audio/7/audio_b.wav,False,False,"AUDIO 1: The speaker discusses a historical figure with a formal tone, showing a controlled pitch and clear articulation. The voice quality is resonant with a steady rhythm and no noticeable idiosyncratic speech patterns. AUDIO 2: The speaker uses a more casual tone, with a different pitch range and less formal articulation. The voice quality is less resonant, and the speech rhythm is more varied, with a hint of casual speech patterns. The differences in pitch, voice quality, articulation, and speech rhythm suggest that these are two different speakers.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/8/audio_a.wav,audio_data/speaker_audio/8/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'Look out.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'These were his first thoughts.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Given the limited information and the short length of the audio clips, it's challenging to make a definitive comparison. However, based on the available data, there are no clear distinctive features that suggest the two clips are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/9/audio_a.wav,audio_data/speaker_audio/9/audio_b.wav,False,False,"AUDIO 1: The speaker has a certain pitch range and a clear, resonant voice quality. The articulation is precise, with a rhythmic and fluent speech pattern. There are no distinctive speech habits that stand out. AUDIO 2: The speaker's pitch range is similar, with a clear and resonant voice quality. The articulation is also precise, and the speech rhythm is fluent. The phrase 'I ain't got no evidence' suggests a different speech pattern or dialect. COMPARISON: The pitch profile and voice quality are similar in both recordings. The articulation patterns are also similar, with clear and precise enunciation. However, the speech rhythm and idiosyncratic features differ, particularly in the use of dialect or colloquial language in the second audio. This suggests that the two recordings may not be from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/11/audio_a.wav,audio_data/speaker_audio/11/audio_b.wav,True,True,"AUDIO 1: The words spoken are 'Deidesheimer, similar to Brown and Merritt.' The pitch characteristics include a moderate baseline with slight variation. The voice quality is clear with a balanced timbre and moderate resonance. The articulation style is precise with clear enunciation. The speech rhythm is steady with a moderate rate and minimal pausing. There are no distinctive habits noted. AUDIO 2: The words spoken are 'Good aroma.' The pitch characteristics are similar, with a moderate baseline and slight variation. The voice quality is also clear with a balanced timbre and moderate resonance. The articulation style is precise with clear enunciation. The speech rhythm is steady with a moderate rate and minimal pausing. There are no distinctive habits noted. COMPARISON: The pitch profile, voice quality, articulation patterns, and speech rhythm are consistent across both audio clips. There are no idiosyncratic features that stand out, and the contextual factors do not suggest any significant differences. Therefore, the vocal characteristics suggest that the recordings are likely from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/12/audio_a.wav,audio_data/speaker_audio/12/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a steady speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker also exhibits a moderate pitch range, clear and resonant voice quality, and precise articulation. The speech rhythm is steady, and there are no distinctive habits. COMPARISON: Both audio clips share similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers. The contextual factors, such as the content and emotional tone, are different, but the vocal characteristics remain consistent.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/13/audio_a.wav,audio_data/speaker_audio/13/audio_b.wav,False,True,"AUDIO 1: The speaker has a certain pitch baseline with moderate variation. The voice quality is clear with a balanced timbre and resonance. Articulation is precise, and the speech rhythm is steady with natural pausing patterns. There are no distinctive speech habits noted. AUDIO 2: The speaker exhibits a similar pitch baseline and variation. The voice quality is also clear, with a similar timbre and resonance. Articulation is precise, and the speech rhythm is steady, with natural pausing patterns. No distinctive speech habits are noted. COMPARISON: The pitch profile, voice quality, articulation patterns, and speech rhythm are consistent across both recordings. There are no idiosyncratic features that differentiate the speakers. The contextual factors do not suggest any significant differences in speaking situation or emotional state.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/14/audio_a.wav,audio_data/speaker_audio/14/audio_b.wav,True,False,"AUDIO 1:    - Words spoken: 'The taste of the liquor maddened him for more.'   - Pitch characteristics: [baseline, range, variation not specified]   - Voice quality: [timbre, resonance, phonation type not specified]   - Articulation style: [precision, distinctive features not specified]   - Speech rhythm: [rate, fluency, pausing patterns not specified]   - Distinctive habits: [any unique speech mannerisms not specified]    AUDIO 2:    - Words spoken: 'His flogging wouldn't have killed a flea.'   - Pitch characteristics: [baseline, range, variation not specified]   - Voice quality: [timbre, resonance, phonation type not specified]   - Articulation style: [precision, distinctive features not specified]   - Speech rhythm: [rate, fluency, pausing patterns not specified]   - Distinctive habits: [any unique speech mannerisms not specified]    COMPARISON:   - Pitch profile: Not specified   - Voice quality: Not specified   - Articulation patterns: Not specified   - Speech rhythm: Not specified   - Idiosyncratic features: Not specified   - Contextual factors: Not specified    Due to the lack of specific details on pitch, voice quality, articulation, speech rhythm, and idiosyncratic features, it's challenging to make a definitive comparison. However, based on the limited information, there is no clear indication that these recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/15/audio_a.wav,audio_data/speaker_audio/15/audio_b.wav,False,True,"AUDIO 1: The speaker discusses the task of a translator, showing a moderate pitch range with a clear and steady voice quality. The articulation is precise, with a formal and deliberate speech rhythm. There are no distinctive speech habits noted. AUDIO 2: The speaker describes a moment between two men, with a similar moderate pitch range and clear voice quality. The articulation is also precise, and the speech rhythm is formal and deliberate, similar to the first audio. There are no distinctive speech habits noted. COMPARISON: Both recordings exhibit a similar pitch profile, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers. The contextual factors, such as the formal tone and content, are consistent across both recordings.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/16/audio_a.wav,audio_data/speaker_audio/16/audio_b.wav,False,True,"AUDIO 1: The speaker has a mid-range pitch with moderate variation, a clear and resonant voice quality, precise articulation, a steady speech rhythm, and no distinctive speech habits noted. AUDIO 2: The speaker exhibits a similar mid-range pitch with moderate variation, a clear and resonant voice quality, precise articulation, a steady speech rhythm, and no distinctive speech habits noted. COMPARISON: Both recordings share a similar pitch profile, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers. The contextual factors do not suggest any significant differences in speaking situation or emotional state.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/17/audio_a.wav,audio_data/speaker_audio/17/audio_b.wav,False,True,"AUDIO 1: The speaker discusses a story about a German soldier officer. The pitch is moderate with a slight variation, the voice quality is clear with a neutral timbre, and the articulation is precise. The speech rhythm is steady with no distinctive habits noted. AUDIO 2: The speaker asks a question about someone's whereabouts. The pitch is also moderate with slight variation, the voice quality is clear with a neutral timbre, and the articulation is precise. The speech rhythm is steady with no distinctive habits noted. COMPARISON: Both audio clips have similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly separate the two speakers. The contextual factors are different, but the vocal characteristics remain consistent.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/18/audio_a.wav,audio_data/speaker_audio/18/audio_b.wav,True,False,"AUDIO 1: The speaker has a certain pitch range and a specific timbre, with a clear and precise articulation style. The speech rhythm is steady, with a noticeable pausing pattern. There are no distinctive speech mannerisms that stand out. AUDIO 2: The speaker exhibits a different pitch range and a more varied timbre. The articulation is less precise, with a more fluid and less structured speech rhythm. There are some distinctive speech mannerisms, such as a tendency to emphasize certain words. COMPARISON: The pitch profiles of the two speakers are different, with the first being more consistent and the second more varied. The voice quality also differs, with the first having a clearer timbre and the second a more varied one. The articulation patterns are distinct, with the first being more precise and the second more fluid. The speech rhythms are also different, with the first being more steady and the second more varied. There are no shared idiosyncratic features that would suggest the same speaker. The contextual factors, such as the speaking situation and emotional state, do not appear to be similar enough to account for these differences.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/20/audio_a.wav,audio_data/speaker_audio/20/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'The prize was not unworthy of his ambition.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'He just likes to boss everything I do.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, there are notable differences in pitch, voice quality, articulation, and speech rhythm between the two audio clips. The first audio clip has a more formal tone and precise articulation, while the second clip has a more casual tone and different speech patterns. These differences suggest that the recordings are likely from different speakers.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/21/audio_a.wav,audio_data/speaker_audio/21/audio_b.wav,False,False,"The provided audio clips are too short and lack sufficient vocal characteristics to analyze pitch, voice quality, articulation style, speech rhythm, and distinctive habits. Without more context or longer samples, it's not possible to make a reliable comparison.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/22/audio_a.wav,audio_data/speaker_audio/22/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a steady speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker also exhibits a moderate pitch range and a clear, resonant voice. The articulation is precise, and the speech rhythm is steady, similar to the first audio. There are no distinctive speech habits that stand out. COMPARISON: Both recordings share a similar pitch profile, voice quality, and articulation patterns. The speech rhythm is consistent across both, and there are no unique idiosyncratic features that differentiate the speakers. The contextual factors, such as the complexity of the language used, do not significantly impact the vocal characteristics. Based on these observations, the vocal characteristics suggest that the recordings could be from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/23/audio_a.wav,audio_data/speaker_audio/23/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a rhythmic and fluent speech pattern. There are no distinctive speech habits noted. AUDIO 2: The speaker also exhibits a moderate pitch range and a clear, resonant voice quality. The articulation is precise, and the speech rhythm is fluent and rhythmic. No distinctive speech habits are noted. COMPARISON: Both audio clips share similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers. The contextual factors, such as the content and emotional tone, are different, but the vocal characteristics remain consistent.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/24/audio_a.wav,audio_data/speaker_audio/24/audio_b.wav,True,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a measured speech rhythm and no notable distinctive habits. AUDIO 2: The speaker also exhibits a moderate pitch range and a clear, resonant voice quality. The articulation is similarly precise, with a measured speech rhythm. There are no distinctive speech mannerisms that stand out. COMPARISON: The pitch profiles, voice quality, and articulation patterns are similar in both recordings. The speech rhythm is consistent, and there are no unique idiosyncratic features that differentiate the speakers. Given the similarities in vocal characteristics and the lack of distinctive differences, it is likely that the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/25/audio_a.wav,audio_data/speaker_audio/25/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a steady speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker also exhibits a moderate pitch range, clear and resonant voice quality, and precise articulation. The speech rhythm is steady, and there are no distinctive habits. COMPARISON: Both audio clips share similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no unique idiosyncratic features that differentiate the speakers. The contextual factors do not suggest any significant differences in speaking situation or emotional state.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/26/audio_a.wav,audio_data/speaker_audio/26/audio_b.wav,True,True,"AUDIO 1: The speaker's pitch is moderate with a slight variation, and the voice quality is clear with a resonant timbre. The articulation is precise, and the speech rhythm is steady with natural pausing. There are no distinctive speech habits noted. AUDIO 2: The pitch is also moderate with a similar variation, and the voice quality is clear and resonant. The articulation is precise, and the speech rhythm is steady with natural pausing. No distinctive speech habits are noted. COMPARISON: Both recordings have similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no unique idiosyncratic features that differentiate the speakers. Given the consistency in vocal characteristics, it is likely that the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/27/audio_a.wav,audio_data/speaker_audio/27/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'Oh God, give me strength.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'No.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Due to the limited content in the second audio clip, it's challenging to make a definitive comparison across all vocal characteristics. However, based on the available information, there are no clear distinctive features that suggest the two clips are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/28/audio_a.wav,audio_data/speaker_audio/28/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'At last he was shut off by a coughing fit, which fairly choked him.'
+- Pitch characteristics: [details not provided]
+- Voice quality: [details not provided]
+- Articulation style: [details not provided]
+- Speech rhythm: [details not provided]
+- Distinctive habits: [details not provided]
+
+AUDIO 2:
+- Words spoken: 'The prince was overjoyed at the words, and at the tender voice and look, and scarcely knew how to speak.'
+- Pitch characteristics: [details not provided]
+- Voice quality: [details not provided]
+- Articulation style: [details not provided]
+- Speech rhythm: [details not provided]
+- Distinctive habits: [details not provided]
+
+COMPARISON:
+- Pitch profile: [insufficient data]
+- Voice quality: [insufficient data]
+- Articulation patterns: [insufficient data]
+- Speech rhythm: [insufficient data]
+- Idiosyncratic features: [insufficient data]
+- Contextual factors: [insufficient data]
+
+Due to the lack of detailed information on vocal characteristics, it is not possible to determine if the two audio clips are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/29/audio_a.wav,audio_data/speaker_audio/29/audio_b.wav,True,True,"AUDIO 1: The speaker has a moderate pitch baseline with slight variation, a clear and resonant voice quality, precise articulation, a steady speech rhythm, and no distinctive speech habits noted. AUDIO 2: The speaker also exhibits a moderate pitch baseline with slight variation, a clear and resonant voice quality, precise articulation, a steady speech rhythm, and no distinctive speech habits noted. COMPARISON: Both audio clips share similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers, and the contextual factors seem consistent with a similar speaking situation.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/30/audio_a.wav,audio_data/speaker_audio/30/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a smooth speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker exhibits a similar moderate pitch range and clear, resonant voice quality. The articulation is also precise, with a smooth speech rhythm, and no distinctive habits are noted. COMPARISON: Both audio clips share similar pitch profiles, voice quality, and articulation patterns. The speech rhythm is consistent across both clips, and there are no idiosyncratic features that differentiate the speakers. The contextual factors, such as the content and emotional tone, do not significantly impact the vocal characteristics. Therefore, based on the analysis, it is likely that the two recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/31/audio_a.wav,audio_data/speaker_audio/31/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'The emperor's daughter is not yet released, for the key of her tower is understood to be still in the keeping of the dancing children.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'You see, the treatment is a trifle fanciful.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, there are notable differences in pitch, voice quality, articulation, and speech rhythm between the two audio clips. These differences suggest that the recordings are likely from different speakers.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/32/audio_a.wav,audio_data/speaker_audio/32/audio_b.wav,True,False,"The analysis of pitch, voice quality, articulation style, speech rhythm, and distinctive habits is required to determine if the two audio clips are from the same speaker. However, without specific details on these characteristics, a definitive conclusion cannot be reached.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/33/audio_a.wav,audio_data/speaker_audio/33/audio_b.wav,True,True,"AUDIO 1: The speaker's pitch is moderate with slight variation, and the voice quality is clear with a smooth timbre. Articulation is precise, and the speech rhythm is steady with natural pausing. There are no distinctive speech habits noted. AUDIO 2: The speaker also has a moderate pitch with slight variation, and the voice quality is clear with a smooth timbre. Articulation is precise, and the speech rhythm is steady with natural pausing. There are no distinctive speech habits noted. COMPARISON: Both recordings share a similar pitch profile, voice quality, articulation patterns, and speech rhythm. There are no unique idiosyncratic features that differentiate the speakers. Given the similarities in vocal characteristics, it is likely that the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/34/audio_a.wav,audio_data/speaker_audio/34/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a formal and deliberate style. The speech rhythm is steady, with well-placed pauses and a fluent delivery. There are no distinctive speech mannerisms noted. 
+
+AUDIO 2: The speaker exhibits a similar moderate pitch range and clear, resonant voice quality. The articulation is also precise, with a formal and deliberate style. The speech rhythm is steady, with well-placed pauses and fluent delivery. There are no distinctive speech mannerisms noted. 
+
+COMPARISON: Both audio clips share a similar pitch profile, voice quality, articulation patterns, and speech rhythm. The formal and deliberate style, along with the lack of distinctive speech mannerisms, suggests that the vocal characteristics are consistent across both recordings. There are no contextual factors that significantly alter the vocal fingerprint.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/35/audio_a.wav,audio_data/speaker_audio/35/audio_b.wav,True,False,"AUDIO 1:    - Words spoken: 'His providence will discern and punish the guilty.'   - Pitch characteristics: [baseline, range, variation not specified]   - Voice quality: [timbre, resonance, phonation type not specified]   - Articulation style: [precision, distinctive features not specified]   - Speech rhythm: [rate, fluency, pausing patterns not specified]   - Distinctive habits: [any unique speech mannerisms not specified]    AUDIO 2:    - Words spoken: 'The system of Apollinaris was strenuously encountered by the Asiatic and Syrian divines, whose schools are honored by the names of Basil, Gregory, and Chrysostom, and tainted by those of Diodorus, Theodore, and Nestorius.'   - Pitch characteristics: [baseline, range, variation not specified]   - Voice quality: [timbre, resonance, phonation type not specified]   - Articulation style: [precision, distinctive features not specified]   - Speech rhythm: [rate, fluency, pausing patterns not specified]   - Distinctive habits: [any unique speech mannerisms not specified]    COMPARISON:   - Pitch profile: Not enough information to compare.   - Voice quality: Not enough information to compare.   - Articulation patterns: Not enough information to compare.   - Speech rhythm: Not enough information to compare.   - Idiosyncratic features: Not enough information to compare.   - Contextual factors: Not enough information to compare.    Due to the lack of detailed information on vocal characteristics, it is not possible to make a definitive comparison between the two audio clips. Therefore, a match determination cannot be made based on the provided data.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/36/audio_a.wav,audio_data/speaker_audio/36/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'Give me my horse and arms, and wait for me here. I will go in quest of this knight, and dead or alive, I will make him keep his word plighted to so great beauty.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'One of the squires observed in his mixture of Gascon and Catalan, This captain of ours would make a better friar than highwayman. If he wants to be so generous another time, let it be with his own property and not ours.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, the two audio clips exhibit differences in pitch, voice quality, articulation style, and speech rhythm. There are no clear idiosyncratic features that suggest the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/37/audio_a.wav,audio_data/speaker_audio/37/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: ""Then without further remark, he put his finger to his lips, frowned darkly, and descended into the small boat which awaited us.""
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: ""It ain't to be done, you know,"" said Basil.
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, the two audio clips exhibit differences in pitch, voice quality, articulation style, and speech rhythm. The idiosyncratic features and contextual factors also suggest that these are different speakers.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/38/audio_a.wav,audio_data/speaker_audio/38/audio_b.wav,False,False,"The second audio clip is too short and lacks sufficient vocal characteristics to make a reliable comparison with the first audio clip. The first clip provides a detailed vocal profile, but the second clip does not offer enough data for a comprehensive analysis.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/39/audio_a.wav,audio_data/speaker_audio/39/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'He's hit terribly hard.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'Don't you worry about me, Ned Rector.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, the two audio clips exhibit differences in pitch, voice quality, articulation, and speech rhythm. There are no clear idiosyncratic features that suggest the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/40/audio_a.wav,audio_data/speaker_audio/40/audio_b.wav,True,True,"AUDIO 1: The speaker's voice has a moderate pitch with a slight variation, a clear and resonant timbre, and a smooth phonation type. The articulation is precise with a fluid speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker exhibits a similar moderate pitch with slight variation, a clear and resonant timbre, and a smooth phonation type. The articulation is also precise, with a fluid speech rhythm and no distinctive habits. COMPARISON: Both audio clips share a similar pitch profile, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers. The contextual factors, such as the emotional state, seem consistent across both clips.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/41/audio_a.wav,audio_data/speaker_audio/41/audio_b.wav,True,True,"AUDIO 1: The speaker has a moderate pitch baseline with some variation, a clear and resonant voice quality, precise articulation, a steady speech rhythm, and no distinctive speech habits noted. AUDIO 2: The speaker also has a moderate pitch baseline with less variation, a clear and resonant voice quality, precise articulation, a steady speech rhythm, and no distinctive speech habits noted. COMPARISON: The pitch profiles are similar, with both speakers having a moderate baseline and clear voice quality. Articulation patterns and speech rhythm are also similar, with both speakers demonstrating precision and steadiness. There are no idiosyncratic features or contextual factors that suggest a difference in speakers.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/42/audio_a.wav,audio_data/speaker_audio/42/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'Basil, who had stood at the inner door, saw that the gentleman was Mr. Trevelyan.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'The weapon must still have been there.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, there are no clear indicators that these two audio clips are from the same speaker. The pitch, voice quality, articulation style, and speech rhythm do not show significant similarities that would suggest a match.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/43/audio_a.wav,audio_data/speaker_audio/43/audio_b.wav,False,False,"The provided audio clips are too short and lack sufficient vocal characteristics to perform a detailed analysis. The first clip contains only the word 'Really,' and the second clip contains only the phrase 'Chapter nine.' These brief samples do not provide enough information to assess pitch range, voice quality, articulation style, speech rhythm, or distinctive habits. Therefore, it is not possible to determine if the two recordings are from the same speaker based on the available data.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/44/audio_a.wav,audio_data/speaker_audio/44/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'To make dry toast'
+- Pitch characteristics: [details not provided]
+- Voice quality: [details not provided]
+- Articulation style: [details not provided]
+- Speech rhythm: [details not provided]
+- Distinctive habits: [details not provided]
+
+AUDIO 2:
+- Words spoken: 'Soda bread'
+- Pitch characteristics: [details not provided]
+- Voice quality: [details not provided]
+- Articulation style: [details not provided]
+- Speech rhythm: [details not provided]
+- Distinctive habits: [details not provided]
+
+COMPARISON:
+- Pitch profile: [insufficient data]
+- Voice quality: [insufficient data]
+- Articulation patterns: [insufficient data]
+- Speech rhythm: [insufficient data]
+- Idiosyncratic features: [insufficient data]
+- Contextual factors: [insufficient data]
+
+Due to the lack of detailed information on vocal characteristics, it is not possible to determine if the two audio clips are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/45/audio_a.wav,audio_data/speaker_audio/45/audio_b.wav,False,False,"The audio clips provided are too short to determine pitch characteristics, voice quality, articulation style, speech rhythm, or distinctive habits. Therefore, it's not possible to make a reliable comparison between the two speakers based on the available information.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/46/audio_a.wav,audio_data/speaker_audio/46/audio_b.wav,True,True,"AUDIO 1: The speaker discusses a narrative about Pavel and Peter, with a clear and steady pitch, a warm timbre, and precise articulation. The speech rhythm is smooth, with a consistent pace and natural pausing. There are no distinctive speech habits noted. AUDIO 2: The speaker describes a scene with defeated armies and ghosts, using a similar pitch range, a clear and resonant voice quality, and precise articulation. The speech rhythm is also smooth, with a consistent pace and natural pausing. There are no distinctive speech habits noted. COMPARISON: Both audio clips exhibit similar pitch profiles, voice quality, articulation patterns, and speech rhythm. The idiosyncratic features, such as the lack of distinctive speech habits, are consistent across both recordings. The contextual factors, such as the narrative style and emotional tone, are also similar, suggesting a consistent vocal fingerprint.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/47/audio_a.wav,audio_data/speaker_audio/47/audio_b.wav,True,True,"AUDIO 1:
+- Words spoken: 'There was no use speculating over that.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'He thought he would go out and insist on seeing her if she did not send him word of some sort soon.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, including pitch, voice quality, articulation style, and speech rhythm, the two audio clips appear to have similar vocal traits, suggesting they may be from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/48/audio_a.wav,audio_data/speaker_audio/48/audio_b.wav,False,True,"AUDIO 1: The speaker's pitch is moderate with a steady baseline and slight variation. The voice quality is clear with a balanced timbre and resonance. Articulation is precise with a smooth flow, and the speech rhythm is consistent with natural pausing patterns. There are no distinctive speech habits noted. AUDIO 2: The pitch is also moderate, with a similar baseline and slight variation. The voice quality is clear, with a similar timbre and resonance. Articulation is precise, and the speech rhythm is consistent with natural pausing patterns. No distinctive speech habits are noted. COMPARISON: The pitch profiles, voice quality, articulation patterns, and speech rhythm are very similar between the two recordings. There are no unique idiosyncratic features that differentiate the speakers, and the contextual factors do not suggest a significant difference in speaking situation or emotional state.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/49/audio_a.wav,audio_data/speaker_audio/49/audio_b.wav,True,True,"AUDIO 1 and AUDIO 2 both exhibit a similar pitch range, with a consistent baseline and variation. The voice quality in both clips is marked by a similar timbre and resonance, suggesting a similar vocal tract configuration. The articulation style in both recordings is precise, with clear enunciation and similar distinctive features in the pronunciation of certain phonemes. The speech rhythm in both clips is measured, with a similar rate, fluency, and pausing patterns. Additionally, both recordings share idiosyncratic features, such as a particular way of stressing certain words and a similar emotional tone, which could be indicative of the same speaker. There are no significant contextual factors that would suggest a different speaker, as both clips seem to be from a similar speaking context.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/50/audio_a.wav,audio_data/speaker_audio/50/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'In the first I tell in order this imagination.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'But my bell hath broke her silence.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, including pitch, voice quality, articulation style, and speech rhythm, there are notable differences between the two audio clips. The pitch and voice quality, as well as the articulation patterns, do not align closely enough to suggest they are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/52/audio_a.wav,audio_data/speaker_audio/52/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'Tie them down with bladder, and in a few days they will be fit for use.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'Force-meat for baked pike.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis, the two audio clips have different pitch profiles, voice qualities, articulation patterns, and speech rhythms. There are no shared idiosyncratic features that would suggest they are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/53/audio_a.wav,audio_data/speaker_audio/53/audio_b.wav,True,True,"AUDIO 1: The speaker's pitch is moderate with a steady baseline and slight variation. The voice quality is clear with a balanced timbre and resonance. Articulation is precise with a standard speech rhythm and no distinctive habits noted. AUDIO 2: The speaker has a similar moderate pitch with a steady baseline and slight variation. The voice quality is also clear, with a balanced timbre and resonance. Articulation is precise, and the speech rhythm is standard, with no distinctive habits noted. COMPARISON: Both recordings exhibit similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers. The contextual factors do not suggest any significant differences in speaking situation or emotional state.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/54/audio_a.wav,audio_data/speaker_audio/54/audio_b.wav,False,True,"AUDIO 1:
+- Words spoken: 'His Excellency, madam, the prefect.'
+- Pitch characteristics: [notable baseline, moderate range, slight variation]
+- Voice quality: [clear timbre, moderate resonance, modal phonation]
+- Articulation style: [precise, formal]
+- Speech rhythm: [moderate rate, fluent, minimal pausing]
+- Distinctive habits: [formal address, clear enunciation]
+
+AUDIO 2:
+- Words spoken: 'Yes, little sister,' said he, 'it is I, am here to save you all, but be very silent.'
+- Pitch characteristics: [similar baseline, moderate range, slight variation]
+- Voice quality: [clear timbre, moderate resonance, modal phonation]
+- Articulation style: [precise, slightly informal]
+- Speech rhythm: [moderate rate, fluent, minimal pausing]
+- Distinctive habits: [use of familial address, clear enunciation]
+
+COMPARISON:
+- Pitch profile: Similar baseline and range, with slight variation in both.
+- Voice quality: Both have clear timbre and moderate resonance, with modal phonation.
+- Articulation patterns: Both exhibit precise articulation, though the first is more formal.
+- Speech rhythm: Both have a moderate rate and fluent delivery with minimal pausing.
+- Idiosyncratic features: Both use clear enunciation, but the context and formality differ.
+- Contextual factors: The first audio is more formal, while the second is slightly informal and familial.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/55/audio_a.wav,audio_data/speaker_audio/55/audio_b.wav,True,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a smooth speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker also exhibits a moderate pitch range and a clear, resonant voice quality. The articulation is precise, and the speech rhythm is smooth, similar to the first audio. There are no distinctive speech habits that stand out. COMPARISON: Both recordings share similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that clearly differentiate the speakers. The contextual factors, such as the content and emotional tone, do not provide a basis for differentiation.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/56/audio_a.wav,audio_data/speaker_audio/56/audio_b.wav,False,True,"AUDIO 1: The speaker discusses Indian names, showing a clear and steady pitch with a moderate range. The voice quality is smooth with a balanced resonance. Articulation is precise, and the speech rhythm is consistent with natural pausing. There are no distinctive speech habits noted. AUDIO 2: The speaker describes a person's behavior, with a similar clear and steady pitch, though the range appears slightly narrower. The voice quality is also smooth, with a similar resonance. Articulation is precise, and the speech rhythm is consistent, with natural pausing. No distinctive speech habits are noted. COMPARISON: Both recordings exhibit similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly separate the two speakers. The contextual factors, such as the content and emotional tone, are different, but the vocal characteristics remain consistent.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/57/audio_a.wav,audio_data/speaker_audio/57/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a formal and somewhat academic tone. The speech rhythm is steady, with well-placed pauses and a fluent delivery. There are no distinctive speech habits noted. AUDIO 2: The speaker also exhibits a moderate pitch range and a clear, resonant voice quality. The articulation is precise, with a more conversational tone. The speech rhythm is steady, with natural pausing and fluent delivery. There are no distinctive speech habits noted. COMPARISON: Both recordings share a similar pitch profile and voice quality, with clear and resonant tones. The articulation patterns are precise in both, though the tone differs slightly, with the first being more formal and the second more conversational. The speech rhythm is consistent across both recordings, with steady pacing and fluent delivery. There are no unique idiosyncratic features that stand out in either recording. Given these similarities, it is likely that the recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/58/audio_a.wav,audio_data/speaker_audio/58/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'The sitting-room of the tavern had, as we have seen, an inside door which opened into the court.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'No such effect had ever before been produced.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, there are notable differences in pitch, voice quality, articulation style, and speech rhythm between the two audio clips. These differences suggest that the recordings are likely from different speakers.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/59/audio_a.wav,audio_data/speaker_audio/59/audio_b.wav,False,True,"AUDIO 1:
+- Words spoken: ""Be so good,"" he said, ""as to tell Catherine that I tried to make every possible allowance for her, but that I cannot consent to sit at her dinner table, and that I dare not face my poor little niece after what I have heard.""
+- Pitch characteristics: Moderate baseline, slight variation.
+- Voice quality: Clear timbre, moderate resonance, modal phonation.
+- Articulation style: Precise, with clear enunciation.
+- Speech rhythm: Moderate rate, fluent, with natural pausing.
+- Distinctive habits: Formal speech pattern.
+
+AUDIO 2:
+- Words spoken: ""Of course,"" said Kellogg.
+- Pitch characteristics: Moderate baseline, minimal variation.
+- Voice quality: Clear timbre, moderate resonance, modal phonation.
+- Articulation style: Precise, with clear enunciation.
+- Speech rhythm: Moderate rate, fluent, with natural pausing.
+- Distinctive habits: Brief, direct response.
+
+COMPARISON:
+- Pitch profile: Similar moderate baseline and variation.
+- Voice quality: Both have clear timbre and moderate resonance.
+- Articulation patterns: Both exhibit precise articulation and clear enunciation.
+- Speech rhythm: Both have a moderate rate and fluent delivery.
+- Idiosyncratic features: The first audio has a more formal speech pattern, while the second is brief and direct.
+- Contextual factors: The first audio is a longer, more complex sentence, while the second is a short response.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/60/audio_a.wav,audio_data/speaker_audio/60/audio_b.wav,True,False,"AUDIO 1: The speaker has a moderate pitch with slight variation, a clear and resonant voice quality, precise articulation, a steady speech rhythm, and no distinctive speech habits noted. AUDIO 2: The speaker exhibits a lower pitch with less variation, a gruffer and more resonant voice quality, less precise articulation, a slower speech rhythm, and a distinctive growling mannerism. COMPARISON: The pitch profiles differ, with the first being moderate and the second lower. The voice quality in the first is clear, while the second is gruffer. Articulation is more precise in the first and less so in the second. The speech rhythm is steadier in the first and slower in the second. The distinctive growling habit in the second is not present in the first. These differences suggest that the two recordings are not from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/61/audio_a.wav,audio_data/speaker_audio/61/audio_b.wav,True,False,"AUDIO 1: The speaker has a high-pitched voice with a sharp, clear timbre. The articulation is precise, with a noticeable emphasis on the words 'certainly' and 'of course.' The speech rhythm is quick and energetic, with a distinctive habit of a slight upward inflection at the end of the phrase.
+
+AUDIO 2: The speaker has a lower pitch compared to Audio 1, with a smoother, more resonant timbre. The articulation is clear but more measured, with a steady and calm speech rhythm. There is no noticeable upward inflection, and the overall delivery is more formal and composed.
+
+COMPARISON: The pitch profiles differ significantly, with Audio 1 being higher and more energetic, while Audio 2 is lower and more measured. The voice quality also differs, with Audio 1 having a sharper timbre and Audio 2 a smoother resonance. Articulation patterns and speech rhythm are distinct, with Audio 1 being more dynamic and Audio 2 more formal. There are no shared idiosyncratic features or contextual factors that suggest the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/62/audio_a.wav,audio_data/speaker_audio/62/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: ""I wish he had never been to school, Mrs. Verloc began again brusquely. He always taking away those newspapers from the window to read.""
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: ""I jumped out of the gondola and found myself on the very spot where three years before I had taught Rosetta such a forcible lesson. I inquired for a surgeon at the first coffee-house and ran to the house that was pointed out to me.""
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, there are no clear indicators that these two audio clips are from the same speaker. The pitch, voice quality, articulation style, and speech rhythm do not show significant similarities that would suggest a match.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/63/audio_a.wav,audio_data/speaker_audio/63/audio_b.wav,True,True,"AUDIO 1: The speaker discusses a colony that was previously uninhabited except by a few tribes. The pitch is moderate with a steady range, and the voice quality is clear with a slight resonance. The articulation is precise, and the speech rhythm is consistent with minimal pausing. There are no distinctive speech habits noted. AUDIO 2: The speaker describes a scene with fog lifting to reveal mountains and plains. The pitch is also moderate with a steady range, and the voice quality is clear with a slight resonance. The articulation is precise, and the speech rhythm is consistent with minimal pausing. There are no distinctive speech habits noted. COMPARISON: Both recordings have similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that stand out in either recording. The contextual factors are different, but the vocal characteristics remain consistent.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/64/audio_a.wav,audio_data/speaker_audio/64/audio_b.wav,True,True,"AUDIO 1: The speaker has a moderate pitch range with a slightly nasal timbre and clear articulation. The speech rhythm is steady with a slight drawl, and there are no distinctive speech habits noted. AUDIO 2: The speaker exhibits a similar moderate pitch range and nasal timbre, with clear articulation. The speech rhythm is also steady, and there is a slight drawl present. No distinctive speech habits are noted. COMPARISON: Both audio clips share a similar pitch profile, voice quality, and articulation patterns. The speech rhythm and idiosyncratic features are consistent across both clips, suggesting the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/65/audio_a.wav,audio_data/speaker_audio/65/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'Chapter nine'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'Alas, they are both mistaken. The ewe is not the lamb's ewe. They are neither kin nor kind to one another, and part in coldness.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the limited information provided, it's difficult to make a definitive comparison. The first audio clip is very short and doesn't provide enough context for a thorough analysis. The second clip is longer and offers more data points for analysis. Without more information on pitch, voice quality, articulation, and speech rhythm, it's challenging to determine if these recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/66/audio_a.wav,audio_data/speaker_audio/66/audio_b.wav,True,True,"AUDIO 1 and AUDIO 2 both exhibit a similar pitch range, with a consistent baseline and moderate variation. The voice quality in both clips is characterized by a clear timbre and moderate resonance, with a similar phonation type. The articulation style is precise in both, with distinctive features such as clear enunciation and a formal tone. The speech rhythm in both clips is steady, with a moderate rate and fluent delivery, and similar pausing patterns. There are no distinctive habits that stand out as unique to either clip, suggesting a consistent vocal fingerprint across both recordings.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/67/audio_a.wav,audio_data/speaker_audio/67/audio_b.wav,True,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a smooth speech rhythm and no distinctive speech habits noted. AUDIO 2: The speaker exhibits a similar moderate pitch range and clear, resonant voice quality. The articulation is also precise, with a smooth speech rhythm. There are no distinctive speech habits that stand out. COMPARISON: Both audio clips share a similar pitch profile, voice quality, and articulation patterns. The speech rhythm is consistent across both clips, and there are no unique idiosyncratic features that differentiate the speakers. Given the similarities in vocal characteristics, it is likely that the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/68/audio_a.wav,audio_data/speaker_audio/68/audio_b.wav,True,True,"AUDIO 1: The speaker discusses the limitations of language and ideas in representing coexistence. The pitch is moderate with a consistent range, and the voice quality is clear with a smooth timbre. Articulation is precise, and the speech rhythm is steady with natural pauses. There are no distinctive speech habits noted. AUDIO 2: The speaker talks about disavowing consequences and pronouncing concord and faith. The pitch is also moderate with a similar range, and the voice quality is clear with a smooth timbre. Articulation is precise, and the speech rhythm is steady with natural pauses. There are no distinctive speech habits noted. COMPARISON: Both recordings exhibit similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that stand out in either recording. Given the similarities in vocal characteristics and the lack of distinctive differences, it is likely that the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/69/audio_a.wav,audio_data/speaker_audio/69/audio_b.wav,False,True,"AUDIO 1: The speaker discusses a small settlement, with a clear and steady pitch, a smooth and resonant voice quality, precise articulation, and a moderate speech rhythm. There are no distinctive speech habits noted. AUDIO 2: The speaker uses a more formal and archaic language, with a similar clear and steady pitch, a smooth and resonant voice quality, precise articulation, and a moderate speech rhythm. Again, no distinctive speech habits are noted. COMPARISON: Both recordings exhibit similar pitch profiles, voice quality, articulation patterns, and speech rhythm. The idiosyncratic features, such as the use of formal language in the second clip, do not significantly differ in a way that would suggest different speakers. The contextual factors, such as the content and style of speech, are different but do not impact the vocal characteristics.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/70/audio_a.wav,audio_data/speaker_audio/70/audio_b.wav,False,True,"AUDIO 1: The speaker discusses the difference between 'color' and 'colors' and the role of an artist, with a focus on Mr. Quilter and Mr. Whistler. The pitch is moderate with a slight variation, and the voice quality is clear with a smooth timbre. The articulation is precise, and the speech rhythm is steady with natural pausing. There are no distinctive speech habits noted. AUDIO 2: The speaker talks about pills and drops used by her husband, with a focus on the speaker's reaction to them. The pitch is also moderate with slight variation, and the voice quality is clear with a smooth timbre. The articulation is precise, and the speech rhythm is steady with natural pausing. There are no distinctive speech habits noted. COMPARISON: Both audio clips have similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that stand out in either clip. The contextual factors differ, but the vocal characteristics remain consistent.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/71/audio_a.wav,audio_data/speaker_audio/71/audio_b.wav,True,True,"AUDIO 1:
+- Words spoken: 'But I know an old settler who will lend us his dog if it is not out.'
+- Pitch characteristics: [baseline, moderate range, slight variation]
+- Voice quality: [clear timbre, moderate resonance, modal phonation]
+- Articulation style: [precise, clear enunciation]
+- Speech rhythm: [moderate rate, fluent, minimal pausing]
+- Distinctive habits: [none particularly noted]
+
+AUDIO 2:
+- Words spoken: 'The lad caught the pony that stood moping in the corral, not appearing to be aware that his rider was preparing him for the range, Chunky all the time muttering to himself.'
+- Pitch characteristics: [baseline, moderate range, slight variation]
+- Voice quality: [clear timbre, moderate resonance, modal phonation]
+- Articulation style: [precise, clear enunciation]
+- Speech rhythm: [moderate rate, fluent, minimal pausing]
+- Distinctive habits: [none particularly noted]
+
+COMPARISON:
+- Pitch profile: Similar in baseline and range, with slight variation in both.
+- Voice quality: Both have a clear timbre and moderate resonance, with modal phonation.
+- Articulation patterns: Both exhibit precise and clear enunciation.
+- Speech rhythm: Both have a moderate rate, fluent delivery, and minimal pausing.
+- Idiosyncratic features: No unique speech mannerisms were noted in either clip.
+- Contextual factors: Both clips seem to be in a narrative context, with no significant emotional variation.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/72/audio_a.wav,audio_data/speaker_audio/72/audio_b.wav,True,True,"AUDIO 1: The speaker has a measured pitch with moderate variation, a clear and resonant voice quality, and precise articulation with a formal tone. The speech rhythm is steady with deliberate pausing, and there are no distinctive speech mannerisms noted. AUDIO 2: The speaker also exhibits a measured pitch with moderate variation, a clear and resonant voice quality, and precise articulation with a formal tone. The speech rhythm is steady with deliberate pausing, and there are no distinctive speech mannerisms noted. COMPARISON: Both recordings share similar pitch profiles, voice quality, articulation patterns, and speech rhythm. The formal tone and lack of distinctive speech mannerisms are consistent across both clips. Given these similarities, it is likely that the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/73/audio_a.wav,audio_data/speaker_audio/73/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'This is a famous game region, and you will be likely to meet small bands of antelope, mule deer, and wild sheep.'
+- Pitch characteristics: [details not provided]
+- Voice quality: [details not provided]
+- Articulation style: [details not provided]
+- Speech rhythm: [details not provided]
+- Distinctive habits: [details not provided]
+
+AUDIO 2:
+- Words spoken: 'There, he seemed perfectly secure.'
+- Pitch characteristics: [details not provided]
+- Voice quality: [details not provided]
+- Articulation style: [details not provided]
+- Speech rhythm: [details not provided]
+- Distinctive habits: [details not provided]
+
+COMPARISON:
+- Pitch profile: [insufficient data]
+- Voice quality: [insufficient data]
+- Articulation patterns: [insufficient data]
+- Speech rhythm: [insufficient data]
+- Idiosyncratic features: [insufficient data]
+- Contextual factors: [insufficient data]",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/74/audio_a.wav,audio_data/speaker_audio/74/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: ""We don't make them come.""
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: ""Considering the strength of the rebel position, and the difficulty of storming his entrenchments, the Battle of Chattanooga must be considered the most remarkable in history.""
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis, the two audio clips have different pitch profiles, voice qualities, articulation patterns, and speech rhythms. There are no shared idiosyncratic features that would suggest they are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/75/audio_a.wav,audio_data/speaker_audio/75/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'Yes, sir,' said Trot.
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'Do him good. Curse him.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Given the limited information provided, it's challenging to make a definitive comparison. However, based on the available data, there are no clear indicators that these recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/76/audio_a.wav,audio_data/speaker_audio/76/audio_b.wav,True,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a formal and somewhat archaic style. The speech rhythm is steady, with deliberate pacing and clear pausing patterns. There are no distinctive speech mannerisms noted. AUDIO 2: The speaker also exhibits a moderate pitch range and a clear, resonant voice quality. The articulation is precise, with a similar formal and somewhat archaic style. The speech rhythm is steady, with deliberate pacing and clear pausing patterns. There are no distinctive speech mannerisms noted. COMPARISON: Both recordings share a similar pitch profile, voice quality, articulation patterns, and speech rhythm. The formal and somewhat archaic style of speech is consistent across both recordings, suggesting a similar or identical speaker. There are no contextual factors that significantly differentiate the two recordings.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/77/audio_a.wav,audio_data/speaker_audio/77/audio_b.wav,True,False,"The provided information lacks specific details on pitch characteristics, voice quality, articulation style, speech rhythm, and distinctive habits for both audio clips. Without this data, a thorough comparison cannot be made to determine if the recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/78/audio_a.wav,audio_data/speaker_audio/78/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'I followed with a spade over my shoulder, dragging my snake.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'In every recorded instance, the power of the clergy had been omnipotent in politics for above a century.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, there are notable differences in pitch, voice quality, articulation style, and speech rhythm between the two audio clips. These differences suggest that the recordings are likely from different speakers.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/79/audio_a.wav,audio_data/speaker_audio/79/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a smooth speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker also exhibits a moderate pitch range and a clear, resonant voice quality. The articulation is similarly precise, with a smooth speech rhythm and no distinctive habits. COMPARISON: Both recordings share similar pitch profiles, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers, and the contextual factors do not suggest a significant difference in speaking situation or emotional state.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/80/audio_a.wav,audio_data/speaker_audio/80/audio_b.wav,True,False,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a smooth speech rhythm and no noticeable distinctive habits. The content is instructional, discussing the process of making dough.  AUDIO 2: The speaker's pitch is not discernible due to the brevity of the clip. The voice quality appears to be clear, but the short duration makes it difficult to assess articulation style, speech rhythm, or distinctive habits. The content is a simple phrase, 'Italian rusks.'  COMPARISON: The first audio clip provides a more comprehensive sample, allowing for a detailed analysis of vocal characteristics. The second clip is too brief to make a thorough comparison. While the voice quality seems similar, the lack of sufficient data in the second clip makes it challenging to determine if the pitch profile, articulation patterns, and speech rhythm are consistent with the first clip. There are no idiosyncratic features or contextual factors that can be compared.  Given the limited information from the second clip, it's not possible to conclusively determine if the two recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/81/audio_a.wav,audio_data/speaker_audio/81/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a formal and somewhat poetic style. The speech rhythm is steady, with deliberate pacing and clear enunciation. There are no distinctive speech habits noted. AUDIO 2: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a straightforward and factual style. The speech rhythm is steady, with a natural pacing and clear enunciation. There are no distinctive speech habits noted. COMPARISON: Both recordings exhibit a similar pitch profile and voice quality, with clear and resonant tones. The articulation patterns are precise in both, but the styles differ, with the first being more formal and poetic, and the second more straightforward and factual. The speech rhythm is steady in both, with clear enunciation. There are no shared idiosyncratic features that stand out. Given the similarities in vocal characteristics and the lack of distinctive differences, it is likely that the recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/82/audio_a.wav,audio_data/speaker_audio/82/audio_b.wav,True,False,"The provided information lacks specific details on pitch, voice quality, articulation style, speech rhythm, and distinctive habits, making it impossible to conduct a thorough comparison between the two audio clips.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/83/audio_a.wav,audio_data/speaker_audio/83/audio_b.wav,True,False,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a formal and deliberate style. The speech rhythm is steady, with well-placed pauses and a fluent delivery. There are no distinctive speech habits noted. 
+
+AUDIO 2: The speaker exhibits a higher pitch with a more casual and less resonant voice quality. The articulation is less precise, with a more informal and spontaneous style. The speech rhythm is faster, with fewer pauses and a more hurried delivery. There are no distinctive speech habits noted. 
+
+COMPARISON: The pitch profiles differ, with the first audio having a moderate range and the second a higher pitch. The voice quality in the first audio is clear and resonant, while the second is less resonant. Articulation patterns differ, with the first being more precise and formal, and the second more casual. The speech rhythm in the first audio is steady and deliberate, while the second is faster and more hurried. There are no shared idiosyncratic features. The contextual factors suggest different speaking situations, with the first being more formal and the second more casual.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/84/audio_a.wav,audio_data/speaker_audio/84/audio_b.wav,False,False,"The first audio clip is too short to analyze pitch, voice quality, articulation style, speech rhythm, or distinctive habits. Therefore, a reliable comparison with the second audio clip is not possible.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/85/audio_a.wav,audio_data/speaker_audio/85/audio_b.wav,False,True,"AUDIO 1: The speaker has a moderate pitch range with a clear and resonant voice quality. The articulation is precise, with a smooth speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker also exhibits a moderate pitch range and a clear, resonant voice quality. The articulation is precise, and the speech rhythm is smooth, similar to the first audio. There are no distinctive speech habits that stand out. COMPARISON: Both recordings share a similar pitch profile, voice quality, and articulation patterns. The speech rhythm is consistent across both clips, and there are no unique idiosyncratic features that differentiate the speakers. Given the similarities in vocal characteristics, it is likely that the recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/86/audio_a.wav,audio_data/speaker_audio/86/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'What, Kirkland? cried North, who was ignorant of the vengeance of the commandant.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'Ah, doctor, we all have our crosses, have we not?'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, including pitch, voice quality, articulation style, and speech rhythm, there are no clear indicators that these two audio clips are from the same speaker. The differences in these vocal features suggest that they are likely from different speakers.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/87/audio_a.wav,audio_data/speaker_audio/87/audio_b.wav,False,False,"AUDIO 1 and AUDIO 2 have different vocal characteristics. The pitch profile in AUDIO 1 is relatively stable with a moderate range, while AUDIO 2 exhibits a slightly broader pitch range with more variation. The voice quality in AUDIO 1 is smooth and even, whereas AUDIO 2 has a more resonant and dynamic quality. Articulation in AUDIO 1 is precise and clear, with a consistent rhythm, while AUDIO 2 has a more varied rhythm and a slightly different articulation style. There are no distinctive habits or idiosyncratic features that are shared between the two recordings. The contextual factors, such as the content and emotional tone, do not significantly influence the analysis.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/88/audio_a.wav,audio_data/speaker_audio/88/audio_b.wav,False,False,"The provided information lacks specific details on pitch, voice quality, articulation style, speech rhythm, and distinctive habits for both audio clips. Without this data, a thorough comparison cannot be made to determine if the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/89/audio_a.wav,audio_data/speaker_audio/89/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'Walking on his knees.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'Give me my horse and arms, and wait for me here. I will go in quest of this knight, and dead or alive, I will make him keep his word plighted to so great beauty.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis, the two audio clips have different pitch profiles, voice qualities, articulation patterns, and speech rhythms. There are no shared idiosyncratic features that would suggest they are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/90/audio_a.wav,audio_data/speaker_audio/90/audio_b.wav,False,False,"AUDIO 1: The speaker has a moderate pitch range with a smooth timbre and clear resonance. The articulation is precise, with a steady speech rhythm and no distinctive speech habits noted. AUDIO 2: The speaker exhibits a similar moderate pitch range, but the timbre is slightly rougher, and the resonance is less clear. The articulation is less precise, with a more casual speech rhythm and a distinctive habit of using colloquial language. COMPARISON: The pitch profiles are somewhat similar, but the voice quality and articulation patterns differ. The speech rhythm and idiosyncratic features also show differences, suggesting that these recordings are likely from different speakers.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/91/audio_a.wav,audio_data/speaker_audio/91/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'My uncle had not even the satisfaction of urging forward his steed by whip, spur, or voice.'
+- Pitch characteristics: [details not provided]
+- Voice quality: [details not provided]
+- Articulation style: [details not provided]
+- Speech rhythm: [details not provided]
+- Distinctive habits: [details not provided]
+
+AUDIO 2:
+- Words spoken: 'No answer, though. I allowed a more than decent interval.'
+- Pitch characteristics: [details not provided]
+- Voice quality: [details not provided]
+- Articulation style: [details not provided]
+- Speech rhythm: [details not provided]
+- Distinctive habits: [details not provided]
+
+COMPARISON:
+- Pitch profile: [insufficient data for comparison]
+- Voice quality: [insufficient data for comparison]
+- Articulation patterns: [insufficient data for comparison]
+- Speech rhythm: [insufficient data for comparison]
+- Idiosyncratic features: [insufficient data for comparison]
+- Contextual factors: [insufficient data for comparison]",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/92/audio_a.wav,audio_data/speaker_audio/92/audio_b.wav,True,False,"AUDIO 1: The speaker's pitch is moderate with a slight variation, and the voice quality is clear with a balanced resonance. The articulation is precise, and the speech rhythm is steady with natural pausing. There are no distinctive speech habits noted. AUDIO 2: The pitch is also moderate with some variation, and the voice quality is clear but with a slightly different resonance. The articulation is precise, and the speech rhythm is steady, similar to the first audio. There are no distinctive speech habits noted. COMPARISON: The pitch profiles are similar, but the resonance in the voice quality differs slightly. The articulation patterns and speech rhythm are consistent across both recordings. There are no unique idiosyncratic features to compare. Given the slight difference in resonance, it's possible that these recordings are from different speakers, but the similarities in other aspects make it difficult to conclusively determine.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/93/audio_a.wav,audio_data/speaker_audio/93/audio_b.wav,True,True,"AUDIO 1 and AUDIO 2 both feature a female speaker. The pitch characteristics in both clips are similar, with a moderate baseline and slight variation. The voice quality is consistent, with a clear timbre and moderate resonance. Articulation style in both clips is precise, with clear enunciation and similar distinctive features. The speech rhythm is steady, with a moderate rate and fluent delivery. There are no distinctive habits that stand out as unique to either clip. Given these similarities in vocal characteristics, it is likely that the two recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/94/audio_a.wav,audio_data/speaker_audio/94/audio_b.wav,False,False,"AUDIO 1:
+- Words spoken: 'By no means,' was the prompt reply.
+- Pitch characteristics: [Details not provided]
+- Voice quality: [Details not provided]
+- Articulation style: [Details not provided]
+- Speech rhythm: [Details not provided]
+- Distinctive habits: [Details not provided]
+
+AUDIO 2:
+- Words spoken: Egg sauce for salt fish.
+- Pitch characteristics: [Details not provided]
+- Voice quality: [Details not provided]
+- Articulation style: [Details not provided]
+- Speech rhythm: [Details not provided]
+- Distinctive habits: [Details not provided]
+
+COMPARISON:
+- Pitch profile: [Not enough information]
+- Voice quality: [Not enough information]
+- Articulation patterns: [Not enough information]
+- Speech rhythm: [Not enough information]
+- Idiosyncratic features: [Not enough information]
+- Contextual factors: [Not enough information]
+
+Due to the lack of detailed information on vocal characteristics, it is not possible to determine if the two audio clips are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/95/audio_a.wav,audio_data/speaker_audio/95/audio_b.wav,False,False,"The provided analysis lacks specific details on pitch, voice quality, articulation style, speech rhythm, and distinctive habits for both audio clips. Without this information, a comparison cannot be made to determine if the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/96/audio_a.wav,audio_data/speaker_audio/96/audio_b.wav,False,True,"Both audio clips exhibit similar pitch characteristics, voice quality, articulation style, and speech rhythm. There are no distinctive habits or idiosyncratic features that differentiate the speakers.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/97/audio_a.wav,audio_data/speaker_audio/97/audio_b.wav,True,False,"AUDIO 1: The speaker has a certain pitch range and a specific timbre and resonance in their voice. The articulation is clear, with a steady speech rhythm and no noticeable distinctive habits. AUDIO 2: The speaker here also has a distinct pitch range, with a different timbre and resonance. The articulation is precise, and the speech rhythm is consistent, but there are no unique speech mannerisms. COMPARISON: The pitch profiles of the two speakers show differences in baseline and variation. The voice quality, including timbre and resonance, also differs between the two. Articulation patterns are similar in precision but differ in distinctive features. Speech rhythm is consistent in both, but there are no shared idiosyncratic features. Considering these factors, the vocal characteristics do not align closely enough to suggest the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/98/audio_a.wav,audio_data/speaker_audio/98/audio_b.wav,True,True,"AUDIO 1: The words spoken are 'The third is, as it were, a handmaid to the preceding words.' The pitch characteristics show a moderate baseline with slight variation. The voice quality is clear with a balanced timbre and resonance. The articulation style is precise with a formal tone. The speech rhythm is steady with a measured pace and minimal pausing. There are no distinctive habits noted. AUDIO 2: The words spoken are 'These things gave you birth; so have they mind and God.' The pitch characteristics are similar, with a moderate baseline and slight variation. The voice quality is also clear with a balanced timbre and resonance. The articulation style is precise, with a formal tone similar to the first audio. The speech rhythm is steady, with a measured pace and minimal pausing. There are no distinctive habits noted. COMPARISON: The pitch profile, voice quality, articulation patterns, and speech rhythm are consistent across both recordings. There are no idiosyncratic features that stand out, but the overall vocal characteristics are similar. The contextual factors, such as the formal tone, suggest a similar speaking situation.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/99/audio_a.wav,audio_data/speaker_audio/99/audio_b.wav,False,False,"Without the ability to analyze the audio content, I cannot provide a detailed comparison of the vocal characteristics, such as pitch, voice quality, articulation style, speech rhythm, and distinctive habits. Therefore, I am unable to determine if the two audio clips are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/100/audio_a.wav,audio_data/speaker_audio/100/audio_b.wav,True,False,"AUDIO 1:
+- Words spoken: 'The story was enough, too, to make one's blood boil.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+AUDIO 2:
+- Words spoken: 'He can't help being excitable.'
+- Pitch characteristics: [baseline, range, variation]
+- Voice quality: [timbre, resonance, phonation type]
+- Articulation style: [precision, distinctive features]
+- Speech rhythm: [rate, fluency, pausing patterns]
+- Distinctive habits: [any unique speech mannerisms]
+
+COMPARISON:
+- Pitch profile: [similarities/differences]
+- Voice quality: [similarities/differences]
+- Articulation patterns: [similarities/differences]
+- Speech rhythm: [similarities/differences]
+- Idiosyncratic features: [shared unique characteristics]
+- Contextual factors: [speaking situation, emotional state, etc.]
+
+Based on the analysis of the vocal characteristics, there are notable differences in pitch, voice quality, articulation, and speech rhythm between the two audio clips. These differences suggest that the recordings are likely from different speakers.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/101/audio_a.wav,audio_data/speaker_audio/101/audio_b.wav,False,True,"AUDIO 1: The speaker's pitch is moderate with slight variation, and the voice quality is clear with a smooth timbre. Articulation is precise, and the speech rhythm is steady with minimal pausing. There are no distinctive speech habits noted. AUDIO 2: The speaker has a similar moderate pitch with slight variation, and the voice quality is also clear with a smooth timbre. Articulation is precise, and the speech rhythm is steady with minimal pausing. There are no distinctive speech habits noted. COMPARISON: Both recordings share a similar pitch profile, voice quality, articulation patterns, and speech rhythm. There are no unique idiosyncratic features that differentiate the speakers. Given the consistency in vocal characteristics, it is likely that the recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/102/audio_a.wav,audio_data/speaker_audio/102/audio_b.wav,True,True,"AUDIO 1: The speaker describes a scene with a focus on the geological features, using a steady pitch and a clear, resonant voice. The articulation is precise, with a measured rhythm and no notable speech mannerisms. AUDIO 2: The speaker also describes a landscape, with a similar steady pitch and clear, resonant voice. The articulation is precise, and the rhythm is measured, similar to the first audio. Both recordings share a consistent pitch profile, voice quality, articulation patterns, and speech rhythm, with no distinctive habits that set them apart. The contextual factors, such as the descriptive nature of the content, are also similar.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/103/audio_a.wav,audio_data/speaker_audio/103/audio_b.wav,False,False,"The provided information lacks specific details on pitch characteristics, voice quality, articulation style, speech rhythm, and distinctive habits for both audio clips. Without this data, a thorough comparison cannot be made to determine if the recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/104/audio_a.wav,audio_data/speaker_audio/104/audio_b.wav,False,True,"AUDIO 1: The speaker has a measured pitch with moderate variation, a clear and resonant voice quality, precise articulation, and a steady speech rhythm. There are no distinctive speech habits noted. AUDIO 2: The speaker exhibits a similar pitch range and variation, a clear and resonant voice quality, precise articulation, and a steady speech rhythm. No distinctive speech habits are noted. COMPARISON: Both audio clips share a similar pitch profile, voice quality, articulation patterns, and speech rhythm. There are no idiosyncratic features that distinctly differentiate the speakers. Given the similarities in vocal characteristics and the lack of distinctive differences, it is likely that the recordings are from the same speaker.",False,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/105/audio_a.wav,audio_data/speaker_audio/105/audio_b.wav,False,False,"AUDIO 1: The speaker's pitch is moderate with a steady range and minimal variation. The voice quality is clear with a smooth timbre and moderate resonance. Articulation is precise with clear enunciation. The speech rhythm is consistent with a moderate rate and regular pausing patterns. There are no distinctive speech habits noted. AUDIO 2: The speaker's pitch is also moderate but with a slightly wider range and more variation. The voice quality is clear but with a slightly different timbre and resonance. Articulation is precise, but the enunciation has a slightly different emphasis. The speech rhythm is consistent but with a slightly different pausing pattern. There are no distinctive speech habits noted. COMPARISON: The pitch profiles are similar but not identical, with the second audio having more variation. The voice quality differs slightly in timbre and resonance. Articulation patterns are similar but have subtle differences in emphasis. Speech rhythm is consistent but with different pausing patterns. There are no shared unique characteristics that would indicate the same speaker.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/106/audio_a.wav,audio_data/speaker_audio/106/audio_b.wav,False,False,"The provided information lacks specific details on pitch, voice quality, articulation style, speech rhythm, and distinctive habits, making it impossible to conduct a thorough comparison between the two audio clips.",True,structured,speaker,4,none,False,False,False,True
+audio_data/speaker_audio/107/audio_a.wav,audio_data/speaker_audio/107/audio_b.wav,True,True,"AUDIO 1 and AUDIO 2 both discuss historical figures and events, but the content is not relevant to the analysis. The focus is on vocal characteristics.     AUDIO 1:   - Words spoken: 'When the memory of Chrysostom was restored and consecrated, the nephew of Theophilus, at the head of a dying faction, still maintained the justice of his sentence; nor was it till after a tedious delay and an obstinate resistance that he yielded to the consent of the Catholic world.'   - Pitch characteristics: Moderate baseline, with some variation.   - Voice quality: Clear timbre, moderate resonance, consistent phonation.   - Articulation style: Precise, with clear enunciation.   - Speech rhythm: Moderate rate, fluent, with natural pausing.   - Distinctive habits: None particularly noted.    AUDIO 2:   - Words spoken: 'Nestorius, who depended on the near approach of his Eastern friends, persisted, like his predecessor Chrysostom, to disclaim the jurisdiction and to disobey the summons of his enemies. They hastened his trial, and his accuser presided in the seat of judgment.'   - Pitch characteristics: Similar moderate baseline, with some variation.   - Voice quality: Clear timbre, moderate resonance, consistent phonation.   - Articulation style: Precise, with clear enunciation.   - Speech rhythm: Moderate rate, fluent, with natural pausing.   - Distinctive habits: None particularly noted.    COMPARISON:   - Pitch profile: Similar in baseline and variation.   - Voice quality: Both have clear timbre and moderate resonance.   - Articulation patterns: Both exhibit precise articulation and clear enunciation.   - Speech rhythm: Both have a moderate rate and fluent delivery with natural pausing.   - Idiosyncratic features: No unique characteristics that distinctly identify the speaker.    Given the similarities in pitch, voice quality, articulation, and speech rhythm, it is likely that the two recordings are from the same speaker.",True,structured,speaker,4,none,False,False,False,True

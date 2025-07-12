@@ -1,0 +1,37 @@
+
+Prompt strategy comparison:
+ prompt_type                model dataset_name  n_shots transcript_type  aggregate_fewshot  accuracy  num_samples  mse_overall
+standard_cot gpt-4o-audio-preview        somos        4            none               True    0.5525          200     2.805620
+standard_cot gpt-4o-audio-preview        somos        0            none              False    0.5275          200     3.311462
+standard_cot gpt-4o-audio-preview        somos        4            none              False    0.5025          200     3.595734
+
+Best strategy: standard_cot with 4 shots, none transcript, aggregate few-shot, accuracy 0.5525
+
+Best strategy MSE metrics:
+  Overall MSE: 2.8056
+
+Visualizations saved to results_pointwise/somos/gpt-4o-audio-preview/plots/
+
+Factor Impact Analysis:
+
+Transcript Type Impact:
+  No Transcript: 0.5275
+
+Few-shot Configuration Impact:
+  Aggregate Few-shot: 0.5525
+  Separate Few-shot: 0.5150
+
+Number of Shots Impact:
+  0 shots: 0.5275
+  4 shots: 0.5275
+
+Prompt Type Impact:
+  standard_cot: 0.5275
+
+MSE Analysis (Lower is Better):
+
+Best MSE strategy: standard_cot with 4 shots, none transcript, aggregate few-shot
+  Overall MSE: 2.8056
+
+Transcript Type Impact on MSE:
+  No Transcript: 3.2376

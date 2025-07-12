@@ -1,0 +1,2 @@
+prompt_type,model,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot,accuracy,num_samples
+standard_cot,gpt-4o-audio-preview,somos,7,none,False,True,False,False,1.0,1

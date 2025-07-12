@@ -1,0 +1,2 @@
+prompt_type,model,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot,accuracy,num_samples
+standard_cot,gemini-2.5-flash-preview-04-17,chatbotarena,4,none,False,True,False,True,0.5440881763527055,998

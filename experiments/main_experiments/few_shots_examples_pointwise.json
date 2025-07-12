@@ -1,0 +1,404 @@
+{
+  "tmhintq": [
+    {
+      "audio_path": "few_shots_example/tmhintq/1_a/audio_a.wav",
+      "transcript": "\u90bb\u5c45\u5bb6\u6700\u8fd1\u5728\u88c5\u4fee\u623f\u5b50",
+      "score": 2.67
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/1_a/audio_b.wav",
+      "transcript": "\u90bb\u5c45\u5bb6\u6700\u8fd1\u5728\u88c5\u4fee\u623f\u5b50",
+      "score": 2.50
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/2_b/audio_a.wav",
+      "transcript": "\u5979\u4eec\u59d0\u59b9\u4e24\u4e2a\u662f\u53cc\u80de\u80ce",
+      "score": 3.33
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/2_b/audio_b.wav",
+      "transcript": "\u5979\u4eec\u59d0\u59b9\u4e24\u4e2a\u662f\u53cc\u80de\u80ce",
+      "score": 4.33
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/3_a/audio_a.wav",
+      "transcript": "\u6e05\u660e\u8282\u4e0b\u4e86\u4e00\u5929\u6bdb\u6bdb\u96e8",
+      "score": 4.70
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/3_a/audio_b.wav",
+      "transcript": "\u6e05\u660e\u8282\u4e0b\u4e86\u4e00\u5929\u6bdb\u6bdb\u96e8",
+      "score": 1.67
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/4_b/audio_a.wav",
+      "transcript": "\u5979\u7b54\u5e94\u8981\u8bf7\u6211\u4eec\u559d\u559c\u9152",
+      "score": 3.25
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/4_b/audio_b.wav",
+      "transcript": "\u5979\u7b54\u5e94\u8981\u8bf7\u6211\u4eec\u559d\u559c\u9152",
+      "score": 4.67
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/5_a/audio_a.wav",
+      "transcript": "\u6628\u5929\u4ed6\u5411\u6211\u501f\u4e86\u4e09\u767e\u5757",
+      "score": 3.33
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/5_a/audio_b.wav",
+      "transcript": "\u6628\u5929\u4ed6\u5411\u6211\u501f\u4e86\u4e09\u767e\u5757",
+      "score": 2.33
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/6_b/audio_a.wav",
+      "transcript": "\u90a3\u91cc\u6bcf\u5e74\u6625\u5929\u8981\u522e\u5927\u98ce",
+      "score": 2.00
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/6_b/audio_b.wav",
+      "transcript": "\u90a3\u91cc\u6bcf\u5e74\u6625\u5929\u8981\u522e\u5927\u98ce",
+      "score": 3.33
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/7_a/audio_a.wav",
+      "transcript": "\u4ed6\u6700\u8fd1\u597d\u50cf\u6709\u4ec0\u4e48\u5fc3\u4e8b",
+      "score": 4.00
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/7_a/audio_b.wav",
+      "transcript": "\u4ed6\u6700\u8fd1\u597d\u50cf\u6709\u4ec0\u4e48\u5fc3\u4e8b",
+      "score": 3.00
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/8_b/audio_a.wav",
+      "transcript": "\u54e5\u54e5\u7684\u811a\u957f\u4e86\u4e2a\u5927\u6c34\u6ce1",
+      "score": 3.00
+    },
+    {
+      "audio_path": "few_shots_example/tmhintq/8_b/audio_b.wav",
+      "transcript": "\u54e5\u54e5\u7684\u811a\u957f\u4e86\u4e2a\u5927\u6c34\u6ce1",
+      "score": 4.33
+    }
+  ],
+  "somos": [
+    {
+      "audio_path": "few_shots_example/somos/1_a/audio_a.wav",
+      "transcript": "with the penalty of forfeiting the day's allowance of food, an increase of which the committee had recommended.",
+      "score": 3.89
+    },
+    {
+      "audio_path": "few_shots_example/somos/1_a/audio_b.wav",
+      "transcript": "with the penalty of forfeiting the day's allowance of food, an increase of which the committee had recommended.",
+      "score": 2.50
+    },
+    {
+      "audio_path": "few_shots_example/somos/2_b/audio_a.wav",
+      "transcript": "a deformed lad among the crowd was seen to present a pistol, at Her Majesty's carriage.",
+      "score": 2.17
+    },
+    {
+      "audio_path": "few_shots_example/somos/2_b/audio_b.wav",
+      "transcript": "a deformed lad among the crowd was seen to present a pistol, at Her Majesty's carriage.",
+      "score": 3.60
+    },
+    {
+      "audio_path": "few_shots_example/somos/3_a/audio_a.wav",
+      "transcript": "the prisoners, without firing, bedding, or sufficient food, spent their days in, surveying their grotesque prison.",
+      "score": 3.82
+    },
+    {
+      "audio_path": "few_shots_example/somos/3_a/audio_b.wav",
+      "transcript": "the prisoners, without firing, bedding, or sufficient food, spent their days in, surveying their grotesque prison.",
+      "score": 2.67
+    },
+    {
+      "audio_path": "few_shots_example/somos/4_b/audio_a.wav",
+      "transcript": "Most of the other Secret Service agents in the motorcade had drawn their sidearms.",
+      "score": 2.31
+    },
+    {
+      "audio_path": "few_shots_example/somos/4_b/audio_b.wav",
+      "transcript": "Most of the other Secret Service agents in the motorcade had drawn their sidearms.",
+      "score": 3.56
+    },
+    {
+      "audio_path": "few_shots_example/somos/5_a/audio_a.wav",
+      "transcript": "the prisoners, without firing, bedding, or sufficient food, spent their days in, surveying their grotesque prison.",
+      "score": 3.82
+    },
+    {
+      "audio_path": "few_shots_example/somos/5_a/audio_b.wav",
+      "transcript": "the prisoners, without firing, bedding, or sufficient food, spent their days in, surveying their grotesque prison.",
+      "score": 2.75
+    },
+    {
+      "audio_path": "few_shots_example/somos/6_b/audio_a.wav",
+      "transcript": "Various possible motives will be treated in the appropriate context of the discussion, outlined above.",
+      "score": 2.00
+    },
+    {
+      "audio_path": "few_shots_example/somos/6_b/audio_b.wav",
+      "transcript": "Various possible motives will be treated in the appropriate context of the discussion, outlined above.",
+      "score": 3.18
+    },
+    {
+      "audio_path": "few_shots_example/somos/7_a/audio_a.wav",
+      "transcript": "came out of the cabin, was caught near the companion, by the rest of the mutineers, and promptly dispatched with daggers.",
+      "score": 4.67
+    },
+    {
+      "audio_path": "few_shots_example/somos/7_a/audio_b.wav",
+      "transcript": "came out of the cabin, was caught near the companion, by the rest of the mutineers, and promptly dispatched with daggers.",
+      "score": 2.45
+    },
+    {
+      "audio_path": "few_shots_example/somos/8_b/audio_a.wav",
+      "transcript": "Various possible motives will be treated in the appropriate context of the discussion, outlined above.",
+      "score": 2.00
+    },
+    {
+      "audio_path": "few_shots_example/somos/8_b/audio_b.wav",
+      "transcript": "Various possible motives will be treated in the appropriate context of the discussion, outlined above.",
+      "score": 3.58
+    }
+  ],
+  "thaimos": [
+    {
+      "audio_path": "few_shots_example/thaimos/1_a/audio_a.wav",
+      "transcript": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e19\u0e35\u0e49\u0e44\u0e14\u0e49\u0e01\u0e25\u0e32\u0e22\u0e21\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e17\u0e35\u0e48\u0e1b\u0e23\u0e30\u0e2a\u0e1a\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e21\u0e32\u0e01 \u0e41\u0e21\u0e49\u0e08\u0e30\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e2a\u0e07\u0e2a\u0e31\u0e22\u0e43\u0e19\u0e0a\u0e48\u0e27\u0e07\u0e15\u0e49\u0e19\u0e1b\u0e35",
+      "score": 4.47
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/1_a/audio_b.wav",
+      "transcript": "\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e19\u0e35\u0e49\u0e44\u0e14\u0e49\u0e01\u0e25\u0e32\u0e22\u0e21\u0e32\u0e40\u0e1b\u0e47\u0e19\u0e1a\u0e23\u0e34\u0e29\u0e31\u0e17\u0e17\u0e35\u0e48\u0e1b\u0e23\u0e30\u0e2a\u0e1a\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e33\u0e40\u0e23\u0e47\u0e08\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e21\u0e32\u0e01 \u0e41\u0e21\u0e49\u0e08\u0e30\u0e21\u0e35\u0e02\u0e49\u0e2d\u0e2a\u0e07\u0e2a\u0e31\u0e22\u0e43\u0e19\u0e0a\u0e48\u0e27\u0e07\u0e15\u0e49\u0e19\u0e1b\u0e35",
+      "score": 3.44
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/2_b/audio_a.wav",
+      "transcript": "\u0e40\u0e2d\u0e32\u0e2b\u0e25\u0e48\u0e30 \u0e08\u0e34\u0e19\u0e15\u0e19\u0e32\u0e01\u0e32\u0e23\u0e16\u0e36\u0e07\u0e1c\u0e39\u0e49\u0e0a\u0e32\u0e22\u0e04\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e40\u0e14\u0e34\u0e19\u0e1c\u0e48\u0e32\u0e19\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e40\u0e02\u0e49\u0e32\u0e21\u0e32 \u0e41\u0e25\u0e30\u0e40\u0e23\u0e34\u0e48\u0e21\u0e2d\u0e2d\u0e01\u0e04\u0e33\u0e2a\u0e31\u0e48\u0e07\u0e14\u0e49\u0e27\u0e22\u0e2a\u0e33\u0e40\u0e19\u0e35\u0e22\u0e07\u0e41\u0e02\u0e47\u0e07\u0e01\u0e23\u0e30\u0e14\u0e49\u0e32\u0e07",
+      "score": 2.81
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/2_b/audio_b.wav",
+      "transcript": "\u0e40\u0e2d\u0e32\u0e2b\u0e25\u0e48\u0e30 \u0e08\u0e34\u0e19\u0e15\u0e19\u0e32\u0e01\u0e32\u0e23\u0e16\u0e36\u0e07\u0e1c\u0e39\u0e49\u0e0a\u0e32\u0e22\u0e04\u0e19\u0e2b\u0e19\u0e36\u0e48\u0e07\u0e40\u0e14\u0e34\u0e19\u0e1c\u0e48\u0e32\u0e19\u0e1b\u0e23\u0e30\u0e15\u0e39\u0e40\u0e02\u0e49\u0e32\u0e21\u0e32 \u0e41\u0e25\u0e30\u0e40\u0e23\u0e34\u0e48\u0e21\u0e2d\u0e2d\u0e01\u0e04\u0e33\u0e2a\u0e31\u0e48\u0e07\u0e14\u0e49\u0e27\u0e22\u0e2a\u0e33\u0e40\u0e19\u0e35\u0e22\u0e07\u0e41\u0e02\u0e47\u0e07\u0e01\u0e23\u0e30\u0e14\u0e49\u0e32\u0e07",
+      "score": 3.75
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/3_a/audio_a.wav",
+      "transcript": "\u0e15\u0e34\u0e14\u0e14\u0e2d\u0e22",
+      "score": 4.31
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/3_a/audio_b.wav",
+      "transcript": "\u0e15\u0e34\u0e14\u0e14\u0e2d\u0e22",
+      "score": 3.44
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/4_b/audio_a.wav",
+      "transcript": "\u0e15\u0e34\u0e14\u0e14\u0e2d\u0e22",
+      "score": 1.06
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/4_b/audio_b.wav",
+      "transcript": "\u0e15\u0e34\u0e14\u0e14\u0e2d\u0e22",
+      "score": 2.56
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/5_a/audio_a.wav",
+      "transcript": "\u0e43\u0e19\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e41\u0e2b\u0e48\u0e07\u0e19\u0e35\u0e49\u0e1e\u0e27\u0e01\u0e40\u0e23\u0e32\u0e43\u0e2b\u0e49\u0e19\u0e31\u0e01\u0e40\u0e23\u0e35\u0e22\u0e19\u0e02\u0e2d\u0e07\u0e40\u0e23\u0e32\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e17\u0e31\u0e01\u0e29\u0e30\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e02\u0e2d\u0e07\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32\u0e41\u0e25\u0e30\u0e17\u0e33\u0e43\u0e2b\u0e49\u0e14\u0e35\u0e22\u0e34\u0e48\u0e07\u0e02\u0e36\u0e49\u0e19",
+      "score": 4.38
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/5_a/audio_b.wav",
+      "transcript": "\u0e43\u0e19\u0e42\u0e23\u0e07\u0e40\u0e23\u0e35\u0e22\u0e19\u0e41\u0e2b\u0e48\u0e07\u0e19\u0e35\u0e49\u0e1e\u0e27\u0e01\u0e40\u0e23\u0e32\u0e43\u0e2b\u0e49\u0e19\u0e31\u0e01\u0e40\u0e23\u0e35\u0e22\u0e19\u0e02\u0e2d\u0e07\u0e40\u0e23\u0e32\u0e1e\u0e31\u0e12\u0e19\u0e32\u0e17\u0e31\u0e01\u0e29\u0e30\u0e04\u0e27\u0e32\u0e21\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e02\u0e2d\u0e07\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32\u0e41\u0e25\u0e30\u0e17\u0e33\u0e43\u0e2b\u0e49\u0e14\u0e35\u0e22\u0e34\u0e48\u0e07\u0e02\u0e36\u0e49\u0e19",
+      "score": 3.88
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/6_b/audio_a.wav",
+      "transcript": "\u0e04\u0e27\u0e23\u0e21\u0e35\u0e1c\u0e31\u0e1a\u0e43\u0e01\u0e25\u0e49\u0e1a\u0e49\u0e32\u0e19 \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e40\u0e14\u0e34\u0e19\u0e17\u0e32\u0e07\u0e2a\u0e30\u0e14\u0e27\u0e01 \u0e40\u0e21\u0e32\u0e44\u0e21\u0e48\u0e02\u0e31\u0e1a \u0e40\u0e21\u0e32\u0e44\u0e21\u0e48\u0e19\u0e31\u0e48\u0e07\u0e23\u0e16 \u0e40\u0e21\u0e32\u0e41\u0e25\u0e49\u0e27\u0e40\u0e14\u0e34\u0e19\u0e01\u0e25\u0e31\u0e1a\u0e1a\u0e49\u0e32\u0e19\u0e40\u0e25\u0e22",
+      "score": 1.31
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/6_b/audio_b.wav",
+      "transcript": "\u0e04\u0e27\u0e23\u0e21\u0e35\u0e1c\u0e31\u0e1a\u0e43\u0e01\u0e25\u0e49\u0e1a\u0e49\u0e32\u0e19 \u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e01\u0e32\u0e23\u0e40\u0e14\u0e34\u0e19\u0e17\u0e32\u0e07\u0e2a\u0e30\u0e14\u0e27\u0e01 \u0e40\u0e21\u0e32\u0e44\u0e21\u0e48\u0e02\u0e31\u0e1a \u0e40\u0e21\u0e32\u0e44\u0e21\u0e48\u0e19\u0e31\u0e48\u0e07\u0e23\u0e16 \u0e40\u0e21\u0e32\u0e41\u0e25\u0e49\u0e27\u0e40\u0e14\u0e34\u0e19\u0e01\u0e25\u0e31\u0e1a\u0e1a\u0e49\u0e32\u0e19\u0e40\u0e25\u0e22",
+      "score": 4.00
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/7_a/audio_a.wav",
+      "transcript": "\u0e43\u0e19\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e41\u0e1b\u0e25\u0e07\u0e41\u0e1a\u0e1a\u0e2b\u0e27\u0e32\u0e19\u0e2d\u0e21\u0e02\u0e21\u0e01\u0e25\u0e37\u0e19 \u0e40\u0e2b\u0e25\u0e48\u0e32\u0e1e\u0e35\u0e48\u0e19\u0e49\u0e2d\u0e07\u0e01\u0e25\u0e31\u0e1a\u0e21\u0e32\u0e23\u0e27\u0e21\u0e15\u0e31\u0e27\u0e01\u0e31\u0e19\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07\u0e2b\u0e25\u0e31\u0e07\u0e08\u0e32\u0e01\u0e17\u0e35\u0e48\u0e41\u0e21\u0e48\u0e02\u0e2d\u0e07\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32\u0e40\u0e2a\u0e35\u0e22\u0e0a\u0e35\u0e27\u0e34\u0e15",
+      "score": 3.88
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/7_a/audio_b.wav",
+      "transcript": "\u0e43\u0e19\u0e04\u0e27\u0e32\u0e21\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e41\u0e1b\u0e25\u0e07\u0e41\u0e1a\u0e1a\u0e2b\u0e27\u0e32\u0e19\u0e2d\u0e21\u0e02\u0e21\u0e01\u0e25\u0e37\u0e19 \u0e40\u0e2b\u0e25\u0e48\u0e32\u0e1e\u0e35\u0e48\u0e19\u0e49\u0e2d\u0e07\u0e01\u0e25\u0e31\u0e1a\u0e21\u0e32\u0e23\u0e27\u0e21\u0e15\u0e31\u0e27\u0e01\u0e31\u0e19\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07\u0e2b\u0e25\u0e31\u0e07\u0e08\u0e32\u0e01\u0e17\u0e35\u0e48\u0e41\u0e21\u0e48\u0e02\u0e2d\u0e07\u0e1e\u0e27\u0e01\u0e40\u0e02\u0e32\u0e40\u0e2a\u0e35\u0e22\u0e0a\u0e35\u0e27\u0e34\u0e15",
+      "score": 2.13
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/8_b/audio_a.wav",
+      "transcript": "\u0e2b\u0e34\u0e21\u0e30\u0e17\u0e35\u0e48\u0e15\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e2b\u0e19\u0e31\u0e01\u0e0a\u0e48\u0e27\u0e07\u0e1b\u0e25\u0e32\u0e22\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e01\u0e38\u0e21\u0e20\u0e32\u0e1e\u0e31\u0e19\u0e18\u0e4c\u0e43\u0e19\u0e24\u0e14\u0e39\u0e2b\u0e19\u0e32\u0e27 \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e2b\u0e15\u0e38\u0e43\u0e2b\u0e49\u0e16\u0e19\u0e19\u0e2b\u0e25\u0e32\u0e22\u0e2a\u0e32\u0e22\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49",
+      "score": 3.69
+    },
+    {
+      "audio_path": "few_shots_example/thaimos/8_b/audio_b.wav",
+      "transcript": "\u0e2b\u0e34\u0e21\u0e30\u0e17\u0e35\u0e48\u0e15\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e2b\u0e19\u0e31\u0e01\u0e0a\u0e48\u0e27\u0e07\u0e1b\u0e25\u0e32\u0e22\u0e40\u0e14\u0e37\u0e2d\u0e19\u0e01\u0e38\u0e21\u0e20\u0e32\u0e1e\u0e31\u0e19\u0e18\u0e4c\u0e43\u0e19\u0e24\u0e14\u0e39\u0e2b\u0e19\u0e32\u0e27 \u0e40\u0e1b\u0e47\u0e19\u0e40\u0e2b\u0e15\u0e38\u0e43\u0e2b\u0e49\u0e16\u0e19\u0e19\u0e2b\u0e25\u0e32\u0e22\u0e2a\u0e32\u0e22\u0e43\u0e0a\u0e49\u0e07\u0e32\u0e19\u0e44\u0e21\u0e48\u0e44\u0e14\u0e49",
+      "score": 4.25
+    }
+  ],
+  "speakbench": [
+    {
+      "instruction_path": "few_shots_example/speakbench/1_b/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench/1_b/audio_a.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/1_b/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench/1_b/audio_b.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/2_tie/instruction.wav",
+      "instruction_text": "Count from 1 to 10 while simulating an echo effect that gives the impression of being in a large, open space.",
+      "audio_path": "few_shots_example/speakbench/2_tie/audio_a.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/2_tie/instruction.wav",
+      "instruction_text": "Count from 1 to 10 while simulating an echo effect that gives the impression of being in a large, open space.",
+      "audio_path": "few_shots_example/speakbench/2_tie/audio_b.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/3_a/instruction.wav",
+      "instruction_text": "Teach me an example of Chinese Mandarin tones using the word 'ma' in different tones. First show me how you pronounce all tones in one go, then explain each one.",
+      "audio_path": "few_shots_example/speakbench/3_a/audio_a.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/3_a/instruction.wav",
+      "instruction_text": "Teach me an example of Chinese Mandarin tones using the word 'ma' in different tones. First show me how you pronounce all tones in one go, then explain each one.",
+      "audio_path": "few_shots_example/speakbench/3_a/audio_b.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/4_b/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench/4_b/audio_a.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/4_b/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench/4_b/audio_b.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/5_tie/instruction.wav",
+      "instruction_text": "Say the word 'advertisement' first in a British accent, then in an American accent, and describe how the stress changes.",
+      "audio_path": "few_shots_example/speakbench/5_tie/audio_a.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/5_tie/instruction.wav",
+      "instruction_text": "Say the word 'advertisement' first in a British accent, then in an American accent, and describe how the stress changes.",
+      "audio_path": "few_shots_example/speakbench/5_tie/audio_b.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/6_a/instruction.wav",
+      "instruction_text": "Count from 1 to 10 while simulating an echo effect that gives the impression of being in a large, open space.",
+      "audio_path": "few_shots_example/speakbench/6_a/audio_a.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/6_a/instruction.wav",
+      "instruction_text": "Count from 1 to 10 while simulating an echo effect that gives the impression of being in a large, open space.",
+      "audio_path": "few_shots_example/speakbench/6_a/audio_b.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/7_b/instruction.wav",
+      "instruction_text": "Teach me an example of Chinese Mandarin tones using the word 'ma' in different tones. First show me how you pronounce all tones in one go, then explain each one.",
+      "audio_path": "few_shots_example/speakbench/7_b/audio_a.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/7_b/instruction.wav",
+      "instruction_text": "Teach me an example of Chinese Mandarin tones using the word 'ma' in different tones. First show me how you pronounce all tones in one go, then explain each one.",
+      "audio_path": "few_shots_example/speakbench/7_b/audio_b.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/8_a/instruction.wav",
+      "instruction_text": "Narrate a brief history of the leaning tower of Pisa while imitating a native Italian accent with clear enunciation.",
+      "audio_path": "few_shots_example/speakbench/8_a/audio_a.wav",
+      "score": null
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench/8_a/instruction.wav",
+      "instruction_text": "Narrate a brief history of the leaning tower of Pisa while imitating a native Italian accent with clear enunciation.",
+      "audio_path": "few_shots_example/speakbench/8_a/audio_b.wav",
+      "score": null
+    }
+  ],
+  "speakbench508": [
+    {
+      "instruction_path": "few_shots_example/speakbench508/310_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench508/310_2/audio_a.wav",
+      "instruction_id": 0,
+      "score": 1
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench508/310_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench508/310_2/audio_b.wav",
+      "instruction_id": 0,
+      "score": 4
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench508/139_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench508/139_1/audio_a.wav",
+      "instruction_id": 0,
+      "score": 4
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench508/139_1/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench508/139_1/audio_b.wav",
+      "instruction_id": 0,
+      "score": 3
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench508/28_tie/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench508/28_tie/audio_a.wav",
+      "instruction_id": 0,
+      "score": 3
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench508/28_tie/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench508/28_tie/audio_b.wav",
+      "instruction_id": 0,
+      "score": 3
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench508/101_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench508/101_2/audio_a.wav",
+      "instruction_id": 0,
+      "score": 2
+    },
+    {
+      "instruction_path": "few_shots_example/speakbench508/101_2/instruction.wav",
+      "instruction_text": "Say the word 'tomato' twice starting with a British pronunciation version, then an American pronunciation version, and teach me the difference.",
+      "audio_path": "few_shots_example/speakbench508/101_2/audio_b.wav",
+      "instruction_id": 0,
+      "score": 3
+    }
+  ]
+}

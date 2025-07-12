@@ -7,15 +7,15 @@ using large language models with optional in-context learning examples.
 """
 
 from .core import AudioJudge
-from .utils import AudioExample
+from .utils import AudioExample, AudioExamplePointwise
 
-__version__ = "0.1.0"
+__version__ = "0.0.0"
 __author__ = "Woody Gan"
 __email__ = "woodygan@usc.edu"
 
 __all__ = [
     "AudioJudge",
     "AudioExample", 
-    "judge_audio_simple",
+    "AudioExamplePointwise",
     "__version__"
 ]

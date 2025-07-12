@@ -7,7 +7,7 @@ import json
 import os
 import time
 from typing import List, Dict, Any, Optional
-from .utils import AudioExample, encode_audio_file, concatenate_audio_files, concatenate_audio_files_with_instruction
+from .utils import AudioExample, encode_audio_file, concatenate_audio_files, concatenate_audio_files_with_instruction, AudioExamplePointwise, concatenate_audio_files_pointwise
 
 
 def get_openai_messages(audio1_path: str,
@@ -38,13 +38,13 @@ def get_openai_messages(audio1_path: str,
     
     # Set default user message
     if user_prompt is None:
-        user_prompt = "Please analyze these audio clips:"
+        user_prompt = "Please provide the answer according to these audio clips:"
     
     # Handle different concatenation methods
     if concatenation_method == "no_concatenation":
         # Add examples separately, test separately
         if examples:
-            _add_separate_examples_openai(messages, examples)
+            _add_separate_examples_openai(messages, examples, user_prompt)
         _add_separate_test_audio_openai(messages, audio1_path, audio2_path, user_prompt)
         
     elif concatenation_method == "pair_example_concatenation":
@@ -62,7 +62,7 @@ def get_openai_messages(audio1_path: str,
     elif concatenation_method == "test_concatenation":
         # Examples separate, test concatenated
         if examples:
-            _add_separate_examples_openai(messages, examples)
+            _add_separate_examples_openai(messages, examples, user_prompt)
         _add_test_concatenated_openai(messages, audio1_path, audio2_path, user_prompt, openai_client, signal_folder)
         
     elif concatenation_method == "examples_and_test_concatenation":
@@ -75,7 +75,7 @@ def get_openai_messages(audio1_path: str,
     return messages
 
 
-def _add_separate_examples_openai(messages: List[Dict], examples: List[AudioExample]):
+def _add_separate_examples_openai(messages: List[Dict], examples: List[AudioExample], user_prompt: str):
     """Add examples as separate audio files."""
     for i, example in enumerate(examples):
         audio1_encoded = encode_audio_file(example.audio1_path)
@@ -86,7 +86,7 @@ def _add_separate_examples_openai(messages: List[Dict], examples: List[AudioExam
             {"type": "input_audio", "input_audio": {"data": audio1_encoded, "format": "wav"}},
             {"type": "text", "text": f"Here is the second audio clip:"},
             {"type": "input_audio", "input_audio": {"data": audio2_encoded, "format": "wav"}},
-            {"type": "text", "text": "Please analyze these audio clips:"}
+            {"type": "text", "text": user_prompt}
         ]
         
         messages.append({"role": "user", "content": content})
@@ -255,13 +255,13 @@ def get_openai_messages_with_instruction(instruction_path: str,
     
     # Set default user message
     if user_prompt is None:
-        user_prompt = "Please analyze these audio clips:"
+        user_prompt = "Please provide your response according to these audio clips:"
     
     # Handle different concatenation methods
     if concatenation_method == "no_concatenation":
         # Add examples separately, test separately
         if examples:
-            _add_separate_examples_with_instruction_openai(messages, examples)
+            _add_separate_examples_with_instruction_openai(messages, examples, user_prompt)
         _add_separate_test_audio_with_instruction_openai(messages, instruction_path, audio1_path, audio2_path, user_prompt)
         
     elif concatenation_method == "pair_example_concatenation":
@@ -279,7 +279,7 @@ def get_openai_messages_with_instruction(instruction_path: str,
     elif concatenation_method == "test_concatenation":
         # Examples separate, test concatenated
         if examples:
-            _add_separate_examples_with_instruction_openai(messages, examples)
+            _add_separate_examples_with_instruction_openai(messages, examples, user_prompt)
         _add_test_with_instruction_concatenated_openai(messages, instruction_path, audio1_path, audio2_path, user_prompt, openai_client, signal_folder)
         
     elif concatenation_method == "examples_and_test_concatenation":
@@ -292,7 +292,7 @@ def get_openai_messages_with_instruction(instruction_path: str,
     return messages
 
 
-def _add_separate_examples_with_instruction_openai(messages: List[Dict], examples: List[AudioExample]):
+def _add_separate_examples_with_instruction_openai(messages: List[Dict], examples: List[AudioExample], user_prompt: str):
     """Add examples as separate audio files with instruction."""
     for i, example in enumerate(examples):
         if not hasattr(example, 'instruction_path') or not example.instruction_path:
@@ -309,7 +309,7 @@ def _add_separate_examples_with_instruction_openai(messages: List[Dict], example
             {"type": "input_audio", "input_audio": {"data": audio1_encoded, "format": "wav"}},
             {"type": "text", "text": f"Here is the second audio clip:"},
             {"type": "input_audio", "input_audio": {"data": audio2_encoded, "format": "wav"}},
-            {"type": "text", "text": "Please analyze these audio clips:"}
+            {"type": "text", "text": user_prompt}
         ]
         
         messages.append({"role": "user", "content": content})
@@ -461,3 +461,152 @@ def _add_test_with_instruction_concatenated_openai(messages: List[Dict],
     
     # Clean up temp file
     os.remove(concat_test_path)
+
+def get_openai_messages_pointwise(audio_path: str,
+                                 system_prompt: str,
+                                 user_prompt: Optional[str] = None,
+                                 examples: Optional[List[AudioExamplePointwise]] = None,
+                                 concatenation_method: str = "no_concatenation",
+                                 openai_client=None,
+                                 signal_folder: str = "signal_audios") -> List[Dict[str, Any]]:
+    """
+    Build OpenAI-format messages for pointwise audio evaluation.
+    
+    Args:
+        audio_path: Path to the audio file to evaluate
+        system_prompt: System prompt that defines the task
+        user_prompt: Optional user prompt (if None, will use default)
+        examples: List of AudioExamplePointwise objects for in-context learning
+        concatenation_method: Method for concatenating audio files ("no_concatenation" or "examples_concatenation")
+        openai_client: OpenAI client for TTS signal generation
+        signal_folder: Directory for signal audio files
+        
+    Returns:
+        List of message dictionaries for OpenAI API
+    """
+    messages = [{"role": "system", "content": system_prompt}]
+    
+    # Set default user message
+    if user_prompt is None:
+        user_prompt = "Please provide the answer according to this audio clip:"
+    
+    # Handle different concatenation methods
+    if concatenation_method == "no_concatenation":
+        # Add examples separately, test separately
+        if examples:
+            _add_separate_examples_pointwise_openai(messages, examples, user_prompt)
+        _add_separate_test_audio_pointwise_openai(messages, audio_path, user_prompt)
+        
+    elif concatenation_method == "examples_concatenation":
+        # All examples concatenated into one, test separate
+        if examples:
+            _add_all_examples_concatenated_pointwise_openai(messages, examples, openai_client, signal_folder)
+        _add_separate_test_audio_pointwise_openai(messages, audio_path, user_prompt)
+        
+    else:
+        raise ValueError(f"Unknown concatenation method for pointwise evaluation: {concatenation_method}")
+    
+    return messages
+
+
+def _add_separate_examples_pointwise_openai(messages: List[Dict], examples: List[AudioExamplePointwise], user_prompt: str):
+    """Add pointwise examples as separate audio files."""
+    if not examples:
+        return
+        
+    # Add introductory message for examples
+    intro_content = [
+        {"type": "text", "text": "Here are some examples for reference:"}
+    ]
+    messages.append({"role": "user", "content": intro_content})
+    
+    for i, example in enumerate(examples):
+        audio_encoded = encode_audio_file(example.audio_path)
+        
+        content = [
+            {"type": "text", "text": f"Example {i+1}:"},
+            {"type": "input_audio", "input_audio": {"data": audio_encoded, "format": "wav"}},
+            {"type": "text", "text": user_prompt}
+        ]
+        
+        messages.append({"role": "user", "content": content})
+        
+        # Add assistant response with the expected output
+        messages.append({
+            "role": "assistant",
+            "content": example.output
+        })
+    
+    
+    messages.append({
+        "role": "assistant", 
+        "content": "I understand these examples. I'll apply this understanding to analyze the new audio clip you provide."
+    })
+
+
+def _add_all_examples_concatenated_pointwise_openai(messages: List[Dict], 
+                                                   examples: List[AudioExamplePointwise],
+                                                   openai_client,
+                                                   signal_folder: str):
+    """Add all pointwise examples concatenated into one audio file."""
+    if not examples:
+        return
+        
+    # Collect all example audio paths
+    all_example_audio_paths = []
+    examples_data = []
+    
+    for i, example in enumerate(examples):
+        all_example_audio_paths.append(example.audio_path)
+        examples_data.append({
+            "output": example.output
+        })
+    
+    # Create temp directory if it doesn't exist
+    os.makedirs("temp_audio", exist_ok=True)
+    
+    # Concatenate all examples using the single-audio concatenation function
+    concat_examples_path = concatenate_audio_files_pointwise(
+        audio_paths=all_example_audio_paths,
+        output_path=os.path.join("temp_audio", f"all_examples_pointwise_{time.time()}.wav"),
+        openai_client=openai_client,
+        signal_folder=signal_folder,
+        is_test=False
+    )
+    examples_encoded = encode_audio_file(concat_examples_path)
+    
+    # Create content for examples
+    examples_content = [
+        {"type": "text", "text": "Here are some examples for reference:"},
+        {"type": "input_audio", "input_audio": {"data": examples_encoded, "format": "wav"}},
+    ]
+    
+    # Add examples metadata
+    example_text = "Examples information:\n"
+    for i, example_data in enumerate(examples_data):
+        example_text += f"Example {i+1}:\n"
+        example_text += f"- Expected output: {example_data['output']}\n\n"
+    
+    examples_content.append({"type": "text", "text": example_text})
+    
+    messages.append({"role": "user", "content": examples_content})
+    messages.append({
+        "role": "assistant", 
+        "content": "I understand these examples. I'll apply this understanding to analyze the new audio clip you provide."
+    })
+    
+    # Clean up temp file
+    os.remove(concat_examples_path)
+
+
+def _add_separate_test_audio_pointwise_openai(messages: List[Dict], audio_path: str, user_prompt: str):
+    """Add test audio as a separate file for pointwise evaluation."""
+    audio_encoded = encode_audio_file(audio_path)
+    
+    user_content = [
+        {"type": "text", "text": "Please analyze this audio clip:"},
+        {"type": "input_audio", "input_audio": {"data": audio_encoded, "format": "wav"}},
+        {"type": "text", "text": user_prompt}
+    ]
+    
+    messages.append({"role": "user", "content": user_content})

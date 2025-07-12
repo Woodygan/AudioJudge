@@ -1,0 +1,3 @@
+prompt_type,model,dataset_name,n_shots,transcript_type,concat_fewshot,concat_test,two_turns,aggregate_fewshot,accuracy,num_samples
+standard_cot,gpt-4o-audio-preview,thaimos,0,groundtruth,False,False,False,False,0.645,200
+standard_cot,gpt-4o-audio-preview,thaimos,0,asr,False,False,False,False,0.65,200
