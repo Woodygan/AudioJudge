@@ -2,7 +2,7 @@
 AudioJudge: A simple package for audio comparison using LLMs
 
 This package provides an easy-to-use interface for comparing audio files
-using large language models with optional in-context learning examples.
+using large audio models with optional in-context learning examples.
 """
 
 import json
@@ -134,7 +134,7 @@ class AudioJudge:
                    temperature: float = 0.00000001,
                    max_tokens: int = 800) -> Dict[str, Any]:
         """
-        Judge/compare two audio files using a language model.
+        Judge/compare two audio files using an audio model.
         
         Args:
             audio1_path: Path to the first audio file
@@ -149,8 +149,8 @@ class AudioJudge:
                 - "pair_example_concatenation": Concatenate each example pair into one audio file
                 - "examples_concatenation": Concatenate all examples into one audio file  
                 - "test_concatenation": Concatenate test audio pair into one file
-                - "examples_and_test_concatenation": Concatenate all examples and test into one file
-            temperature: Model temperature (0.0 for deterministic)
+                - "examples_and_test_concatenation": Concatenate all examples, and concatenate test
+            temperature: Model temperature (0.0 is not always supported, use 0.00000001 for deterministic)
             max_tokens: Maximum tokens in response
             
         Returns:
@@ -282,45 +282,6 @@ class AudioJudge:
     def get_cache_stats(self):
         """Get cache statistics"""
         return self.api_cache.get_cache_stats()
-    def batch_judge(self,
-                   audio_pairs: List[Tuple[str, str]],
-                   system_prompt: str,
-                   user_prompt: Optional[str] = None,
-                   instruction_paths: Optional[List[str]] = None,
-                   examples: Optional[List[AudioExample]] = None,
-                   model: str = "gpt-4o-mini",
-                   **kwargs) -> List[Dict[str, Any]]:
-        """
-        Judge multiple audio pairs in batch.
-        
-        Args:
-            audio_pairs: List of (audio1_path, audio2_path) tuples
-            system_prompt: System prompt for the task
-            user_prompt: Optional user prompt
-            instruction_paths: Optional list of instruction audio paths (same length as audio_pairs)
-            examples: In-context learning examples
-            model: Model to use
-            **kwargs: Additional arguments passed to judge_audio
-            
-        Returns:
-            List of results for each audio pair
-        """
-        results = []
-        for i, (audio1_path, audio2_path) in enumerate(audio_pairs):
-            instruction_path = instruction_paths[i] if instruction_paths else None
-            
-            result = self.judge_audio(
-                audio1_path=audio1_path,
-                audio2_path=audio2_path,
-                system_prompt=system_prompt,
-                user_prompt=user_prompt,
-                instruction_path=instruction_path,
-                examples=examples,
-                model=model,
-                **kwargs
-            )
-            results.append(result)
-        return results
     
     def judge_audio_pointwise(self,
                    audio_path: str,
@@ -328,27 +289,22 @@ class AudioJudge:
                    user_prompt: Optional[str] = None,
                    examples: Optional[List[AudioExamplePointwise]] = None,
                    model: str = "gpt-4o-audio-preview",
-                   concatenation_method: str = "concatenation",
+                   concatenation_method: str = "examples_concatenation",
                    temperature: float = 0.00000001,
                    max_tokens: int = 800) -> Dict[str, Any]:
         """
-        Judge/compare two audio files using a language model.
+        Evaluate a single audio file using an audio model (pointwise evaluation).
         
         Args:
-            audio1_path: Path to the first audio file
-            audio2_path: Path to the second audio file
-            system_prompt: System prompt that defines the task
+            audio_path: Path to the audio file to evaluate
+            system_prompt: System prompt that defines the evaluation task
             user_prompt: Optional user prompt (if None, will use default)
-            instruction_path: Optional path to instruction audio file
-            examples: List of AudioExample objects for in-context learning
-            model: Model name to use ("gpt-4o-mini-audio-preview", "gpt-4o-audio-preview", "gemini-1.5-flash", etc.)
+            examples: List of AudioExamplePointwise objects for in-context learning
+            model: Model name to use ("gpt-4o-audio-preview", "gpt-4o-mini-audio-preview", "gemini-1.5-flash", etc.)
             concatenation_method: Method for concatenating audio files:
                 - "no_concatenation": Keep all audio files separate
-                - "pair_example_concatenation": Concatenate each example pair into one audio file
-                - "examples_concatenation": Concatenate all examples into one audio file  
-                - "test_concatenation": Concatenate test audio pair into one file
-                - "examples_and_test_concatenation": Concatenate all examples and test into one file
-            temperature: Model temperature (0.0 for deterministic)
+                - "examples_concatenation": Concatenate all examples into one file
+            temperature: Model temperature (0.0 is not always supported, use 0.00000001 for deterministic)
             max_tokens: Maximum tokens in response
             
         Returns:
@@ -401,7 +357,7 @@ class AudioJudge:
                                   examples: Optional[List[AudioExamplePointwise]],
                                   concatenation_method: str,
                                   model: str) -> List[Dict[str, Any]]:
-        """Build the message list for the model based on concatenation method and model type."""
+        """Build the message list for pointwise evaluation based on concatenation method and model type."""
         if "gpt" in model.lower():
             from .openai_messages import get_openai_messages_pointwise
             return get_openai_messages_pointwise(

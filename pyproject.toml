@@ -28,12 +28,10 @@ classifiers = [
 ]
 keywords = ["audio", "llm", "comparison", "ai", "speech", "pronunciation", "openai", "gemini"]
 dependencies = [
-    "pandas",
-    "datasets",
-    "torch",
     "openai>=1.0.0",
     "google-generativeai>=0.3.0",
     "pydub>=0.25.0",
+    "diskcache>=5.4.0",
 ]
 
 [project.optional-dependencies]
@@ -45,9 +43,6 @@ dev = [
     "twine>=4.0",
     "build>=0.8",
 ]
-
-[project.scripts]
-audiojudge = "audiojudge.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/woodygan/audiojudge"

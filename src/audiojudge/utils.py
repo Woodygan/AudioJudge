@@ -22,7 +22,7 @@ class AudioExample:
     Attributes:
         audio1_path: Path to the first audio file
         audio2_path: Path to the second audio file
-        label: The expected output/label for this example
+        output: The expected output for this example
         instruction_path: Optional path to instruction audio file
     """
     audio1_path: str
@@ -33,13 +33,11 @@ class AudioExample:
 @dataclass
 class AudioExamplePointwise:
     """
-    Represents an in-context learning example for audio comparison.
+    Represents an in-context learning example for pointwise audio evaluation.
     
     Attributes:
-        audio1_path: Path to the first audio file
-        audio2_path: Path to the second audio file
-        label: The expected output/label for this example
-        instruction_path: Optional path to instruction audio file
+        audio_path: Path to the audio file to evaluate
+        output: The expected output/evaluation for this example
     """
     audio_path: str
     output: str

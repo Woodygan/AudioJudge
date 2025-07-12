@@ -1,9 +1,9 @@
 
 """
-AudioJudge: A simple package for audio comparison using large language models.
+AudioJudge: A simple package for audio comparison using large audio models.
 
 This package provides an easy-to-use interface for comparing audio files
-using large language models with optional in-context learning examples.
+using large audio models with optional in-context learning examples.
 """
 
 from .core import AudioJudge

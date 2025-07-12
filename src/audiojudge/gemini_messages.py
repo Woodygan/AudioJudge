@@ -53,7 +53,7 @@ def get_gemini_messages(audio1_path: str,
     
     # Set default user message
     if user_prompt is None:
-        user_prompt = "Please analyze these audio clips:"
+        user_prompt = "Please provide your response according to these audio clips:"
     
     # Handle different concatenation methods
     if concatenation_method == "no_concatenation":
@@ -541,7 +541,7 @@ def _add_test_with_instruction_concatenated_gemini(messages: List,
     test_audio_bytes = convert_audio_to_gemini_format(concat_test_path)
     
     # Add test message
-    messages.append("Please analyze these audio clips:")
+    messages.append("Please provide your response according to these audio clips:")
     messages.append({
         "mime_type": "audio/wav",
         "data": test_audio_bytes
@@ -560,7 +560,7 @@ def get_gemini_messages_pointwise(audio_path: str,
                                  openai_client=None,
                                  signal_folder: str = "signal_audios") -> List:
     """
-    Build OpenAI-format messages for pointwise audio evaluation.
+    Build Gemini-format messages for pointwise audio evaluation
     
     Args:
         audio_path: Path to the audio file to evaluate
@@ -572,13 +572,13 @@ def get_gemini_messages_pointwise(audio_path: str,
         signal_folder: Directory for signal audio files
         
     Returns:
-        List of message dictionaries for OpenAI API
+        List of message items for Gemini API
     """
     messages = [system_prompt]
     
     # Set default user message
     if user_prompt is None:
-        user_prompt = "Please provide the answer according to this audio clip:"
+        user_prompt = "Please provide your response according to this audio clip:"
     
     # Handle different concatenation methods
     if concatenation_method == "no_concatenation":

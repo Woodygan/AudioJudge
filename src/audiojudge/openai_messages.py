@@ -38,7 +38,7 @@ def get_openai_messages(audio1_path: str,
     
     # Set default user message
     if user_prompt is None:
-        user_prompt = "Please provide the answer according to these audio clips:"
+        user_prompt = "Please provide your response according to these audio clips:"
     
     # Handle different concatenation methods
     if concatenation_method == "no_concatenation":
@@ -265,9 +265,9 @@ def get_openai_messages_with_instruction(instruction_path: str,
         _add_separate_test_audio_with_instruction_openai(messages, instruction_path, audio1_path, audio2_path, user_prompt)
         
     elif concatenation_method == "pair_example_concatenation":
-        # Each example triplet concatenated, test separate
+        # Each example pair with instruction concatenated, test separate
         if examples:
-            _add_triplet_concatenated_examples_openai(messages, examples, openai_client, signal_folder)
+            _add_pair_concatenated_examples_with_instruction_openai(messages, examples, openai_client, signal_folder)
         _add_separate_test_audio_with_instruction_openai(messages, instruction_path, audio1_path, audio2_path, user_prompt)
         
     elif concatenation_method == "examples_concatenation":
@@ -316,11 +316,11 @@ def _add_separate_examples_with_instruction_openai(messages: List[Dict], example
         messages.append({"role": "assistant", "content": example.output})
 
 
-def _add_triplet_concatenated_examples_openai(messages: List[Dict], 
+def _add_pair_concatenated_examples_with_instruction_openai(messages: List[Dict], 
                                             examples: List[AudioExample], 
                                             openai_client,
                                             signal_folder: str):
-    """Add examples with each triplet (instruction + audio1 + audio2) concatenated into one audio file."""
+    """Add examples with each pair with instruction (instruction + audio1 + audio2) concatenated into one audio file."""
     # Create temp directory if it doesn't exist
     os.makedirs("temp_audio", exist_ok=True)
     
@@ -328,10 +328,10 @@ def _add_triplet_concatenated_examples_openai(messages: List[Dict],
         if not hasattr(example, 'instruction_path') or not example.instruction_path:
             raise ValueError(f"Example {i} missing instruction_path for instruction-based evaluation")
             
-        # Concatenate this example's audio triplet
+        # Concatenate this example's audio pair with instruction
         concat_path = concatenate_audio_files_with_instruction(
             audio_paths=[example.instruction_path, example.audio1_path, example.audio2_path],
-            output_path=os.path.join("temp_audio", f"example_triplet_{i}_{time.time()}.wav"),
+            output_path=os.path.join("temp_audio", f"example_pair_{i}_{time.time()}.wav"),
             openai_client=openai_client,
             signal_folder=signal_folder,
             is_test=False,
@@ -356,7 +356,7 @@ def _add_all_examples_with_instruction_concatenated_openai(messages: List[Dict],
                                                          openai_client,
                                                          signal_folder: str):
     """Add all examples concatenated into one audio file with instructions."""
-    # Collect all example audio paths (triplets)
+    # Collect all example audio paths (pair with instructions)
     all_example_audio_paths = []
     examples_data = []
     
@@ -488,7 +488,7 @@ def get_openai_messages_pointwise(audio_path: str,
     
     # Set default user message
     if user_prompt is None:
-        user_prompt = "Please provide the answer according to this audio clip:"
+        user_prompt = "Please provide your response according to this audio clip:"
     
     # Handle different concatenation methods
     if concatenation_method == "no_concatenation":
@@ -536,7 +536,6 @@ def _add_separate_examples_pointwise_openai(messages: List[Dict], examples: List
             "role": "assistant",
             "content": example.output
         })
-    
     
     messages.append({
         "role": "assistant", 

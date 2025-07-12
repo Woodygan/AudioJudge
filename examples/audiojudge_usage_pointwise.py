@@ -14,9 +14,9 @@ from collections import Counter
 from pathlib import Path
 
 # Import the AudioJudge class and utilities
-from audiojudge import AudioJudge, AudioExample
+from audiojudge import AudioJudge, AudioExamplePointwise
 from dotenv import load_dotenv
-from system_prompts import SYSTEM_PROMPTS
+from system_prompts_pointwise import SYSTEM_PROMPTS
 import re
 def load_dataset(file_path: str) -> pd.DataFrame:
     """
@@ -29,62 +29,57 @@ def load_dataset(file_path: str) -> pd.DataFrame:
             item['match'] = item['match'].lower() == 'true'
     df = pd.DataFrame(data)
     return df
-def get_user_prompt(dataset_name: str) -> str:
-    user_prompt = ""
-    if "speakbench" in dataset_name:
-        user_prompt = ("Please analyze which of the two recordings follows the instruction better, or tie. "
-            "Respond ONLY in text and output valid JSON with keys 'reasoning' and 'label' (string, '1', '2' or 'tie').")
-    elif "chatbotarena" in dataset_name:
-        user_prompt = ("Please analyze which of the two recordings follows the instruction better, or tie, in terms of content of the responses. "
-                        "Respond ONLY in text and output valid JSON with keys 'reasoning' and 'label' (string, '1', '2' or 'tie').")
-    return user_prompt
+def extract_json_from_response(response: str) -> Optional[Dict]:
+    """Extract JSON from the model's response"""
+    try:
+        return json.loads(response)
+    except json.JSONDecodeError:
+        json_match = re.search(r'({.*?})', response.replace('\n', ' '), re.DOTALL)
+        if json_match:
+            try:
+                return json.loads(json_match.group(0))
+            except json.JSONDecodeError:
+                pass
+    return None
+
 def main(args):
     # Initialize the AudioJudge instance
     load_dotenv()
     audio_judge = AudioJudge()
-    dataset_path = os.path.join("..","main_experiments","datasets",f"{args.dataset_name}_dataset.json")
-    
+    dataset_path = os.path.join("experiments","main_experiments","datasets",f"{args.dataset_name}_dataset.json")
+    user_prompt = ("Please analyze the speech quality of this recording. "
+                "Respond ONLY in text and output valid JSON with key 'score' (int from 1-5).")
     # Load dataset
     df = load_dataset(dataset_path)
     n_samples = min(1, len(df))
     sample_df = df[:n_samples]
-    with open("../main_experiments/few_shots_examples.json", "r") as f:
+    with open("experiments/main_experiments/few_shots_examples_pointwise.json", "r") as f:
         few_shots_examples = json.load(f)
     few_shots_examples = few_shots_examples[args.dataset_name][:args.n_few_shots]
     examples = []
     results = []
     for example in few_shots_examples:
-        examples.append(AudioExample(
-            audio1_path=os.path.join("..","main_experiments", example['audio1_path']),
-            audio2_path=os.path.join("..","main_experiments", example['audio2_path']),
-            instruction_path=os.path.join("..","main_experiments", example['instruction_path']),
-            output=json.dumps(example["assistant_message"])
+        examples.append(AudioExamplePointwise(
+            audio_path=os.path.join("experiments","main_experiments", example['audio_path']),
+            output=json.dumps({"score": example["score"]}),
         ))
-    failed_samples = 0
-    correct_predictions = 0
-    total_predictions = 0
     for _, row in tqdm(sample_df.iterrows(), total=len(sample_df), desc="Processing samples"):
         try:
-            audio1_path = os.path.join("..","main_experiments", row['audio1_path'])
-            audio2_path = os.path.join("..","main_experiments", row['audio2_path'])
-            instruction_path = os.path.join("..","main_experiments", row['instruction_path'])
-            user_prompt = get_user_prompt(args.dataset_name)
+            audio_path = os.path.join("experiments","main_experiments", row['audio1_path'])
             system_prompt = SYSTEM_PROMPTS[args.dataset_name]["standard_cot"]
-            response = audio_judge.judge_audio(audio1_path=audio1_path,
-                                            audio2_path=audio2_path,
-                                            instruction_path=instruction_path,
+            response = audio_judge.judge_audio_pointwise(audio_path=audio_path,
                                             user_prompt=user_prompt,
                                             system_prompt=system_prompt,
                                             model=args.model,
                                             examples=examples,
-                                            concatenation_method="examples_and_test_concatenation",
+                                            concatenation_method="examples_concatenation",
                                             )
             
-            print(f"Model Response: {response['response']}")
-        
+            print(f"Response: {response}")
         except Exception as e:
-            print(f"Error processing {audio1_path}, {audio2_path}: {str(e)}")
+            print(f"Error processing {audio_path}: {str(e)}")
             continue
+    return
     
 
 def parse_args():
@@ -93,11 +88,11 @@ def parse_args():
     """
     parser = argparse.ArgumentParser(description="Audio evaluation using AudioJudge")
     parser.add_argument("--dataset_name", type=str, required=True,
-                       choices=["chatbotarena","speakbench508"],
+                       choices=["tmhintq", "somos", "thaimos"],
                        help="Name of the dataset to evaluate")
     parser.add_argument("--n_few_shots", type=int, default=4,
                        help="Number of few-shot examples to use")
-    parser.add_argument("--model", type=str, default="gemini-2.5-flash-preview-04-17",
+    parser.add_argument("--model", type=str, default="gpt-4o-audio-preview",
                        help="Model to use for evaluation")
     parser.add_argument("--n_samples", type=int, default=1,
                        help="Maximum number of samples to evaluate")
