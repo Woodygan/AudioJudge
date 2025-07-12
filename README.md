@@ -71,7 +71,9 @@ judge = AudioJudge(
 
 ### 1. Pairwise Audio Comparison
 
-Compare two audio files and get a model response:
+### 1.2. Pairwise Comparison without Instruction Audio
+
+Compare two audio files and get a model response directly:
 
 ```python
 result = judge.judge_audio(
@@ -90,7 +92,7 @@ else:
     print(f"Error: {result['error']}")
 ```
 
-### 1.1. Pairwise Comparison with Instruction Audio
+### 1.2. Pairwise Comparison with Instruction Audio
 
 For scenarios where both audio clips are responses to the same instruction (e.g., comparing two speech-in speech-out systems):
 
