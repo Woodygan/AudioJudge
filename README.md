@@ -38,6 +38,9 @@ result = judge.judge_audio(
 print(result["response"])
 ```
 
+### Quick Demo
+- [AudioJudge with Speaker Identification Demo](examples/audiojudge_huggingface_demo.ipynb)
+
 ## Configuration
 
 ### Environment Variables
@@ -71,7 +74,7 @@ judge = AudioJudge(
 
 ### 1. Pairwise Audio Comparison
 
-### 1.2. Pairwise Comparison without Instruction Audio
+### 1.1. Pairwise Comparison without Instruction Audio
 
 Compare two audio files and get a model response directly:
 

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "audiojudge"
-version = "0.0.0"
+dynamic = ["version"]
 authors = [
     {name = "Woody Gan", email = "woodygan@usc.edu"},
 ]
@@ -51,9 +51,6 @@ Documentation = "https://github.com/woodygan/audiojudge#readme"
 "Bug Tracker" = "https://github.com/woodygan/audiojudge/issues"
 Changelog = "https://github.com/woodygan/audiojudge/releases"
 
-[tool.hatch.build.targets.wheel]
-packages = ["src/audiojudge"]
-
 [tool.hatch.build.targets.sdist]
 include = ["src/"]
 
@@ -63,6 +60,9 @@ include = ["src/"]
 
 [tool.hatch.metadata]
 allow-direct-references = true
+
+[tool.hatch.version]
+path = "src/audiojudge/__init__.py"
 
 # Tool configurations for development
 [tool.black]
@@ -92,3 +92,5 @@ testpaths = ["tests"]
 python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
+addopts = "--verbose --color=yes"
+pythonpath = ["."]

@@ -1,2 +1,68 @@
-.env
+# Python
+__pycache__/
+*.py[cod]
 *pycache*
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+*.egg
+*.log
+*.sqlite3
+*.db
+*.db-journal
+*.mypy_cache/
+*.pytest_cache/
+.cache/
+
+# Test coverage
+.coverage
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+
+# Build
+build/
+dist/
+*.whl
+*.tar.gz
+
+# C extensions
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Project-specific
+.eval_cache/
+temp_audio/
+temp_audio_demo/
+
+# Ignore wheel and build outputs
+*.wheel
+
+# Misc
+*.bak
+*.tmp
+*.swp
