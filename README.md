@@ -38,6 +38,9 @@ result = judge.judge_audio(
 print(result["response"])
 ```
 
+### Quick Demo
+- [AudioJudge with Speaker Identification Demo](examples/audiojudge_huggingface_demo.ipynb)
+
 ## Configuration
 
 ### Environment Variables

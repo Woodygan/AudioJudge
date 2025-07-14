@@ -57,6 +57,7 @@ Desktop.ini
 # Project-specific
 .eval_cache/
 temp_audio/
+temp_audio_demo/
 
 # Ignore wheel and build outputs
 *.wheel
