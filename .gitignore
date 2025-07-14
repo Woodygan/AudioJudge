@@ -16,6 +16,13 @@ __pycache__/
 *.pytest_cache/
 .cache/
 
+# Test coverage
+.coverage
+htmlcov/
+.coverage.*
+coverage.xml
+*.cover
+
 # Environments
 .env
 .venv/
@@ -50,7 +57,6 @@ Desktop.ini
 # Project-specific
 .eval_cache/
 temp_audio/
-
 
 # Ignore wheel and build outputs
 *.wheel

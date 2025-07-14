@@ -13,7 +13,8 @@ from pathlib import Path
 from typing import List, Dict, Optional, Tuple, Any, Union
 from dataclasses import dataclass
 from pydub import AudioSegment
-import pkg_resources
+import importlib.resources
+
 @dataclass
 class AudioExample:
     """
@@ -629,12 +630,11 @@ def get_signal_audio_path(signal_filename: str, user_signal_folder: str = "signa
     
     # 2. Check package's default signal folder
     try:
-        package_signal_path = pkg_resources.resource_filename(
-            'audiojudge', f'signal_audios/{signal_filename}'
-        )
+        # Convert the Traversable to a string path
+        package_signal_path = str(importlib.resources.files('audiojudge').joinpath(f'signal_audios/{signal_filename}'))
         if os.path.exists(package_signal_path):
             return package_signal_path
-    except:
+    except Exception:
         pass
     
     # 3. Return user path for generation (will be created if needed)
