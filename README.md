@@ -71,7 +71,7 @@ judge = AudioJudge(
 
 ### 1. Pairwise Audio Comparison
 
-### 1.2. Pairwise Comparison without Instruction Audio
+### 1.1. Pairwise Comparison without Instruction Audio
 
 Compare two audio files and get a model response directly:
 
