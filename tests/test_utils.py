@@ -17,29 +17,29 @@ def sample_audio_paths():
 
 class TestAudioExample:
     """Test suite for the AudioExample class."""
-    
+
     def test_audio_example_creation(self, sample_audio_paths):
         """Test creating an AudioExample instance."""
         example = AudioExample(
             audio1_path=sample_audio_paths["audio1"],
             audio2_path=sample_audio_paths["audio2"],
-            output="Audio 1 is better."
+            output="Audio 1 is better.",
         )
-        
+
         assert example.audio1_path == sample_audio_paths["audio1"]
         assert example.audio2_path == sample_audio_paths["audio2"]
         assert example.output == "Audio 1 is better."
         assert example.instruction_path is None
-    
+
     def test_audio_example_with_instruction(self, sample_audio_paths):
         """Test creating an AudioExample with instruction."""
         example = AudioExample(
             audio1_path=sample_audio_paths["audio1"],
             audio2_path=sample_audio_paths["audio2"],
             instruction_path=sample_audio_paths["instruction"],
-            output="Audio 2 is better."
+            output="Audio 2 is better.",
         )
-        
+
         assert example.audio1_path == sample_audio_paths["audio1"]
         assert example.audio2_path == sample_audio_paths["audio2"]
         assert example.instruction_path == sample_audio_paths["instruction"]
@@ -48,13 +48,12 @@ class TestAudioExample:
 
 class TestAudioExamplePointwise:
     """Test suite for the AudioExamplePointwise class."""
-    
+
     def test_audio_example_pointwise_creation(self, sample_audio_paths):
         """Test creating an AudioExamplePointwise instance."""
         example = AudioExamplePointwise(
-            audio_path=sample_audio_paths["audio1"],
-            output="8/10 - Good quality audio."
+            audio_path=sample_audio_paths["audio1"], output="8/10 - Good quality audio."
         )
-        
+
         assert example.audio_path == sample_audio_paths["audio1"]
-        assert example.output == "8/10 - Good quality audio." 
+        assert example.output == "8/10 - Good quality audio."

@@ -7,6 +7,7 @@ from openai import OpenAI
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
+
 def analyze_comparison(text):
     """
     Analyze the input text to determine whether it implies:
@@ -50,11 +51,8 @@ def analyze_comparison(text):
             model="gpt-4o-mini",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
-                {
-                    "role": "user",
-                    "content": prompt
-                }
-            ]
+                {"role": "user", "content": prompt},
+            ],
         )
         try:
             response = completion.choices[0].message.content.strip()
@@ -66,10 +64,13 @@ def analyze_comparison(text):
             for v in parsed.values():
                 assert v in ["A", "B", "C"]
         except:
-            import ipdb; ipdb.set_trace()
-            print("failed at attempt", i+1)
+            import ipdb
+
+            ipdb.set_trace()
+            print("failed at attempt", i + 1)
     # Extract and return the result
     return parsed
+
 
 def run(
     input_path,
@@ -94,24 +95,34 @@ def run(
         num_done = 0
     print("num_done = {}".format(num_done))
 
-    for i in tqdm(range(num_done, len(data))):    
-        x = data[i] # ['data_path', 'data', 'prompt_text', 'response']
-        response = x['response']   
+    for i in tqdm(range(num_done, len(data))):
+        x = data[i]  # ['data_path', 'data', 'prompt_text', 'response']
+        response = x["response"]
 
         # Get the analysis result
         processed = analyze_comparison(response)
-        x['processed'] = processed  
+        x["processed"] = processed
 
         # print(i, processed)
-        with open(output_path, 'a') as f:
-            f.write(json.dumps(x, ensure_ascii=False) + '\n')
+        with open(output_path, "a") as f:
+            f.write(json.dumps(x, ensure_ascii=False) + "\n")
 
 
 if __name__ == "__main__":
     # Argument parser setup
-    parser = argparse.ArgumentParser(description="Analyze comparison between A and B from input text.")
-    parser.add_argument("--input_path", type=str, help="Path to the input file containing text to analyze.")
-    parser.add_argument("--output_path", type=str, help="Path to the output file to save the analysis result.")
+    parser = argparse.ArgumentParser(
+        description="Analyze comparison between A and B from input text."
+    )
+    parser.add_argument(
+        "--input_path",
+        type=str,
+        help="Path to the input file containing text to analyze.",
+    )
+    parser.add_argument(
+        "--output_path",
+        type=str,
+        help="Path to the output file to save the analysis result.",
+    )
 
     args = parser.parse_args()
     run(args.input_path, args.output_path)

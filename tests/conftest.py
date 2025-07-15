@@ -4,7 +4,8 @@ import sys
 from pathlib import Path
 
 # Add the src directory to the Python path for tests
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 
 @pytest.fixture
 def sample_audio_paths():
@@ -16,4 +17,4 @@ def sample_audio_paths():
         "instruction": str(base_dir / "instruction.wav"),
         "test_audio": str(base_dir / "test_audio.wav"),
         "audio": str(base_dir / "audio.wav"),
-    } 
+    }

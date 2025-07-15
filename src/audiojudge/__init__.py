@@ -1,4 +1,3 @@
-
 """
 AudioJudge: A simple package for audio comparison using large audio models.
 
@@ -13,9 +12,4 @@ __version__ = "0.1.1"
 __author__ = "Woody Gan"
 __email__ = "woodygan@usc.edu"
 
-__all__ = [
-    "AudioJudge",
-    "AudioExample", 
-    "AudioExamplePointwise",
-    "__version__"
-]
+__all__ = ["AudioJudge", "AudioExample", "AudioExamplePointwise", "__version__"]

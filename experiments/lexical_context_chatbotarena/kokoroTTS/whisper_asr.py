@@ -1,4 +1,3 @@
-
 import argparse
 import soundfile as sf
 import json
@@ -7,9 +6,14 @@ from transformers import WhisperProcessor, WhisperForConditionalGeneration
 from datasets import load_dataset
 from tqdm import tqdm
 
+
 def transcribe_audio(model, processor, audio_path):
-    audio_array, sr = sf.read(audio_path)  # audio is a NumPy array, sr is the sample rate
-    input_features = processor(audio_array, sampling_rate=sr, return_tensors="pt").input_features
+    audio_array, sr = sf.read(
+        audio_path
+    )  # audio is a NumPy array, sr is the sample rate
+    input_features = processor(
+        audio_array, sampling_rate=sr, return_tensors="pt"
+    ).input_features
     input_features = input_features.to(model.device)
 
     # generate token ids
@@ -18,6 +22,7 @@ def transcribe_audio(model, processor, audio_path):
     transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True)
     # [' Mr. Quilter is the apostle of the middle classes and we are glad to welcome his gospel.']
     return transcription[0].strip()
+
 
 def experiment(data_path, output_path):
     # Load the data
@@ -42,32 +47,41 @@ def experiment(data_path, output_path):
         num_done = 0
     print("num_done = {}".format(num_done))
 
-    for i in tqdm(range(num_done, len(data))):    
+    for i in tqdm(range(num_done, len(data))):
         question_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-user.wav"
         assistant_a_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-a.wav"
         assistant_b_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-b.wav"
 
         question_transcription = transcribe_audio(model, processor, question_wav_path)
-        assistant_a_transcription = transcribe_audio(model, processor, assistant_a_wav_path)
-        assistant_b_transcription = transcribe_audio(model, processor, assistant_b_wav_path)
+        assistant_a_transcription = transcribe_audio(
+            model, processor, assistant_a_wav_path
+        )
+        assistant_b_transcription = transcribe_audio(
+            model, processor, assistant_b_wav_path
+        )
         item = {
             "i": i,
             "question_transcription": question_transcription,
             "assistant_a_transcription": assistant_a_transcription,
             "assistant_b_transcription": assistant_b_transcription,
         }
-        with open(output_path, 'a') as f:
-            f.write(json.dumps(item, ensure_ascii=False) + '\n')
+        with open(output_path, "a") as f:
+            f.write(json.dumps(item, ensure_ascii=False) + "\n")
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Run a specific model via gradio_client.")
-    parser.add_argument("--data_path", type=str, required=True, help="Specify the model name to run.")
+    parser = argparse.ArgumentParser(
+        description="Run a specific model via gradio_client."
+    )
+    parser.add_argument(
+        "--data_path", type=str, required=True, help="Specify the model name to run."
+    )
     parser.add_argument("--output_path", type=str, required=True, help="Output Path")
     args = parser.parse_args()
     experiment(args.data_path, args.output_path)
 
     # python whisper_asr.py --data_path ../chatbot-arena-spoken-1turn-english-difference-voices.json --output_path chatbot-arena-spoken-1turn-english-whisper-transcript.jsonl
+
 
 if __name__ == "__main__":
     main()

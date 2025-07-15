@@ -9,6 +9,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 system_prompt = """You are a helpful assistant. You provide answers to user instructions. Please interpret to the instruction and provide an appropriate response."""
 
+
 def experiment(
     output_dir,
 ):
@@ -30,27 +31,21 @@ def experiment(
             continue
 
         x = dataset[id]
-        instruction = x["instruction"]        
+        instruction = x["instruction"]
         message = [
-            {
-                "role": "system",
-                "content": system_prompt
-            },
-            {
-                "role": "user",
-                "content": instruction
-            }
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": instruction},
         ]
         completion = client.chat.completions.create(
-            model="gpt-4o-2024-11-20",
-            messages=message
+            model="gpt-4o-2024-11-20", messages=message
         )
-        
+
         # save response
         response = completion.choices[0].message.content
         with open(txt_file, "w") as f:
             f.write(response)
         print("Output:", response)
+
 
 def main():
     parser = argparse.ArgumentParser()
@@ -59,6 +54,7 @@ def main():
     experiment(args.output_dir)
 
     # usage: python inference_gpttext.py --output_dir experiments/advvoiceq1/gpt4o_text
+
 
 if __name__ == "__main__":
     main()

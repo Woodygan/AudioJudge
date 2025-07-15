@@ -12,12 +12,13 @@ import numpy as np
 
 model = AutoModel.from_pretrained(
     "scb10x/llama3.1-typhoon2-audio-8b-instruct",
-    torch_dtype=torch.float16, 
-    trust_remote_code=True
+    torch_dtype=torch.float16,
+    trust_remote_code=True,
 )
 model.to("cuda")
 
 system_prompt = """You are a helpful assistant. You provide answers to user instructions. The instructions will be in the audio format. Please listen to the instruction and provide an appropriate response. If users request you to speak in a specific style or tone, please behave accordingly."""
+
 
 def experiment(
     output_dir,
@@ -28,7 +29,6 @@ def experiment(
     print("randomize:", randomize)
     print("type(randomize):", type(randomize))
     print("-----------------------------")
-
 
     # load dataset
     with open("data/questions1_shuffled_id.json", "r") as f:
@@ -63,7 +63,10 @@ def experiment(
                         "type": "audio",
                         "audio_url": question_wav_path,
                     },
-                    {"type": "text", "text": "This is the user question in the audio format. Listen and respond to this question."},
+                    {
+                        "type": "text",
+                        "text": "This is the user question in the audio format. Listen and respond to this question.",
+                    },
                 ],
             },
         ]
@@ -80,15 +83,15 @@ def experiment(
             )
         except RuntimeError:
             output = {
-                'text': 'I cannot process the audio',
-                'audio': {
-                    'array': np.zeros((16000 * 5), dtype=np.float32),
-                    'sampling_rate': 1600,
-                }
+                "text": "I cannot process the audio",
+                "audio": {
+                    "array": np.zeros((16000 * 5), dtype=np.float32),
+                    "sampling_rate": 1600,
+                },
             }
 
         # save transcript
-        transcript = output['text']
+        transcript = output["text"]
         with open(txt_file, "w") as f:
             f.write(transcript)
 
@@ -98,14 +101,18 @@ def experiment(
         print("Generated audio:", wav_file)
         print("Transcript:", transcript)
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output_dir", type=str, required=True, help="Output Dir")
-    parser.add_argument("--randomize", action="store_true", help="Randomize the order of the dataset")
+    parser.add_argument(
+        "--randomize", action="store_true", help="Randomize the order of the dataset"
+    )
     args = parser.parse_args()
     experiment(args.output_dir, args.randomize)
 
     # usage: python inference_typhoon2.py --output_dir experiments/advvoiceq1/typhoon2 --randomize
+
 
 if __name__ == "__main__":
     main()
