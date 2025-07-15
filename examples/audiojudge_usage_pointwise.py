@@ -46,26 +46,26 @@ def main(args):
     # Initialize the AudioJudge instance
     load_dotenv()
     audio_judge = AudioJudge()
-    dataset_path = os.path.join("experiments","main_experiments","datasets",f"{args.dataset_name}_dataset.json")
+    dataset_path = os.path.join("..","experiments","main_experiments","datasets",f"{args.dataset_name}_dataset.json")
     user_prompt = ("Please analyze the speech quality of this recording. "
                 "Respond ONLY in text and output valid JSON with key 'score' (int from 1-5).")
     # Load dataset
     df = load_dataset(dataset_path)
     n_samples = min(1, len(df))
     sample_df = df[:n_samples]
-    with open("experiments/main_experiments/few_shots_examples_pointwise.json", "r") as f:
+    with open("../experiments/main_experiments/few_shots_examples_pointwise.json", "r") as f:
         few_shots_examples = json.load(f)
     few_shots_examples = few_shots_examples[args.dataset_name][:args.n_few_shots]
     examples = []
     results = []
     for example in few_shots_examples:
         examples.append(AudioExamplePointwise(
-            audio_path=os.path.join("experiments","main_experiments", example['audio_path']),
+            audio_path=os.path.join("..","experiments","main_experiments", example['audio_path']),
             output=json.dumps({"score": example["score"]}),
         ))
     for _, row in tqdm(sample_df.iterrows(), total=len(sample_df), desc="Processing samples"):
         try:
-            audio_path = os.path.join("experiments","main_experiments", row['audio1_path'])
+            audio_path = os.path.join("..","experiments","main_experiments", row['audio1_path'])
             system_prompt = SYSTEM_PROMPTS[args.dataset_name]["standard_cot"]
             response = audio_judge.judge_audio_pointwise(audio_path=audio_path,
                                             user_prompt=user_prompt,

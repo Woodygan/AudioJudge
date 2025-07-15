@@ -42,22 +42,22 @@ def main(args):
     # Initialize the AudioJudge instance
     load_dotenv()
     audio_judge = AudioJudge()
-    dataset_path = os.path.join("experiments","main_experiments","datasets",f"{args.dataset_name}_dataset.json")
+    dataset_path = os.path.join("..","experiments","main_experiments","datasets",f"{args.dataset_name}_dataset.json")
     
     # Load dataset
     df = load_dataset(dataset_path)
     n_samples = min(1, len(df))
     sample_df = df[:n_samples]
-    with open("experiments/main_experiments/few_shots_examples.json", "r") as f:
+    with open("../experiments/main_experiments/few_shots_examples.json", "r") as f:
         few_shots_examples = json.load(f)
     few_shots_examples = few_shots_examples[args.dataset_name][:args.n_few_shots]
     examples = []
     results = []
     for example in few_shots_examples:
         examples.append(AudioExample(
-            audio1_path=os.path.join("experiments","main_experiments", example['audio1_path']),
-            audio2_path=os.path.join("experiments","main_experiments", example['audio2_path']),
-            instruction_path=os.path.join("experiments","main_experiments", example['instruction_path']),
+            audio1_path=os.path.join("..","experiments","main_experiments", example['audio1_path']),
+            audio2_path=os.path.join("..","experiments","main_experiments", example['audio2_path']),
+            instruction_path=os.path.join("..","experiments","main_experiments", example['instruction_path']),
             output=json.dumps(example["assistant_message"])
         ))
     failed_samples = 0
@@ -65,9 +65,9 @@ def main(args):
     total_predictions = 0
     for _, row in tqdm(sample_df.iterrows(), total=len(sample_df), desc="Processing samples"):
         try:
-            audio1_path = os.path.join("experiments","main_experiments", row['audio1_path'])
-            audio2_path = os.path.join("experiments","main_experiments", row['audio2_path'])
-            instruction_path = os.path.join("experiments","main_experiments", row['instruction_path'])
+            audio1_path = os.path.join("..","experiments","main_experiments", row['audio1_path'])
+            audio2_path = os.path.join("..","experiments","main_experiments", row['audio2_path'])
+            instruction_path = os.path.join("..","experiments","main_experiments", row['instruction_path'])
             user_prompt = get_user_prompt(args.dataset_name)
             system_prompt = SYSTEM_PROMPTS[args.dataset_name]["standard_cot"]
             response = audio_judge.judge_audio(audio1_path=audio1_path,
