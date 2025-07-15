@@ -3,7 +3,6 @@ import base64
 import os
 import time
 import wave
-import audioop
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple, Any, Union, Callable
 from dataclasses import dataclass

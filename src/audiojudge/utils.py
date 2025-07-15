@@ -7,7 +7,6 @@ import base64
 import os
 import time
 import wave
-import audioop
 import io
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple, Any, Union
@@ -76,6 +75,24 @@ def convert_to_16kHz_bytes(file_path: str) -> bytes:
         # Fallback: just read the file as-is
         with open(file_path, "rb") as f:
             return f.read()
+
+
+def resample_audio_bytes(
+    frames: bytes,
+    sample_width: int,
+    channels: int,
+    input_rate: int,
+    target_rate: int,
+) -> bytes:
+    """Resample raw audio bytes using pydub."""
+    segment = AudioSegment(
+        data=frames,
+        sample_width=sample_width,
+        frame_rate=input_rate,
+        channels=channels,
+    )
+    resampled = segment.set_frame_rate(target_rate)
+    return resampled.raw_data
 
 
 def concatenate_audio_files(
@@ -177,13 +194,12 @@ def concatenate_audio_files(
 
                 # Resample if needed
                 if signal_rate != target_sample_rate:
-                    signal_frames, _ = audioop.ratecv(
+                    signal_frames = resample_audio_bytes(
                         signal_frames,
                         signal_width,
                         signal_channels,
                         signal_rate,
                         target_sample_rate,
-                        None,
                     )
 
                 signal_segments[signal_filename] = signal_frames
@@ -228,13 +244,12 @@ def concatenate_audio_files(
 
                 # Resample if needed
                 if audio_rate != target_sample_rate:
-                    audio_frames, _ = audioop.ratecv(
+                    audio_frames = resample_audio_bytes(
                         audio_frames,
                         audio_width,
                         audio_channels,
                         audio_rate,
                         target_sample_rate,
-                        None,
                     )
 
                 output_file.writeframes(audio_frames)
@@ -260,13 +275,12 @@ def concatenate_audio_files(
                     audio_width = w.getsampwidth()
 
                     if audio_rate != target_sample_rate:
-                        audio_frames, _ = audioop.ratecv(
+                        audio_frames = resample_audio_bytes(
                             audio_frames,
                             audio_width,
                             audio_channels,
                             audio_rate,
                             target_sample_rate,
-                            None,
                         )
 
                     output_file.writeframes(audio_frames)
@@ -388,13 +402,12 @@ def concatenate_audio_files_with_instruction(
 
                 # Resample if needed
                 if signal_rate != target_sample_rate:
-                    signal_frames, _ = audioop.ratecv(
+                    signal_frames = resample_audio_bytes(
                         signal_frames,
                         signal_width,
                         signal_channels,
                         signal_rate,
                         target_sample_rate,
-                        None,
                     )
 
                 signal_segments[signal_filename] = signal_frames
@@ -438,13 +451,12 @@ def concatenate_audio_files_with_instruction(
 
                 # Resample if needed
                 if audio_rate != target_sample_rate:
-                    audio_frames, _ = audioop.ratecv(
+                    audio_frames = resample_audio_bytes(
                         audio_frames,
                         audio_width,
                         audio_channels,
                         audio_rate,
                         target_sample_rate,
-                        None,
                     )
 
                 output_file.writeframes(audio_frames)
@@ -463,13 +475,12 @@ def concatenate_audio_files_with_instruction(
                 audio_width = w.getsampwidth()
 
                 if audio_rate != target_sample_rate:
-                    audio_frames, _ = audioop.ratecv(
+                    audio_frames = resample_audio_bytes(
                         audio_frames,
                         audio_width,
                         audio_channels,
                         audio_rate,
                         target_sample_rate,
-                        None,
                     )
 
                 output_file.writeframes(audio_frames)
@@ -488,13 +499,12 @@ def concatenate_audio_files_with_instruction(
                 audio_width = w.getsampwidth()
 
                 if audio_rate != target_sample_rate:
-                    audio_frames, _ = audioop.ratecv(
+                    audio_frames = resample_audio_bytes(
                         audio_frames,
                         audio_width,
                         audio_channels,
                         audio_rate,
                         target_sample_rate,
-                        None,
                     )
 
                 output_file.writeframes(audio_frames)
@@ -602,13 +612,12 @@ def concatenate_audio_files_pointwise(
 
                 # Resample if needed
                 if signal_rate != target_sample_rate:
-                    signal_frames, _ = audioop.ratecv(
+                    signal_frames = resample_audio_bytes(
                         signal_frames,
                         signal_width,
                         signal_channels,
                         signal_rate,
                         target_sample_rate,
-                        None,
                     )
 
                 signal_segments[signal_filename] = signal_frames
@@ -652,13 +661,12 @@ def concatenate_audio_files_pointwise(
 
                 # Resample if needed
                 if audio_rate != target_sample_rate:
-                    audio_frames, _ = audioop.ratecv(
+                    audio_frames = resample_audio_bytes(
                         audio_frames,
                         audio_width,
                         audio_channels,
                         audio_rate,
                         target_sample_rate,
-                        None,
                     )
 
                 output_file.writeframes(audio_frames)
