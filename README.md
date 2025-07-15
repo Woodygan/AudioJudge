@@ -419,11 +419,11 @@ This package is based on research in audio evaluation using large audio models. 
 
 Additional usage examples can be found in the [`examples/`](https://github.com/Woodygan/AudioJudge/tree/main/examples) folder, which wraps some of our experiments into the package for demonstration:
 
-- **[`examples/audiojudge_usage`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage)**: Pairwise comparison without instruction
+- **[`examples/audiojudge_usage.py`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage.py)**: Pairwise comparison without instruction
   - Datasets: somos, thaimos, tmhintq, pronunciation, speed, speaker evaluations
-- **[`examples/audiojudge_usage_with_instruction`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage_with_instruction)**: Pairwise comparison with instruction audio
+- **[`examples/audiojudge_usage_with_instruction.py`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage_with_instruction.py)**: Pairwise comparison with instruction audio
   - Datasets: System-level comparisons including ChatbotArena and SpeakBench
-- **[`examples/audiojudge_usage_pointwise`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage_pointwise)**: Pointwise evaluation
+- **[`examples/audiojudge_usage_pointwise.py`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage_pointwise.py)**: Pointwise evaluation
   - Datasets: somos, thaimos, tmhintq,
 
 ## License
