@@ -6,13 +6,15 @@ import pandas as pd
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict
+
+
 def load_model_judge_scores(csv_path: str | Path) -> Dict[str, float]:
     """
     Load model judge scores from CSV file and extract effective_win_rate.
-    
+
     Args:
         csv_path: Path to the CSV file containing model statistics
-        
+
     Returns:
         Dictionary mapping model names to their effective win rates (as percentages)
     """
@@ -21,11 +23,11 @@ def load_model_judge_scores(csv_path: str | Path) -> Dict[str, float]:
         # Convert effective_win_rate to percentage (multiply by 100)
         model_scores = {}
         for _, row in df.iterrows():
-            model_scores[row['model_name']] = row['effective_win_rate'] * 100
-        
+            model_scores[row["model_name"]] = row["effective_win_rate"] * 100
+
         print(f"Loaded {len(model_scores)} model scores from {csv_path}")
         return model_scores
-    
+
     except FileNotFoundError:
         raise FileNotFoundError(f"CSV file not found: {csv_path}")
     except KeyError as e:
@@ -37,13 +39,13 @@ def load_model_judge_scores(csv_path: str | Path) -> Dict[str, float]:
 def compute_normalized_scores(jsonl_path: str | Path) -> Dict[str, float]:
     """
     Read `annotations.jsonl` and return {model_name: avg_score}.
-    
+
     Scoring per battle
     ------------------
-    winner  : +1.0  
-    loser   : +0.0  
-    each tie: +0.5  
-    
+    winner  : +1.0
+    loser   : +0.0
+    each tie: +0.5
+
     Normalization
     -------------
     avg_score = total_points / num_battles   (so 3 wins + 1 loss → 3/4 = 0.75)
@@ -53,8 +55,8 @@ def compute_normalized_scores(jsonl_path: str | Path) -> Dict[str, float]:
         raise FileNotFoundError(jsonl_path)
 
     # running tallies
-    points  = defaultdict(float)   # total points earned
-    battles = defaultdict(int)     # how many times the model appeared
+    points = defaultdict(float)  # total points earned
+    battles = defaultdict(int)  # how many times the model appeared
 
     count = 0
     with jsonl_path.open("r", encoding="utf-8") as f:
@@ -64,9 +66,9 @@ def compute_normalized_scores(jsonl_path: str | Path) -> Dict[str, float]:
             try:
                 rec = json.loads(line)
                 m1, m2 = rec["model1"], rec["model2"]
-                pref   = rec["preference"]          
+                pref = rec["preference"]
             except (KeyError, json.JSONDecodeError):
-                continue                             # skip malformed lines
+                continue  # skip malformed lines
 
             # each model fought once in this record
             battles[m1] += 1
@@ -82,9 +84,9 @@ def compute_normalized_scores(jsonl_path: str | Path) -> Dict[str, float]:
             # unknown preference token → ignore it quietly
 
             count += 1
-    
+
     print(f"Counted {count} records in {jsonl_path}")
-    
+
     # normalize
     normalized = {
         model: (points[model] / battles[model]) * 100 if battles[model] else 0.0
@@ -96,7 +98,9 @@ def compute_normalized_scores(jsonl_path: str | Path) -> Dict[str, float]:
 def main():
     # Load model judge scores from CSV file
     try:
-        model_judge_scores = load_model_judge_scores("results/speakbench/gpt-4o-audio-preview/summary_speakbench_standard_cot_4_shots_none_transcript_single_turn_gpt_4o_audio_preview_20250518_205840.csv")
+        model_judge_scores = load_model_judge_scores(
+            "results/speakbench/gpt-4o-audio-preview/summary_speakbench_standard_cot_4_shots_none_transcript_single_turn_gpt_4o_audio_preview_20250518_205840.csv"
+        )
     except Exception as e:
         print(f"Error loading model judge scores: {e}")
         return
@@ -111,7 +115,7 @@ def main():
 
     # Find common models between human and judge scores
     common = sorted(set(model_judge_scores) & set(human_scores))
-    
+
     if not common:
         print("No common models found between human and judge scores!")
         return
@@ -132,35 +136,64 @@ def main():
     # Create the plot
     plt.figure(figsize=(6, 4))
     plt.scatter(human, judge, label="models", color="royalblue")
-    plt.plot(x_line, y_line, '--', color="cornflowerblue", 
-             label=f"best fit, Spearman ρ = {rho:.3f}")
+    plt.plot(
+        x_line,
+        y_line,
+        "--",
+        color="cornflowerblue",
+        label=f"best fit, Spearman ρ = {rho:.3f}",
+    )
 
     # Add model name annotations
     for m, hx, jx in zip(common, human, judge):
         if m == "asr+llama3+tts":
-            plt.annotate(m, (hx-15, jx-1.2), fontsize=8, xytext=(3, 3),
-                        textcoords="offset points")   
+            plt.annotate(
+                m,
+                (hx - 15, jx - 1.2),
+                fontsize=8,
+                xytext=(3, 3),
+                textcoords="offset points",
+            )
         elif m == "gemini2-flash-text+tts":
-            plt.annotate(m, (hx-1, jx+0.1), fontsize=8, xytext=(3, 3),
-                        textcoords="offset points")   
+            plt.annotate(
+                m,
+                (hx - 1, jx + 0.1),
+                fontsize=8,
+                xytext=(3, 3),
+                textcoords="offset points",
+            )
         elif m == "gemini2-flash-exp+asr+tts":
-            plt.annotate(m, (hx, jx-1.2), fontsize=8, xytext=(3, 3),
-                        textcoords="offset points")  
+            plt.annotate(
+                m, (hx, jx - 1.2), fontsize=8, xytext=(3, 3), textcoords="offset points"
+            )
         elif m == "gemini2-flash-exp":
-            plt.annotate(m, (hx-16, jx-2), fontsize=8, xytext=(3, 3),
-                        textcoords="offset points")   
+            plt.annotate(
+                m,
+                (hx - 16, jx - 2),
+                fontsize=8,
+                xytext=(3, 3),
+                textcoords="offset points",
+            )
         elif m == "gpt4o-text+tts":
-            plt.annotate(m, (hx-13, jx-2), fontsize=8, xytext=(3, 3),
-                        textcoords="offset points") 
+            plt.annotate(
+                m,
+                (hx - 13, jx - 2),
+                fontsize=8,
+                xytext=(3, 3),
+                textcoords="offset points",
+            )
         elif m == "gpt4o-audio+asr+tts":
-            plt.annotate(m, (hx, jx-1.2), fontsize=8, xytext=(3, 3),
-                        textcoords="offset points")
+            plt.annotate(
+                m, (hx, jx - 1.2), fontsize=8, xytext=(3, 3), textcoords="offset points"
+            )
         elif m == "gpt4o-audio":
-            plt.annotate(m, (hx-10, jx), fontsize=8, xytext=(3, 3),
-                        textcoords="offset points") 
+            plt.annotate(
+                m, (hx - 10, jx), fontsize=8, xytext=(3, 3), textcoords="offset points"
+            )
         else:
-            plt.annotate(m, (hx, jx), fontsize=8, xytext=(3, 3),
-                        textcoords="offset points")
+            plt.annotate(
+                m, (hx, jx), fontsize=8, xytext=(3, 3), textcoords="offset points"
+            )
 
     # Format the plot
     plt.xlabel("Human normalized score")
@@ -168,11 +201,11 @@ def main():
     plt.grid(alpha=0.3)
     plt.legend()
     plt.tight_layout()
-    
+
     # Save the plot
     plt.savefig("human_vs_model-judge.pdf", bbox_inches="tight")
     print("Plot saved as 'human_vs_model-judge.pdf'")
-    
+
     # Show the plot
     plt.show()
 

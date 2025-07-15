@@ -10,6 +10,7 @@ import contextlib
 from google import genai
 from datasets import load_dataset
 
+
 # Define a context manager for opening a wave file.
 @contextlib.contextmanager
 def wave_file(filename, channels=1, rate=24000, sample_width=2):
@@ -23,12 +24,14 @@ def wave_file(filename, channels=1, rate=24000, sample_width=2):
     finally:
         wf.close()
 
+
 # Helper async enumerator for asynchronous iterables.
 async def async_enumerate(it):
     n = 0
     async for item in it:
         yield n, item
-        n +=1
+        n += 1
+
 
 # Text In Speech Out
 async def generate_audio(
@@ -43,21 +46,19 @@ async def generate_audio(
         message (str): The message to send to the session.
     """
     # Initialize the client with the required HTTP options.
-    client = genai.Client(http_options={'api_version': 'v1alpha'})
-    
+    client = genai.Client(http_options={"api_version": "v1alpha"})
+
     # Define the generation configuration.
-    config = {
-        "generation_config": {"response_modalities": ["AUDIO"]}
-    }
-    
+    config = {"generation_config": {"response_modalities": ["AUDIO"]}}
+
     MODEL = "gemini-2.0-flash-exp"
-    
+
     # Connect to the live session.
     async with client.aio.live.connect(model=MODEL, config=config) as session:
         # print("> ", message, "\n")
         # Send the message and mark end-of-turn.
         await session.send(input=message, end_of_turn=True)
-        
+
         # Open the WAV file for writing.
         with wave_file(file_name) as wav:
             # Get the stream of responses.
@@ -65,10 +66,12 @@ async def generate_audio(
             async for n, response in async_enumerate(turn):
                 if response.data is not None:
                     wav.writeframes(response.data)
-                    
+
                     # For the first response, print out the MIME type.
                     if n == 0:
-                        mime_type = response.server_content.model_turn.parts[0].inline_data.mime_type
+                        mime_type = response.server_content.model_turn.parts[
+                            0
+                        ].inline_data.mime_type
                         # print("MIME Type:", mime_type)
                     # print('.', end='')  # Print progress dots.
 
@@ -79,7 +82,9 @@ def generate_audio_sync(message: str, output_file: str):
     _ = asyncio.run(generate_audio(message, file_name=output_file))
     print("Audio saved to", output_file)
 
+
 system_prompt = """You are a helpful assistant. You provide answers to user instructions. The instructions will be in the audio format. Please listen to the instruction and provide an appropriate response. If users request you to speak in a specific style or tone, please behave accordingly."""
+
 
 def experiment(
     output_dir,
@@ -94,7 +99,6 @@ def experiment(
     # random.shuffle(ids)
 
     for id in tqdm(ids):
-
         wav_file = f"{output_dir}/audio/{id}.wav"
         # check if the transcript file already exists
         if os.path.exists(wav_file):
@@ -104,6 +108,7 @@ def experiment(
         question_txt = dataset[id]["instruction"]
         generate_audio_sync(question_txt, wav_file)
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output_dir", type=str, required=True, help="Output Dir")
@@ -111,6 +116,7 @@ def main():
     experiment(args.output_dir)
 
     # usage: python inference_geminiaudio.py --output_dir experiments/advvoiceq1/gemini2flash
+
 
 if __name__ == "__main__":
     main()

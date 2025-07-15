@@ -11,16 +11,17 @@ system_prompt = """Please act as an impartial judge and evaluate the quality of 
 
 model = AutoModel.from_pretrained(
     "scb10x/llama3.1-typhoon2-audio-8b-instruct",
-    torch_dtype=torch.float16, 
-    trust_remote_code=True
+    torch_dtype=torch.float16,
+    trust_remote_code=True,
 )
 model.to("cuda")
 model.eval()
 
+
 def experiment(
     data_path,
     output_path,
-    order='ab',
+    order="ab",
 ):
     print("-----------------------------")
     print("data_path:", data_path)
@@ -46,25 +47,22 @@ def experiment(
     for i in tqdm(range(num_done, len(data))):
         question_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-user.wav"
 
-        if order == 'ab':
+        if order == "ab":
             assistant_a_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-a.wav"
             assistant_b_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-b.wav"
-        elif order == 'ba':
+        elif order == "ba":
             assistant_a_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-b.wav"
             assistant_b_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-a.wav"
         else:
             raise ValueError("Invalid order")
-        
+
         # Generate the response
         conversation = [
             {
                 "role": "system",
                 "content": [
-                    {
-                        "type": "text",
-                        "text": system_prompt
-                    },
-                ]
+                    {"type": "text", "text": system_prompt},
+                ],
             },
             {
                 "role": "user",
@@ -76,35 +74,35 @@ def experiment(
                     {
                         "type": "audio",
                         "audio_url": question_wav_path,
-                    }
-                ]
+                    },
+                ],
             },
             {
                 "role": "user",
                 "content": [
                     {
                         "type": "text",
-                        "text": "This is the assistant A's response in the audio format."
+                        "text": "This is the assistant A's response in the audio format.",
                     },
                     {
                         "type": "audio",
                         "audio_url": assistant_a_wav_path,
-                    }
-                ]
+                    },
+                ],
             },
             {
                 "role": "user",
                 "content": [
                     {
                         "type": "text",
-                        "text": "This is the assistant B's response in the audio format."
+                        "text": "This is the assistant B's response in the audio format.",
                     },
                     {
                         "type": "audio",
                         "audio_url": assistant_b_wav_path,
-                    }
-                ]
-            }
+                    },
+                ],
+            },
         ]
 
         # Generate the response
@@ -117,29 +115,33 @@ def experiment(
                 repetition_penalty=1.0,
                 length_penalty=1.0,
             )
-            response = x['text']
+            response = x["text"]
         except:
             response = "[[E]]"
 
-        item = {
-            "data_path": data_path,
-            "i": i,
-            "response": response
-        }
+        item = {"data_path": data_path, "i": i, "response": response}
         print(i, response)
-        with open(output_path, 'a') as f:
-            f.write(json.dumps(item, ensure_ascii=False) + '\n')
+        with open(output_path, "a") as f:
+            f.write(json.dumps(item, ensure_ascii=False) + "\n")
+
 
 def main():
-    parser = argparse.ArgumentParser(description="Run a specific model via gradio_client.")
-    parser.add_argument("--data_path", type=str, required=True, help="Specify the model name to run.")
+    parser = argparse.ArgumentParser(
+        description="Run a specific model via gradio_client."
+    )
+    parser.add_argument(
+        "--data_path", type=str, required=True, help="Specify the model name to run."
+    )
     parser.add_argument("--output_path", type=str, required=True, help="Output Path")
-    parser.add_argument("--order", type=str, default='ab', help="Order of the audio files")
+    parser.add_argument(
+        "--order", type=str, default="ab", help="Order of the audio files"
+    )
     args = parser.parse_args()
     experiment(args.data_path, args.output_path, args.order)
-            
+
     # usage: python -m scripts.exp1_chatbotarena_typhoon2_audio_audio.py --data_path data/chatbot-arena-spoken-1turn-english-difference-voices.json --output_path experiments/chatbot-arena-7824/audio-audio-typhoon2.jsonl --order ab
     # usage: python -m scripts.exp1_chatbotarena_typhoon2_audio_audio.py --data_path data/chatbot-arena-spoken-1turn-english-difference-voices.json --output_path experiments/chatbot-arena-7824/audio-audio-typhoon2_BA.jsonl --order ba
+
 
 if __name__ == "__main__":
     main()

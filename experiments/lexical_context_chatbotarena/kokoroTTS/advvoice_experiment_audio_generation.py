@@ -14,10 +14,11 @@ from kokoro import KPipeline
 #     silence_audio = np.zeros(int(sr * duration), dtype=np.float32)
 #     return silence_audio
 
+
 def synthesize_speech(
     pipeline,
     text: str,
-    wav_path: str, # to save the audio file
+    wav_path: str,  # to save the audio file
 ):
     # check if wav_path already exists
     if os.path.exists(wav_path):
@@ -35,12 +36,7 @@ def synthesize_speech(
         return
 
     # Generate audio in chunks, but do not write them individually
-    generator = pipeline(
-        text, 
-        voice="af_bella",
-        speed=1, 
-        split_pattern=r'\n+'
-    )
+    generator = pipeline(text, voice="af_bella", speed=1, split_pattern=r"\n+")
 
     # Collect chunks of audio in a list
     audio_chunks = []
@@ -54,22 +50,23 @@ def synthesize_speech(
             combined_audio_24k = np.concatenate(audio_chunks)
         else:
             combined_audio_24k = audio_chunks[0]
-                
+
         # ----- RESAMPLE from 24 kHz to 16 kHz -----
         # Librosa's resampling
         combined_audio_16k = librosa.resample(
-            y=combined_audio_24k,
-            orig_sr=24000,
-            target_sr=16000
+            y=combined_audio_24k, orig_sr=24000, target_sr=16000
         )
     except OverflowError as e:
         print(f"OverflowError: {e}")
         # combined_audio_16k = get_silence_audio(2.0, 16000)
-        import ipdb; ipdb.set_trace()
-    
+        import ipdb
+
+        ipdb.set_trace()
+
     # Save the 16 kHz version to a single file
     sf.write(wav_path, combined_audio_16k, 16000)
     print(f"Saved to {wav_path}")
+
 
 def experiment(
     wav_dir: str,
@@ -79,9 +76,11 @@ def experiment(
     print("cuda:", os.environ.get("CUDA_VISIBLE_DEVICES"))
     print("-------------------------------------------")
 
-    pipeline = KPipeline(lang_code='a') # american
+    pipeline = KPipeline(lang_code="a")  # american
 
-    with open("/data/workspace/ppotsawee/audioLM-as-judge-new/advanced-voice-gen-task-v1/questions1_shuffled_id.json") as f:
+    with open(
+        "/data/workspace/ppotsawee/audioLM-as-judge-new/advanced-voice-gen-task-v1/questions1_shuffled_id.json"
+    ) as f:
         dataset = json.load(f)
 
     ids = [i for i in range(len(dataset))]
@@ -96,7 +95,7 @@ def experiment(
         if os.path.exists(wav_path):
             print(f"Skipping {id}")
             continue
-        
+
         question_text = x["question"]
         synthesize_speech(pipeline, question_text, wav_path)
     print("Done.")
@@ -105,10 +104,11 @@ def experiment(
 if __name__ == "__main__":
     # Argument parser setup
     parser = argparse.ArgumentParser()
-    parser.add_argument("--wav_dir", 
-        type=str, 
+    parser.add_argument(
+        "--wav_dir",
+        type=str,
         default="/data/workspace/ppotsawee/audioLM-as-judge-new/advanced-voice-gen-task-v1/questions1_kokoro_wav",
-        help="Path to the output file to save the synthesis results."
+        help="Path to the output file to save the synthesis results.",
     )
     args = parser.parse_args()
     experiment(args.wav_dir)

@@ -4,7 +4,10 @@ from glob import glob
 from pydub import AudioSegment
 from google.cloud import speech
 
-def transcribe_file(client, audio_file: str, sample_rate: int) -> speech.RecognizeResponse:
+
+def transcribe_file(
+    client, audio_file: str, sample_rate: int
+) -> speech.RecognizeResponse:
     """Transcribe the given audio file.
     Args:
         audio_file (str): Path to the local audio file to be transcribed.
@@ -19,7 +22,7 @@ def transcribe_file(client, audio_file: str, sample_rate: int) -> speech.Recogni
     audio = speech.RecognitionAudio(content=audio_content)
     config = speech.RecognitionConfig(
         encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=sample_rate, # 16000
+        sample_rate_hertz=sample_rate,  # 16000
         language_code="en-US",
     )
 
@@ -33,6 +36,7 @@ def transcribe_file(client, audio_file: str, sample_rate: int) -> speech.Recogni
 
     return response
 
+
 def experiment(
     input_dir: str,
     text_dir: str,
@@ -41,7 +45,7 @@ def experiment(
     print("input_dir:", input_dir)
     print("text_dir:", text_dir)
     print("-------------------------------------------")
-    
+
     client = speech.SpeechClient()
 
     wav_paths = sorted(glob(f"{input_dir}/*.wav"))
@@ -65,13 +69,15 @@ def experiment(
 if __name__ == "__main__":
     # Argument parser setup
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_dir", 
-        type=str, 
-        help="Path to the input dir containing files to transcribe. (*.wav files)"
+    parser.add_argument(
+        "--input_dir",
+        type=str,
+        help="Path to the input dir containing files to transcribe. (*.wav files)",
     )
-    parser.add_argument("--text_dir", 
-        type=str, 
-        help="Path to the output file to save the ASR results. (*.txt files)"
+    parser.add_argument(
+        "--text_dir",
+        type=str,
+        help="Path to the output file to save the ASR results. (*.txt files)",
     )
     args = parser.parse_args()
     experiment(args.input_dir, args.text_dir)

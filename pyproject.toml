@@ -30,8 +30,9 @@ keywords = ["audio", "llm", "comparison", "ai", "speech", "pronunciation", "open
 dependencies = [
     "openai>=1.0.0",
     "google-generativeai>=0.3.0",
-    "pydub>=0.25.0",
+    "pydub>=0.25.1",
     "diskcache>=5.4.0",
+    "audioop-lts>=0.2.1"
 ]
 
 [project.optional-dependencies]

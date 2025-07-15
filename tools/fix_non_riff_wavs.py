@@ -12,8 +12,9 @@ problematic_files = [
     signal_audios_dir / "example_0.wav",
     signal_audios_dir / "first_audio.wav",
     signal_audios_dir / "second_audio.wav",
-    signal_audios_dir / "test_audio.wav"
+    signal_audios_dir / "test_audio.wav",
 ]
+
 
 def fix_non_riff_wav(file_path):
     """
@@ -22,17 +23,19 @@ def fix_non_riff_wav(file_path):
     """
     try:
         print(f"Processing {file_path}...")
-        
+
         # Create a backup of the original file
         backup_path = str(file_path) + ".backup"
         os.rename(file_path, backup_path)
         print(f"  Created backup at {backup_path}")
-        
+
         # Try to load the file with pydub (which is more forgiving with file formats)
         try:
             audio = AudioSegment.from_file(backup_path)
-            print(f"  Successfully loaded with pydub: {audio.channels} channels, {audio.frame_rate}Hz, {audio.duration_seconds:.2f}s")
-            
+            print(
+                f"  Successfully loaded with pydub: {audio.channels} channels, {audio.frame_rate}Hz, {audio.duration_seconds:.2f}s"
+            )
+
             # Export as a proper WAV file
             audio.export(file_path, format="wav")
             print(f"  Fixed and saved to {file_path}")
@@ -47,6 +50,7 @@ def fix_non_riff_wav(file_path):
         print(f"  Error processing file: {e}")
         return False
 
+
 if __name__ == "__main__":
     fixed_count = 0
     for file_path in problematic_files:
@@ -55,5 +59,5 @@ if __name__ == "__main__":
                 fixed_count += 1
         else:
             print(f"File not found: {file_path}")
-    
-    print(f"\nFixed {fixed_count} out of {len(problematic_files)} problematic files") 
+
+    print(f"\nFixed {fixed_count} out of {len(problematic_files)} problematic files")
