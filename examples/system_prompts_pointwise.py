@@ -15,7 +15,6 @@ SYSTEM_PROMPTS = {
             "\nIMPORTANT: Use the full rating scale from 1-5. Do not be afraid to assign scores of 1 or 5 when appropriate. Avoid defaulting to middle scores. Be decisive and critical in your assessment."
             "\nRespond in text only and output valid JSON with exactly one key: 'score' (an integer value from 1 to 5)."
         ),
-        
         "standard_cot": (
             "You are an expert in audio quality assessment specializing in synthesized speech evaluation. Your task is to evaluate a single audio file on a 5-point scale, where 1 is poor quality and 5 is high quality. "
             "Evaluate the audio based on the following criteria: "
@@ -53,7 +52,6 @@ SYSTEM_PROMPTS = {
             "\nIMPORTANT: Use the full rating scale from 1-5. Do not be afraid to assign scores of 1 or 5 when appropriate. Avoid defaulting to middle scores. Be decisive and critical in your assessment."
             "\nRespond in text only and output valid JSON with exactly one key: 'score' (an integer value from 1 to 5)."
         ),
-        
         "standard_cot": (
             "You are an expert in audio quality assessment specializing in synthesized speech evaluation. Your task is to evaluate a single audio file on a 5-point scale, where 1 is poor quality and 5 is high quality. "
             "Evaluate the audio based on the following criteria: "
@@ -91,7 +89,6 @@ SYSTEM_PROMPTS = {
             "\nIMPORTANT: Use the full rating scale from 1-5. Do not be afraid to assign scores of 1 or 5 when appropriate. Avoid defaulting to middle scores. Be decisive and critical in your assessment."
             "\nRespond in text only and output valid JSON with exactly one key: 'score' (an integer value from 1 to 5)."
         ),
-        
         "standard_cot": (
             "You are an expert in audio quality assessment specializing in synthesized speech evaluation. Your task is to evaluate a single audio file on a 5-point scale, where 1 is poor quality and 5 is high quality. "
             "Evaluate the audio based on the following criteria: "
@@ -125,7 +122,7 @@ SYSTEM_PROMPTS = {
             "\n- Score 3: Average response that adequately addresses the request with acceptable vocal delivery."
             "\n- Score 4: Good response that thoroughly addresses the request with effective vocal delivery."
             "\n- Score 5: Excellent response that perfectly addresses the request with ideal vocal delivery."
-            "\nImportant: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should receive a lower score."
+            '\nImportant: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should receive a lower score.'
             "\nIMPORTANT: Use the full rating scale from 1-5. Do not be afraid to assign scores of 1 or 5 when appropriate. Avoid defaulting to middle scores. Be decisive and critical in your assessment."
             "\nRespond with valid JSON with exactly one key: 'score' (an integer value from 1 to 5)."
         ),
@@ -145,7 +142,7 @@ SYSTEM_PROMPTS = {
             "\n2. Evaluate how well the audio response addresses the semantics of the request"
             "\n3. Evaluate how well the audio response delivers the paralinguistic aspects requested"
             "\n4. Consider both content accuracy and vocal delivery in your final score"
-            "\nImportant: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should receive a lower score."
+            '\nImportant: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should receive a lower score.'
             "\nIMPORTANT: Use the full rating scale from 1-5. Do not be afraid to assign scores of 1 or 5 when appropriate. Avoid defaulting to middle scores. Be decisive and critical in your assessment."
             "\nRespond in text only and output valid JSON with exactly two keys: 'reasoning' (your detailed justification) and 'score' (an integer value from 1 to 5)."
         ),
@@ -162,7 +159,7 @@ SYSTEM_PROMPTS = {
             "\n- Score 3: Average response that adequately addresses the request with acceptable vocal delivery."
             "\n- Score 4: Good response that thoroughly addresses the request with effective vocal delivery."
             "\n- Score 5: Excellent response that perfectly addresses the request with ideal vocal delivery."
-            "\nImportant: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should receive a lower score."
+            '\nImportant: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should receive a lower score.'
             "\nIMPORTANT: Use the full rating scale from 1-5. Do not be afraid to assign scores of 1 or 5 when appropriate. Avoid defaulting to middle scores. Be decisive and critical in your assessment."
             "\nRespond with valid JSON with exactly one key: 'score' (an integer value from 1 to 5)."
         ),
@@ -182,9 +179,9 @@ SYSTEM_PROMPTS = {
             "\n2. Evaluate how well the audio response addresses the semantics of the request"
             "\n3. Evaluate how well the audio response delivers the paralinguistic aspects requested"
             "\n4. Consider both content accuracy and vocal delivery in your final score"
-            "\nImportant: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should receive a lower score."
+            '\nImportant: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should receive a lower score.'
             "\nIMPORTANT: Use the full rating scale from 1-5. Do not be afraid to assign scores of 1 or 5 when appropriate. Avoid defaulting to middle scores. Be decisive and critical in your assessment."
             "\nRespond in text only and output valid JSON with exactly two keys: 'reasoning' (your detailed justification) and 'score' (an integer value from 1 to 5)."
         ),
-    }
+    },
 }

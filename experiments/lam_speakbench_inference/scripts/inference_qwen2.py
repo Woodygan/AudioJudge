@@ -18,28 +18,40 @@ model = Qwen2AudioForConditionalGeneration.from_pretrained(
 )
 model = model.to(device)
 
+
 @torch.no_grad()
 def run_inference(conversation):
-    text = processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
+    text = processor.apply_chat_template(
+        conversation, add_generation_prompt=True, tokenize=False
+    )
     audios = []
     for message in conversation:
         if isinstance(message["content"], list):
             for ele in message["content"]:
                 if ele["type"] == "audio":
-                    audios.append(librosa.load(
-                        ele['audio_url'], 
-                        sr=processor.feature_extractor.sampling_rate)[0]
+                    audios.append(
+                        librosa.load(
+                            ele["audio_url"],
+                            sr=processor.feature_extractor.sampling_rate,
+                        )[0]
                     )
-    inputs = processor(text=text, audios=audios, 
-                       return_tensors="pt", padding=True,
-                       sampling_rate=processor.feature_extractor.sampling_rate
-                       ).to("cuda")
+    inputs = processor(
+        text=text,
+        audios=audios,
+        return_tensors="pt",
+        padding=True,
+        sampling_rate=processor.feature_extractor.sampling_rate,
+    ).to("cuda")
     generate_ids = model.generate(**inputs, max_length=6000, do_sample=False)
-    generate_ids = generate_ids[:, inputs.input_ids.size(1):]
-    response = processor.batch_decode(generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
+    generate_ids = generate_ids[:, inputs.input_ids.size(1) :]
+    response = processor.batch_decode(
+        generate_ids, skip_special_tokens=True, clean_up_tokenization_spaces=False
+    )[0]
     return response
 
+
 system_prompt = """You are a helpful assistant. You provide answers to user instructions. The instructions will be in the audio format. Please listen to the instruction and provide an appropriate response. If users request you to speak in a specific style or tone, please behave accordingly."""
+
 
 def experiment(
     output_dir,
@@ -50,7 +62,6 @@ def experiment(
     print("randomize:", randomize)
     print("type(randomize):", type(randomize))
     print("-----------------------------")
-
 
     # load dataset
     with open("data/questions1_shuffled_id.json", "r") as f:
@@ -83,7 +94,10 @@ def experiment(
                         "type": "audio",
                         "audio_url": question_wav_path,
                     },
-                    {"type": "text", "text": "This is the user question in the audio format. Listen and respond to this question."},
+                    {
+                        "type": "text",
+                        "text": "This is the user question in the audio format. Listen and respond to this question.",
+                    },
                 ],
             },
         ]
@@ -93,14 +107,18 @@ def experiment(
             f.write(response)
         print("TextOutput:", response)
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output_dir", type=str, required=True, help="Output Dir")
-    parser.add_argument("--randomize", action="store_true", help="Randomize the order of the dataset")
+    parser.add_argument(
+        "--randomize", action="store_true", help="Randomize the order of the dataset"
+    )
     args = parser.parse_args()
     experiment(args.output_dir, args.randomize)
 
     # usage: python inference_qwen2.py --output_dir experiments/advvoiceq1/qwen2 --randomize
+
 
 if __name__ == "__main__":
     main()

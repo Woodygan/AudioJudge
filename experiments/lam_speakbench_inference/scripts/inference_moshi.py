@@ -31,17 +31,26 @@ def seed_all(seed):
     torch.backends.cudnn.deterministic = False
     torch.backends.cudnn.benchmark = False
 
-def get_condition_tensors(model_type: str, lm: LMModel, batch_size: int, cfg_coef: float) -> ConditionTensors:
+
+def get_condition_tensors(
+    model_type: str, lm: LMModel, batch_size: int, cfg_coef: float
+) -> ConditionTensors:
     condition_tensors = {}
     if lm.condition_provider is not None:
         conditions: list[ConditionAttributes] | None = None
-        if model_type == 'hibiki':
-            conditions = [ConditionAttributes(text={"description": "very_good"}, wav={})] * batch_size
-            if cfg_coef != 1.:
+        if model_type == "hibiki":
+            conditions = [
+                ConditionAttributes(text={"description": "very_good"}, wav={})
+            ] * batch_size
+            if cfg_coef != 1.0:
                 # Extending the conditions with the negatives for the CFG.
-                conditions += [ConditionAttributes(text={"description": "very_bad"}, wav={})] * batch_size
+                conditions += [
+                    ConditionAttributes(text={"description": "very_bad"}, wav={})
+                ] * batch_size
         else:
-            raise RuntimeError(f"Model expects conditioning but model type {model_type} is not supported.")
+            raise RuntimeError(
+                f"Model expects conditioning but model type {model_type} is not supported."
+            )
         assert conditions is not None
         prepared = lm.condition_provider.prepare(conditions)
         condition_tensors = lm.condition_provider(prepared)
@@ -54,8 +63,16 @@ class InferenceState:
     text_tokenizer: sentencepiece.SentencePieceProcessor
     lm_gen: LMGen
 
-    def __init__(self, model_type: str, mimi: MimiModel, text_tokenizer: sentencepiece.SentencePieceProcessor,
-                 lm: LMModel, batch_size: int, cfg_coef: float, device: str | torch.device):
+    def __init__(
+        self,
+        model_type: str,
+        mimi: MimiModel,
+        text_tokenizer: sentencepiece.SentencePieceProcessor,
+        lm: LMModel,
+        batch_size: int,
+        cfg_coef: float,
+        device: str | torch.device,
+    ):
         self.mimi = mimi
         self.text_tokenizer = text_tokenizer
         condition_tensors = get_condition_tensors(model_type, lm, batch_size, cfg_coef)
@@ -89,31 +106,38 @@ class InferenceState:
             out_pcms.append(out_pcm)
             ntokens += 1
         dt = time.time() - start_time
-        log("info", f"processed {ntokens} steps in {dt:.0f}s, {1000 * dt / ntokens:.2f}ms/step")
+        log(
+            "info",
+            f"processed {ntokens} steps in {dt:.0f}s, {1000 * dt / ntokens:.2f}ms/step",
+        )
         out_pcms = torch.cat(out_pcms, dim=2)
         out_text_tokens = torch.cat(out_text_tokens, dim=1)
         return out_pcms, out_text_tokens
-    
+
+
 class InferenceHandler:
-    
     def __init__(self):
-        device = 'cuda'
-        
+        device = "cuda"
+
         self.device = device
         self.batch_size = 1
         log("info", "moshi loaded")
-    
+
     def _load_model(self):
         self.checkpoint_info = loaders.CheckpointInfo.from_hf_repo(
-            loaders.DEFAULT_REPO, moshi_weights=None, mimi_weights=None, tokenizer=None, config_path=None)
+            loaders.DEFAULT_REPO,
+            moshi_weights=None,
+            mimi_weights=None,
+            tokenizer=None,
+            config_path=None,
+        )
         log("info", "loading mimi")
         self.mimi = self.checkpoint_info.get_mimi(device=self.device)
         log("info", "mimi loaded")
         self.text_tokenizer = self.checkpoint_info.get_text_tokenizer()
         log("info", "loading moshi")
         self.lm = self.checkpoint_info.get_moshi(device=self.device)
-        
-    
+
     @torch.no_grad()
     def inference(self, inpath: str, outpath: str):
         self._load_model()
@@ -123,20 +147,27 @@ class InferenceHandler:
         in_pcms = in_pcms[None, 0:1].expand(self.batch_size, -1, -1)
 
         state = InferenceState(
-            self.checkpoint_info.model_type, self.mimi, self.text_tokenizer, self.lm,
-            self.batch_size, cfg_coef=1.0, device=self.device)
+            self.checkpoint_info.model_type,
+            self.mimi,
+            self.text_tokenizer,
+            self.lm,
+            self.batch_size,
+            cfg_coef=1.0,
+            device=self.device,
+        )
         out_pcms, out_text_tokens = state.run(in_pcms)
         log("info", f"out-pcm: {out_pcms.shape}, out-text: {out_text_tokens.shape}")
         os.makedirs(os.path.dirname(outpath), exist_ok=True)
         if self.batch_size == 1:
-            sphn.write_wav(outpath, out_pcms[0, 0].cpu().numpy(), sample_rate=self.mimi.sample_rate)
+            sphn.write_wav(
+                outpath, out_pcms[0, 0].cpu().numpy(), sample_rate=self.mimi.sample_rate
+            )
         else:
             raise NotImplementedError()
 
+
 @torch.no_grad()
-def experiment(
-    output_dir
-):
+def experiment(output_dir):
     print("-----------------------------")
     print("output_path:", output_dir)
     print("-----------------------------")
@@ -174,6 +205,7 @@ def main():
     experiment(args.output_dir)
 
     # usage: python inference_moshi.py --output_dir experiments/advvoiceq1/moshi
+
 
 if __name__ == "__main__":
     main()

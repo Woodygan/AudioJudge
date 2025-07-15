@@ -9,7 +9,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly one key: "
             "'match' (a boolean verdict)."
         ),
-        
         "standard_cot": (
             "You are an expert linguist tasked with comparing two audio recordings solely for their pronunciation. "
             "Focus on the precise sequence of phonemes, the number of syllables, and the stress/emphasis patterns. "
@@ -18,7 +17,7 @@ SYSTEM_PROMPTS = {
             "if one says 'toh-MAY-toh', then they do not match.\n\n"
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a detailed chain-of-thought explanation) and 'match' (a boolean verdict)."
-        ),    
+        ),
         "comprehensive_cot": (
             "You are an expert linguist tasked with comparing two audio recordings solely for their pronunciation. "
             "Focus on the precise sequence of phonemes, the number of syllables, and the stress/emphasis patterns. "
@@ -45,7 +44,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a detailed chain-of-thought explanation) and 'match' (a boolean verdict)."
         ),
-        
         "structured": (
             "You are an expert linguist tasked with comparing two audio recordings solely for their pronunciation. "
             "Focus on the precise sequence of phonemes, the number of syllables, and the stress/emphasis patterns. "
@@ -78,7 +76,6 @@ SYSTEM_PROMPTS = {
             "'reasoning' (a detailed chain-of-thought explanation) and 'match' (a boolean verdict)."
         ),
     },
-    
     "speaker": {
         "no_cot": (
             "You are an expert in voice analysis tasked with determining if two audio recordings are from the same speaker. "
@@ -88,7 +85,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly one key: "
             "'match' (a boolean verdict indicating whether the recordings are from the same speaker)."
         ),
-        
         "standard_cot": (
             "You are an expert in voice analysis tasked with determining if two audio recordings are from the same speaker. "
             "Focus specifically on vocal characteristics that identify a unique speaker, such as pitch range, timbre, resonance, "
@@ -97,7 +93,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a detailed chain-of-thought explanation) and 'match' (a boolean verdict indicating whether the recordings are from the same speaker)."
         ),
-        
         "comprehensive_cot": (
             "You are an expert in voice analysis tasked with determining if two audio recordings are from the same speaker. "
             "Focus specifically on vocal characteristics that identify a unique speaker, such as pitch range, timbre, resonance, "
@@ -127,7 +122,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a detailed chain-of-thought explanation) and 'match' (a boolean verdict indicating whether the recordings are from the same speaker)."
         ),
-        
         "structured": (
             "You are an expert in voice analysis tasked with determining if two audio recordings are from the same speaker. "
             "Focus specifically on vocal characteristics that identify a unique speaker, such as pitch range, timbre, resonance, "
@@ -159,29 +153,25 @@ SYSTEM_PROMPTS = {
             "'reasoning' (a detailed chain-of-thought explanation) and 'match' (a boolean verdict indicating whether the recordings are from the same speaker)."
         ),
     },
-    
     "speed": {
-            "no_cot": (
+        "no_cot": (
             "You are an expert in speech rate analysis tasked with determining which of two audio recordings features faster speech. "
             "Focus exclusively on speaking tempo - who speaks faster overall. "
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly one key: "
             "'label' (a string value: '1' if the first audio is faster, '2' if the second audio is faster)."
         ),
-
         "standard_cot": (
             "You are an expert in speech rate analysis tasked with determining which of two audio recordings features faster speech. "
             "Focus exclusively on speaking tempo - who speaks faster overall. "
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a brief explanation of your comparison) and 'label' (a string value: '1' if the first audio is faster, '2' if the second audio is faster)."
         ),
-        
         "comprehensive_cot": (
             "You are an expert in speech rate analysis tasked with determining which of two audio recordings features faster speech. "
             "Focus exclusively on speaking tempo - who speaks faster overall. "
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a brief explanation of your comparison) and 'label' (a string value: '1' if the first audio is faster, '2' if the second audio is faster)."
         ),
-        
         "structured": (
             "You are an expert in speech rate analysis tasked with determining which of two audio recordings features faster speech. "
             "Focus exclusively on speaking tempo - who speaks faster overall. "
@@ -203,7 +193,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly one key: "
             "'label' (a string value: '1' if the first audio is better, '2' if the second audio is better)."
         ),
-        
         "standard_cot": (
             "You are an expert in audio quality assessment specializing in synthesized speech evaluation. Your task is to critically compare two audio files, the first audio (Audio 1) and the second audio (Audio 2), will be provided after this instruction. The evaluation is based on the following criteria: "
             "1. Clarity: How clearly the speech is articulated, free from distortion, noise, or artifacts. "
@@ -243,7 +232,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a brief explanation of your comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better)."
         ),
-        
     },
     "somos": {
         "no_cot": (
@@ -259,7 +247,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly one key: "
             "'label' (a string value: '1' if the first audio is better, '2' if the second audio is better)."
         ),
-        
         "standard_cot": (
             "You are an expert in audio quality assessment specializing in synthesized speech evaluation. Your task is to critically compare two audio files, the first audio (Audio 1) and the second audio (Audio 2), will be provided after this instruction. The evaluation is based on the following criteria: "
             "1. Clarity: How clearly the speech is articulated, free from distortion, noise, or artifacts. "
@@ -299,7 +286,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a brief explanation of your comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better)."
         ),
-    
     },
     "thaimos": {
         "no_cot": (
@@ -315,7 +301,6 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly one key: "
             "'label' (a string value: '1' if the first audio is better, '2' if the second audio is better)."
         ),
-        
         "standard_cot": (
             "You are an expert in audio quality assessment specializing in synthesized speech evaluation. Your task is to critically compare two audio files, the first audio (Audio 1) and the second audio (Audio 2), will be provided after this instruction. The evaluation is based on the following criteria: "
             "1. Clarity: How clearly the speech is articulated, free from distortion, noise, or artifacts. "
@@ -355,24 +340,23 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a brief explanation of your comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better)."
         ),
-    
     },
-    "speakbench":{
-        "no_cot":(
+    "speakbench": {
+        "no_cot": (
             "You are an evaluator of audio outputs produced by different audio-capable large language models. Your task is to compare two audio responses (Audio 1 and Audio 2) generated according to a user's instruction. "
             "Evaluate based on these criteria: "
             "1. Semantics: Does the content fulfill the user's request accurately? "
             "2. Paralinguistics: How well does the speech match requested tone, emotion, style, pacing, and expressiveness? "
-            "Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should rank lower than one that genuinely sounds excited. "
+            'Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should rank lower than one that genuinely sounds excited. '
             "Avoid position bias and don't let response length influence your evaluation. After careful comparison, output valid JSON with exactly one key: "
             "'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
         ),
-        "standard_cot" :  (
+        "standard_cot": (
             "You are an evaluator of audio outputs produced by different audio-capable large language models. Your task is to compare two audio responses (Audio 1 and Audio 2) generated according to a user's instruction. "
             "Evaluate based on these criteria: "
             "1. Semantics: Does the content fulfill the user's request accurately? "
             "2. Paralinguistics: How well does the speech match requested tone, emotion, style, pacing, and expressiveness? "
-            "Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should rank lower than one that genuinely sounds excited. "
+            'Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should rank lower than one that genuinely sounds excited. '
             "Follow this process: "
             "1. Analyze the key characteristics requested in the user's instruction "
             "2. Evaluate how well Audio 1 performs on these characteristics "
@@ -382,12 +366,12 @@ SYSTEM_PROMPTS = {
             "Avoid position bias and don't let response length influence your evaluation. After your analysis, output valid JSON with exactly two keys: "
             "'reasoning' (your explanation of the comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
         ),
-        "structured" :  (
+        "structured": (
             "You are an evaluator of audio outputs produced by different audio-capable large language models. Your task is to compare two audio responses (Audio 1 and Audio 2) generated according to a user's instruction. "
             "Evaluate based on these criteria: "
             "1. Semantics: Does the content fulfill the user's request accurately? "
             "2. Paralinguistics: How well does the speech match requested tone, emotion, style, pacing, and expressiveness? "
-            "Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should rank lower than one that genuinely sounds excited. "
+            'Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should rank lower than one that genuinely sounds excited. '
             "Follow this process: "
             "1. Analyze the key characteristics requested in the user's instruction "
             "2. Evaluate how well Audio 1 performs on these characteristics "
@@ -397,12 +381,12 @@ SYSTEM_PROMPTS = {
             "Avoid position bias and don't let response length influence your evaluation. After your analysis, output valid JSON with exactly two keys: "
             "'reasoning' (your explanation of the comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
         ),
-        "comprehensive_cot" :  (
+        "comprehensive_cot": (
             "You are an evaluator of audio outputs produced by different audio-capable large language models. Your task is to compare two audio responses (Audio 1 and Audio 2) generated according to a user's instruction. "
             "Evaluate based on these criteria: "
             "1. Semantics: Does the content fulfill the user's request accurately? "
             "2. Paralinguistics: How well does the speech match requested tone, emotion, style, pacing, and expressiveness? "
-            "Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should rank lower than one that genuinely sounds excited. "
+            'Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should rank lower than one that genuinely sounds excited. '
             "Follow this process: "
             "1. Analyze the key characteristics requested in the user's instruction "
             "2. Evaluate how well Audio 1 performs on these characteristics "
@@ -472,24 +456,24 @@ SYSTEM_PROMPTS = {
             "5. Decide which has better speech quality overall "
             "Avoid position bias and don't let content or expressiveness influence your evaluation. After your analysis, output valid JSON with exactly two keys: "
             "'reasoning' (your explanation of the comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
-        )
+        ),
     },
-    "speakbench508":{
-        "no_cot":(
+    "speakbench508": {
+        "no_cot": (
             "You are an evaluator of audio outputs produced by different audio-capable large language models. Your task is to compare two audio responses (Audio 1 and Audio 2) generated according to a user's instruction. "
             "Evaluate based on these criteria: "
             "1. Semantics: Does the content fulfill the user's request accurately? "
             "2. Paralinguistics: How well does the speech match requested tone, emotion, style, pacing, and expressiveness? "
-            "Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should rank lower than one that genuinely sounds excited. "
+            'Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should rank lower than one that genuinely sounds excited. '
             "Avoid position bias and don't let response length influence your evaluation. After careful comparison, output valid JSON with exactly one key: "
             "'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
         ),
-        "standard_cot" :  (
+        "standard_cot": (
             "You are an evaluator of audio outputs produced by different audio-capable large language models. Your task is to compare two audio responses (Audio 1 and Audio 2) generated according to a user's instruction. "
             "Evaluate based on these criteria: "
             "1. Semantics: Does the content fulfill the user's request accurately? "
             "2. Paralinguistics: How well does the speech match requested tone, emotion, style, pacing, and expressiveness? "
-            "Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should rank lower than one that genuinely sounds excited. "
+            'Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should rank lower than one that genuinely sounds excited. '
             "Follow this process: "
             "1. Analyze the key characteristics requested in the user's instruction "
             "2. Evaluate how well Audio 1 performs on these characteristics "
@@ -499,12 +483,12 @@ SYSTEM_PROMPTS = {
             "Avoid position bias and don't let response length influence your evaluation. After your analysis, output valid JSON with exactly two keys: "
             "'reasoning' (your explanation of the comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
         ),
-        "structured" :  (
+        "structured": (
             "You are an evaluator of audio outputs produced by different audio-capable large language models. Your task is to compare two audio responses (Audio 1 and Audio 2) generated according to a user's instruction. "
             "Evaluate based on these criteria: "
             "1. Semantics: Does the content fulfill the user's request accurately? "
             "2. Paralinguistics: How well does the speech match requested tone, emotion, style, pacing, and expressiveness? "
-            "Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should rank lower than one that genuinely sounds excited. "
+            'Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should rank lower than one that genuinely sounds excited. '
             "Follow this process: "
             "1. Analyze the key characteristics requested in the user's instruction "
             "2. Evaluate how well Audio 1 performs on these characteristics "
@@ -514,12 +498,12 @@ SYSTEM_PROMPTS = {
             "Avoid position bias and don't let response length influence your evaluation. After your analysis, output valid JSON with exactly two keys: "
             "'reasoning' (your explanation of the comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
         ),
-        "comprehensive_cot" :  (
+        "comprehensive_cot": (
             "You are an evaluator of audio outputs produced by different audio-capable large language models. Your task is to compare two audio responses (Audio 1 and Audio 2) generated according to a user's instruction. "
             "Evaluate based on these criteria: "
             "1. Semantics: Does the content fulfill the user's request accurately? "
             "2. Paralinguistics: How well does the speech match requested tone, emotion, style, pacing, and expressiveness? "
-            "Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says \"I am speaking excitedly\" but sounds flat should rank lower than one that genuinely sounds excited. "
+            'Important: Do not favor verbalized descriptions of tone over actual tonal expression. A response that says "I am speaking excitedly" but sounds flat should rank lower than one that genuinely sounds excited. '
             "Follow this process: "
             "1. Analyze the key characteristics requested in the user's instruction "
             "2. Evaluate how well Audio 1 performs on these characteristics "
@@ -589,9 +573,9 @@ SYSTEM_PROMPTS = {
             "5. Decide which has better speech quality overall "
             "Avoid position bias and don't let content or expressiveness influence your evaluation. After your analysis, output valid JSON with exactly two keys: "
             "'reasoning' (your explanation of the comparison) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
-        )
+        ),
     },
-    "chatbotarena":{
+    "chatbotarena": {
         "standard_cot": (
             "Please act as an impartial judge and evaluate the quality of the responses provided by two AI assistants to the user question. "
             "You should choose the assistant that follows the user's instructions and answers the user's question better. "
@@ -604,7 +588,7 @@ SYSTEM_PROMPTS = {
             "'reasoning' (a detailed chain-of-thought explanation of your evaluation process and decision) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
         )
     },
-    "chatbotarena_BA":{
+    "chatbotarena_BA": {
         "standard_cot": (
             "Please act as an impartial judge and evaluate the quality of the responses provided by two AI assistants to the user question. "
             "You should choose the assistant that follows the user's instructions and answers the user's question better. "
@@ -616,6 +600,5 @@ SYSTEM_PROMPTS = {
             "IMPORTANT: Respond in text only (do not include any audio output) and output valid JSON with exactly two keys: "
             "'reasoning' (a detailed chain-of-thought explanation of your evaluation process and decision) and 'label' (a string value: '1' if the first audio is better, '2' if the second audio is better, or 'tie' if they are equally good/bad. Please use \"tie\" sparingly, and only when you absoultely cannot choose the winner.)"
         )
-    }
-
+    },
 }

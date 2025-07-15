@@ -16,6 +16,7 @@ model.to(device)
 
 prompt = """Please listen to the instruction and provide an appropriate response. If users request you to speak in a specific style or tone, please behave accordingly."""
 
+
 def experiment(
     output_dir,
     randomize=False,
@@ -25,7 +26,6 @@ def experiment(
     print("randomize:", randomize)
     print("type(randomize):", type(randomize))
     print("-----------------------------")
-
 
     # load dataset
     with open("data/questions1_shuffled_id.json", "r") as f:
@@ -57,14 +57,18 @@ def experiment(
             f.write(response)
         print("TextOutput:", response)
 
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--output_dir", type=str, required=True, help="Output Dir")
-    parser.add_argument("--randomize", action="store_true", help="Randomize the order of the dataset")
+    parser.add_argument(
+        "--randomize", action="store_true", help="Randomize the order of the dataset"
+    )
     args = parser.parse_args()
     experiment(args.output_dir, args.randomize)
 
     # usage: python inference_diva.py --output_dir experiments/advvoiceq1/diva --randomize
+
 
 if __name__ == "__main__":
     main()
