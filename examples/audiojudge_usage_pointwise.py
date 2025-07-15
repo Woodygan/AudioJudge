@@ -51,12 +51,8 @@ def main(args):
     # Initialize the AudioJudge instance
     load_dotenv()
     audio_judge = AudioJudge()
-<<<<<<< HEAD
-    dataset_path = os.path.join("..","experiments","main_experiments","datasets",f"{args.dataset_name}_dataset.json")
-    user_prompt = ("Please analyze the speech quality of this recording. "
-                "Respond ONLY in text and output valid JSON with key 'score' (int from 1-5).")
-=======
     dataset_path = os.path.join(
+        "..",
         "experiments",
         "main_experiments",
         "datasets",
@@ -66,36 +62,22 @@ def main(args):
         "Please analyze the speech quality of this recording. "
         "Respond ONLY in text and output valid JSON with key 'score' (int from 1-5)."
     )
->>>>>>> ede34b909932a90a8090472f0a6e558538193171
     # Load dataset
     df = load_dataset(dataset_path)
     n_samples = min(1, len(df))
     sample_df = df[:n_samples]
-<<<<<<< HEAD
-    with open("../experiments/main_experiments/few_shots_examples_pointwise.json", "r") as f:
-=======
     with open(
-        "experiments/main_experiments/few_shots_examples_pointwise.json", "r"
+        "../experiments/main_experiments/few_shots_examples_pointwise.json", "r"
     ) as f:
->>>>>>> ede34b909932a90a8090472f0a6e558538193171
         few_shots_examples = json.load(f)
     few_shots_examples = few_shots_examples[args.dataset_name][: args.n_few_shots]
     examples = []
     results = []
     for example in few_shots_examples:
-<<<<<<< HEAD
-        examples.append(AudioExamplePointwise(
-            audio_path=os.path.join("..","experiments","main_experiments", example['audio_path']),
-            output=json.dumps({"score": example["score"]}),
-        ))
-    for _, row in tqdm(sample_df.iterrows(), total=len(sample_df), desc="Processing samples"):
-        try:
-            audio_path = os.path.join("..","experiments","main_experiments", row['audio1_path'])
-=======
         examples.append(
             AudioExamplePointwise(
                 audio_path=os.path.join(
-                    "experiments", "main_experiments", example["audio_path"]
+                    "..", "experiments", "main_experiments", example["audio_path"]
                 ),
                 output=json.dumps({"score": example["score"]}),
             )
@@ -105,9 +87,8 @@ def main(args):
     ):
         try:
             audio_path = os.path.join(
-                "experiments", "main_experiments", row["audio1_path"]
+                "..", "experiments", "main_experiments", row["audio1_path"]
             )
->>>>>>> ede34b909932a90a8090472f0a6e558538193171
             system_prompt = SYSTEM_PROMPTS[args.dataset_name]["standard_cot"]
             response = audio_judge.judge_audio_pointwise(
                 audio_path=audio_path,
