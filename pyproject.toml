@@ -22,6 +22,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Multimedia :: Sound/Audio :: Analysis",
     "Topic :: Software Development :: Libraries :: Python Modules",
@@ -32,7 +33,6 @@ dependencies = [
     "google-generativeai>=0.3.0",
     "pydub>=0.25.1",
     "diskcache>=5.4.0",
-    "audioop-lts>=0.2.1"
 ]
 
 [project.optional-dependencies]
