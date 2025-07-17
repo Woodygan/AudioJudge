@@ -6,7 +6,7 @@
 ### data
 - `questions1_shuffle_id.json`: textual instruction 
 - `questions1_kokoro_wav`: wav files of the textual instruction, synthesised by kokoroTTS
-Note that this data was pushed to HuggingFace at `potsawee/speecheval-advanced-v1`
+Note that this data was pushed to HuggingFace at `anonymous/speecheval-advanced-v1`
 
 ### scripts
 ```
