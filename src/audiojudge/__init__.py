@@ -8,7 +8,7 @@ using large audio models with optional in-context learning examples.
 from .core import AudioJudge
 from .utils import AudioExample, AudioExamplePointwise
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 __author__ = "Woody Gan"
 __email__ = "woodygan@usc.edu"
 
