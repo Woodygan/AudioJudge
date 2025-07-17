@@ -13,7 +13,7 @@ A Python wrapper for audio comparison and evaluation using a Large Audio Model a
 ## Installation
 
 ```bash
-pip install audiojudge  # Requires Python >= 3.10
+pip install -e .  # Requires Python >= 3.10
 ```
 
 ## Quick Start
