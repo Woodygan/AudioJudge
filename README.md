@@ -413,24 +413,19 @@ examples = [
 
 ## Research and Experiments
 
-This package is based on research in audio evaluation using large audio models. The experimental code and evaluation scripts used in our research are available in the [`experiments/`](https://github.com/Woodygan/AudioJudge/tree/main/experiments) folder for reproducing the result.
+This package is based on research in audio evaluation using large audio models. The experimental code and evaluation scripts used in our research are available in the `experiments/` folder for reproducing the result.
 
 ### Example Usage
 
-Additional usage examples can be found in the [`examples/`](https://github.com/Woodygan/AudioJudge/tree/main/examples) folder, which wraps some of our experiments into the package for demonstration:
+Additional usage examples can be found in the `examples/` folder, which wraps some of our experiments into the package for demonstration:
 
-- **[`examples/audiojudge_usage.py`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage.py)**: Pairwise comparison without instruction
+- **`examples/audiojudge_usage.py`**: Pairwise comparison without instruction
   - Datasets: somos, thaimos, tmhintq, pronunciation, speed, speaker evaluations
-- **[`examples/audiojudge_usage_with_instruction.py`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage_with_instruction.py)**: Pairwise comparison with instruction audio
+- **`examples/audiojudge_usage_with_instruction.py`**: Pairwise comparison with instruction audio
   - Datasets: System-level comparisons including ChatbotArena and SpeakBench
-- **[`examples/audiojudge_usage_pointwise.py`](https://github.com/Woodygan/AudioJudge/tree/main/examples/audiojudge_usage_pointwise.py)**: Pointwise evaluation
+- **`examples/audiojudge_usage_pointwise.py`**: Pointwise evaluation
   - Datasets: somos, thaimos, tmhintq,
 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Support
-
-For issues and questions:
-- GitHub Issues: [Create an issue](https://github.com/woodygan/audiojudge/issues)

@@ -126,13 +126,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_path",
         type=str,
-        default="/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/chatbot-arena-spoken-1turn-english-difference-voices.json",
+        default="data/questions1_kokoro_text/questions1_kokoro.json",
         help="Path to the input file containing text to analyze.",
     )
     parser.add_argument(
         "--wav_dir",
         type=str,
-        default="/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav_af_bella",
+        default="data/questions1_kokoro_wav",
         help="Path to the output file to save the synthesis results.",
     )
     args = parser.parse_args()

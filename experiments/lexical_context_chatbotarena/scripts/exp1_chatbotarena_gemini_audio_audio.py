@@ -61,14 +61,14 @@ def experiment(
     print("num_done = {}".format(num_done))
 
     for i in tqdm(range(num_done, len(data))):
-        question_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge-new/kokoroTTS/wav/{data[i]['question_id']}-user.wav"
+        question_wav_path = f""
 
         if order == "ab":
-            assistant_a_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge-new/kokoroTTS/wav/{data[i]['question_id']}-assistant-a.wav"
-            assistant_b_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge-new/kokoroTTS/wav/{data[i]['question_id']}-assistant-b.wav"
+            assistant_a_wav_path = f""
+            assistant_b_wav_path = f""
         elif order == "ba":
-            assistant_a_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge-new/kokoroTTS/wav/{data[i]['question_id']}-assistant-b.wav"
-            assistant_b_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge-new/kokoroTTS/wav/{data[i]['question_id']}-assistant-a.wav"
+            assistant_a_wav_path = f""
+            assistant_b_wav_path = f""
         else:
             raise ValueError("Invalid order")
 

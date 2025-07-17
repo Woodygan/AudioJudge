@@ -5,9 +5,6 @@ build-backend = "hatchling.build"
 [project]
 name = "audiojudge"
 dynamic = ["version"]
-authors = [
-    {name = "Woody Gan", email = "woodygan@usc.edu"},
-]
 description = "A simple package for audio comparison using large language models"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -45,13 +42,6 @@ dev = [
     "twine>=4.0",
     "build>=0.8",
 ]
-
-[project.urls]
-Homepage = "https://github.com/woodygan/audiojudge"
-Repository = "https://github.com/woodygan/audiojudge"
-Documentation = "https://github.com/woodygan/audiojudge#readme"
-"Bug Tracker" = "https://github.com/woodygan/audiojudge/issues"
-Changelog = "https://github.com/woodygan/audiojudge/releases"
 
 [tool.hatch.build.targets.sdist]
 include = ["src/"]

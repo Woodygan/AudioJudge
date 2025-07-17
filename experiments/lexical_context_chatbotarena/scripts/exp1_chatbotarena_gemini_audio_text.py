@@ -79,7 +79,7 @@ def experiment(
             raise ValueError("order must be 'ab' or 'ba'")
         assert conversation_a[0]["content"] == conversation_b[0]["content"]
 
-        question_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge-new/kokoroTTS/wav/{data[i]['question_id']}-user.wav"
+        question_wav_path = f""
 
         prompt_response = prompt_template_response.format(
             answer_a=conversation_a[1]["content"], answer_b=conversation_b[1]["content"]

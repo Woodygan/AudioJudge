@@ -115,13 +115,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_dir",
         type=str,
-        default="/data/workspace/ppotsawee/audioLM-as-judge/elevenLabs/data-chatbot-arena-spoken-style-11labs",
+        default="data/questions1_kokoro_text",
         help="Path to the input dir containing files to process.",
     )
     parser.add_argument(
         "--wav_dir",
         type=str,
-        default="/data/workspace/ppotsawee/audioLM-as-judge/elevenLabs/generated_kokoro_audio",
+        default="data/questions1_kokoro_wav",
         help="Path to the output file to save the synthesis results.",
     )
     args = parser.parse_args()

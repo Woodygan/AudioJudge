@@ -48,9 +48,9 @@ def experiment(data_path, output_path):
     print("num_done = {}".format(num_done))
 
     for i in tqdm(range(num_done, len(data))):
-        question_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-user.wav"
-        assistant_a_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-a.wav"
-        assistant_b_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-b.wav"
+        question_wav_path = f""
+        assistant_a_wav_path = f""
+        assistant_b_wav_path = f""
 
         question_transcription = transcribe_audio(model, processor, question_wav_path)
         assistant_a_transcription = transcribe_audio(

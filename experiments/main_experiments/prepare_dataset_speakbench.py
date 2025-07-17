@@ -176,7 +176,7 @@ if __name__ == "__main__":
     output_path = os.path.join(dataset_dir, f"{args.dataset_name}_dataset.json")
 
     if args.dataset_name == "speakbench":
-        huggingface_repo = "potsawee/speakbench-v1-all-outputs"
+        huggingface_repo = "anonymous/speakbench-v1-all-outputs"
         prepared_data = prepare_speakbench_dataset(
             huggingface_repo,
             output_path,
