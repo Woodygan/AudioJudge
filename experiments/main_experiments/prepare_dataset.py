@@ -1434,7 +1434,7 @@ if __name__ == "__main__":
     os.makedirs(audio_dir, exist_ok=True)
     output_path = os.path.join(dataset_dir, f"{args.dataset_name}_dataset.json")
     if args.dataset_name == "pronunciation":
-        huggingface_repo = "MichaelR207/wiktionary_pronunciations-final"
+        huggingface_repo = "anonymous/wiktionary_pronunciations-final"
         csv_path = "human_labels.csv"
         few_shot_examples_path = "few_shots_examples.json"
     
@@ -1449,7 +1449,7 @@ if __name__ == "__main__":
         print(f"Saved {len(prepared_data)} data points to {output_path}")
         print(f"Audio files saved in {audio_dir} directory")
     elif args.dataset_name == "speed":
-        huggingface_repo = "potsawee/paralinguistic-judge-speed"
+        huggingface_repo = "anonymous/paralinguistic-judge-speed"
         csv_path = "human_labels.csv"
         few_shot_examples_path = "few_shots_examples.json"
     
@@ -1463,7 +1463,7 @@ if __name__ == "__main__":
         print(f"Saved {len(prepared_data)} data points to {output_path}")
         print(f"Audio files saved in {audio_dir} directory")
     elif args.dataset_name == "speaker":
-        huggingface_repo = "potsawee/paralinguistic-judge-speaker"
+        huggingface_repo = "anonymous/paralinguistic-judge-speaker"
         few_shot_examples_path = "few_shots_examples.json"
     
         prepared_data = prepare_speaker_dataset(
@@ -1475,7 +1475,7 @@ if __name__ == "__main__":
         print(f"Saved {len(prepared_data)} data points to {output_path}")
         print(f"Audio files saved in {audio_dir} directory")
     elif args.dataset_name == "tmhintq":
-        huggingface_repo = "potsawee/speech-quality-tmhintq-pairwise"
+        huggingface_repo = "anonymous/speech-quality-tmhintq-pairwise"
         few_shot_examples_path = "few_shots_examples.json"
         prepared_data = prepare_tmhintq_dataset(
             huggingface_repo, 
@@ -1488,7 +1488,7 @@ if __name__ == "__main__":
         print(f"Saved {len(prepared_data)} data points to {output_path}")
         print(f"Audio files saved in {audio_dir} directory")
     elif args.dataset_name == "somos":
-        huggingface_repo = "potsawee/speech-quality-somos-pairwise-diff1.0"
+        huggingface_repo = "anonymous/speech-quality-somos-pairwise-diff1.0"
         few_shot_examples_path = "few_shots_examples.json"
         prepared_data = prepare_somos_dataset(
             huggingface_repo, 
@@ -1502,7 +1502,7 @@ if __name__ == "__main__":
         print(f"Audio files saved in {audio_dir} directory")
 
     elif args.dataset_name == "thaimos":
-        huggingface_repo = "potsawee/speech-quality-thaimos-pairwise"
+        huggingface_repo = "anonymous/speech-quality-thaimos-pairwise"
         few_shot_examples_path = "few_shots_examples.json"
         prepared_data = prepare_thaimos_dataset(
             huggingface_repo, 
@@ -1514,7 +1514,7 @@ if __name__ == "__main__":
         print(f"Audio files saved in {audio_dir} directory")
 
     elif args.dataset_name == "chatbotarena":
-        huggingface_repo = "potsawee/chatbotarena-spoken-all-7824"
+        huggingface_repo = "anonymous/chatbotarena-spoken-all-7824"
         few_shot_examples_path = "few_shots_examples.json"
         prepared_data = prepare_chatbotarena_dataset(
             huggingface_repo, 
@@ -1525,7 +1525,7 @@ if __name__ == "__main__":
         print(f"Saved {len(prepared_data)} data points to {output_path}")
         print(f"Audio files saved in {audio_dir} directory")
     elif args.dataset_name == "speakbench508":
-        huggingface_repo = "potsawee/speakbench-v1-labelled-508"
+        huggingface_repo = "anonymous/speakbench-v1-labelled-508"
         few_shot_examples_path = "few_shots_examples.json"
         prepared_data = prepare_speakbench508_dataset(
             huggingface_repo, 
