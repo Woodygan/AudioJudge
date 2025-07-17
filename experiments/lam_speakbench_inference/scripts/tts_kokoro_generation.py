@@ -9,9 +9,7 @@ import soundfile as sf
 import librosa
 from kokoro import KPipeline
 
-# add local path to the sys path
-# import sys
-# sys.path.append("/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/")
+
 
 
 def get_silence_audio(duration: float, sr: int):
