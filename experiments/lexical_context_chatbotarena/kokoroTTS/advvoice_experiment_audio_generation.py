@@ -79,7 +79,7 @@ def experiment(
     pipeline = KPipeline(lang_code="a")  # american
 
     with open(
-        "/data/workspace/ppotsawee/audioLM-as-judge-new/advanced-voice-gen-task-v1/questions1_shuffled_id.json"
+        "data/questions1_shuffled_id.json", "r"
     ) as f:
         dataset = json.load(f)
 
@@ -107,7 +107,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--wav_dir",
         type=str,
-        default="/data/workspace/ppotsawee/audioLM-as-judge-new/advanced-voice-gen-task-v1/questions1_kokoro_wav",
+        default="data/questions1_kokoro_wav",
         help="Path to the output file to save the synthesis results.",
     )
     args = parser.parse_args()

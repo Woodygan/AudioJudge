@@ -9,7 +9,5 @@ from .core import AudioJudge
 from .utils import AudioExample, AudioExamplePointwise
 
 __version__ = "0.1.1"
-__author__ = "Woody Gan"
-__email__ = "woodygan@usc.edu"
 
 __all__ = ["AudioJudge", "AudioExample", "AudioExamplePointwise", "__version__"]

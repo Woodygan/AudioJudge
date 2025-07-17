@@ -149,17 +149,17 @@ def experiment(
             snr_model_b = snr
 
         # question
-        question_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav_af_bella/{data[i]['question_id']}-user.wav"
+        question_wav_path = f""
         encoded_audio_question = get_encoder_audio(question_wav_path, snr_db=HIGH_SNR)
 
         # assistant a
-        assistant_a_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav_af_bella/{data[i]['question_id']}-assistant-a.wav"
+        assistant_a_wav_path = f""
         encoded_audio_responseA = get_encoder_audio(
             assistant_a_wav_path, snr_db=snr_model_a
         )
 
         # assistant b
-        assistant_b_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav_af_bella/{data[i]['question_id']}-assistant-b.wav"
+        assistant_b_wav_path = f""
         encoded_audio_responseB = get_encoder_audio(
             assistant_b_wav_path, snr_db=snr_model_b
         )

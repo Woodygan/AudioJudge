@@ -106,21 +106,13 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_dir",
         type=str,
-        # default="/data/workspace/ppotsawee/audioLM-as-judge/eval-leaderboard/experiments/chatbot-arena-spoken-style-eval-570/gpt4o/transcript",
-        # default="/data/workspace/ppotsawee/audioLM-as-judge/eval-leaderboard/experiments/chatbot-arena-spoken-style-eval-570/typhoon2/transcript",
-        # SpeechEval Advanced Voice
-        # default="/data/workspace/ppotsawee/audioLM-as-judge/eval-leaderboard/experiments/advvoiceq1/gpt4o/transcript",
-        default="/data/workspace/ppotsawee/audioLM-as-judge/eval-leaderboard/experiments/advvoiceq1/typhoon2/transcript",
+        default="data/questions1_kokoro_text",
         help="Path to the input dir containing files to process.",
     )
     parser.add_argument(
         "--wav_dir",
         type=str,
-        # default="/data/workspace/ppotsawee/audioLM-as-judge/eval-leaderboard/experiments/chatbot-arena-spoken-style-eval-570/gpt4o/transcript_kokoro_wav",
-        # default="/data/workspace/ppotsawee/audioLM-as-judge/eval-leaderboard/experiments/chatbot-arena-spoken-style-eval-570/typhoon2/transcript_kokoro_wav",
-        # SpeechEval Advanced Voice
-        # default="/data/workspace/ppotsawee/audioLM-as-judge/eval-leaderboard/experiments/advvoiceq1/gpt4o/transcript_kokoro_wav",
-        default="/data/workspace/ppotsawee/audioLM-as-judge/eval-leaderboard/experiments/advvoiceq1/typhoon2/transcript_kokoro_wav",
+        default="data/questions1_kokoro_wav",
         help="Path to the output file to save the synthesis results.",
     )
     args = parser.parse_args()

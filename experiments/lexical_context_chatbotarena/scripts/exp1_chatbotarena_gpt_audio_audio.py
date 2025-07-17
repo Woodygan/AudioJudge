@@ -38,13 +38,13 @@ def experiment(
 
     for i in tqdm(range(num_done, len(data))):
         # question
-        question_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-user.wav"
+        question_wav_path = f""
         encoded_audio_question = get_encoded_audio_from_path(question_wav_path)
 
         # assistant a
-        assistant_a_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-a.wav"
+        assistant_a_wav_path = f""
         # assistant b
-        assistant_b_wav_path = f"/data/workspace/ppotsawee/audioLM-as-judge/chatbot-arena/kokoroTTS/wav/{data[i]['question_id']}-assistant-b.wav"
+        assistant_b_wav_path = f""
 
         if order == "ab":
             encoded_audio_responseA = get_encoded_audio_from_path(assistant_a_wav_path)
