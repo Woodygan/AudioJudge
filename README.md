@@ -1,6 +1,9 @@
-# AudioJudge 🎵
-
-A Python wrapper for audio comparison and evaluation using a Large Audio Model as Judge (i.e., LAM-as-a-Judge or AudioJudge) with support for in-context learning and flexible audio concatenation strategies.
+# AudioJudge 🎧
+[![arxiv](https://img.shields.io/badge/arXiv-2507.12705-b31b1b.svg)](https://arxiv.org/abs/2507.12705)
+[![PyPI version audiojudge](https://badge.fury.io/py/audiojudge.svg?kill_cache=1)](https://pypi.python.org/pypi/audiojudge/)
+[![Downloads](https://pepy.tech/badge/audiojudge)](https://pepy.tech/project/audiojudge)
+- This repository contains a Python wrapper for audio comparison and evaluation using a Large Audio Model as Judge (i.e., LAM-as-a-Judge or AudioJudge) with support for in-context learning and flexible audio concatenation strategies.
+- Our paper is available on arXiv | [AudioJudge: Understanding What Works in Large Audio Model Based Speech Evaluation](https://arxiv.org/abs/2507.12705).
 
 ## Features
 
