@@ -437,3 +437,16 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For issues and questions:
 - GitHub Issues: [Create an issue](https://github.com/woodygan/audiojudge/issues)
+
+## Citation
+
+If you use AudioJudge in your research, please cite our paper:
+
+```bibtex
+@article{manakul2025audiojudge,
+  title={AudioJudge: Understanding What Works in Large Audio Model Based Speech Evaluation},
+  author={Manakul, Potsawee and Gan, Woody Haosheng and Ryan, Michael J and Khan, Ali Sartaz and Sirichotedumrong, Warit and Pipatanakul, Kunat and Held, William and Yang, Diyi},
+  journal={arXiv preprint arXiv:2507.12705},
+  year={2025}
+}
+```
